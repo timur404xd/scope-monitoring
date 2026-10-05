@@ -1,0 +1,74 @@
+name: Scope Monitor
+
+on:
+  workflow_dispatch:   # triggered externally (e.g. cron-job.org) and manually
+
+concurrency:
+  group: scope-monitor
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  check-scope:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Run Bugcrowd scope monitor
+        id: bugcrowd
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ANNOUNCE_NEW_PROGRAMS: "1"   # remove to baseline new programs silently
+        run: python3 bugcrowd_scope_monitor.py
+
+      - name: Run Intigriti scope monitor
+        id: intigriti
+        continue-on-error: true
+        env:
+          INTIGRITI_API_TOKEN: ${{ secrets.INTIGRITI_API_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ANNOUNCE_NEW_PROGRAMS: "1"   # remove to baseline new programs silently
+          WORKERS: "3"
+        run: python3 intigriti_scope_monitor.py
+
+      - name: Commit updated state files
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f state/bugcrowd_scope_state.json state/intigriti_scope_state.json 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "no state change"
+          else
+            git commit -m "Update scope monitor state [skip ci]"
+            for i in 1 2 3 4 5; do
+              if git pull --rebase --autostash origin "${{ github.ref_name }}" && git push; then
+                break
+              fi
+              echo "Push attempt $i failed, retrying..."
+              sleep $((RANDOM % 5 + 1))
+            done
+          fi
+
+      - name: Fail the run if both monitors failed
+        if: always()
+        run: |
+          if [[ "${{ steps.bugcrowd.outcome }}" == "failure" && "${{ steps.intigriti.outcome }}" == "failure" ]]; then
+            echo "Both monitors failed" >&2
+            exit 1
+          fi
+          if [[ "${{ steps.bugcrowd.outcome }}" == "failure" ]]; then
+            echo "::warning::Bugcrowd scope monitor step failed — check logs above"
+          fi
+          if [[ "${{ steps.intigriti.outcome }}" == "failure" ]]; then
+            echo "::warning::Intigriti scope monitor step failed — check logs above"
+          fi
