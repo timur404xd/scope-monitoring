@@ -30054,6 +30054,266 @@
     "tooling": ""
    }
   },
+  "fe5da28b-abb2-4219-be28-69229efa34eb": {
+   "assets": {
+    "Android|Delta Mobiel app": {
+     "desc": "9734b2c7851b",
+     "endpoint": "Delta Mobiel app",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Android"
+    },
+    "Android|Delta TV app (TV sets)": {
+     "desc": "a582101056ce",
+     "endpoint": "Delta TV app (TV sets)",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Android"
+    },
+    "Android|Delta interactieve TV app": {
+     "desc": "b8c5323314b3",
+     "endpoint": "Delta interactieve TV app",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Android"
+    },
+    "Android|MijnDelta service app": {
+     "desc": "f18a80871156",
+     "endpoint": "MijnDelta service app",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Android"
+    },
+    "Device|Arris TM722B": {
+     "desc": "00499c41a51b",
+     "endpoint": "Arris TM722B",
+     "in": true,
+     "tier": "Tier 4",
+     "type": "Device"
+    },
+    "Device|DFN Amino IPTV Setupbox - Amigo": {
+     "desc": "ee8748157346",
+     "endpoint": "DFN Amino IPTV Setupbox - Amigo",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Device"
+    },
+    "Device|DFN Amino IPTV Setupbox - Aria": {
+     "desc": "ee8748157346",
+     "endpoint": "DFN Amino IPTV Setupbox - Aria",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Device"
+    },
+    "Device|DFN Amino IPTV Setupbox - Kamai": {
+     "desc": "ee8748157346",
+     "endpoint": "DFN Amino IPTV Setupbox - Kamai",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Device"
+    },
+    "Device|Genexis Platinum 7840": {
+     "desc": "4cd209922aae",
+     "endpoint": "Genexis Platinum 7840",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Device"
+    },
+    "Device|Genexis Titanium 22 ": {
+     "desc": "0385ce99bca6",
+     "endpoint": "Genexis Titanium 22 ",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Device"
+    },
+    "Device|Genexis Titanium-52": {
+     "desc": "0385ce99bca6",
+     "endpoint": "Genexis Titanium-52",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Device"
+    },
+    "Device|Genexis XGS2110": {
+     "desc": "11a032b7ce62",
+     "endpoint": "Genexis XGS2110",
+     "in": true,
+     "tier": "Tier 4",
+     "type": "Device"
+    },
+    "Device|Nokia XS-010G-Q": {
+     "desc": "021b0afdc3fd",
+     "endpoint": "Nokia XS-010G-Q",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Device"
+    },
+    "Device|Nokia XS-010X-Q": {
+     "desc": "139c945fc512",
+     "endpoint": "Nokia XS-010X-Q",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Device"
+    },
+    "Device|Nokia XS-2426G-A (PON)": {
+     "desc": "b78e3b365dbd",
+     "endpoint": "Nokia XS-2426G-A (PON)",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Device"
+    },
+    "Device|Nokia XS-2426G-B": {
+     "desc": "54a735f892f4",
+     "endpoint": "Nokia XS-2426G-B",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Device"
+    },
+    "Device|Sagecom F3890 v3": {
+     "desc": "807d6d5a73e4",
+     "endpoint": "Sagecom F3890 v3",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Device"
+    },
+    "Device|Sagecom FAST3896": {
+     "desc": "807d6d5a73e4",
+     "endpoint": "Sagecom FAST3896",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Device"
+    },
+    "Device|Sagecom FAST5684 (PON)": {
+     "desc": "52419df4ab27",
+     "endpoint": "Sagecom FAST5684 (PON)",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Device"
+    },
+    "Device|Vantiva  EPC3925": {
+     "desc": "807d6d5a73e4",
+     "endpoint": "Vantiva  EPC3925",
+     "in": true,
+     "tier": "Tier 4",
+     "type": "Device"
+    },
+    "Device|Vantiva EPC / EPX 2203": {
+     "desc": "00499c41a51b",
+     "endpoint": "Vantiva EPC / EPX 2203",
+     "in": true,
+     "tier": "Tier 4",
+     "type": "Device"
+    },
+    "Device|Vantiva EPC3208": {
+     "desc": "00499c41a51b",
+     "endpoint": "Vantiva EPC3208",
+     "in": true,
+     "tier": "Tier 4",
+     "type": "Device"
+    },
+    "Device|Vantiva EPC3208 (former Cisco)": {
+     "desc": "00499c41a51b",
+     "endpoint": "Vantiva EPC3208 (former Cisco)",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Device"
+    },
+    "Device|Vantiva EPC3212": {
+     "desc": "00499c41a51b",
+     "endpoint": "Vantiva EPC3212",
+     "in": true,
+     "tier": "Tier 4",
+     "type": "Device"
+    },
+    "Device|Vantiva EPC3940  (former Cisco)": {
+     "desc": "de818841665c",
+     "endpoint": "Vantiva EPC3940  (former Cisco)",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Device"
+    },
+    "Other|Delta TV app (TizenOS / WebOS)": {
+     "desc": "6220c8f2ef2d",
+     "endpoint": "Delta TV app (TizenOS / WebOS)",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Other"
+    },
+    "Url|glasvezelactiveren.nl": {
+     "desc": "124ffdcd0053",
+     "endpoint": "glasvezelactiveren.nl",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|mijn.caiway.nl": {
+     "desc": "e21a5f3b0520",
+     "endpoint": "mijn.caiway.nl",
+     "in": true,
+     "tier": "Tier 4",
+     "type": "Url"
+    },
+    "Url|mijn.delta.nl / login.delta.nl / account.delta.nl": {
+     "desc": "4dee4bc4f516",
+     "endpoint": "mijn.delta.nl / login.delta.nl / account.delta.nl",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|webmail.delta.nl": {
+     "desc": "0f849b843762",
+     "endpoint": "webmail.delta.nl",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|webtv.caiway.nl": {
+     "desc": "a3f2040a8982",
+     "endpoint": "webtv.caiway.nl",
+     "in": true,
+     "tier": "Tier 4",
+     "type": "Url"
+    },
+    "Url|webtv.delta.nl": {
+     "desc": "84779d5b9b10",
+     "endpoint": "webtv.delta.nl",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "iOS|Delta Mobiel app": {
+     "desc": "c7a2fc216cb3",
+     "endpoint": "Delta Mobiel app",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "iOS"
+    },
+    "iOS|Delta interactieve TV app": {
+     "desc": "2053bcd4fe61",
+     "endpoint": "Delta interactieve TV app",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "iOS"
+    },
+    "iOS|MijnDelta service app": {
+     "desc": "15b152ed9333",
+     "endpoint": "MijnDelta service app",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "iOS"
+    }
+   },
+   "name": "Delta Fiber - Customer products and services & Selfcare environments",
+   "program": {
+    "bounty": "50.0 - 2500.0 EUR",
+    "confidentiality": "InviteOnly"
+   },
+   "rules": {
+    "desc": "e443def3f533",
+    "safe_harbour": true,
+    "testing": "2946892cdacf",
+    "tooling": 5
+   }
+  },
   "fe5e3c55-e83e-4848-b7f8-dc633d8e62e0": {
    "assets": {
     "Url|https://www.fortnox.se": {
