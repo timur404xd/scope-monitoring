@@ -28100,50 +28100,6 @@
     }
    }
   },
-  "/engagements/kick-vdp-pro": {
-   "groups": {
-    "In Scope": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": null
-    }
-   },
-   "name": "Kick Vulnerability Disclosure Engagement",
-   "targets": {
-    "android|Kick Mobile App Android": {
-     "cat": "android",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "Kick Mobile App Android",
-     "uri": "https://play.google.com/store/apps/details?id=com.kick.mobile&hl=en_US"
-    },
-    "ios|Kick Mobile App iOS": {
-     "cat": "ios",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "Kick Mobile App iOS",
-     "uri": "https://apps.apple.com/us/app/kick-live-streaming/id6446202561"
-    },
-    "ios|https://apps.apple.com/us/app/kick-go-live/id6743709514": {
-     "cat": "ios",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "https://apps.apple.com/us/app/kick-go-live/id6743709514",
-     "uri": "https://apps.apple.com/us/app/kick-go-live/id6743709514"
-    },
-    "website|https://kick.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "https://kick.com",
-     "uri": "https://kick.com/"
-    }
-   }
-  },
   "/engagements/kinaxis-vdp-pro": {
    "groups": {
     "In Scope ": {
