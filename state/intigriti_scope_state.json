@@ -22597,7 +22597,7 @@
      "type": "Url"
     },
     "Url|app.chisellabs.com": {
-     "desc": "da39a3ee5e6b",
+     "desc": "15d674b0a336",
      "endpoint": "app.chisellabs.com",
      "in": true,
      "tier": "No Bounty",
@@ -22632,7 +22632,7 @@
      "type": "Url"
     },
     "Url|chisellabs.com": {
-     "desc": "da39a3ee5e6b",
+     "desc": "15d674b0a336",
      "endpoint": "chisellabs.com",
      "in": true,
      "tier": "No Bounty",
