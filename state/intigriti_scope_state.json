@@ -25930,7 +25930,7 @@
      "type": "Wildcard"
     },
     "Wildcard|*.db1.ondigitalocean.com": {
-     "desc": "da39a3ee5e6b",
+     "desc": "031af4d4e51e",
      "endpoint": "*.db1.ondigitalocean.com",
      "in": false,
      "tier": "Out Of Scope",
