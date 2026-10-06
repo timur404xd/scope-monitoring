@@ -63340,30 +63340,6 @@
      "name": "Android Viator Tours & Activities App",
      "uri": "https://play.google.com/store/apps/details?id=com.viator.mobile.android&hl=en_US&gl=US"
     },
-    "api|https://www.toursgds.com/": {
-     "cat": "api",
-     "desc": "da39a3ee5e6b",
-     "group": "Viator In Scope Targets ",
-     "in": true,
-     "name": "https://www.toursgds.com/",
-     "uri": "https://www.toursgds.com/"
-    },
-    "api|https://www.toursgds.com/SupplierService?wsdl": {
-     "cat": "api",
-     "desc": "da39a3ee5e6b",
-     "group": "Viator In Scope Targets ",
-     "in": true,
-     "name": "https://www.toursgds.com/SupplierService?wsdl",
-     "uri": "https://www.toursgds.com/SupplierService?wsdl"
-    },
-    "api|https://www.toursgds.com/ToursGdsService?wsdl": {
-     "cat": "api",
-     "desc": "da39a3ee5e6b",
-     "group": "Viator In Scope Targets ",
-     "in": true,
-     "name": "https://www.toursgds.com/ToursGdsService?wsdl",
-     "uri": "https://www.toursgds.com/ToursGdsService?wsdl"
-    },
     "ios|iOS Viator Tours & Activities App": {
      "cat": "ios",
      "desc": "da39a3ee5e6b",
