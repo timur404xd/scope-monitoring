@@ -18404,10 +18404,10 @@
      "type": "Url"
     },
     "Url|veranstaltungen.cornelsen.de": {
-     "desc": "924b47e65004",
+     "desc": "c83bd54e426d",
      "endpoint": "veranstaltungen.cornelsen.de",
-     "in": false,
-     "tier": "Out Of Scope",
+     "in": true,
+     "tier": "Tier 3",
      "type": "Url"
     },
     "Wildcard|*.cornelsen-experimenta.de": {
