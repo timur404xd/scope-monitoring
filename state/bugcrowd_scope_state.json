@@ -16572,6 +16572,139 @@
     }
    }
   },
+  "/engagements/cvent-bb-og": {
+   "groups": {
+    "Primary Targets": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 300000,
+      "p1MinCents": 250000,
+      "p2MaxCents": 200000,
+      "p2MinCents": 150000,
+      "p3MaxCents": 100000,
+      "p3MinCents": 40000,
+      "p4MaxCents": 35000,
+      "p4MinCents": 10000
+     }
+    }
+   },
+   "name": "Cvent Bug Bounty ",
+   "targets": {
+    "android|Cvent Core-Attendee Hub Mobile Android -> https://play.google.com/store/apps/details?id=com.cvent.mobile.eventapp": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "Primary Targets",
+     "in": true,
+     "name": "Cvent Core-Attendee Hub Mobile Android -> https://play.google.com/store/apps/details?id=com.cvent.mobile.eventapp",
+     "uri": ""
+    },
+    "android|Cvent OSS-OnArrival Mobile Android -> https://play.google.com/store/apps/details?id=com.cvent.onarrival": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "Primary Targets",
+     "in": true,
+     "name": "Cvent OSS-OnArrival Mobile Android -> https://play.google.com/store/apps/details?id=com.cvent.onarrival",
+     "uri": ""
+    },
+    "ios|Cvent  Core-Attendee Hub Mobile iOS -> https://apps.apple.com/us/app/cvent-events/id1491335576": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "Primary Targets",
+     "in": true,
+     "name": "Cvent  Core-Attendee Hub Mobile iOS -> https://apps.apple.com/us/app/cvent-events/id1491335576",
+     "uri": ""
+    },
+    "ios|Cvent OSS-OnArrival Mobile iOS -> https://apps.apple.com/us/app/onarrival/id680778967": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "Primary Targets",
+     "in": true,
+     "name": "Cvent OSS-OnArrival Mobile iOS -> https://apps.apple.com/us/app/onarrival/id680778967",
+     "uri": ""
+    },
+    "website|Cvent CSN Destination Guide -> https://www.cvent.com/meeting-event-planning/*": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Primary Targets",
+     "in": true,
+     "name": "Cvent CSN Destination Guide -> https://www.cvent.com/meeting-event-planning/*",
+     "uri": ""
+    },
+    "website|Cvent CSN Suppliers -> https://app.cvent.com/Subscribers/RFP/*": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Primary Targets",
+     "in": true,
+     "name": "Cvent CSN Suppliers -> https://app.cvent.com/Subscribers/RFP/*",
+     "uri": ""
+    },
+    "website|Cvent CSN-RFP -> https://app.cvent.com/Subscribers/Suppliers/* ": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Primary Targets",
+     "in": true,
+     "name": "Cvent CSN-RFP -> https://app.cvent.com/Subscribers/Suppliers/* ",
+     "uri": ""
+    },
+    "website|Cvent Core-Admin -> https://app.cvent.com/Subscribers/Admin/*": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Primary Targets",
+     "in": true,
+     "name": "Cvent Core-Admin -> https://app.cvent.com/Subscribers/Admin/*",
+     "uri": ""
+    },
+    "website|Cvent Core-Appointments -> https://app.cvent.com/Subscribers/Appointments/*": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Primary Targets",
+     "in": true,
+     "name": "Cvent Core-Appointments -> https://app.cvent.com/Subscribers/Appointments/*",
+     "uri": ""
+    },
+    "website|Cvent Core-Attendee Hub Web -> https://web.cvent.com/hub/events/*": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Primary Targets",
+     "in": true,
+     "name": "Cvent Core-Attendee Hub Web -> https://web.cvent.com/hub/events/*",
+     "uri": ""
+    },
+    "website|Cvent Core-Flex -> https://web.cvent.com/event/* ": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Primary Targets",
+     "in": true,
+     "name": "Cvent Core-Flex -> https://web.cvent.com/event/* ",
+     "uri": ""
+    },
+    "website|Cvent Core-Paygo -> https://www.cvent.com/en/event-management-software/free-trial": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Primary Targets",
+     "in": true,
+     "name": "Cvent Core-Paygo -> https://www.cvent.com/en/event-management-software/free-trial",
+     "uri": ""
+    },
+    "website|Cvent Core-Planner -> https://app.cvent.com/Subscribers/Events2/*  & https://events.app.cvent.com/events/*": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Primary Targets",
+     "in": true,
+     "name": "Cvent Core-Planner -> https://app.cvent.com/Subscribers/Events2/*  & https://events.app.cvent.com/events/*",
+     "uri": ""
+    },
+    "website|Cvent Core-Survey -> https://app.cvent.com/Subscribers/Inquisium/* ": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Primary Targets",
+     "in": true,
+     "name": "Cvent Core-Survey -> https://app.cvent.com/Subscribers/Inquisium/* ",
+     "uri": ""
+    }
+   }
+  },
   "/engagements/datadirect-vdp": {
    "groups": {
     "DataDirect Software Applications": {
