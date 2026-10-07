@@ -16291,6 +16291,182 @@
     "tooling": 5
    }
   },
+  "9181c9f2-5ce5-4b1f-ad98-88f8c520e424": {
+   "assets": {
+    "Android|Local By Toast Android": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "Local By Toast Android",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Android"
+    },
+    "Android|Toast POS": {
+     "desc": "e14d4cdd99d4",
+     "endpoint": "Toast POS",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Android"
+    },
+    "Url|https://advocacy.toasttab.com/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://advocacy.toasttab.com/",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|https://brand.toasttab.com/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://brand.toasttab.com/",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|https://careers.toasttab.com/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://careers.toasttab.com/",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|https://central.toasttab.com/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://central.toasttab.com/",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|https://community.toasttab.com/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://community.toasttab.com/",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|https://credentialshub.toasttab.com/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://credentialshub.toasttab.com/",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|https://doc.toasttab.com/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://doc.toasttab.com/",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|https://foodcost.toasttab.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://foodcost.toasttab.com",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|https://internalcareers.toasttab.com/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://internalcareers.toasttab.com/",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|https://localpartners.toasttab.com/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://localpartners.toasttab.com/",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|https://order.toasttab.com": {
+     "desc": "d405aa2222cf",
+     "endpoint": "https://order.toasttab.com",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Url"
+    },
+    "Url|https://partners.toasttab.com/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://partners.toasttab.com/",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|https://refer.toasttab.com/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://refer.toasttab.com/",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|https://status.toasttab.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://status.toasttab.com",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|https://swag.toasttab.com/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://swag.toasttab.com/",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|https://technology.toasttab.com/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://technology.toasttab.com/",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|https://ws-api.toasttab.com": {
+     "desc": "59f34df87e1b",
+     "endpoint": "https://ws-api.toasttab.com",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Url"
+    },
+    "Url|https://www.toasttab.com": {
+     "desc": "7369d192b442",
+     "endpoint": "https://www.toasttab.com",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Url"
+    },
+    "Url|https://www.toasttakeout.com/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://www.toasttakeout.com/",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Wildcard|*.toasttab.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.toasttab.com",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Wildcard"
+    },
+    "iOS|Local By Toast iOS": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "Local By Toast iOS",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "iOS"
+    }
+   },
+   "name": "Toast Bug Bounty",
+   "program": {
+    "bounty": "50.0 - 7000.0 USD",
+    "confidentiality": "InviteOnly"
+   },
+   "rules": {
+    "desc": "06c649589f23",
+    "safe_harbour": true,
+    "testing": "814dc8e3657d",
+    "tooling": 5
+   }
+  },
   "92431bf9-ab3e-4e69-9619-c59f8e5193b1": {
    "assets": {
     "Android|Voi \u2013 e-scooter & e-bike hire": {
