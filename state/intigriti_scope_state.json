@@ -3557,13 +3557,6 @@
      "tier": "Tier 2",
      "type": "Other"
     },
-    "Url|coveo.service-now.com": {
-     "desc": "d52c56818851",
-     "endpoint": "coveo.service-now.com",
-     "in": true,
-     "tier": "Tier 2",
-     "type": "Url"
-    },
     "Wildcard|*.cloud.coveo.com": {
      "desc": "1b686e63bc9b",
      "endpoint": "*.cloud.coveo.com",
