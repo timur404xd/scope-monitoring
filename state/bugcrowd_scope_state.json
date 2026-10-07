@@ -15972,6 +15972,14 @@
      "name": "Corporate Housing",
      "uri": "https://www.corporatehousing.com/"
     },
+    "website|Deal Navigator": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Deal Navigator",
+     "uri": "https://www.dealnavigator.com"
+    },
     "website|Discover Matterport": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
