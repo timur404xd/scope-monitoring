@@ -15980,6 +15980,22 @@
      "name": "Deal Navigator",
      "uri": "https://www.dealnavigator.com"
     },
+    "website|Dev Auth Matterport": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Dev Auth Matterport",
+     "uri": "https://dev-authn.matterport.com/"
+    },
+    "website|Dev CaptureServices Matterport": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Dev CaptureServices Matterport",
+     "uri": "https://dev-captureservices.matterport.com"
+    },
     "website|Discover Matterport": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
