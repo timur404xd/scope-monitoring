@@ -16434,13 +16434,6 @@
      "tier": "Tier 2",
      "type": "Url"
     },
-    "Url|emarketer.com": {
-     "desc": "da39a3ee5e6b",
-     "endpoint": "emarketer.com",
-     "in": true,
-     "tier": "Tier 2",
-     "type": "Url"
-    },
     "Url|epaper.welt.de": {
      "desc": "da39a3ee5e6b",
      "endpoint": "epaper.welt.de",
