@@ -14844,13 +14844,6 @@
   },
   "8ae2027e-eba1-4b17-a7f6-9da683b2f6c7": {
    "assets": {
-    "Wildcard|*.baeder-suite.de": {
-     "desc": "da39a3ee5e6b",
-     "endpoint": "*.baeder-suite.de",
-     "in": true,
-     "tier": "Tier 2",
-     "type": "Wildcard"
-    },
     "Wildcard|*.cognitec-systems.de": {
      "desc": "da39a3ee5e6b",
      "endpoint": "*.cognitec-systems.de",
@@ -14896,13 +14889,6 @@
     "Wildcard|*.danalockservices.com": {
      "desc": "da39a3ee5e6b",
      "endpoint": "*.danalockservices.com",
-     "in": true,
-     "tier": "Tier 2",
-     "type": "Wildcard"
-    },
-    "Wildcard|*.dejoris.de": {
-     "desc": "da39a3ee5e6b",
-     "endpoint": "*.dejoris.de",
      "in": true,
      "tier": "Tier 2",
      "type": "Wildcard"
