@@ -27045,6 +27045,13 @@
      "tier": "Tier 3",
      "type": "Url"
     },
+    "Wildcard|*.agents-internal.do-ai.run": {
+     "desc": "532d7d82e011",
+     "endpoint": "*.agents-internal.do-ai.run",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Wildcard"
+    },
     "Wildcard|*.db.ondigitalocean.com": {
      "desc": "031af4d4e51e",
      "endpoint": "*.db.ondigitalocean.com",
