@@ -4510,6 +4510,35 @@
     }
    }
   },
+  "/engagements/almarise-market": {
+   "groups": {
+    "In Scope": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 150000,
+      "p1MinCents": 150000,
+      "p2MaxCents": 90000,
+      "p2MinCents": 90000,
+      "p3MaxCents": 30000,
+      "p3MinCents": 30000,
+      "p4MaxCents": 10000,
+      "p4MinCents": 10000
+     }
+    }
+   },
+   "name": "Almarise Marketplace Managed Bug Bounty Engagement ",
+   "targets": {
+    "website|AppTime - https://marketplace.atlassian.com/apps/1225059/apptime-free-time-tracking-planning-team-mangement?hosting=cloud&tab=overview": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "AppTime - https://marketplace.atlassian.com/apps/1225059/apptime-free-time-tracking-planning-team-mangement?hosting=cloud&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1225059/apptime-free-time-tracking-planning-team-mangement?hosting=cloud&tab=overview"
+    }
+   }
+  },
   "/engagements/anecdotes-vdp-pro": {
    "groups": {
     "In Scope ": {
