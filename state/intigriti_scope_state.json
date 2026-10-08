@@ -25098,6 +25098,13 @@
   },
   "c9edd04a-8362-4199-8a53-f517438dc41b": {
    "assets": {
+    "Url|http://api-bulkchain-uat.nxtport.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "http://api-bulkchain-uat.nxtport.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
     "Url|https://api-uat.irp.nxtport.com/auth/login": {
      "desc": "b0ef10522376",
      "endpoint": "https://api-uat.irp.nxtport.com/auth/login",
