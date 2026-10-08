@@ -25133,6 +25133,13 @@
      "tier": "Tier 2",
      "type": "Url"
     },
+    "Url|https://bulkchain-uat.nxtport.com/": {
+     "desc": "1ea635963419",
+     "endpoint": "https://bulkchain-uat.nxtport.com/",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
     "Url|https://crp-uat.nxtport.com/": {
      "desc": "42a84ef18471",
      "endpoint": "https://crp-uat.nxtport.com/",
