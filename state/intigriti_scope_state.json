@@ -5137,6 +5137,28 @@
     "tooling": 5
    }
   },
+  "2b01df01-0577-4e12-8aa2-1cdde22db9b8": {
+   "assets": {
+    "Other|Research": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "Research",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Other"
+    }
+   },
+   "name": "Intigriti CrowdRecon",
+   "program": {
+    "bounty": "0.0 - 0.0 EUR",
+    "confidentiality": "InviteOnly"
+   },
+   "rules": {
+    "desc": "7b273d0f9f64",
+    "safe_harbour": true,
+    "testing": "d412ba8724b0",
+    "tooling": null
+   }
+  },
   "2b664acb-80d4-4edb-9fcc-bcc562987f92": {
    "assets": {
     "Other|https://docs.google.com/spreadsheets/d/1CzscF67guNFMy-L_v79ng2mW36dQWb2rQSbK540j-ys/edit?gid=1208823298#gid=1208823298": {
