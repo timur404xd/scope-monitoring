@@ -8527,6 +8527,945 @@
     "tooling": 5
    }
   },
+  "57e17813-cf5e-4679-a628-aca06b0a65ee": {
+   "assets": {
+    "IpRange|109.236.128.0/20": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "109.236.128.0/20",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|185.195.28.0/22": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "185.195.28.0/22",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|185.29.108.0/22": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "185.29.108.0/22",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|185.95.72.0/22": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "185.95.72.0/22",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|193.110.255.128/28": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "193.110.255.128/28",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|212.233.32.0/19": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "212.233.32.0/19",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|212.71.0.0/19": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "212.71.0.0/19",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|212.71.0.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "212.71.0.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|212.71.1.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "212.71.1.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|212.71.11.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "212.71.11.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|212.71.2.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "212.71.2.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|212.71.3.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "212.71.3.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|212.71.4.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "212.71.4.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|212.71.5.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "212.71.5.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|212.71.8.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "212.71.8.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|213.211.128.0/18": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "213.211.128.0/18",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|213.211.130.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "213.211.130.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|213.211.138.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "213.211.138.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|213.211.150.250/32": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "213.211.150.250/32",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|213.211.188.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "213.211.188.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|213.219.128.0/18": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "213.219.128.0/18",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|213.219.128.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "213.219.128.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|213.219.132.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "213.219.132.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|213.219.150.250/32": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "213.219.150.250/32",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|217.64.240.0/20": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "217.64.240.0/20",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|31.31.128.0/19": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "31.31.128.0/19",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|31.31.128.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "31.31.128.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|31.31.128.128/26": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "31.31.128.128/26",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|31.31.128.192/27": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "31.31.128.192/27",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|31.31.128.64/26": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "31.31.128.64/26",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|31.31.130.0/23": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "31.31.130.0/23",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|31.31.132.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "31.31.132.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|31.31.134.0/23": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "31.31.134.0/23",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|31.31.136.0/21": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "31.31.136.0/21",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|31.31.139.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "31.31.139.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|31.31.140.0-87": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "31.31.140.0-87",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|31.31.140.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "31.31.140.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|31.31.140.92-254": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "31.31.140.92-254",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|31.31.141.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "31.31.141.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|31.31.141.0/26": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "31.31.141.0/26",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|31.31.143.0-71": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "31.31.143.0-71",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|31.31.143.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "31.31.143.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|31.31.143.0/25": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "31.31.143.0/25",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|31.31.150.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "31.31.150.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|31.31.158.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "31.31.158.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|31.31.159.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "31.31.159.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|45.11.166.40/29": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "45.11.166.40/29",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|77.109.64.0/18": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "77.109.64.0/18",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|79.132.224.0/19": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "79.132.224.0/19",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|79.132.241.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "79.132.241.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|80.91.144.0/20": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "80.91.144.0/20",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|85.234.192.0/19": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "85.234.192.0/19",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|85.234.192.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "85.234.192.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|85.234.203.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "85.234.203.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|85.234.204.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "85.234.204.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|85.234.205.0/24": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "85.234.205.0/24",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "Url|https://api-gateway.citymesh.com/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://api-gateway.citymesh.com/",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://auth.citymesh.com/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://auth.citymesh.com/",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://auth.wifilab.be/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://auth.wifilab.be/",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://cabmanager.citymesh.com/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://cabmanager.citymesh.com/",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://cc.safety-drones.com/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://cc.safety-drones.com/",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://dialhome.ncentric.be/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://dialhome.ncentric.be/",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://extra.citymesh.com/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://extra.citymesh.com/",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://extra.edpnet.net/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://extra.edpnet.net/",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://fleet.citymeshconnect.com/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://fleet.citymeshconnect.com/",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://livechat.citymesh.com/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://livechat.citymesh.com/",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://my.citymesh.com/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://my.citymesh.com/",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Wildcard|*.antwerpfreewifi.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.antwerpfreewifi.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.biotechnology-citymesh.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.biotechnology-citymesh.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.citymesh-connect.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.citymesh-connect.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.citymesh-connect.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.citymesh-connect.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.citymesh.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.citymesh.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.citymesh.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.citymesh.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.citymesh.eu": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.citymesh.eu",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.citymesh.fr": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.citymesh.fr",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.citymesh.guide": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.citymesh.guide",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.citymesh.io": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.citymesh.io",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.citymesh.net": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.citymesh.net",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.citymesh.nl": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.citymesh.nl",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.citymeshconnect.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.citymeshconnect.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.citymeshconnect.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.citymeshconnect.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.citymeshinternet.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.citymeshinternet.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.connectingsenses.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.connectingsenses.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.connectingsenses.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.connectingsenses.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.connectow.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.connectow.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.connectow.eu": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.connectow.eu",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.ctmsh.co": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.ctmsh.co",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.cwave.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.cwave.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.digi-belgium.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.digi-belgium.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.digi-mobile.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.digi-mobile.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.drone-division.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.drone-division.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.drone-division.eu": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.drone-division.eu",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.drone-division.org": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.drone-division.org",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.dronedivision.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.dronedivision.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.dronedivision.eu": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.dronedivision.eu",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.dyn.edpnet.net": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.dyn.edpnet.net",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.edpnet.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.edpnet.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.edpnet.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.edpnet.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.edpnet.net": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.edpnet.net",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.edpnet.nl": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.edpnet.nl",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.engiem2m.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.engiem2m.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.engiem2m.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.engiem2m.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.gowifi.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.gowifi.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.hetbestenetwerk.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.hetbestenetwerk.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.insky.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.insky.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.isitaplane.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.isitaplane.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.lemeilleurreseau.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.lemeilleurreseau.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.luzidia.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.luzidia.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.luzidia.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.luzidia.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.mydigi.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.mydigi.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.myiot.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.myiot.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.ncentric.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.ncentric.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.ncentric.cloud": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.ncentric.cloud",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.ncentric.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.ncentric.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.ps-radiocom.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.ps-radiocom.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.ps-radiocom.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.ps-radiocom.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.ptxbac.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.ptxbac.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.rigmesh.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.rigmesh.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.safety-drones.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.safety-drones.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.safety-drones.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.safety-drones.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.safetydrones.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.safetydrones.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.sigfox.nl": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.sigfox.nl",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.static.edpnet.net": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.static.edpnet.net",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.thebestnetwork.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.thebestnetwork.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.thenewnetwork.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.thenewnetwork.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.towereye.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.towereye.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.towereye.eu": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.towereye.eu",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.tymnet.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.tymnet.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.wflb.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.wflb.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.wifilab.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.wifilab.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.wifinmbssncb.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.wifinmbssncb.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.zapfi.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.zapfi.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    }
+   },
+   "name": "Citymesh CrowdRecon",
+   "program": {
+    "bounty": "0.0 - 0.0 EUR",
+    "confidentiality": "InviteOnly"
+   },
+   "rules": {
+    "desc": "9365cefd1ac5",
+    "safe_harbour": true,
+    "testing": "d412ba8724b0",
+    "tooling": null
+   }
+  },
   "5813fe69-4de9-46f7-95bc-34450c610482": {
    "assets": {
     "Url|api.planhatdemo.com": {
