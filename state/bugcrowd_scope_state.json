@@ -8289,6 +8289,91 @@
     }
    }
   },
+  "/engagements/avisi": {
+   "groups": {
+    "In Scope": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 150000,
+      "p1MinCents": 150000,
+      "p2MaxCents": 90000,
+      "p2MinCents": 90000,
+      "p3MaxCents": 30000,
+      "p3MinCents": 30000,
+      "p4MaxCents": 10000,
+      "p4MinCents": 10000
+     }
+    }
+   },
+   "name": "Avisi Marketplace Bug Bounty Program",
+   "targets": {
+    "website|https://marketplace.atlassian.com/apps/1211141/xsd-viewer?hosting=cloud": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "https://marketplace.atlassian.com/apps/1211141/xsd-viewer?hosting=cloud",
+     "uri": "https://marketplace.atlassian.com/apps/1211141/xsd-viewer?hosting=cloud"
+    },
+    "website|https://marketplace.atlassian.com/apps/1211675/git-for-confluence?hosting=cloud&tab=overview": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "https://marketplace.atlassian.com/apps/1211675/git-for-confluence?hosting=cloud&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1211675/git-for-confluence?hosting=cloud&tab=overview"
+    },
+    "website|https://marketplace.atlassian.com/apps/1212035/edit-custom-field-values?hosting=cloud&tab=overview": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "https://marketplace.atlassian.com/apps/1212035/edit-custom-field-values?hosting=cloud&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1212035/edit-custom-field-values?hosting=cloud&tab=overview"
+    },
+    "website|https://marketplace.atlassian.com/apps/1213313/atlas-crm-customers-and-sales-in-jira?hosting=cloud": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "https://marketplace.atlassian.com/apps/1213313/atlas-crm-customers-and-sales-in-jira?hosting=cloud",
+     "uri": "https://marketplace.atlassian.com/apps/1213313/atlas-crm-customers-and-sales-in-jira?hosting=cloud"
+    },
+    "website|https://marketplace.atlassian.com/apps/1216060/atlas-crm-customers-in-confluence?hosting=cloud": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "https://marketplace.atlassian.com/apps/1216060/atlas-crm-customers-in-confluence?hosting=cloud",
+     "uri": "https://marketplace.atlassian.com/apps/1216060/atlas-crm-customers-in-confluence?hosting=cloud"
+    },
+    "website|https://marketplace.atlassian.com/apps/1222136/topdesk-jira-integration?hosting=cloud": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "https://marketplace.atlassian.com/apps/1222136/topdesk-jira-integration?hosting=cloud",
+     "uri": "https://marketplace.atlassian.com/apps/1222136/topdesk-jira-integration?hosting=cloud"
+    },
+    "website|https://marketplace.atlassian.com/apps/1229840/visualizer-for-confluence-markdown-plantuml-mermaid-erd?hosting=cloud&tab=overview": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "https://marketplace.atlassian.com/apps/1229840/visualizer-for-confluence-markdown-plantuml-mermaid-erd?hosting=cloud&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1229840/visualizer-for-confluence-markdown-plantuml-mermaid-erd?hosting=cloud&tab=overview"
+    },
+    "website|https://marketplace.atlassian.com/apps/792203801/frank-not-your-regular-hr-solution?hosting=cloud&tab=overview": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "https://marketplace.atlassian.com/apps/792203801/frank-not-your-regular-hr-solution?hosting=cloud&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/792203801/frank-not-your-regular-hr-solution?hosting=cloud&tab=overview"
+    }
+   }
+  },
   "/engagements/axis-os-public": {
    "groups": {
     "AXIS OS ": {
@@ -20635,6 +20720,35 @@
      "in": true,
      "name": "All Eurofins Assets",
      "uri": ""
+    }
+   }
+  },
+  "/engagements/excentia": {
+   "groups": {
+    "In Scope": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 150000,
+      "p1MinCents": 150000,
+      "p2MaxCents": 90000,
+      "p2MinCents": 90000,
+      "p3MaxCents": 30000,
+      "p3MinCents": 30000,
+      "p4MaxCents": 10000,
+      "p4MinCents": 10000
+     }
+    }
+   },
+   "name": "Excentia Bug Bounty",
+   "targets": {
+    "website|SonarQube Connector for Jira - https://marketplace.atlassian.com/apps/1217471/sonarqube-connector-for-jira?hosting=cloud&tab=overview": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "SonarQube Connector for Jira - https://marketplace.atlassian.com/apps/1217471/sonarqube-connector-for-jira?hosting=cloud&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1217471/sonarqube-connector-for-jira?hosting=cloud&tab=overview"
     }
    }
   },
