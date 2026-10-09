@@ -39890,6 +39890,246 @@
     }
    }
   },
+  "/engagements/opensea": {
+   "groups": {
+    "Broken Links": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": null
+    },
+    "Embedded Wallet Experience Powered by Privy": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 5000000,
+      "p1MinCents": 5000000,
+      "p2MaxCents": 1000000,
+      "p2MinCents": 1000000,
+      "p3MaxCents": 300000,
+      "p3MinCents": 300000,
+      "p4MaxCents": 25000,
+      "p4MinCents": 25000
+     }
+    },
+    "Fee Collector Smart Contract": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 5000000,
+      "p1MinCents": 5000000,
+      "p2MaxCents": 1000000,
+      "p2MinCents": 1000000,
+      "p3MaxCents": 50000,
+      "p3MinCents": 50000,
+      "p4MaxCents": 25000,
+      "p4MinCents": 25000
+     }
+    },
+    "OpenSea Agent SDKs": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 300000,
+      "p1MinCents": 300000,
+      "p2MaxCents": 100000,
+      "p2MinCents": 100000,
+      "p3MaxCents": null,
+      "p3MinCents": null,
+      "p4MaxCents": null,
+      "p4MinCents": null
+     }
+    },
+    "OpenSea MCP": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 1500000,
+      "p1MinCents": 1500000,
+      "p2MaxCents": 300000,
+      "p2MinCents": 300000,
+      "p3MaxCents": 50000,
+      "p3MinCents": 50000,
+      "p4MaxCents": 12500,
+      "p4MinCents": 12500
+     }
+    },
+    "OpenSea Solana Marketplace Program": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 5000000,
+      "p1MinCents": 5000000,
+      "p2MaxCents": 1000000,
+      "p2MinCents": 1000000,
+      "p3MaxCents": 300000,
+      "p3MinCents": 300000,
+      "p4MaxCents": 25000,
+      "p4MinCents": 25000
+     }
+    },
+    "Opensea.io": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 5000000,
+      "p1MinCents": 5000000,
+      "p2MaxCents": 1000000,
+      "p2MinCents": 1000000,
+      "p3MaxCents": 300000,
+      "p3MinCents": 300000,
+      "p4MaxCents": 25000,
+      "p4MinCents": 25000
+     }
+    },
+    "Seadrop Smart Contract": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 5000000,
+      "p1MinCents": 5000000,
+      "p2MaxCents": 1000000,
+      "p2MinCents": 1000000,
+      "p3MaxCents": 50000,
+      "p3MinCents": 50000,
+      "p4MaxCents": 25000,
+      "p4MinCents": 25000
+     }
+    },
+    "Seaport Deployment": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 300000000,
+      "p1MinCents": 300000000,
+      "p2MaxCents": 10000000,
+      "p2MinCents": 10000000,
+      "p3MaxCents": 2500000,
+      "p3MinCents": 2500000,
+      "p4MaxCents": 50000,
+      "p4MinCents": 50000
+     }
+    },
+    "io.opensea - Android App": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 1500000,
+      "p1MinCents": 1500000,
+      "p2MaxCents": 300000,
+      "p2MinCents": 300000,
+      "p3MaxCents": 50000,
+      "p3MinCents": 50000,
+      "p4MaxCents": 12500,
+      "p4MinCents": 12500
+     }
+    },
+    "io.opensea - iOS App": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 1500000,
+      "p1MinCents": 1500000,
+      "p2MaxCents": 300000,
+      "p2MinCents": 300000,
+      "p3MaxCents": 50000,
+      "p3MinCents": 50000,
+      "p4MaxCents": 12500,
+      "p4MinCents": 12500
+     }
+    }
+   },
+   "name": "OpenSea Managed Bug Bounty Program",
+   "targets": {
+    "android|io.opensea - Android App": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "io.opensea - Android App",
+     "in": true,
+     "name": "io.opensea - Android App",
+     "uri": "https://play.google.com/store/apps/details?id=io.opensea&hl=en_US&gl=US"
+    },
+    "ios|io.opensea - iOS App": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "io.opensea - iOS App",
+     "in": true,
+     "name": "io.opensea - iOS App",
+     "uri": "https://apps.apple.com/us/app/opensea-nft-marketplace/id1582861796"
+    },
+    "other|Agent SDKs": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "OpenSea Agent SDKs",
+     "in": true,
+     "name": "Agent SDKs",
+     "uri": ""
+    },
+    "other|OpenSea MCP": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "OpenSea MCP",
+     "in": true,
+     "name": "OpenSea MCP",
+     "uri": "https://mcp.opensea.io"
+    },
+    "other|OpenSea Solana Marketplace Program": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "OpenSea Solana Marketplace Program",
+     "in": true,
+     "name": "OpenSea Solana Marketplace Program",
+     "uri": ""
+    },
+    "other|https://etherscan.io/address/0x00005EA00Ac477B1030CE78506496e8C2dE24bf5": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Seadrop Smart Contract",
+     "in": true,
+     "name": "https://etherscan.io/address/0x00005EA00Ac477B1030CE78506496e8C2dE24bf5",
+     "uri": "https://etherscan.io/address/0x00005EA00Ac477B1030CE78506496e8C2dE24bf5"
+    },
+    "other|https://etherscan.io/address/0x0000a26b00c1F0DF003000390027140000fAa719": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Fee Collector Smart Contract",
+     "in": true,
+     "name": "https://etherscan.io/address/0x0000a26b00c1F0DF003000390027140000fAa719",
+     "uri": "https://etherscan.io/address/0x0000a26b00c1F0DF003000390027140000fAa719"
+    },
+    "other|https://github.com/ProjectOpenSea/seaport#deployments": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Seaport Deployment",
+     "in": true,
+     "name": "https://github.com/ProjectOpenSea/seaport#deployments",
+     "uri": "https://github.com/ProjectOpenSea/seaport#deployments"
+    },
+    "website|Broken Link": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Broken Links",
+     "in": true,
+     "name": "Broken Link",
+     "uri": ""
+    },
+    "website|http://wallet.opensea.io/": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Embedded Wallet Experience Powered by Privy",
+     "in": true,
+     "name": "http://wallet.opensea.io/",
+     "uri": "http://wallet.opensea.io/"
+    },
+    "website|opensea.io": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Opensea.io",
+     "in": true,
+     "name": "opensea.io",
+     "uri": "https://opensea.io/"
+    }
+   }
+  },
   "/engagements/opera": {
    "groups": {
     "Mobile Targets": {
@@ -44937,35 +45177,6 @@
      "in": true,
      "name": "https://www.shffls.com",
      "uri": "https://www.shffls.com"
-    }
-   }
-  },
-  "/engagements/pixabay": {
-   "groups": {
-    "In Scope targets": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 600000,
-      "p1MinCents": 600000,
-      "p2MaxCents": 250000,
-      "p2MinCents": 250000,
-      "p3MaxCents": 85000,
-      "p3MinCents": 85000,
-      "p4MaxCents": 10000,
-      "p4MinCents": 10000
-     }
-    }
-   },
-   "name": "Pixabay",
-   "targets": {
-    "website|*.pixabay.com/": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope targets",
-     "in": true,
-     "name": "*.pixabay.com/",
-     "uri": "https://pixabay.com/"
     }
    }
   },
