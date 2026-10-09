@@ -35337,6 +35337,453 @@
     }
    }
   },
+  "/engagements/monash-mbb": {
+   "groups": {
+    "API Target(s)": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 250000,
+      "p1MinCents": 210000,
+      "p2MaxCents": 120000,
+      "p2MinCents": 100000,
+      "p3MaxCents": 60000,
+      "p3MinCents": 40000,
+      "p4MaxCents": 12500,
+      "p4MinCents": 12500
+     }
+    },
+    "Monash University -  In Scope Targets - Tier 1": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 250000,
+      "p1MinCents": 210000,
+      "p2MaxCents": 120000,
+      "p2MinCents": 100000,
+      "p3MaxCents": 60000,
+      "p3MinCents": 40000,
+      "p4MaxCents": 12500,
+      "p4MinCents": 12500
+     }
+    },
+    "Monash University - In Scope Targets - Tier 0": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 750000,
+      "p1MinCents": 500000,
+      "p2MaxCents": 350000,
+      "p2MinCents": 250000,
+      "p3MaxCents": 150000,
+      "p3MinCents": 75000,
+      "p4MaxCents": 50000,
+      "p4MinCents": 25000
+     }
+    },
+    "Monash University - In Scope Targets - Tier 2": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 150000,
+      "p1MinCents": 100000,
+      "p2MaxCents": 120000,
+      "p2MinCents": 60000,
+      "p3MaxCents": 30000,
+      "p3MinCents": 15000,
+      "p4MaxCents": 5000,
+      "p4MinCents": 5000
+     }
+    }
+   },
+   "name": "Monash University Bug Bounty",
+   "targets": {
+    "android|M-Space App Android": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 2",
+     "in": true,
+     "name": "M-Space App Android",
+     "uri": "https://play.google.com/store/apps/details?id=com.monashuniversity.mspace.android&pcampaignid=web_share"
+    },
+    "android|Monash Study Android app": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University -  In Scope Targets - Tier 1",
+     "in": true,
+     "name": "Monash Study Android app",
+     "uri": "https://play.google.com/store/apps/details?id=edu.monash.monashmobile"
+    },
+    "android|bSafe Android App": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 2",
+     "in": true,
+     "name": "bSafe Android App",
+     "uri": "https://play.google.com/store/apps/details?id=com.scu.bsafe"
+    },
+    "api| mix.monash.edu ": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 0",
+     "in": true,
+     "name": " mix.monash.edu ",
+     "uri": ""
+    },
+    "api|mix-dev.monash.edu/*": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "API Target(s)",
+     "in": true,
+     "name": "mix-dev.monash.edu/*",
+     "uri": ""
+    },
+    "api|mix-qat.monash.edu/*": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "API Target(s)",
+     "in": true,
+     "name": "mix-qat.monash.edu/*",
+     "uri": ""
+    },
+    "ios|M-Space App iOS": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 2",
+     "in": true,
+     "name": "M-Space App iOS",
+     "uri": "https://apps.apple.com/ky/app/m-space/id6761056432"
+    },
+    "ios|Monash Study iOS App": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University -  In Scope Targets - Tier 1",
+     "in": true,
+     "name": "Monash Study iOS App",
+     "uri": "https://apps.apple.com/us/app/monash-study/id1462126829"
+    },
+    "ios|bSafe iPhone App": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 2",
+     "in": true,
+     "name": "bSafe iPhone App",
+     "uri": "https://apps.apple.com/au/app/monash-bsafe/id1462241951"
+    },
+    "website|  identity.monash.edu": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 0",
+     "in": true,
+     "name": "  identity.monash.edu",
+     "uri": "https://identity.monash.edu/"
+    },
+    "website|*.gp.monash.edu": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University -  In Scope Targets - Tier 1",
+     "in": true,
+     "name": "*.gp.monash.edu",
+     "uri": "https://*.gp.monash.edu"
+    },
+    "website|Monash e-Vigilation": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 2",
+     "in": true,
+     "name": "Monash e-Vigilation",
+     "uri": "https://evigilation.monash.edu"
+    },
+    "website|Staff.monash": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University -  In Scope Targets - Tier 1",
+     "in": true,
+     "name": "Staff.monash",
+     "uri": "https://staff.monash"
+    },
+    "website|account-registration.monash.edu": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 2",
+     "in": true,
+     "name": "account-registration.monash.edu",
+     "uri": "https://account-registration.monash.edu/"
+    },
+    "website|apps.connect.monash.edu/": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University -  In Scope Targets - Tier 1",
+     "in": true,
+     "name": "apps.connect.monash.edu/",
+     "uri": "http://apps.connect.monash.edu/"
+    },
+    "website|cms.mobile.monash": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University -  In Scope Targets - Tier 1",
+     "in": true,
+     "name": "cms.mobile.monash",
+     "uri": "https://cms.mobile.monash/ "
+    },
+    "website|collections.monash.edu": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 2",
+     "in": true,
+     "name": "collections.monash.edu",
+     "uri": "https://collections.monash.edu/"
+    },
+    "website|connect.monash.edu": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University -  In Scope Targets - Tier 1",
+     "in": true,
+     "name": "connect.monash.edu",
+     "uri": "https://connect.monash.edu"
+    },
+    "website|eassessment.monash.edu": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University -  In Scope Targets - Tier 1",
+     "in": true,
+     "name": "eassessment.monash.edu",
+     "uri": ""
+    },
+    "website|equella.monash.edu": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 2",
+     "in": true,
+     "name": "equella.monash.edu",
+     "uri": "https://equella.monash.edu"
+    },
+    "website|fileshare.ze.monash.edu": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University -  In Scope Targets - Tier 1",
+     "in": true,
+     "name": "fileshare.ze.monash.edu",
+     "uri": "https://fileshare.ze.monash.edu"
+    },
+    "website|formative.eassessment.monas.edu": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 2",
+     "in": true,
+     "name": "formative.eassessment.monas.edu",
+     "uri": "https://formative.eassessment.monash.edu/"
+    },
+    "website|forms.apps.monash.edu": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 2",
+     "in": true,
+     "name": "forms.apps.monash.edu",
+     "uri": "https://forms.apps.monash.edu/"
+    },
+    "website|https://agent.apps.monash.edu/": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University -  In Scope Targets - Tier 1",
+     "in": true,
+     "name": "https://agent.apps.monash.edu/",
+     "uri": "https://agent.apps.monash.edu/"
+    },
+    "website|https://alumni-friends.monash.edu": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University -  In Scope Targets - Tier 1",
+     "in": true,
+     "name": "https://alumni-friends.monash.edu",
+     "uri": "https://alumni-friends.monash.edu"
+    },
+    "website|https://compulsoryunits.monash.edu/": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University -  In Scope Targets - Tier 1",
+     "in": true,
+     "name": "https://compulsoryunits.monash.edu/",
+     "uri": "https://compulsoryunits.monash.edu/"
+    },
+    "website|https://monashcollege.edu.au": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University -  In Scope Targets - Tier 1",
+     "in": true,
+     "name": "https://monashcollege.edu.au",
+     "uri": "https://monashcollege.edu.au"
+    },
+    "website|https://myapp.monash.edu/": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University -  In Scope Targets - Tier 1",
+     "in": true,
+     "name": "https://myapp.monash.edu/",
+     "uri": "https://myapp.monash.edu/"
+    },
+    "website|https://online.monash.edu/": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University -  In Scope Targets - Tier 1",
+     "in": true,
+     "name": "https://online.monash.edu/",
+     "uri": "https://online.monash.edu/"
+    },
+    "website|identity.monash.edu": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University -  In Scope Targets - Tier 1",
+     "in": true,
+     "name": "identity.monash.edu",
+     "uri": "https://identity.monash.edu"
+    },
+    "website|ims.monash.edu": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 2",
+     "in": true,
+     "name": "ims.monash.edu",
+     "uri": "https://ims.monash.edu"
+    },
+    "website|interviews.monash.edu": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 2",
+     "in": true,
+     "name": "interviews.monash.edu",
+     "uri": "https://interviews.monash.edu/"
+    },
+    "website|mids.monash.edu": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 2",
+     "in": true,
+     "name": "mids.monash.edu",
+     "uri": "https://mids.monash.edu/"
+    },
+    "website|mlivetickets.monash.edu": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 2",
+     "in": true,
+     "name": "mlivetickets.monash.edu",
+     "uri": "https://mlivetickets.monash.edu"
+    },
+    "website|mobile.monash": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University -  In Scope Targets - Tier 1",
+     "in": true,
+     "name": "mobile.monash",
+     "uri": "https://mobile.monash/ "
+    },
+    "website|monash.app.nutrip.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University -  In Scope Targets - Tier 1",
+     "in": true,
+     "name": "monash.app.nutrip.com",
+     "uri": "https://monash.app.nutrip.com"
+    },
+    "website|monash.edu": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University -  In Scope Targets - Tier 1",
+     "in": true,
+     "name": "monash.edu",
+     "uri": "https://www.monash.edu"
+    },
+    "website|monashprofessional.edu.au": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 2",
+     "in": true,
+     "name": "monashprofessional.edu.au",
+     "uri": "https://www.monashprofessional.edu.au/"
+    },
+    "website|move.monash.edu": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 2",
+     "in": true,
+     "name": "move.monash.edu",
+     "uri": "https://move.monash.edu/"
+    },
+    "website|partner.apps.monash.edu": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 2",
+     "in": true,
+     "name": "partner.apps.monash.edu",
+     "uri": "https://partner.apps.monash.edu"
+    },
+    "website|pay.monashcollege.edu.au": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 2",
+     "in": true,
+     "name": "pay.monashcollege.edu.au",
+     "uri": "http://pay.monashcollege.edu.au/"
+    },
+    "website|research.monash.edu": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 2",
+     "in": true,
+     "name": "research.monash.edu",
+     "uri": "https://research.monash.edu/"
+    },
+    "website|researchmgt.monash.edu": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 2",
+     "in": true,
+     "name": "researchmgt.monash.edu",
+     "uri": "https://researchmgt.monash.edu/"
+    },
+    "website|shop.monash.edu": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 2",
+     "in": true,
+     "name": "shop.monash.edu",
+     "uri": "https://shop.monash.edu/"
+    },
+    "website|status.mobile.monash": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University -  In Scope Targets - Tier 1",
+     "in": true,
+     "name": "status.mobile.monash",
+     "uri": "https://status.mobile.monash/"
+    },
+    "website|student.monash": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 2",
+     "in": true,
+     "name": "student.monash",
+     "uri": "https://student.monash"
+    },
+    "website|studentplacements.monash.edu": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 2",
+     "in": true,
+     "name": "studentplacements.monash.edu",
+     "uri": "https://studentplacements.monash.edu"
+    },
+    "website|unihub.monash.edu": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Monash University - In Scope Targets - Tier 2",
+     "in": true,
+     "name": "unihub.monash.edu",
+     "uri": "https://unihub.monash.edu/"
+    }
+   }
+  },
   "/engagements/moneytreekkog": {
    "groups": {
     "Out of scope": {
