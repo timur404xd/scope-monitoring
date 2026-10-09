@@ -11631,22 +11631,6 @@
      "name": "https://marketplace.atlassian.com/apps/1224103/cards-panels?hosting=cloud&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1224103/cards-panels?hosting=cloud&tab=overview"
     },
-    "website|https://marketplace.atlassian.com/apps/1224724/todo-checklist-with-forge?hosting=cloud&tab=overview": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1224724/todo-checklist-with-forge?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1224724/todo-checklist-with-forge?hosting=cloud&tab=overview"
-    },
-    "website|https://marketplace.atlassian.com/apps/1225145/image-editor-for-jira?hosting=cloud&tab=overview": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1225145/image-editor-for-jira?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1225145/image-editor-for-jira?hosting=cloud&tab=overview"
-    },
     "website|https://marketplace.atlassian.com/apps/1225290/moscow-agile-prioritization-with-forge?hosting=cloud&tab=overview": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
@@ -11654,22 +11638,6 @@
      "in": true,
      "name": "https://marketplace.atlassian.com/apps/1225290/moscow-agile-prioritization-with-forge?hosting=cloud&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1225290/moscow-agile-prioritization-with-forge?hosting=cloud&tab=overview"
-    },
-    "website|https://marketplace.atlassian.com/apps/1225724/email-confluence-page?tab=overview&hosting=cloud": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1225724/email-confluence-page?tab=overview&hosting=cloud",
-     "uri": "https://marketplace.atlassian.com/apps/1225724/email-confluence-page?tab=overview&hosting=cloud"
-    },
-    "website|https://marketplace.atlassian.com/apps/1227112/eisenhower-task-management-todo-priority-matrix-for-jira?hosting=cloud&tab=overview": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1227112/eisenhower-task-management-todo-priority-matrix-for-jira?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1227112/eisenhower-task-management-todo-priority-matrix-for-jira?hosting=cloud&tab=overview"
     },
     "website|https://marketplace.atlassian.com/apps/1230161/linksy-advanced-issue-linking-for-jira?hosting=cloud&tab=overview": {
      "cat": "website",
@@ -11694,6 +11662,14 @@
      "in": true,
      "name": "https://marketplace.atlassian.com/apps/1231591/shoppie-assets-integrated-shop-for-jsm?hosting=cloud&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1231591/shoppie-assets-integrated-shop-for-jsm?hosting=cloud&tab=overview"
+    },
+    "website|https://marketplace.atlassian.com/apps/974024200/radar-assets-inventory-for-jsm?hosting=cloud&tab=overview": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "https://marketplace.atlassian.com/apps/974024200/radar-assets-inventory-for-jsm?hosting=cloud&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/974024200/radar-assets-inventory-for-jsm?hosting=cloud&tab=overview"
     }
    }
   },
