@@ -24884,6 +24884,107 @@
     }
    }
   },
+  "/engagements/hypixel-studios-mbb-og": {
+   "groups": {
+    "In Scope ": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 2500000,
+      "p1MinCents": 450000,
+      "p2MaxCents": 750000,
+      "p2MinCents": 350000,
+      "p3MaxCents": 250000,
+      "p3MinCents": 100000,
+      "p4MaxCents": 60000,
+      "p4MinCents": 30000
+     }
+    }
+   },
+   "name": "Hypixel Studios Managed Bug Bounty Engagement",
+   "targets": {
+    "api|Hypixel Public APIs": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope ",
+     "in": true,
+     "name": "Hypixel Public APIs",
+     "uri": ""
+    },
+    "other|Hytale Game Server": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope ",
+     "in": true,
+     "name": "Hytale Game Server",
+     "uri": ""
+    },
+    "website|3rd Party Integrations (Hytale-side issues only)": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope ",
+     "in": true,
+     "name": "3rd Party Integrations (Hytale-side issues only)",
+     "uri": ""
+    },
+    "website|Hytale Game Client": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope ",
+     "in": true,
+     "name": "Hytale Game Client",
+     "uri": ""
+    },
+    "website|Hytale Launcher": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope ",
+     "in": true,
+     "name": "Hytale Launcher",
+     "uri": ""
+    },
+    "website|http://arcanitegames.ca/": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope ",
+     "in": true,
+     "name": "http://arcanitegames.ca/",
+     "uri": "http://arcanitegames.ca/"
+    },
+    "website|https://accounts.hytale.com/": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope ",
+     "in": true,
+     "name": "https://accounts.hytale.com/",
+     "uri": "https://accounts.hytale.com/login"
+    },
+    "website|https://hytale.com/": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope ",
+     "in": true,
+     "name": "https://hytale.com/",
+     "uri": "https://hytale.com/"
+    },
+    "website|https://hytale.dev/": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope ",
+     "in": true,
+     "name": "https://hytale.dev/",
+     "uri": "https://hytale.dev/"
+    },
+    "website|https://store.hytale.com/": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope ",
+     "in": true,
+     "name": "https://store.hytale.com/",
+     "uri": "https://store.hytale.com/"
+    }
+   }
+  },
   "/engagements/iaf-vdp": {
    "groups": {
     "In Scope ": {
