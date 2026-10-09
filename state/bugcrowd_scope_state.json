@@ -11709,6 +11709,251 @@
     }
    }
   },
+  "/engagements/canva": {
+   "groups": {
+    "3rd-Party Providers": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": null
+    },
+    "Canva China": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 1500000,
+      "p1MinCents": 1500000,
+      "p2MaxCents": 400000,
+      "p2MinCents": 400000,
+      "p3MaxCents": 150000,
+      "p3MinCents": 150000,
+      "p4MaxCents": 20000,
+      "p4MinCents": 20000
+     }
+    },
+    "Canva Developer Platform": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 1500000,
+      "p1MinCents": 1500000,
+      "p2MaxCents": 400000,
+      "p2MinCents": 400000,
+      "p3MaxCents": 150000,
+      "p3MinCents": 150000,
+      "p4MaxCents": 20000,
+      "p4MinCents": 20000
+     }
+    },
+    "Canva Editor": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 1500000,
+      "p1MinCents": 1500000,
+      "p2MaxCents": 400000,
+      "p2MinCents": 400000,
+      "p3MaxCents": 150000,
+      "p3MinCents": 150000,
+      "p4MaxCents": 20000,
+      "p4MinCents": 20000
+     }
+    },
+    "Canva Marketplace Apps & Integrations": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 600000,
+      "p1MinCents": 600000,
+      "p2MaxCents": 150000,
+      "p2MinCents": 150000,
+      "p3MaxCents": 75000,
+      "p3MinCents": 75000,
+      "p4MaxCents": 20000,
+      "p4MinCents": 20000
+     }
+    },
+    "Canva Native Applications": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 600000,
+      "p1MinCents": 600000,
+      "p2MaxCents": 150000,
+      "p2MinCents": 150000,
+      "p3MaxCents": 75000,
+      "p3MinCents": 75000,
+      "p4MaxCents": 20000,
+      "p4MinCents": 20000
+     }
+    },
+    "Canva Services/Infrastructure": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 1500000,
+      "p1MinCents": 1500000,
+      "p2MaxCents": 400000,
+      "p2MinCents": 400000,
+      "p3MaxCents": 150000,
+      "p3MinCents": 150000,
+      "p4MaxCents": 20000,
+      "p4MinCents": 20000
+     }
+    },
+    "Leaked Credentials and Secrets": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": null
+    }
+   },
+   "name": "Canva",
+   "targets": {
+    "android|Canva (Android)": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "Canva Native Applications",
+     "in": true,
+     "name": "Canva (Android)",
+     "uri": ""
+    },
+    "api|api.canva.com": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "Canva Developer Platform",
+     "in": true,
+     "name": "api.canva.com",
+     "uri": "https://api.canva.com"
+    },
+    "ios|Canva (iOS)": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "Canva Native Applications",
+     "in": true,
+     "name": "Canva (iOS)",
+     "uri": ""
+    },
+    "other|3rd-Party Provider Vulnerability": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "3rd-Party Providers",
+     "in": true,
+     "name": "3rd-Party Provider Vulnerability",
+     "uri": ""
+    },
+    "other|Apps SDK Sandboxing": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Canva Developer Platform",
+     "in": true,
+     "name": "Apps SDK Sandboxing",
+     "uri": ""
+    },
+    "other|Canva (Chrome Extension)": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Canva Native Applications",
+     "in": true,
+     "name": "Canva (Chrome Extension)",
+     "uri": ""
+    },
+    "other|Canva Desktop (macOS / Windows)": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Canva Native Applications",
+     "in": true,
+     "name": "Canva Desktop (macOS / Windows)",
+     "uri": ""
+    },
+    "other|Leaked Credentials and Secrets (Canva Employee/Contractor)": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Leaked Credentials and Secrets",
+     "in": true,
+     "name": "Leaked Credentials and Secrets (Canva Employee/Contractor)",
+     "uri": ""
+    },
+    "other|Leaked Credentials and Secrets (Canva User)": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Leaked Credentials and Secrets",
+     "in": true,
+     "name": "Leaked Credentials and Secrets (Canva User)",
+     "uri": ""
+    },
+    "website|*.canva-apps.cn": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Canva China",
+     "in": true,
+     "name": "*.canva-apps.cn",
+     "uri": ""
+    },
+    "website|*.canva-apps.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Canva Services/Infrastructure",
+     "in": true,
+     "name": "*.canva-apps.com",
+     "uri": ""
+    },
+    "website|*.canva.cn": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Canva China",
+     "in": true,
+     "name": "*.canva.cn",
+     "uri": ""
+    },
+    "website|*.canva.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Canva Services/Infrastructure",
+     "in": true,
+     "name": "*.canva.com",
+     "uri": ""
+    },
+    "website|*.canva.tech": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Canva Services/Infrastructure",
+     "in": true,
+     "name": "*.canva.tech",
+     "uri": "https://*.canva.tech"
+    },
+    "website|Canva Developer Portal": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Canva Developer Platform",
+     "in": true,
+     "name": "Canva Developer Portal",
+     "uri": "https://www.canva.com/developers/"
+    },
+    "website|Canva for ChatGPT": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Canva Marketplace Apps & Integrations",
+     "in": true,
+     "name": "Canva for ChatGPT",
+     "uri": "https://www.canva.com/en_au/help/chatgpt-templates/"
+    },
+    "website|Canva for Slack": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Canva Marketplace Apps & Integrations",
+     "in": true,
+     "name": "Canva for Slack",
+     "uri": "https://www.canva.com/integrations/slack/"
+    },
+    "website|www.canva.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Canva Editor",
+     "in": true,
+     "name": "www.canva.com",
+     "uri": "https://www.canva.com"
+    }
+   }
+  },
   "/engagements/cappsule-sarl": {
    "groups": {
     "In-scope Targets": {
@@ -24636,107 +24881,6 @@
      "in": false,
      "name": "https://www.myprotein.com.tr/",
      "uri": ""
-    }
-   }
-  },
-  "/engagements/hypixel-studios-mbb-og": {
-   "groups": {
-    "In Scope ": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 2500000,
-      "p1MinCents": 450000,
-      "p2MaxCents": 750000,
-      "p2MinCents": 350000,
-      "p3MaxCents": 250000,
-      "p3MinCents": 100000,
-      "p4MaxCents": 60000,
-      "p4MinCents": 30000
-     }
-    }
-   },
-   "name": "Hypixel Studios Managed Bug Bounty Engagement",
-   "targets": {
-    "api|Hypixel Public APIs": {
-     "cat": "api",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope ",
-     "in": true,
-     "name": "Hypixel Public APIs",
-     "uri": ""
-    },
-    "other|Hytale Game Server": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope ",
-     "in": true,
-     "name": "Hytale Game Server",
-     "uri": ""
-    },
-    "website|3rd Party Integrations (Hytale-side issues only)": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope ",
-     "in": true,
-     "name": "3rd Party Integrations (Hytale-side issues only)",
-     "uri": ""
-    },
-    "website|Hytale Game Client": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope ",
-     "in": true,
-     "name": "Hytale Game Client",
-     "uri": ""
-    },
-    "website|Hytale Launcher": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope ",
-     "in": true,
-     "name": "Hytale Launcher",
-     "uri": ""
-    },
-    "website|http://arcanitegames.ca/": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope ",
-     "in": true,
-     "name": "http://arcanitegames.ca/",
-     "uri": "http://arcanitegames.ca/"
-    },
-    "website|https://accounts.hytale.com/": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope ",
-     "in": true,
-     "name": "https://accounts.hytale.com/",
-     "uri": "https://accounts.hytale.com/login"
-    },
-    "website|https://hytale.com/": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope ",
-     "in": true,
-     "name": "https://hytale.com/",
-     "uri": "https://hytale.com/"
-    },
-    "website|https://hytale.dev/": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope ",
-     "in": true,
-     "name": "https://hytale.dev/",
-     "uri": "https://hytale.dev/"
-    },
-    "website|https://store.hytale.com/": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope ",
-     "in": true,
-     "name": "https://store.hytale.com/",
-     "uri": "https://store.hytale.com/"
     }
    }
   },
