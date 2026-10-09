@@ -46194,35 +46194,6 @@
     }
    }
   },
-  "/engagements/projectbalm": {
-   "groups": {
-    "In Scope Targets": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 150000,
-      "p1MinCents": 150000,
-      "p2MaxCents": 90000,
-      "p2MinCents": 90000,
-      "p3MaxCents": 30000,
-      "p3MinCents": 30000,
-      "p4MaxCents": 10000,
-      "p4MinCents": 10000
-     }
-    }
-   },
-   "name": "ProjectBalm",
-   "targets": {
-    "other|https://marketplace.atlassian.com/apps/1213146/risk-register?hosting=cloud": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1213146/risk-register?hosting=cloud",
-     "uri": "https://marketplace.atlassian.com/apps/1213146/risk-register?hosting=cloud"
-    }
-   }
-  },
   "/engagements/prosus-og": {
    "groups": {
     "Naspers Domains": {
