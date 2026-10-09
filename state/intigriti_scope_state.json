@@ -5400,6 +5400,41 @@
      "tier": "Tier 2",
      "type": "Url"
     },
+    "Url|https://chs.cosmos.esa.int/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://chs.cosmos.esa.int/",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://cosmos.esa.int": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://cosmos.esa.int",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://datalabs.esa.int/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://datalabs.esa.int/",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://euclid.dataspace.esa.int/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://euclid.dataspace.esa.int/",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://science.esa.int": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://science.esa.int",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
     "Url|industrialreturn.esa.int": {
      "desc": "da39a3ee5e6b",
      "endpoint": "industrialreturn.esa.int",
