@@ -22078,174 +22078,166 @@
   },
   "/engagements/gapinc": {
    "groups": {
-    "In Scope Mobile Targets ": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": null
-    },
-    "In Scope Web Targets ": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": null
-    },
-    "Out of Scope": {
+    "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "desc": "da39a3ee5e6b",
      "in": false,
+     "reward": null
+    },
+    "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": null
+    },
+    "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
      "reward": null
     }
    },
    "name": "Gap Inc.",
    "targets": {
-    "android|Gap (Android) ": {
+    "android|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "android",
      "desc": "da39a3ee5e6b",
-     "group": "In Scope Mobile Targets ",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": true,
-     "name": "Gap (Android) ",
-     "uri": "https://play.google.com/store/apps/details?id=com.skava.hybridapp.gap&hl=en_US&gl=US"
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
     },
-    "api|https://api.gap.com/": {
+    "api|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "api",
      "desc": "da39a3ee5e6b",
-     "group": "In Scope Web Targets ",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": true,
-     "name": "https://api.gap.com/",
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "uri": ""
     },
-    "ios|Gap (iOS)": {
+    "ios|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "ios",
      "desc": "da39a3ee5e6b",
-     "group": "In Scope Mobile Targets ",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": true,
-     "name": "Gap (iOS)",
-     "uri": "https://apps.apple.com/us/app/gap/id326347260"
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
     },
-    "website| *.gap.com": {
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
-     "group": "In Scope Web Targets ",
-     "in": true,
-     "name": " *.gap.com",
-     "uri": "https://gap.com"
-    },
-    "website|*.gap.com.mx": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": false,
-     "name": "*.gap.com.mx",
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "uri": ""
     },
-    "website|*.gaptech.com": {
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
-     "in": false,
-     "name": "*.gaptech.com",
-     "uri": ""
-    },
-    "website|*.liverpool.com.*": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
-     "in": false,
-     "name": "*.liverpool.com.*",
-     "uri": ""
-    },
-    "website|Intermix": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
-     "in": false,
-     "name": "Intermix",
-     "uri": ""
-    },
-    "website|Janie & Jack ": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
-     "in": false,
-     "name": "Janie & Jack ",
-     "uri": ""
-    },
-    "website|Recruiting - jobs.gapinc.com, careersblog.gapinc.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
-     "in": false,
-     "name": "Recruiting - jobs.gapinc.com, careersblog.gapinc.com",
-     "uri": ""
-    },
-    "website|equality.gapinc.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
-     "in": false,
-     "name": "equality.gapinc.com",
-     "uri": ""
-    },
-    "website|https://api.gap.com/credit_cards/v1/?external_customer_id=": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Web Targets ",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": true,
-     "name": "https://api.gap.com/credit_cards/v1/?external_customer_id=",
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "uri": ""
     },
-    "website|https://gap.com/checkout": {
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
-     "group": "In Scope Web Targets ",
-     "in": true,
-     "name": "https://gap.com/checkout",
-     "uri": "https://gap.com/checkout"
-    },
-    "website|https://gap.com/shopping-bag": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Web Targets ",
-     "in": true,
-     "name": "https://gap.com/shopping-bag",
-     "uri": "https://gap.com/shopping-bag"
-    },
-    "website|https://secure-www.gap.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Web Targets ",
-     "in": true,
-     "name": "https://secure-www.gap.com",
-     "uri": ""
-    },
-    "website|https://secure-www.gap.com/checkout/place-order/": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Web Targets ",
-     "in": true,
-     "name": "https://secure-www.gap.com/checkout/place-order/",
-     "uri": "https://secure-www.gap.com/checkout/place-order/"
-    },
-    "website|https://secure-www.gap.com/checkout/place-order/xapi/place-order-action": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Web Targets ",
-     "in": true,
-     "name": "https://secure-www.gap.com/checkout/place-order/xapi/place-order-action",
-     "uri": ""
-    },
-    "website|https://secure-www.gap.com/checkout/place-order/xapi/update-payment-method-action": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Web Targets ",
-     "in": true,
-     "name": "https://secure-www.gap.com/checkout/place-order/xapi/update-payment-method-action",
-     "uri": ""
-    },
-    "website|investors.gapinc.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": false,
-     "name": "investors.gapinc.com",
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": false,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": false,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": false,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": false,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": false,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "uri": ""
     }
    }
