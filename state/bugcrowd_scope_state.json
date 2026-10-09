@@ -31693,6 +31693,232 @@
     }
    }
   },
+  "/engagements/lululemon": {
+   "groups": {
+    "AEM Systems": {
+     "desc": "da39a3ee5e6b",
+     "in": false,
+     "reward": null
+    },
+    "International e-commerce sites": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 800000,
+      "p1MinCents": 600000,
+      "p2MaxCents": 500000,
+      "p2MinCents": 300000,
+      "p3MaxCents": null,
+      "p3MinCents": null,
+      "p4MaxCents": null,
+      "p4MinCents": null
+     }
+    },
+    "North America e-commerce sites": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 800000,
+      "p1MinCents": 600000,
+      "p2MaxCents": 500000,
+      "p2MinCents": 300000,
+      "p3MaxCents": null,
+      "p3MinCents": null,
+      "p4MaxCents": null,
+      "p4MinCents": null
+     }
+    },
+    "Out of Scope": {
+     "desc": "da39a3ee5e6b",
+     "in": false,
+     "reward": null
+    },
+    "lululemon Studio": {
+     "desc": "da39a3ee5e6b",
+     "in": false,
+     "reward": null
+    }
+   },
+   "name": "lululemon",
+   "targets": {
+    "ios|Lululemon Mobile App - iOS": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "North America e-commerce sites",
+     "in": true,
+     "name": "Lululemon Mobile App - iOS",
+     "uri": "https://apps.apple.com/us/app/lululemon/id920098546"
+    },
+    "other|*.lululemon.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "North America e-commerce sites",
+     "in": true,
+     "name": "*.lululemon.com",
+     "uri": ""
+    },
+    "website|*.lululemon.cn": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "*.lululemon.cn",
+     "uri": ""
+    },
+    "website|*.lululemon.me": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "*.lululemon.me",
+     "uri": "https://www.lululemon.me"
+    },
+    "website|AEM - Assets": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "AEM Systems",
+     "in": false,
+     "name": "AEM - Assets",
+     "uri": ""
+    },
+    "website|AEM - Sites": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "AEM Systems",
+     "in": false,
+     "name": "AEM - Sites",
+     "uri": ""
+    },
+    "website|careers.lululemon.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "careers.lululemon.com",
+     "uri": "https://careers.lululemon.com/"
+    },
+    "website|http://www.lululemon.co.jp": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "International e-commerce sites",
+     "in": true,
+     "name": "http://www.lululemon.co.jp",
+     "uri": "https://www.lululemon.co.jp/"
+    },
+    "website|http://www.lululemon.co.kr": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "International e-commerce sites",
+     "in": true,
+     "name": "http://www.lululemon.co.kr",
+     "uri": "http://www.lululemon.co.kr/"
+    },
+    "website|https://fr.shop.lululemon.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "https://fr.shop.lululemon.com",
+     "uri": "https://fr.shop.lululemon.com"
+    },
+    "website|https://info.lululemon.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "AEM Systems",
+     "in": false,
+     "name": "https://info.lululemon.com",
+     "uri": "https://info.lululemon.com"
+    },
+    "website|https://pnimages.lululemon.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "AEM Systems",
+     "in": false,
+     "name": "https://pnimages.lululemon.com",
+     "uri": "https://pnimage.lululemon.com"
+    },
+    "website|https://www.eu.lululemon.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "International e-commerce sites",
+     "in": true,
+     "name": "https://www.eu.lululemon.com",
+     "uri": "https://www.eu.lululemon.com/"
+    },
+    "website|https://www.lululemon.co.nz": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "International e-commerce sites",
+     "in": true,
+     "name": "https://www.lululemon.co.nz",
+     "uri": "https://www.lululemon.co.nz/"
+    },
+    "website|https://www.lululemon.co.uk": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "International e-commerce sites",
+     "in": true,
+     "name": "https://www.lululemon.co.uk",
+     "uri": "https://www.lululemon.co.uk/"
+    },
+    "website|https://www.lululemon.com.au": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "International e-commerce sites",
+     "in": true,
+     "name": "https://www.lululemon.com.au",
+     "uri": "https://www.lululemon.com.au/  "
+    },
+    "website|https://www.lululemon.com.hk": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "International e-commerce sites",
+     "in": true,
+     "name": "https://www.lululemon.com.hk",
+     "uri": "https://www.lululemon.com.hk/"
+    },
+    "website|https://www.lululemon.de": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "International e-commerce sites",
+     "in": true,
+     "name": "https://www.lululemon.de",
+     "uri": "https://www.lululemon.de/"
+    },
+    "website|https://www.lululemon.es": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "International e-commerce sites",
+     "in": true,
+     "name": "https://www.lululemon.es",
+     "uri": "https://www.lululemon.es/ "
+    },
+    "website|https://www.lululemon.fr": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "International e-commerce sites",
+     "in": true,
+     "name": "https://www.lululemon.fr",
+     "uri": "https://www.lululemon.fr/"
+    },
+    "website|https://www.mirror.co": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "lululemon Studio",
+     "in": false,
+     "name": "https://www.mirror.co",
+     "uri": "https://www.mirror.co/"
+    },
+    "website|shop.lululemon.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "North America e-commerce sites",
+     "in": true,
+     "name": "shop.lululemon.com",
+     "uri": "https://shop.lululemon.com"
+    }
+   }
+  },
   "/engagements/lumenvdp": {
    "groups": {
     "In Scope": {
