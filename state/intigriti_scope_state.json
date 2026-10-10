@@ -27660,6 +27660,20 @@
      "tier": "Tier 2",
      "type": "Url"
     },
+    "Url|community-dev.dropbox.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "community-dev.dropbox.com",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|community-stage.dropbox.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "community-stage.dropbox.com",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
     "Url|community.dropbox.com": {
      "desc": "da39a3ee5e6b",
      "endpoint": "community.dropbox.com",
