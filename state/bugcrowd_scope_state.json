@@ -4826,10 +4826,71 @@
       "p4MaxCents": 10000,
       "p4MinCents": 10000
      }
+    },
+    "Out of scope": {
+     "desc": "da39a3ee5e6b",
+     "in": false,
+     "reward": null
     }
    },
    "name": "AI | Apps+ Marketplace Bug Bounty Program",
    "targets": {
+    "website|Third-party services used by Apps+ (Atlassian, Cloudflare, Google, OpenAI, Zoom, Sentry)": {
+     "cat": "website",
+     "desc": "56f74a3f82b4",
+     "group": "Out of scope",
+     "in": false,
+     "name": "Third-party services used by Apps+ (Atlassian, Cloudflare, Google, OpenAI, Zoom, Sentry)",
+     "uri": ""
+    },
+    "website|appsplus.co": {
+     "cat": "website",
+     "desc": "bb2168740fb8",
+     "group": "Out of scope",
+     "in": false,
+     "name": "appsplus.co",
+     "uri": "https://appsplus.co"
+    },
+    "website|broken-links.appsplus.co": {
+     "cat": "website",
+     "desc": "40d75f42ac40",
+     "group": "Out of scope",
+     "in": false,
+     "name": "broken-links.appsplus.co",
+     "uri": "https://broken-links.appsplus.co"
+    },
+    "website|countdown-timer.appsplus.co": {
+     "cat": "website",
+     "desc": "40d75f42ac40",
+     "group": "Out of scope",
+     "in": false,
+     "name": "countdown-timer.appsplus.co",
+     "uri": "https://countdown-timer.appsplus.co"
+    },
+    "website|docs.appsplus.co": {
+     "cat": "website",
+     "desc": "96c67e822100",
+     "group": "Out of scope",
+     "in": false,
+     "name": "docs.appsplus.co",
+     "uri": "https://docs.appsplus.co"
+    },
+    "website|gender-bias.appsplus.co": {
+     "cat": "website",
+     "desc": "40d75f42ac40",
+     "group": "Out of scope",
+     "in": false,
+     "name": "gender-bias.appsplus.co",
+     "uri": "https://gender-bias.appsplus.co"
+    },
+    "website|go.appsplus.co": {
+     "cat": "website",
+     "desc": "96c67e822100",
+     "group": "Out of scope",
+     "in": false,
+     "name": "go.appsplus.co",
+     "uri": "https://go.appsplus.co"
+    },
     "website|https://marketplace.atlassian.com/apps/1227541/ai-badges-for-confluence?hosting=cloud": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
@@ -5021,6 +5082,102 @@
      "in": true,
      "name": "https://marketplace.atlassian.com/apps/1237726/ai-charts-for-confluence?hosting=cloud",
      "uri": "https://marketplace.atlassian.com/apps/1237726/ai-charts-for-confluence?hosting=cloud"
+    },
+    "website|incoming-links.appsplus.co": {
+     "cat": "website",
+     "desc": "40d75f42ac40",
+     "group": "Out of scope",
+     "in": false,
+     "name": "incoming-links.appsplus.co",
+     "uri": "https://incoming-links.appsplus.co"
+    },
+    "website|panel-macro.appsplus.co": {
+     "cat": "website",
+     "desc": "40d75f42ac40",
+     "group": "Out of scope",
+     "in": false,
+     "name": "panel-macro.appsplus.co",
+     "uri": "https://panel-macro.appsplus.co"
+    },
+    "website|search-results.appsplus.co": {
+     "cat": "website",
+     "desc": "40d75f42ac40",
+     "group": "Out of scope",
+     "in": false,
+     "name": "search-results.appsplus.co",
+     "uri": "https://search-results.appsplus.co"
+    },
+    "website|shortlinks.appsplus.co": {
+     "cat": "website",
+     "desc": "40d75f42ac40",
+     "group": "Out of scope",
+     "in": false,
+     "name": "shortlinks.appsplus.co",
+     "uri": "https://shortlinks.appsplus.co"
+    },
+    "website|speed-reader.appsplus.co": {
+     "cat": "website",
+     "desc": "40d75f42ac40",
+     "group": "Out of scope",
+     "in": false,
+     "name": "speed-reader.appsplus.co",
+     "uri": "https://speed-reader.appsplus.co"
+    },
+    "website|support.appsplus.co": {
+     "cat": "website",
+     "desc": "96c67e822100",
+     "group": "Out of scope",
+     "in": false,
+     "name": "support.appsplus.co",
+     "uri": "https://support.appsplus.co"
+    },
+    "website|tabs.appsplus.co": {
+     "cat": "website",
+     "desc": "40d75f42ac40",
+     "group": "Out of scope",
+     "in": false,
+     "name": "tabs.appsplus.co",
+     "uri": "https://tabs.appsplus.co"
+    },
+    "website|tag-cloud.appsplus.co": {
+     "cat": "website",
+     "desc": "40d75f42ac40",
+     "group": "Out of scope",
+     "in": false,
+     "name": "tag-cloud.appsplus.co",
+     "uri": "https://tag-cloud.appsplus.co"
+    },
+    "website|update-this.appsplus.co": {
+     "cat": "website",
+     "desc": "40d75f42ac40",
+     "group": "Out of scope",
+     "in": false,
+     "name": "update-this.appsplus.co",
+     "uri": "https://update-this.appsplus.co"
+    },
+    "website|word-count.appsplus.co": {
+     "cat": "website",
+     "desc": "40d75f42ac40",
+     "group": "Out of scope",
+     "in": false,
+     "name": "word-count.appsplus.co",
+     "uri": "https://word-count.appsplus.co"
+    },
+    "website|www.appsplus.co": {
+     "cat": "website",
+     "desc": "96c67e822100",
+     "group": "Out of scope",
+     "in": false,
+     "name": "www.appsplus.co",
+     "uri": "https://www.appsplus.co"
+    },
+    "website|zoom-recordings.appsplus.co": {
+     "cat": "website",
+     "desc": "40d75f42ac40",
+     "group": "Out of scope",
+     "in": false,
+     "name": "zoom-recordings.appsplus.co",
+     "uri": "https://zoom-recordings.appsplus.co"
     }
    }
   },
