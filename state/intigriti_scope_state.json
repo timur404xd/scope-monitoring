@@ -3961,6 +3961,13 @@
      "tier": "Tier 1",
      "type": "Other"
     },
+    "Other|ripe[1-100].ripe.net": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "ripe[1-100].ripe.net",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Other"
+    },
     "Url|193.0.0.160/27": {
      "desc": "da39a3ee5e6b",
      "endpoint": "193.0.0.160/27",
@@ -3996,9 +4003,9 @@
      "tier": "Tier 1",
      "type": "Url"
     },
-    "Url|exams.ripe.net": {
+    "Url|https://exams.ripe.net": {
      "desc": "da39a3ee5e6b",
-     "endpoint": "exams.ripe.net",
+     "endpoint": "https://exams.ripe.net",
      "in": false,
      "tier": "Out Of Scope",
      "type": "Url"
@@ -4011,17 +4018,10 @@
      "type": "Url"
     },
     "Url|lirportal.ripe.net": {
-     "desc": "7bab03ab56e2",
+     "desc": "12cb45a42cf3",
      "endpoint": "lirportal.ripe.net",
      "in": true,
      "tier": "Tier 1",
-     "type": "Url"
-    },
-    "Url|ripe(1to87).ripe.net": {
-     "desc": "da39a3ee5e6b",
-     "endpoint": "ripe(1to87).ripe.net",
-     "in": false,
-     "tier": "Out Of Scope",
      "type": "Url"
     },
     "Wildcard|*.anchors.atlas.ripe.net": {
@@ -4045,9 +4045,9 @@
      "tier": "Tier 2",
      "type": "Wildcard"
     },
-    "Wildcard|*aso*ripe.net": {
+    "Wildcard|*aso.ripe.net": {
      "desc": "da39a3ee5e6b",
-     "endpoint": "*aso*ripe.net",
+     "endpoint": "*aso.ripe.net",
      "in": false,
      "tier": "Out Of Scope",
      "type": "Wildcard"
