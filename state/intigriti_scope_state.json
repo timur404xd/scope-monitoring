@@ -3996,9 +3996,9 @@
      "tier": "Out Of Scope",
      "type": "Url"
     },
-    "Url|access.ripe.net": {
+    "Url|https://access.ripe.net": {
      "desc": "0e9f468d9713",
-     "endpoint": "access.ripe.net",
+     "endpoint": "https://access.ripe.net",
      "in": true,
      "tier": "Tier 1",
      "type": "Url"
