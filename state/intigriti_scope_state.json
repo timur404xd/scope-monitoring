@@ -4052,9 +4052,9 @@
      "tier": "Out Of Scope",
      "type": "Wildcard"
     },
-    "Wildcard|*nro*ripe.net": {
+    "Wildcard|*nro.ripe.net": {
      "desc": "da39a3ee5e6b",
-     "endpoint": "*nro*ripe.net",
+     "endpoint": "*nro.ripe.net",
      "in": false,
      "tier": "Out Of Scope",
      "type": "Wildcard"
