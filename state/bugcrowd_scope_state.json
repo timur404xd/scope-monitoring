@@ -24364,6 +24364,66 @@
     }
    }
   },
+  "/engagements/higgsfield-ai-vdp-pro": {
+   "groups": {
+    "In Scope": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": null
+    }
+   },
+   "name": "Higgsfield AI Vulnerability Disclosure Engagement",
+   "targets": {
+    "api|https://dash.higgsfield.ai/": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "https://dash.higgsfield.ai/",
+     "uri": "https://dash.higgsfield.ai/"
+    },
+    "api|https://open.higgsfield.ai/": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "https://open.higgsfield.ai/",
+     "uri": "https://open.higgsfield.ai/"
+    },
+    "website|https://creators.higgsfield.ai": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "https://creators.higgsfield.ai",
+     "uri": "https://creators.higgsfield.ai"
+    },
+    "website|https://fnf-api-gw.higgsfield.ai": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "https://fnf-api-gw.higgsfield.ai",
+     "uri": "https://fnf-api-gw.higgsfield.ai"
+    },
+    "website|https://higgsfield.ai": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "https://higgsfield.ai",
+     "uri": "https://higgsfield.ai"
+    },
+    "website|https://mcp.higgsfield.ai": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "https://mcp.higgsfield.ai",
+     "uri": "https://mcp.higgsfield.ai"
+    }
+   }
+  },
   "/engagements/home-depot-vdp-pro": {
    "groups": {
     "In Scope": {
