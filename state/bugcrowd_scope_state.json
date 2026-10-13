@@ -11035,6 +11035,14 @@
      "in": false,
      "name": "business-old.bolt.eu",
      "uri": ""
+    },
+    "website|new-food.bolt.eu": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Web",
+     "in": true,
+     "name": "new-food.bolt.eu",
+     "uri": "https://new-food.bolt.eu"
     }
    }
   },
@@ -32714,6 +32722,14 @@
      "in": true,
      "name": "Async and Planning Poker sizing for Jira- https://marketplace.atlassian.com/apps/1223655/magic-estimations-async-and-planning-poker-sizing-for-jira?hosting=cloud&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1223655/magic-estimations-async-and-planning-poker-sizing-for-jira?hosting=cloud&tab=overview"
+    },
+    "website|app.magicestimations.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "app.magicestimations.com",
+     "uri": "https://app.magicestimations.com"
     }
    }
   },
