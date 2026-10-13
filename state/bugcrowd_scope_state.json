@@ -51018,6 +51018,42 @@
     }
    }
   },
+  "/engagements/savvas-vdp-pro": {
+   "groups": {
+    "In Scope": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": null
+    }
+   },
+   "name": "Savvas Vulnerability Disclosure Engagement",
+   "targets": {
+    "website|*.pk12ls.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "*.pk12ls.com",
+     "uri": "https://*.pk12ls.com"
+    },
+    "website|*.savvasrealize.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "*.savvasrealize.com",
+     "uri": "https://*savvasrealize.com"
+    },
+    "website|*savvas.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "*savvas.com",
+     "uri": "http://*savvas.com"
+    }
+   }
+  },
   "/engagements/sba-vdp": {
    "groups": {
     "In Scope Targets": {
