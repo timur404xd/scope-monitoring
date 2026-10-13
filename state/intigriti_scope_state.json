@@ -9982,6 +9982,13 @@
   },
   "5ae36363-b875-4a56-9ecc-ebb7db2fa530": {
    "assets": {
+    "Other|https://github.com/coveo, https://github.com/coveooss, https://github.com/coveord": {
+     "desc": "6f8c9d612474",
+     "endpoint": "https://github.com/coveo, https://github.com/coveooss, https://github.com/coveord",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Other"
+    },
     "Url|analytics.cloud.coveo.com": {
      "desc": "da39a3ee5e6b",
      "endpoint": "analytics.cloud.coveo.com",
