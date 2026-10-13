@@ -21712,16 +21712,30 @@
   },
   "/engagements/fivetran-mbb-og": {
    "groups": {
-    "In Scope Targets": {
+    "In Scope Targets: Fivetran": {
      "desc": "da39a3ee5e6b",
      "in": true,
      "reward": {
       "p1MaxCents": 750000,
-      "p1MinCents": 250000,
+      "p1MinCents": 500000,
       "p2MaxCents": 250000,
-      "p2MinCents": 100000,
-      "p3MaxCents": 100000,
-      "p3MinCents": 50000,
+      "p2MinCents": 75000,
+      "p3MaxCents": 50000,
+      "p3MinCents": 10000,
+      "p4MaxCents": null,
+      "p4MinCents": null
+     }
+    },
+    "In Scope Targets: dbt": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 750000,
+      "p1MinCents": 500000,
+      "p2MaxCents": 250000,
+      "p2MinCents": 75000,
+      "p3MaxCents": 50000,
+      "p3MinCents": 10000,
       "p4MaxCents": null,
       "p4MinCents": null
      }
@@ -21750,10 +21764,18 @@
      "name": "Social engineering against Fivetran Support or Fivetran Employees",
      "uri": ""
     },
+    "other|it-fivetran.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets: Fivetran",
+     "in": true,
+     "name": "it-fivetran.com",
+     "uri": "https://it-fivetran.com"
+    },
     "website|*.fivetran.com": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
+     "group": "In Scope Targets: Fivetran",
      "in": true,
      "name": "*.fivetran.com",
      "uri": "https://fivetran.com/login"
@@ -21773,6 +21795,30 @@
      "in": false,
      "name": "community-stage.fivetran.com",
      "uri": "https://community-stage.fivetran.com"
+    },
+    "website|https://*.dbt.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets: dbt",
+     "in": true,
+     "name": "https://*.dbt.com",
+     "uri": "https://*.dbt.com"
+    },
+    "website|https://*.dbtlabs.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets: dbt",
+     "in": true,
+     "name": "https://*.dbtlabs.com",
+     "uri": "https://*.dbtlabs.com"
+    },
+    "website|https://*.getdbt.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets: dbt",
+     "in": true,
+     "name": "https://*.getdbt.com",
+     "uri": "https://*.getdbt.com"
     },
     "website|shop.fivetran.com": {
      "cat": "website",
