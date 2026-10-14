@@ -52864,51 +52864,6 @@
     }
    }
   },
-  "/engagements/smartchain-mbb-og": {
-   "groups": {
-    "In scope": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 1200000,
-      "p1MinCents": 500000,
-      "p2MaxCents": 600000,
-      "p2MinCents": 400000,
-      "p3MaxCents": 85000,
-      "p3MinCents": 60000,
-      "p4MaxCents": 25000,
-      "p4MinCents": 20000
-     }
-    }
-   },
-   "name": "Electroneum Smart Chain (ETN-SC) \u2014 EVM-Compatible Blockchain",
-   "targets": {
-    "other|Smartchain Blockchain": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope",
-     "in": true,
-     "name": "Smartchain Blockchain",
-     "uri": "https://github.com/electroneum/electroneum-sc/"
-    },
-    "website|Smartchain Block Explorer": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope",
-     "in": true,
-     "name": "Smartchain Block Explorer",
-     "uri": "https://blockexplorer.electroneum.com"
-    },
-    "website|Smartchain Staging Block Explorer": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope",
-     "in": true,
-     "name": "Smartchain Staging Block Explorer",
-     "uri": "https://testnet-blockexplorer.electroneum.com"
-    }
-   }
-  },
   "/engagements/smartthings": {
    "groups": {
     "In scope": {
@@ -54627,6 +54582,112 @@
      "in": true,
      "name": "https://marketplace.atlassian.com/apps/27447/table-filter-and-charts-for-confluence?hosting=datacenter",
      "uri": "https://marketplace.atlassian.com/apps/27447/table-filter-and-charts-for-confluence?hosting=datacenter"
+    }
+   }
+  },
+  "/engagements/stonikbyte": {
+   "groups": {
+    "In Scope": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 150000,
+      "p1MinCents": 150000,
+      "p2MaxCents": 90000,
+      "p2MinCents": 90000,
+      "p3MaxCents": 30000,
+      "p3MinCents": 30000,
+      "p4MaxCents": 10000,
+      "p4MinCents": 10000
+     }
+    },
+    "Out of Scope": {
+     "desc": "da39a3ee5e6b",
+     "in": false,
+     "reward": null
+    }
+   },
+   "name": "StonikByte",
+   "targets": {
+    "website|Cumulative Flow Diagram - https://marketplace.atlassian.com/apps/1752044660/cumulative-flow-diagram-cfd-charts-for-agile-scrum-kanban?hosting=cloud&tab=overview": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Cumulative Flow Diagram - https://marketplace.atlassian.com/apps/1752044660/cumulative-flow-diagram-cfd-charts-for-agile-scrum-kanban?hosting=cloud&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1752044660/cumulative-flow-diagram-cfd-charts-for-agile-scrum-kanban?hosting=cloud&tab=overview"
+    },
+    "website|DevOps Gadgets for Jira (Insights from GitHub & BB) - https://marketplace.atlassian.com/apps/1237211/devops-gadgets-for-jira-insights-from-github-bb?hosting=cloud&tab=overview": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "DevOps Gadgets for Jira (Insights from GitHub & BB) - https://marketplace.atlassian.com/apps/1237211/devops-gadgets-for-jira-insights-from-github-bb?hosting=cloud&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1237211/devops-gadgets-for-jira-insights-from-github-bb?hosting=cloud&tab=overview"
+    },
+    "website|Documents for Jira - Cloud - https://marketplace.atlassian.com/apps/1211062/documents-for-jira?hosting=cloud&tab=overview": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Documents for Jira - Cloud - https://marketplace.atlassian.com/apps/1211062/documents-for-jira?hosting=cloud&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1211062/documents-for-jira?hosting=cloud&tab=overview"
+    },
+    "website|Great Gadgets for Confluence Cloud | https://marketplace.atlassian.com/apps/1226592/great-gadgets-for-confluence-cloud?hosting=cloud&tab=overview": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Great Gadgets for Confluence Cloud | https://marketplace.atlassian.com/apps/1226592/great-gadgets-for-confluence-cloud?hosting=cloud&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1226592/great-gadgets-for-confluence-cloud?hosting=cloud&tab=overview"
+    },
+    "website|Great Gadgets for Jira Cloud - https://marketplace.atlassian.com/apps/1216564/great-gadgets-for-jira-cloud?hosting=cloud&tab=overview": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Great Gadgets for Jira Cloud - https://marketplace.atlassian.com/apps/1216564/great-gadgets-for-jira-cloud?hosting=cloud&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1216564/great-gadgets-for-jira-cloud?hosting=cloud&tab=overview"
+    },
+    "website|Non- Atlassian Marketplace Apps": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "Non- Atlassian Marketplace Apps",
+     "uri": ""
+    },
+    "website|Project Team for Jira Cloud | https://marketplace.atlassian.com/apps/1217117/project-team-for-jira-cloud?hosting=cloud&tab=overview": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Project Team for Jira Cloud | https://marketplace.atlassian.com/apps/1217117/project-team-for-jira-cloud?hosting=cloud&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1217117/project-team-for-jira-cloud?hosting=cloud&tab=overview"
+    },
+    "website|Velocity & Throughput Charts for Agile, Scrum, Kanban - https://marketplace.atlassian.com/apps/607387265/velocity-throughput-charts-for-agile-scrum-kanban?hosting=cloud&tab=overview": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Velocity & Throughput Charts for Agile, Scrum, Kanban - https://marketplace.atlassian.com/apps/607387265/velocity-throughput-charts-for-agile-scrum-kanban?hosting=cloud&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/607387265/velocity-throughput-charts-for-agile-scrum-kanban?hosting=cloud&tab=overview"
+    },
+    "website|https://marketplace.atlassian.com/apps/2077076462/wip-run-wip-aging-charts-for-scrum-kanban-scaled-agile?hosting=cloud&tab=overview": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "https://marketplace.atlassian.com/apps/2077076462/wip-run-wip-aging-charts-for-scrum-kanban-scaled-agile?hosting=cloud&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/2077076462/wip-run-wip-aging-charts-for-scrum-kanban-scaled-agile?hosting=cloud&tab=overview"
+    },
+    "website|https://marketplace.atlassian.com/apps/375826955/burndown-burnup-charts-with-forecast-for-agile-teams?hosting=cloud&tab=overview": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "https://marketplace.atlassian.com/apps/375826955/burndown-burnup-charts-with-forecast-for-agile-teams?hosting=cloud&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/375826955/burndown-burnup-charts-with-forecast-for-agile-teams?hosting=cloud&tab=overview"
     }
    }
   },
