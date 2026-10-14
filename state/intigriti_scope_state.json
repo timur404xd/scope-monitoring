@@ -2345,27 +2345,6 @@
      "tier": "Tier 2",
      "type": "Url"
     },
-    "Url|api.workbox.dk": {
-     "desc": "a6363bd50732",
-     "endpoint": "api.workbox.dk",
-     "in": true,
-     "tier": "Tier 2",
-     "type": "Url"
-    },
-    "Url|app.workbox.dk": {
-     "desc": "96bb8f93c7a5",
-     "endpoint": "app.workbox.dk",
-     "in": true,
-     "tier": "Tier 2",
-     "type": "Url"
-    },
-    "Url|authz.workbox.dk": {
-     "desc": "081af363b5c2",
-     "endpoint": "authz.workbox.dk",
-     "in": true,
-     "tier": "Tier 2",
-     "type": "Url"
-    },
     "Url|autointerface.stag.visma.net": {
      "desc": "a8cc0a87e420",
      "endpoint": "autointerface.stag.visma.net",
