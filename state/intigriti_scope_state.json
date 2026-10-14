@@ -624,6 +624,56 @@
     "tooling": 5
    }
   },
+  "07ee5c62-f629-48f1-a789-b7f8d899f226": {
+   "assets": {
+    "Url|circleout.preprod.covantis.build": {
+     "desc": "e899604a6d76",
+     "endpoint": "circleout.preprod.covantis.build",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Url"
+    },
+    "Url|doccreate.preprod.covantis.build": {
+     "desc": "1634c0585cd2",
+     "endpoint": "doccreate.preprod.covantis.build",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|quickdocs.preprod.covantis.build": {
+     "desc": "67b416518d64",
+     "endpoint": "quickdocs.preprod.covantis.build",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|verify.preprod.covantis.build": {
+     "desc": "da1673213927",
+     "endpoint": "verify.preprod.covantis.build",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|voyages.one.preprod.staging.covantis-nonprod.net": {
+     "desc": "b8040034b360",
+     "endpoint": "voyages.one.preprod.staging.covantis-nonprod.net",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    }
+   },
+   "name": "Covantis",
+   "program": {
+    "bounty": "100.0 - 10000.0 USD",
+    "confidentiality": "InviteOnly"
+   },
+   "rules": {
+    "desc": "a65558e5f780",
+    "safe_harbour": true,
+    "testing": "21ce59b2c31a",
+    "tooling": null
+   }
+  },
   "0acb1a74-c545-4941-ae57-7ca5fad9d449": {
    "assets": {
     "Other|Firmware: Mali Command Stream Frontend (CSF) Firmware": {
