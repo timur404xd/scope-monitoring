@@ -5262,6 +5262,372 @@
     }
    }
   },
+  "/engagements/arlo": {
+   "groups": {
+    "All Other Production Arlo Targets": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 150000,
+      "p1MinCents": 100000,
+      "p2MaxCents": 50000,
+      "p2MinCents": 50000,
+      "p3MaxCents": 25000,
+      "p3MinCents": 10000,
+      "p4MaxCents": 5000,
+      "p4MinCents": 5000
+     }
+    },
+    "Arlo Devices": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 450000,
+      "p1MinCents": 300000,
+      "p2MaxCents": 150000,
+      "p2MinCents": 100000,
+      "p3MaxCents": 60000,
+      "p3MinCents": 40000,
+      "p4MaxCents": 10000,
+      "p4MinCents": 10000
+     }
+    },
+    "Non-production Environments (Dev/QA/CAT/Test/Staging)": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 75000,
+      "p1MinCents": 50000,
+      "p2MaxCents": 25000,
+      "p2MinCents": 25000,
+      "p3MaxCents": 5000,
+      "p3MinCents": 5000,
+      "p4MaxCents": 2500,
+      "p4MinCents": 2500
+     }
+    },
+    "Out of Scope Targets": {
+     "desc": "da39a3ee5e6b",
+     "in": false,
+     "reward": null
+    }
+   },
+   "name": "Arlo Cash Rewards",
+   "targets": {
+    "android|Arlo Safe Android App": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "Arlo Devices",
+     "in": true,
+     "name": "Arlo Safe Android App",
+     "uri": ""
+    },
+    "android|Arlo Secure Android App": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "Arlo Devices",
+     "in": true,
+     "name": "Arlo Secure Android App",
+     "uri": ""
+    },
+    "api|*streaming*.arlo.com": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope Targets",
+     "in": false,
+     "name": "*streaming*.arlo.com",
+     "uri": "https://*streaming*.arlo.com"
+    },
+    "api|cvrstreaming*.arlo.com": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope Targets",
+     "in": false,
+     "name": "cvrstreaming*.arlo.com",
+     "uri": ""
+    },
+    "api|https://*-prod.arlo.com": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "All Other Production Arlo Targets",
+     "in": true,
+     "name": "https://*-prod.arlo.com",
+     "uri": ""
+    },
+    "api|https://mcs.arlo.com": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "All Other Production Arlo Targets",
+     "in": true,
+     "name": "https://mcs.arlo.com",
+     "uri": ""
+    },
+    "api|https://myapi.arlo.com": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "All Other Production Arlo Targets",
+     "in": true,
+     "name": "https://myapi.arlo.com",
+     "uri": ""
+    },
+    "api|https://partnerapi.arlo.com": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "All Other Production Arlo Targets",
+     "in": true,
+     "name": "https://partnerapi.arlo.com",
+     "uri": "https://partnerapi.arlo.com"
+    },
+    "api|https://updates.arlo.com": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "All Other Production Arlo Targets",
+     "in": true,
+     "name": "https://updates.arlo.com",
+     "uri": ""
+    },
+    "ios|Arlo Safe iOS App": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "Arlo Devices",
+     "in": true,
+     "name": "Arlo Safe iOS App",
+     "uri": ""
+    },
+    "ios|Arlo Secure iOS App": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "Arlo Devices",
+     "in": true,
+     "name": "Arlo Secure iOS App",
+     "uri": ""
+    },
+    "iot|Arlo All-In-One Sensor (Home Security System)": {
+     "cat": "iot",
+     "desc": "da39a3ee5e6b",
+     "group": "Arlo Devices",
+     "in": true,
+     "name": "Arlo All-In-One Sensor (Home Security System)",
+     "uri": ""
+    },
+    "iot|Arlo Base Station": {
+     "cat": "iot",
+     "desc": "da39a3ee5e6b",
+     "group": "Arlo Devices",
+     "in": true,
+     "name": "Arlo Base Station",
+     "uri": ""
+    },
+    "iot|Arlo Cellular & Battery Backup (Home Security System)": {
+     "cat": "iot",
+     "desc": "da39a3ee5e6b",
+     "group": "Arlo Devices",
+     "in": true,
+     "name": "Arlo Cellular & Battery Backup (Home Security System)",
+     "uri": ""
+    },
+    "iot|Arlo Chime 2": {
+     "cat": "iot",
+     "desc": "da39a3ee5e6b",
+     "group": "Arlo Devices",
+     "in": true,
+     "name": "Arlo Chime 2",
+     "uri": ""
+    },
+    "iot|Arlo Essential 2 & 3 (indoor & outdoor camera, doorbell)": {
+     "cat": "iot",
+     "desc": "da39a3ee5e6b",
+     "group": "Arlo Devices",
+     "in": true,
+     "name": "Arlo Essential 2 & 3 (indoor & outdoor camera, doorbell)",
+     "uri": ""
+    },
+    "iot|Arlo Go v2": {
+     "cat": "iot",
+     "desc": "da39a3ee5e6b",
+     "group": "Arlo Devices",
+     "in": true,
+     "name": "Arlo Go v2",
+     "uri": ""
+    },
+    "iot|Arlo Home Security System": {
+     "cat": "iot",
+     "desc": "da39a3ee5e6b",
+     "group": "Arlo Devices",
+     "in": true,
+     "name": "Arlo Home Security System",
+     "uri": ""
+    },
+    "iot|Arlo Pro 3 Floodlight": {
+     "cat": "iot",
+     "desc": "da39a3ee5e6b",
+     "group": "Arlo Devices",
+     "in": true,
+     "name": "Arlo Pro 3 Floodlight",
+     "uri": ""
+    },
+    "iot|Arlo Pro 5S": {
+     "cat": "iot",
+     "desc": "da39a3ee5e6b",
+     "group": "Arlo Devices",
+     "in": true,
+     "name": "Arlo Pro 5S",
+     "uri": ""
+    },
+    "iot|Arlo Pro 6": {
+     "cat": "iot",
+     "desc": "da39a3ee5e6b",
+     "group": "Arlo Devices",
+     "in": true,
+     "name": "Arlo Pro 6",
+     "uri": ""
+    },
+    "iot|Arlo Pro SmartHub": {
+     "cat": "iot",
+     "desc": "da39a3ee5e6b",
+     "group": "Arlo Devices",
+     "in": true,
+     "name": "Arlo Pro SmartHub",
+     "uri": ""
+    },
+    "iot|Arlo Safe Button": {
+     "cat": "iot",
+     "desc": "da39a3ee5e6b",
+     "group": "Arlo Devices",
+     "in": true,
+     "name": "Arlo Safe Button",
+     "uri": ""
+    },
+    "iot|Arlo Ultra 2": {
+     "cat": "iot",
+     "desc": "da39a3ee5e6b",
+     "group": "Arlo Devices",
+     "in": true,
+     "name": "Arlo Ultra 2",
+     "uri": ""
+    },
+    "iot|Arlo Wire-Free Outdoor Siren (Home Security System)": {
+     "cat": "iot",
+     "desc": "da39a3ee5e6b",
+     "group": "Arlo Devices",
+     "in": true,
+     "name": "Arlo Wire-Free Outdoor Siren (Home Security System)",
+     "uri": ""
+    },
+    "iot|Arlo Wired Floodlight": {
+     "cat": "iot",
+     "desc": "da39a3ee5e6b",
+     "group": "Arlo Devices",
+     "in": true,
+     "name": "Arlo Wired Floodlight",
+     "uri": ""
+    },
+    "iot|Arlo Wireless Video Doorbell": {
+     "cat": "iot",
+     "desc": "da39a3ee5e6b",
+     "group": "Arlo Devices",
+     "in": true,
+     "name": "Arlo Wireless Video Doorbell",
+     "uri": ""
+    },
+    "other|*.arlo.com (subdomains impacting production customer-facing services)": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "All Other Production Arlo Targets",
+     "in": true,
+     "name": "*.arlo.com (subdomains impacting production customer-facing services)",
+     "uri": ""
+    },
+    "other|*.arloxcld.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "All Other Production Arlo Targets",
+     "in": true,
+     "name": "*.arloxcld.com",
+     "uri": ""
+    },
+    "website|*.arlocloud.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "All Other Production Arlo Targets",
+     "in": true,
+     "name": "*.arlocloud.com",
+     "uri": ""
+    },
+    "website|http://community.arlo.com/": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope Targets",
+     "in": false,
+     "name": "http://community.arlo.com/",
+     "uri": "http://community.arlo.com/"
+    },
+    "website|http://research.arlo.com/": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope Targets",
+     "in": false,
+     "name": "http://research.arlo.com/",
+     "uri": "http://research.arlo.com/"
+    },
+    "website|http://survey.arlo.com/": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope Targets",
+     "in": false,
+     "name": "http://survey.arlo.com/",
+     "uri": "http://survey.arlo.com/"
+    },
+    "website|https://*dev*.arlo.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Non-production Environments (Dev/QA/CAT/Test/Staging)",
+     "in": true,
+     "name": "https://*dev*.arlo.com",
+     "uri": ""
+    },
+    "website|https://*qa*.arlo.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Non-production Environments (Dev/QA/CAT/Test/Staging)",
+     "in": true,
+     "name": "https://*qa*.arlo.com",
+     "uri": ""
+    },
+    "website|https://beta.arlo.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "All Other Production Arlo Targets",
+     "in": true,
+     "name": "https://beta.arlo.com",
+     "uri": ""
+    },
+    "website|https://investor.arlo.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope Targets",
+     "in": false,
+     "name": "https://investor.arlo.com",
+     "uri": "https://investor.arlo.com"
+    },
+    "website|https://my.arlo.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "All Other Production Arlo Targets",
+     "in": true,
+     "name": "https://my.arlo.com",
+     "uri": "https://my.arlo.com"
+    },
+    "website|https://www.arlo.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "All Other Production Arlo Targets",
+     "in": true,
+     "name": "https://www.arlo.com",
+     "uri": "https://www.arlo.com"
+    }
+   }
+  },
   "/engagements/arlokudos": {
    "groups": {},
    "name": "Arlo Kudos Rewards",
@@ -54261,112 +54627,6 @@
      "in": true,
      "name": "https://marketplace.atlassian.com/apps/27447/table-filter-and-charts-for-confluence?hosting=datacenter",
      "uri": "https://marketplace.atlassian.com/apps/27447/table-filter-and-charts-for-confluence?hosting=datacenter"
-    }
-   }
-  },
-  "/engagements/stonikbyte": {
-   "groups": {
-    "In Scope": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 150000,
-      "p1MinCents": 150000,
-      "p2MaxCents": 90000,
-      "p2MinCents": 90000,
-      "p3MaxCents": 30000,
-      "p3MinCents": 30000,
-      "p4MaxCents": 10000,
-      "p4MinCents": 10000
-     }
-    },
-    "Out of Scope": {
-     "desc": "da39a3ee5e6b",
-     "in": false,
-     "reward": null
-    }
-   },
-   "name": "StonikByte",
-   "targets": {
-    "website|Cumulative Flow Diagram - https://marketplace.atlassian.com/apps/1752044660/cumulative-flow-diagram-cfd-charts-for-agile-scrum-kanban?hosting=cloud&tab=overview": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "Cumulative Flow Diagram - https://marketplace.atlassian.com/apps/1752044660/cumulative-flow-diagram-cfd-charts-for-agile-scrum-kanban?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1752044660/cumulative-flow-diagram-cfd-charts-for-agile-scrum-kanban?hosting=cloud&tab=overview"
-    },
-    "website|DevOps Gadgets for Jira (Insights from GitHub & BB) - https://marketplace.atlassian.com/apps/1237211/devops-gadgets-for-jira-insights-from-github-bb?hosting=cloud&tab=overview": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "DevOps Gadgets for Jira (Insights from GitHub & BB) - https://marketplace.atlassian.com/apps/1237211/devops-gadgets-for-jira-insights-from-github-bb?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1237211/devops-gadgets-for-jira-insights-from-github-bb?hosting=cloud&tab=overview"
-    },
-    "website|Documents for Jira - Cloud - https://marketplace.atlassian.com/apps/1211062/documents-for-jira?hosting=cloud&tab=overview": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "Documents for Jira - Cloud - https://marketplace.atlassian.com/apps/1211062/documents-for-jira?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1211062/documents-for-jira?hosting=cloud&tab=overview"
-    },
-    "website|Great Gadgets for Confluence Cloud | https://marketplace.atlassian.com/apps/1226592/great-gadgets-for-confluence-cloud?hosting=cloud&tab=overview": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "Great Gadgets for Confluence Cloud | https://marketplace.atlassian.com/apps/1226592/great-gadgets-for-confluence-cloud?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1226592/great-gadgets-for-confluence-cloud?hosting=cloud&tab=overview"
-    },
-    "website|Great Gadgets for Jira Cloud - https://marketplace.atlassian.com/apps/1216564/great-gadgets-for-jira-cloud?hosting=cloud&tab=overview": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "Great Gadgets for Jira Cloud - https://marketplace.atlassian.com/apps/1216564/great-gadgets-for-jira-cloud?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1216564/great-gadgets-for-jira-cloud?hosting=cloud&tab=overview"
-    },
-    "website|Non- Atlassian Marketplace Apps": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
-     "in": false,
-     "name": "Non- Atlassian Marketplace Apps",
-     "uri": ""
-    },
-    "website|Project Team for Jira Cloud | https://marketplace.atlassian.com/apps/1217117/project-team-for-jira-cloud?hosting=cloud&tab=overview": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "Project Team for Jira Cloud | https://marketplace.atlassian.com/apps/1217117/project-team-for-jira-cloud?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1217117/project-team-for-jira-cloud?hosting=cloud&tab=overview"
-    },
-    "website|Velocity & Throughput Charts for Agile, Scrum, Kanban - https://marketplace.atlassian.com/apps/607387265/velocity-throughput-charts-for-agile-scrum-kanban?hosting=cloud&tab=overview": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "Velocity & Throughput Charts for Agile, Scrum, Kanban - https://marketplace.atlassian.com/apps/607387265/velocity-throughput-charts-for-agile-scrum-kanban?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/607387265/velocity-throughput-charts-for-agile-scrum-kanban?hosting=cloud&tab=overview"
-    },
-    "website|https://marketplace.atlassian.com/apps/2077076462/wip-run-wip-aging-charts-for-scrum-kanban-scaled-agile?hosting=cloud&tab=overview": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/2077076462/wip-run-wip-aging-charts-for-scrum-kanban-scaled-agile?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/2077076462/wip-run-wip-aging-charts-for-scrum-kanban-scaled-agile?hosting=cloud&tab=overview"
-    },
-    "website|https://marketplace.atlassian.com/apps/375826955/burndown-burnup-charts-with-forecast-for-agile-teams?hosting=cloud&tab=overview": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/375826955/burndown-burnup-charts-with-forecast-for-agile-teams?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/375826955/burndown-burnup-charts-with-forecast-for-agile-teams?hosting=cloud&tab=overview"
     }
    }
   },
