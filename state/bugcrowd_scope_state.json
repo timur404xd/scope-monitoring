@@ -52864,51 +52864,6 @@
     }
    }
   },
-  "/engagements/smartchain-mbb-og": {
-   "groups": {
-    "In scope": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 1200000,
-      "p1MinCents": 500000,
-      "p2MaxCents": 600000,
-      "p2MinCents": 400000,
-      "p3MaxCents": 85000,
-      "p3MinCents": 60000,
-      "p4MaxCents": 25000,
-      "p4MinCents": 20000
-     }
-    }
-   },
-   "name": "Electroneum Smart Chain (ETN-SC) \u2014 EVM-Compatible Blockchain",
-   "targets": {
-    "other|Smartchain Blockchain": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope",
-     "in": true,
-     "name": "Smartchain Blockchain",
-     "uri": "https://github.com/electroneum/electroneum-sc/"
-    },
-    "website|Smartchain Block Explorer": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope",
-     "in": true,
-     "name": "Smartchain Block Explorer",
-     "uri": "https://blockexplorer.electroneum.com"
-    },
-    "website|Smartchain Staging Block Explorer": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope",
-     "in": true,
-     "name": "Smartchain Staging Block Explorer",
-     "uri": "https://testnet-blockexplorer.electroneum.com"
-    }
-   }
-  },
   "/engagements/smartthings": {
    "groups": {
     "In scope": {
