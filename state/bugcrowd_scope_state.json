@@ -33061,6 +33061,227 @@
     }
    }
   },
+  "/engagements/mallofemirates": {
+   "groups": {
+    "Mall of Emirates": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 250000,
+      "p1MinCents": 150000,
+      "p2MaxCents": 150000,
+      "p2MinCents": 120000,
+      "p3MaxCents": 75000,
+      "p3MinCents": 15000,
+      "p4MaxCents": null,
+      "p4MinCents": null
+     }
+    }
+   },
+   "name": "Majid Al Futtaim Properties",
+   "targets": {
+    "android|Belong by MAF (Android)": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "Mall of Emirates",
+     "in": true,
+     "name": "Belong by MAF (Android)",
+     "uri": "https://play.google.com/store/apps/details?id=com.maf.communities&hl=en-US"
+    },
+    "android|City Centre": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "Mall of Emirates",
+     "in": true,
+     "name": "City Centre",
+     "uri": "https://play.google.com/store/apps/details?id=com.belongi.citycenter&hl=en_IN"
+    },
+    "android|Mall of Egypt Android": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "Mall of Emirates",
+     "in": true,
+     "name": "Mall of Egypt Android",
+     "uri": "https://apps.apple.com/in/app/mall-of-egypt-official-app/id1441905105"
+    },
+    "android|Mall of the Emirates": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "Mall of Emirates",
+     "in": true,
+     "name": "Mall of the Emirates",
+     "uri": "https://play.google.com/store/search?q=mall+of+emirates&c=apps&hl=en_IN"
+    },
+    "android|https://play.google.com/store/apps/details?id=com.belongi.moe": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "Mall of Emirates",
+     "in": true,
+     "name": "https://play.google.com/store/apps/details?id=com.belongi.moe",
+     "uri": "https://play.google.com/store/apps/details?id=com.belongi.moe"
+    },
+    "api|https://api.mafshoppingmalls.com": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "Mall of Emirates",
+     "in": true,
+     "name": "https://api.mafshoppingmalls.com",
+     "uri": "https://api.mafshoppingmalls.com"
+    },
+    "api|https://api.mafshoppingmalls.com/": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "Mall of Emirates",
+     "in": true,
+     "name": "https://api.mafshoppingmalls.com/",
+     "uri": "https://api.mafshoppingmalls.com/"
+    },
+    "api|https://maf-properties-prod.apigee.net": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "Mall of Emirates",
+     "in": true,
+     "name": "https://maf-properties-prod.apigee.net",
+     "uri": "https://maf-properties-prod.apigee.net"
+    },
+    "api|https://smbu-api.maf.ae/": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "Mall of Emirates",
+     "in": true,
+     "name": "https://smbu-api.maf.ae/",
+     "uri": "https://smbu-api.maf.ae/"
+    },
+    "ios|Belong by MAF (iOS)": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "Mall of Emirates",
+     "in": true,
+     "name": "Belong by MAF (iOS)",
+     "uri": "https://apps.apple.com/us/app/belong-by-maf/id6443736108"
+    },
+    "ios|City Centre": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "Mall of Emirates",
+     "in": true,
+     "name": "City Centre",
+     "uri": "https://apps.apple.com/in/app/city-centres/id1448471823"
+    },
+    "ios|Mall of Egypt iOS": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "Mall of Emirates",
+     "in": true,
+     "name": "Mall of Egypt iOS",
+     "uri": "https://apps.apple.com/in/app/mall-of-egypt-official-app/id1441905105"
+    },
+    "ios|Mall of the Emirates IOS": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "Mall of Emirates",
+     "in": true,
+     "name": "Mall of the Emirates IOS",
+     "uri": "https://apps.apple.com/in/app/mall-of-the-emirates-moe/id1449578693"
+    },
+    "ios|https://apps.apple.com/app/mall-of-the-emirates-moe/id1449578693": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "Mall of Emirates",
+     "in": true,
+     "name": "https://apps.apple.com/app/mall-of-the-emirates-moe/id1449578693",
+     "uri": "https://apps.apple.com/app/mall-of-the-emirates-moe/id1449578693"
+    },
+    "website|City Centre Al Barsha": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Mall of Emirates",
+     "in": true,
+     "name": "City Centre Al Barsha",
+     "uri": "https://www.mycitycentrealbarsha.com/"
+    },
+    "website|City Centre Deira": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Mall of Emirates",
+     "in": true,
+     "name": "City Centre Deira",
+     "uri": "https://citycentredeira.com/"
+    },
+    "website|Ecoupon": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Mall of Emirates",
+     "in": true,
+     "name": "Ecoupon",
+     "uri": "https://ecoupon.maf.ae/"
+    },
+    "website|Ghafwoods Website": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Mall of Emirates",
+     "in": true,
+     "name": "Ghafwoods Website",
+     "uri": "https://www.ghafwoods.com/en"
+    },
+    "website|Junction Website": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Mall of Emirates",
+     "in": true,
+     "name": "Junction Website",
+     "uri": "https://atjunction.com/"
+    },
+    "website|MAF Properties Website": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Mall of Emirates",
+     "in": true,
+     "name": "MAF Properties Website",
+     "uri": "https://www.majidalfuttaimproperties.com/en"
+    },
+    "website|Partner Connect": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Mall of Emirates",
+     "in": true,
+     "name": "Partner Connect",
+     "uri": "https://partnerconnect.maf.ae/"
+    },
+    "website|Sitefinity Portal": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Mall of Emirates",
+     "in": true,
+     "name": "Sitefinity Portal",
+     "uri": "https://smbu.mafcms.com/Sitefinity/adminapp/renderer/dashboard"
+    },
+    "website|Tilal Al Ghaf Website": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Mall of Emirates",
+     "in": true,
+     "name": "Tilal Al Ghaf Website",
+     "uri": "https://www.tilalalghaf.com/en"
+    },
+    "website|https://www.citycentremalls.com/en": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Mall of Emirates",
+     "in": true,
+     "name": "https://www.citycentremalls.com/en",
+     "uri": "https://www.citycentremalls.com/en"
+    },
+    "website|https://www.malloftheemirates.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Mall of Emirates",
+     "in": true,
+     "name": "https://www.malloftheemirates.com",
+     "uri": "https://www.malloftheemirates.com"
+    }
+   }
+  },
   "/engagements/marketplaceexpert": {
    "groups": {
     "In Scope": {
@@ -49105,91 +49326,6 @@
      "in": true,
      "name": "Watch It for Jira Cloud - https://marketplace.atlassian.com/apps/1213851/watch-it-for-jira-cloud?hosting=cloud&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1213851/watch-it-for-jira-cloud?hosting=cloud&tab=overview"
-    }
-   }
-  },
-  "/engagements/refined2": {
-   "groups": {
-    "In Scope Targets": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 250000,
-      "p1MinCents": 250000,
-      "p2MaxCents": 90000,
-      "p2MinCents": 90000,
-      "p3MaxCents": 30000,
-      "p3MinCents": 30000,
-      "p4MaxCents": 10000,
-      "p4MinCents": 10000
-     }
-    }
-   },
-   "name": "Refined",
-   "targets": {
-    "other|https://marketplace.atlassian.com/apps/1216056/refined-toolkit-for-confluence-cloud?hosting=cloud&tab=overview": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1216056/refined-toolkit-for-confluence-cloud?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1216056/refined-toolkit-for-confluence-cloud?hosting=cloud&tab=overview"
-    },
-    "other|https://marketplace.atlassian.com/apps/1218481/refined-for-jira-cloud?hosting=cloud&tab=overview": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1218481/refined-for-jira-cloud?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1218481/refined-for-jira-cloud?hosting=cloud&tab=overview"
-    },
-    "other|https://marketplace.atlassian.com/apps/1221322/refined-for-confluence-cloud?hosting=cloud&tab=overview": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1221322/refined-for-confluence-cloud?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1221322/refined-for-confluence-cloud?hosting=cloud&tab=overview"
-    },
-    "website|bugbounty-refined-test-<bugcrowd-name>.refined.site\t": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "bugbounty-refined-test-<bugcrowd-name>.refined.site\t",
-     "uri": ""
-    },
-    "website|https://marketplace.atlassian.com/apps/1211136/refined-macro-toolkit-content-formatting-macros?hosting=cloud&tab=overview": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1211136/refined-macro-toolkit-content-formatting-macros?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1211136/refined-macro-toolkit-content-formatting-macros?hosting=cloud&tab=overview"
-    },
-    "website|https://marketplace.atlassian.com/apps/1236998/refined-ui-toolkit-for-confluence-page-builder-navigation?hosting=cloud&tab=overview": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1236998/refined-ui-toolkit-for-confluence-page-builder-navigation?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1236998/refined-ui-toolkit-for-confluence-page-builder-navigation?hosting=cloud&tab=overview"
-    },
-    "website|refined.site/admin": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "refined.site/admin",
-     "uri": ""
-    },
-    "website|refinedsites.refinedwiki.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "refinedsites.refinedwiki.com",
-     "uri": "https://refinedsites.refinedwiki.com"
     }
    }
   },
