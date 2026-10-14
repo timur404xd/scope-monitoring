@@ -9739,67 +9739,6 @@
     }
    }
   },
-  "/engagements/bitgo-mbb-og-public": {
-   "groups": {
-    "In Scope": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 450000,
-      "p1MinCents": 350000,
-      "p2MaxCents": 250000,
-      "p2MinCents": 150000,
-      "p3MaxCents": 75000,
-      "p3MinCents": 50000,
-      "p4MaxCents": 22500,
-      "p4MinCents": 10000
-     }
-    }
-   },
-   "name": "BitGo Managed Public Bug Bounty Engagement ",
-   "targets": {
-    "other|bitgo.ae": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "bitgo.ae",
-     "uri": "https://bitgo.ae/"
-    },
-    "other|usdstandard.com": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "usdstandard.com",
-     "uri": "https://usdstandard.com/"
-    },
-    "website|*.bitgo.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "*.bitgo.com",
-     "uri": ""
-    },
-    "website|app.bitgo-test.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "app.bitgo-test.com",
-     "uri": "https://app.bitgo-test.com"
-    },
-    "website|app.bitgo.com ": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "app.bitgo.com ",
-     "uri": "https://app.bitgo.com"
-    }
-   }
-  },
   "/engagements/bitgo-mobileapps-mbb-og": {
    "groups": {
     "In Scope": {
@@ -26195,6 +26134,88 @@
      "in": true,
      "name": "play.immutable.com Immutable Play",
      "uri": "https://play.immutable.com"
+    }
+   }
+  },
+  "/engagements/imperva-mbb": {
+   "groups": {
+    "In Scope Targets": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 250000,
+      "p1MinCents": 210000,
+      "p2MaxCents": 125000,
+      "p2MinCents": 100000,
+      "p3MaxCents": 60000,
+      "p3MinCents": 45000,
+      "p4MaxCents": 20000,
+      "p4MinCents": 15000
+     }
+    },
+    "Out of Scope": {
+     "desc": "da39a3ee5e6b",
+     "in": false,
+     "reward": null
+    }
+   },
+   "name": "Imperva - Thales Bug Bounty",
+   "targets": {
+    "api|https://*.incapsula.com": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "https://*.incapsula.com",
+     "uri": "https://*.incapsula.com"
+    },
+    "website|PTaaS Reference": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "PTaaS Reference",
+     "uri": ""
+    },
+    "website|http://docs-be.imperva.com/": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "http://docs-be.imperva.com/",
+     "uri": ""
+    },
+    "website|http://docs.imperva.com/": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "http://docs.imperva.com/",
+     "uri": ""
+    },
+    "website|https://*.cloudvector.com/": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "https://*.cloudvector.com/",
+     "uri": "https://www.cloudvector.com/"
+    },
+    "website|https://*.imperva.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "https://*.imperva.com",
+     "uri": "https://*.imperva.com"
+    },
+    "website|https://supportportal.thalesgroup.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "https://supportportal.thalesgroup.com",
+     "uri": "https://supportportal.thalesgroup.com"
     }
    }
   },
@@ -52545,6 +52566,204 @@
      "in": true,
      "name": "All internet facing Sky assets (check the OOS section)",
      "uri": ""
+    }
+   }
+  },
+  "/engagements/skyscanner": {
+   "groups": {
+    "AI Bias Testing": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 400000,
+      "p1MinCents": 300000,
+      "p2MaxCents": 250000,
+      "p2MinCents": 90000,
+      "p3MaxCents": 50000,
+      "p3MinCents": 30000,
+      "p4MaxCents": 15000,
+      "p4MinCents": 10000
+     }
+    },
+    "AWS Infrastructure": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 400000,
+      "p1MinCents": 300000,
+      "p2MaxCents": 250000,
+      "p2MinCents": 90000,
+      "p3MaxCents": 50000,
+      "p3MinCents": 30000,
+      "p4MaxCents": 15000,
+      "p4MinCents": 10000
+     }
+    },
+    "In scope targets": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 800000,
+      "p1MinCents": 300000,
+      "p2MaxCents": 300000,
+      "p2MinCents": 90000,
+      "p3MaxCents": 50000,
+      "p3MinCents": 30000,
+      "p4MaxCents": 15000,
+      "p4MinCents": 10000
+     }
+    },
+    "Out of scope": {
+     "desc": "da39a3ee5e6b",
+     "in": false,
+     "reward": null
+    }
+   },
+   "name": "Skyscanner",
+   "targets": {
+    "android|Skyscanner Android App": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "In scope targets",
+     "in": true,
+     "name": "Skyscanner Android App",
+     "uri": ""
+    },
+    "android|Skyscanner Android app": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "AI Bias Testing",
+     "in": true,
+     "name": "Skyscanner Android app",
+     "uri": ""
+    },
+    "api|gateway.skyscanner.net/*": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "In scope targets",
+     "in": true,
+     "name": "gateway.skyscanner.net/*",
+     "uri": ""
+    },
+    "ios|Skyscanner iOS App": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "In scope targets",
+     "in": true,
+     "name": "Skyscanner iOS App",
+     "uri": ""
+    },
+    "ios|Skyscanner iOS app": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "AI Bias Testing",
+     "in": true,
+     "name": "Skyscanner iOS app",
+     "uri": ""
+    },
+    "other|AWS Infrastructure": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "AWS Infrastructure",
+     "in": true,
+     "name": "AWS Infrastructure",
+     "uri": ""
+    },
+    "other|Corporate Email (*@skyscanner.net)": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of scope",
+     "in": false,
+     "name": "Corporate Email (*@skyscanner.net)",
+     "uri": ""
+    },
+    "website|*.skyscanner.net": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In scope targets",
+     "in": true,
+     "name": "*.skyscanner.net",
+     "uri": ""
+    },
+    "website|carhirehelp.skyscanner.net": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of scope",
+     "in": false,
+     "name": "carhirehelp.skyscanner.net",
+     "uri": "https://carhirehelp.skyscanner.net"
+    },
+    "website|creators.skyscanner.net": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of scope",
+     "in": false,
+     "name": "creators.skyscanner.net",
+     "uri": "https://creators.skyscanner.net"
+    },
+    "website|help.skyscanner.net": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of scope",
+     "in": false,
+     "name": "help.skyscanner.net",
+     "uri": "https://help.skyscanner.net"
+    },
+    "website|hotelshelp.skyscanner.net": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of scope",
+     "in": false,
+     "name": "hotelshelp.skyscanner.net",
+     "uri": "https://hotelshelp.skyscanner.net"
+    },
+    "website|partnerportal.skyscanner.net/*": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In scope targets",
+     "in": true,
+     "name": "partnerportal.skyscanner.net/*",
+     "uri": ""
+    },
+    "website|preferences.skyscanner.net": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of scope",
+     "in": false,
+     "name": "preferences.skyscanner.net",
+     "uri": "https://preferences.skyscanner.net"
+    },
+    "website|skyscanner.net/*": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In scope targets",
+     "in": true,
+     "name": "skyscanner.net/*",
+     "uri": ""
+    },
+    "website|skyscanner.net/hotels/book/*": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In scope targets",
+     "in": true,
+     "name": "skyscanner.net/hotels/book/*",
+     "uri": ""
+    },
+    "website|support.business.skyscanner.net": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of scope",
+     "in": false,
+     "name": "support.business.skyscanner.net",
+     "uri": "https://support.business.skyscanner.net"
+    },
+    "website|www.partners.skyscanner.net": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of scope",
+     "in": false,
+     "name": "www.partners.skyscanner.net",
+     "uri": "https://www.partners.skyscanner.net"
     }
    }
   },
