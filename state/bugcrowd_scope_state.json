@@ -9739,6 +9739,67 @@
     }
    }
   },
+  "/engagements/bitgo-mbb-og-public": {
+   "groups": {
+    "In Scope": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 450000,
+      "p1MinCents": 350000,
+      "p2MaxCents": 250000,
+      "p2MinCents": 150000,
+      "p3MaxCents": 75000,
+      "p3MinCents": 50000,
+      "p4MaxCents": 22500,
+      "p4MinCents": 10000
+     }
+    }
+   },
+   "name": "BitGo Managed Public Bug Bounty Engagement ",
+   "targets": {
+    "other|bitgo.ae": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "bitgo.ae",
+     "uri": "https://bitgo.ae/"
+    },
+    "other|usdstandard.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "usdstandard.com",
+     "uri": "https://usdstandard.com/"
+    },
+    "website|*.bitgo.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "*.bitgo.com",
+     "uri": ""
+    },
+    "website|app.bitgo-test.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "app.bitgo-test.com",
+     "uri": "https://app.bitgo-test.com"
+    },
+    "website|app.bitgo.com ": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "app.bitgo.com ",
+     "uri": "https://app.bitgo.com"
+    }
+   }
+  },
   "/engagements/bitgo-mobileapps-mbb-og": {
    "groups": {
     "In Scope": {
@@ -35925,144 +35986,6 @@
      "in": true,
      "name": "unihub.monash.edu",
      "uri": "https://unihub.monash.edu/"
-    }
-   }
-  },
-  "/engagements/moneytreekkog": {
-   "groups": {
-    "Out of scope": {
-     "desc": "da39a3ee5e6b",
-     "in": false,
-     "reward": null
-    },
-    "Staging @ moneytree.jp": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 500000,
-      "p1MinCents": 400000,
-      "p2MaxCents": 300000,
-      "p2MinCents": 200000,
-      "p3MaxCents": 100000,
-      "p3MinCents": 75000,
-      "p4MaxCents": 50000,
-      "p4MinCents": 30000
-     }
-    }
-   },
-   "name": "Moneytree KK",
-   "targets": {
-    "android|Moneytree Android Mobile Application (staging; see below)": {
-     "cat": "android",
-     "desc": "da39a3ee5e6b",
-     "group": "Staging @ moneytree.jp",
-     "in": true,
-     "name": "Moneytree Android Mobile Application (staging; see below)",
-     "uri": "https://play.google.com/store/apps/details?id=jp.moneytree.moneytree&hl=en_AU&gl=US"
-    },
-    "api|Moneytree API": {
-     "cat": "api",
-     "desc": "da39a3ee5e6b",
-     "group": "Staging @ moneytree.jp",
-     "in": true,
-     "name": "Moneytree API",
-     "uri": "https://jp-api-staging.getmoneytree.com"
-    },
-    "ios|Moneytree iOS Mobile Application (production; see below)": {
-     "cat": "ios",
-     "desc": "da39a3ee5e6b",
-     "group": "Staging @ moneytree.jp",
-     "in": true,
-     "name": "Moneytree iOS Mobile Application (production; see below)",
-     "uri": "https://apps.apple.com/vc/app/moneytree-finance-made-easy/id586847189"
-    },
-    "website|Any production asset of Moneytree KK (excepting the iOS app)": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of scope",
-     "in": false,
-     "name": "Any production asset of Moneytree KK (excepting the iOS app)",
-     "uri": ""
-    },
-    "website|Moneytree Business": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Staging @ moneytree.jp",
-     "in": true,
-     "name": "Moneytree Business",
-     "uri": "https://business-staging.getmoneytree.com/"
-    },
-    "website|Moneytree Internal Redash": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Staging @ moneytree.jp",
-     "in": true,
-     "name": "Moneytree Internal Redash",
-     "uri": "https://redash-staging.getmoneytree.com/"
-    },
-    "website|Moneytree MyAccount": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Staging @ moneytree.jp",
-     "in": true,
-     "name": "Moneytree MyAccount",
-     "uri": "https://myaccount-staging.getmoneytree.com"
-    },
-    "website|Moneytree Universal Vault": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Staging @ moneytree.jp",
-     "in": true,
-     "name": "Moneytree Universal Vault",
-     "uri": "https://vault-staging.getmoneytree.com"
-    },
-    "website|Moneytree Web for Mobile": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Staging @ moneytree.jp",
-     "in": true,
-     "name": "Moneytree Web for Mobile",
-     "uri": "https://wwws-staging.moneytree.jp/link/mobile/"
-    },
-    "website|Moneytree Web for Mobile (with Oauth)": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Staging @ moneytree.jp",
-     "in": true,
-     "name": "Moneytree Web for Mobile (with Oauth)",
-     "uri": "https://wwws-staging.moneytree.jp/link/mobile/#/signup?client_id=38d99a6e8e9fc87c866f5aa82bdc2569c464b2323a55e0b28f658efa678e9623&redirect_uri=https://wwws-staging.moneytree.jp/link/mobile/callback&response_type=token&scope=guest_read+accounts_read+transactions_read+request_refresh"
-    },
-    "website|Moneytree Web for Web": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Staging @ moneytree.jp",
-     "in": true,
-     "name": "Moneytree Web for Web",
-     "uri": "https://wwws-staging.moneytree.jp/link/"
-    },
-    "website|getmoneytree.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of scope",
-     "in": false,
-     "name": "getmoneytree.com",
-     "uri": ""
-    },
-    "website|https://app-staging.getmoneytree.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Staging @ moneytree.jp",
-     "in": true,
-     "name": "https://app-staging.getmoneytree.com",
-     "uri": "https://app-staging.getmoneytree.com"
-    },
-    "website|moneytree.jp": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of scope",
-     "in": false,
-     "name": "moneytree.jp",
-     "uri": ""
     }
    }
   },
