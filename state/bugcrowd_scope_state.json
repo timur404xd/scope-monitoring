@@ -51058,42 +51058,6 @@
     }
    }
   },
-  "/engagements/savvas-vdp-pro": {
-   "groups": {
-    "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": null
-    }
-   },
-   "name": "Savvas Vulnerability Disclosure Engagement",
-   "targets": {
-    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
-     "in": true,
-     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
-     "uri": ""
-    },
-    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
-     "in": true,
-     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
-     "uri": ""
-    },
-    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
-     "in": true,
-     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
-     "uri": ""
-    }
-   }
-  },
   "/engagements/sba-vdp": {
    "groups": {
     "In Scope Targets": {
