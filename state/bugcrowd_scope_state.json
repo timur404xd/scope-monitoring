@@ -14211,6 +14211,14 @@
      "name": "geschichtewiki.wien.gv.at",
      "uri": "https://www.geschichtewiki.wien.gv.at"
     },
+    "website|https://*/advuew/*": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of scope",
+     "in": false,
+     "name": "https://*/advuew/*",
+     "uri": ""
+    },
     "website|https://*/agssoe/* (Multiple Domains)": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
@@ -14227,28 +14235,20 @@
      "name": "https://*/geoserverneuogd/* (Multiple Domains)",
      "uri": ""
     },
+    "website|https://*/umfrage/*": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of scope",
+     "in": false,
+     "name": "https://*/umfrage/*",
+     "uri": ""
+    },
     "website|https://bi.bildung-wien.gv.at/*": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
      "group": "Out of scope",
      "in": false,
      "name": "https://bi.bildung-wien.gv.at/*",
-     "uri": ""
-    },
-    "website|https://www.wien.gv.at/advuew/*": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of scope",
-     "in": false,
-     "name": "https://www.wien.gv.at/advuew/*",
-     "uri": ""
-    },
-    "website|https://www.wien.gv.at/umfrage/*": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of scope",
-     "in": false,
-     "name": "https://www.wien.gv.at/umfrage/*",
      "uri": ""
     },
     "website|stp.wien.gv.at": {
