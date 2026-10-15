@@ -37399,13 +37399,13 @@
      "in": true,
      "reward": {
       "p1MaxCents": 600000,
-      "p1MinCents": 600000,
+      "p1MinCents": 400000,
       "p2MaxCents": 250000,
-      "p2MinCents": 250000,
-      "p3MaxCents": 50000,
-      "p3MinCents": 50000,
-      "p4MaxCents": 25000,
-      "p4MinCents": 25000
+      "p2MinCents": 100000,
+      "p3MaxCents": 60000,
+      "p3MinCents": 30000,
+      "p4MaxCents": 20000,
+      "p4MinCents": 10000
      }
     },
     "Tier Two Targets": {
