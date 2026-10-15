@@ -21350,7 +21350,7 @@
      "desc": "900d382c21cf",
      "endpoint": "com.veriff.demo",
      "in": true,
-     "tier": "Tier 1",
+     "tier": "Tier 2",
      "type": "Android"
     },
     "Url|alchemy.veriff.com": {
@@ -21441,13 +21441,13 @@
      "desc": "27a03d307353",
      "endpoint": "1467907532",
      "in": true,
-     "tier": "Tier 1",
+     "tier": "Tier 2",
      "type": "iOS"
     }
    },
    "name": "Veriff Bug Bounty",
    "program": {
-    "bounty": "5.0 - 6000.0 EUR",
+    "bounty": "5.0 - 4000.0 EUR",
     "confidentiality": "Public"
    },
    "rules": {
