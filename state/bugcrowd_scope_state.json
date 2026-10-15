@@ -8560,6 +8560,99 @@
     }
    }
   },
+  "/engagements/backblaze": {
+   "groups": {
+    "In Scope Targets": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 650000,
+      "p1MinCents": 500000,
+      "p2MaxCents": 500000,
+      "p2MinCents": 250000,
+      "p3MaxCents": 250000,
+      "p3MinCents": 150000,
+      "p4MaxCents": 150000,
+      "p4MinCents": 50000
+     }
+    }
+   },
+   "name": "Backblaze",
+   "targets": {
+    "android|Backblaze Android mobile application": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "Backblaze Android mobile application",
+     "uri": "https://play.google.com/store/apps/details?id=com.backblaze.android&hl=en_US&gl=US"
+    },
+    "api|B2 APIs (*.backblazeb2.com)": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "B2 APIs (*.backblazeb2.com)",
+     "uri": "https://*.backblazeb2.com"
+    },
+    "ios|Backblaze iOS mobile application": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "Backblaze iOS mobile application",
+     "uri": "https://apps.apple.com/us/app/backblaze/id628638330"
+    },
+    "other|Git Repositories (b2-sdk-java & B2 Command Line Tool)": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "Git Repositories (b2-sdk-java & B2 Command Line Tool)",
+     "uri": ""
+    },
+    "other|Mac Personal Backup Clients": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "Mac Personal Backup Clients",
+     "uri": ""
+    },
+    "other|Mac Restore Downloaders": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "Mac Restore Downloaders",
+     "uri": ""
+    },
+    "other|Windows Personal Backup Clients": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "Windows Personal Backup Clients",
+     "uri": ""
+    },
+    "other|Windows Restore Downloaders": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "Windows Restore Downloaders",
+     "uri": ""
+    },
+    "website|Backblaze Website (*.backblaze.com)": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "Backblaze Website (*.backblaze.com)",
+     "uri": "https://backblaze.com"
+    }
+   }
+  },
   "/engagements/balsamiq": {
    "groups": {
     "In Scope Targets": {
@@ -11481,56 +11574,6 @@
      "desc": "da39a3ee5e6b",
      "group": "Out of Scope targets",
      "in": false,
-     "name": "https://simnext.bullish-test.com",
-     "uri": "https://simnext.bullish-test.com"
-    }
-   }
-  },
-  "/engagements/bullish-exchange": {
-   "groups": {
-    "In Scope targets": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 2500000,
-      "p1MinCents": 800000,
-      "p2MaxCents": 900000,
-      "p2MinCents": 400000,
-      "p3MaxCents": 500000,
-      "p3MinCents": 150000,
-      "p4MaxCents": 200000,
-      "p4MinCents": 20000
-     }
-    },
-    "Out of Scope targets": {
-     "desc": "da39a3ee5e6b",
-     "in": false,
-     "reward": null
-    }
-   },
-   "name": "Bullish Exchange",
-   "targets": {
-    "api|https://api.simnext.bullish-test.com": {
-     "cat": "api",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope targets",
-     "in": true,
-     "name": "https://api.simnext.bullish-test.com",
-     "uri": "https://api.simnext.bullish-test.com"
-    },
-    "website|*.bullish.com/": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope targets",
-     "in": false,
-     "name": "*.bullish.com/",
-     "uri": ""
-    },
-    "website|https://simnext.bullish-test.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope targets",
-     "in": true,
      "name": "https://simnext.bullish-test.com",
      "uri": "https://simnext.bullish-test.com"
     }
@@ -26105,6 +26148,88 @@
     }
    }
   },
+  "/engagements/imperva-mbb": {
+   "groups": {
+    "In Scope Targets": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 250000,
+      "p1MinCents": 210000,
+      "p2MaxCents": 125000,
+      "p2MinCents": 100000,
+      "p3MaxCents": 60000,
+      "p3MinCents": 45000,
+      "p4MaxCents": 20000,
+      "p4MinCents": 15000
+     }
+    },
+    "Out of Scope": {
+     "desc": "da39a3ee5e6b",
+     "in": false,
+     "reward": null
+    }
+   },
+   "name": "Imperva - Thales Bug Bounty",
+   "targets": {
+    "api|https://*.incapsula.com": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "https://*.incapsula.com",
+     "uri": "https://*.incapsula.com"
+    },
+    "website|PTaaS Reference": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "PTaaS Reference",
+     "uri": ""
+    },
+    "website|http://docs-be.imperva.com/": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "http://docs-be.imperva.com/",
+     "uri": ""
+    },
+    "website|http://docs.imperva.com/": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "http://docs.imperva.com/",
+     "uri": ""
+    },
+    "website|https://*.cloudvector.com/": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "https://*.cloudvector.com/",
+     "uri": "https://www.cloudvector.com/"
+    },
+    "website|https://*.imperva.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "https://*.imperva.com",
+     "uri": "https://*.imperva.com"
+    },
+    "website|https://supportportal.thalesgroup.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "https://supportportal.thalesgroup.com",
+     "uri": "https://supportportal.thalesgroup.com"
+    }
+   }
+  },
   "/engagements/indeed": {
    "groups": {
     "Other Targets": {
@@ -39617,6 +39742,207 @@
     }
    }
   },
+  "/engagements/openai": {
+   "groups": {
+    "API Targets": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 650000,
+      "p1MinCents": 200000,
+      "p2MaxCents": 200000,
+      "p2MinCents": 100000,
+      "p3MaxCents": 100000,
+      "p3MinCents": 50000,
+      "p4MaxCents": 50000,
+      "p4MinCents": 20000
+     }
+    },
+    "ChatGPT": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 650000,
+      "p1MinCents": 200000,
+      "p2MaxCents": 200000,
+      "p2MinCents": 100000,
+      "p3MaxCents": 100000,
+      "p3MinCents": 50000,
+      "p4MaxCents": 50000,
+      "p4MinCents": 20000
+     }
+    },
+    "Codex": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 150000,
+      "p1MinCents": 50000,
+      "p2MaxCents": 50000,
+      "p2MinCents": 25000,
+      "p3MaxCents": 25000,
+      "p3MinCents": 10000,
+      "p4MaxCents": 10000,
+      "p4MinCents": 5000
+     }
+    },
+    "OpenAI API Keys": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 250000,
+      "p1MinCents": 25000,
+      "p2MaxCents": null,
+      "p2MinCents": null,
+      "p3MaxCents": null,
+      "p3MinCents": null,
+      "p4MaxCents": null,
+      "p4MinCents": null
+     }
+    },
+    "OpenAI Research Org": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 350000,
+      "p1MinCents": 125000,
+      "p2MaxCents": 125000,
+      "p2MinCents": 60000,
+      "p3MaxCents": 60000,
+      "p3MinCents": 20000,
+      "p4MaxCents": null,
+      "p4MinCents": null
+     }
+    },
+    "Other OpenAI Targets": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 250000,
+      "p1MinCents": 125000,
+      "p2MaxCents": 125000,
+      "p2MinCents": 60000,
+      "p3MaxCents": 60000,
+      "p3MinCents": 20000,
+      "p4MaxCents": null,
+      "p4MinCents": null
+     }
+    },
+    "Third Party Corporate Targets": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 250000,
+      "p1MinCents": 100000,
+      "p2MaxCents": 100000,
+      "p2MinCents": 50000,
+      "p3MaxCents": 50000,
+      "p3MinCents": 20000,
+      "p4MaxCents": null,
+      "p4MinCents": null
+     }
+    }
+   },
+   "name": "OpenAI",
+   "targets": {
+    "api|*.openai.org": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "OpenAI Research Org",
+     "in": true,
+     "name": "*.openai.org",
+     "uri": "https://*.openai.org"
+    },
+    "api|ChatGPT Plugins": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "ChatGPT",
+     "in": true,
+     "name": "ChatGPT Plugins",
+     "uri": "https://chat.openai.com"
+    },
+    "api|OpenAI API Keys": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "OpenAI API Keys",
+     "in": true,
+     "name": "OpenAI API Keys",
+     "uri": ""
+    },
+    "api|api.openai.com": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "API Targets",
+     "in": true,
+     "name": "api.openai.com",
+     "uri": "https://api.openai.com"
+    },
+    "other|*.openai.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Other OpenAI Targets",
+     "in": true,
+     "name": "*.openai.com",
+     "uri": ""
+    },
+    "other|Codex Desktop": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Codex",
+     "in": true,
+     "name": "Codex Desktop",
+     "uri": ""
+    },
+    "other|Other": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Other OpenAI Targets",
+     "in": true,
+     "name": "Other",
+     "uri": ""
+    },
+    "website|ChatGPT": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "ChatGPT",
+     "in": true,
+     "name": "ChatGPT",
+     "uri": "https://chat.openai.com"
+    },
+    "website|Developer Platform Playground": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Other OpenAI Targets",
+     "in": true,
+     "name": "Developer Platform Playground",
+     "uri": "https://platform.openai.com/playground"
+    },
+    "website|Third Party Targets": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Third Party Corporate Targets",
+     "in": true,
+     "name": "Third Party Targets",
+     "uri": ""
+    },
+    "website|https://openai.org": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "OpenAI Research Org",
+     "in": true,
+     "name": "https://openai.org",
+     "uri": "https://*.openai.org"
+    },
+    "website|openai.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Other OpenAI Targets",
+     "in": true,
+     "name": "openai.com",
+     "uri": "https://openai.com/"
+    }
+   }
+  },
   "/engagements/openai-safety": {
    "groups": {
     "Account and Platform Integrity": {
@@ -50634,6 +50960,51 @@
      "in": true,
      "name": "SAP Watch List Screening",
      "uri": ""
+    }
+   }
+  },
+  "/engagements/savignano": {
+   "groups": {
+    "In-Scope Targets": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 150000,
+      "p1MinCents": 150000,
+      "p2MaxCents": 90000,
+      "p2MinCents": 90000,
+      "p3MaxCents": 30000,
+      "p3MinCents": 30000,
+      "p4MaxCents": 10000,
+      "p4MinCents": 10000
+     }
+    }
+   },
+   "name": "Savignano Software Solutions Marketplace Bug Bounty Program",
+   "targets": {
+    "website|https://marketplace.atlassian.com/apps/1218251/s-notify-email-encryption-for-jira?hosting=datacenter": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In-Scope Targets",
+     "in": true,
+     "name": "https://marketplace.atlassian.com/apps/1218251/s-notify-email-encryption-for-jira?hosting=datacenter",
+     "uri": "https://marketplace.atlassian.com/apps/1218251/s-notify-email-encryption-for-jira?hosting=datacenter"
+    },
+    "website|https://marketplace.atlassian.com/apps/1218509/s-notify-email-encryption-for-confluence?hosting=datacenter": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In-Scope Targets",
+     "in": true,
+     "name": "https://marketplace.atlassian.com/apps/1218509/s-notify-email-encryption-for-confluence?hosting=datacenter",
+     "uri": "https://marketplace.atlassian.com/apps/1218509/s-notify-email-encryption-for-confluence?hosting=datacenter"
+    },
+    "website|https://marketplace.atlassian.com/apps/1226720/s-notify-email-encryption-for-bitbucket?hosting=datacenter": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In-Scope Targets",
+     "in": true,
+     "name": "https://marketplace.atlassian.com/apps/1226720/s-notify-email-encryption-for-bitbucket?hosting=datacenter",
+     "uri": "https://marketplace.atlassian.com/apps/1226720/s-notify-email-encryption-for-bitbucket?hosting=datacenter"
     }
    }
   },
