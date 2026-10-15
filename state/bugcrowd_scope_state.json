@@ -25251,14 +25251,6 @@
      "name": "https://*.cultbeauty.co.uk/",
      "uri": "https://www.cultbeauty.co.uk/"
     },
-    "website|https://*.enjoyselfish.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Ingenuity E-Commerce",
-     "in": true,
-     "name": "https://*.enjoyselfish.com",
-     "uri": "https://www.enjoyselfish.com"
-    },
     "website|https://*.illamasqua.com/": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
