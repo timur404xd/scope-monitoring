@@ -4582,38 +4582,6 @@
      "name": "Embedder for Confluence - Cloud Hosted - https://marketplace.atlassian.com/apps/1217536/embedder-for-confluence?hosting=cloud&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1217536/embedder-for-confluence?hosting=cloud&tab=overview"
     },
-    "website|Enriched Profiles for JSM - Cloud Hosted - https://marketplace.atlassian.com/apps/1219003/enriched-profiles-for-jsm?hosting=cloud&tab=overview": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Enriched Profiles for JSM - Cloud Hosted - https://marketplace.atlassian.com/apps/1219003/enriched-profiles-for-jsm?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1219003/enriched-profiles-for-jsm?hosting=cloud&tab=overview"
-    },
-    "website|Enriched Profiles for JSM - https://marketplace.atlassian.com/apps/1219003/enriched-profiles-for-jsm?hosting=cloud&tab=overview": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Enriched Profiles for JSM - https://marketplace.atlassian.com/apps/1219003/enriched-profiles-for-jsm?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1219003/enriched-profiles-for-jsm?hosting=cloud&tab=overview"
-    },
-    "website|Release planning and reports for Jira - Cloud Hosted - https://marketplace.atlassian.com/apps/1228848/release-planning-and-reports-for-jira?hosting=cloud&tab=overview": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Release planning and reports for Jira - Cloud Hosted - https://marketplace.atlassian.com/apps/1228848/release-planning-and-reports-for-jira?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1228848/release-planning-and-reports-for-jira?hosting=cloud&tab=overview"
-    },
-    "website|Release planning and reports for Jira - https://marketplace.atlassian.com/apps/1228848/release-planning-and-reports-for-jira?hosting=cloud&tab=overview": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Release planning and reports for Jira - https://marketplace.atlassian.com/apps/1228848/release-planning-and-reports-for-jira?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1228848/release-planning-and-reports-for-jira?hosting=cloud&tab=overview"
-    },
     "website|Roadmap Portal for Jira Service Desk - Cloud Hosted - https://marketplace.atlassian.com/apps/1221519/roadmap-portal-for-jira-service-desk?tab=overview&hosting=cloud": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
@@ -4629,22 +4597,6 @@
      "in": true,
      "name": "Screenjar - Screen Recorder for Jira - Cloud Hosted - https://marketplace.atlassian.com/apps/1225798/screenjar-screen-recorder-for-jira?tab=overview&hosting=cloud",
      "uri": "https://marketplace.atlassian.com/apps/1225798/screenjar-screen-recorder-for-jira?tab=overview&hosting=cloud"
-    },
-    "website|Typeform integration for JSM - Cloud Hosted - https://marketplace.atlassian.com/apps/1225551/typeform-integration-for-jsm?hosting=cloud&tab=overview": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Typeform integration for JSM - Cloud Hosted - https://marketplace.atlassian.com/apps/1225551/typeform-integration-for-jsm?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1225551/typeform-integration-for-jsm?hosting=cloud&tab=overview"
-    },
-    "website|Typeform integration for JSM - https://marketplace.atlassian.com/apps/1225551/typeform-integration-for-jsm?hosting=cloud&tab=overview": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Typeform integration for JSM - https://marketplace.atlassian.com/apps/1225551/typeform-integration-for-jsm?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1225551/typeform-integration-for-jsm?hosting=cloud&tab=overview"
     },
     "website|UpRaise People for Jira - Cloud Hosted - https://marketplace.atlassian.com/apps/1220406/upraise-people-for-jira?hosting=cloud&tab=overview": {
      "cat": "website",
