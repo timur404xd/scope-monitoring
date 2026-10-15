@@ -9739,6 +9739,67 @@
     }
    }
   },
+  "/engagements/bitgo-mbb-og-public": {
+   "groups": {
+    "In Scope": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 450000,
+      "p1MinCents": 350000,
+      "p2MaxCents": 250000,
+      "p2MinCents": 150000,
+      "p3MaxCents": 75000,
+      "p3MinCents": 50000,
+      "p4MaxCents": 22500,
+      "p4MinCents": 10000
+     }
+    }
+   },
+   "name": "BitGo Managed Public Bug Bounty Engagement ",
+   "targets": {
+    "other|bitgo.ae": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "bitgo.ae",
+     "uri": "https://bitgo.ae/"
+    },
+    "other|usdstandard.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "usdstandard.com",
+     "uri": "https://usdstandard.com/"
+    },
+    "website|*.bitgo.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "*.bitgo.com",
+     "uri": ""
+    },
+    "website|app.bitgo-test.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "app.bitgo-test.com",
+     "uri": "https://app.bitgo-test.com"
+    },
+    "website|app.bitgo.com ": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "app.bitgo.com ",
+     "uri": "https://app.bitgo.com"
+    }
+   }
+  },
   "/engagements/bitgo-mobileapps-mbb-og": {
    "groups": {
     "In Scope": {
