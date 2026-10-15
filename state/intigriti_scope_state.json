@@ -5188,6 +5188,84 @@
     "tooling": null
    }
   },
+  "2b3a68aa-5f79-4407-926e-6f7cd8f0baf8": {
+   "assets": {
+    "Url|https://api.digi-belgium.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://api.digi-belgium.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://api.digi-belgium.be/tKjhG_7HkjHO98gh.6": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://api.digi-belgium.be/tKjhG_7HkjHO98gh.6",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|https://www.digi-belgium.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://www.digi-belgium.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://www.digi.ro/auth/login": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://www.digi.ro/auth/login",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://www.digi.ro/comanda/preview": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://www.digi.ro/comanda/preview",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://www.digi.ro/plata": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://www.digi.ro/plata",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|www.digi.ro": {
+     "desc": "068e847a0052",
+     "endpoint": "www.digi.ro",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|www.digi.ro/tKjhG_7HkjHO98gh.6": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "www.digi.ro/tKjhG_7HkjHO98gh.6",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Wildcard|api.digi-belgium.be/v1/regula/*": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "api.digi-belgium.be/v1/regula/*",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Wildcard"
+    }
+   },
+   "name": "DIGI Bug Bounty Program",
+   "program": {
+    "bounty": "100.0 - 2500.0 EUR",
+    "confidentiality": "InviteOnly"
+   },
+   "rules": {
+    "desc": "9b572b97a2df",
+    "safe_harbour": true,
+    "testing": "b81eb2094d5b",
+    "tooling": 5
+   }
+  },
   "2b664acb-80d4-4edb-9fcc-bcc562987f92": {
    "assets": {
     "Other|https://docs.google.com/spreadsheets/d/1CzscF67guNFMy-L_v79ng2mW36dQWb2rQSbK540j-ys/edit?gid=1208823298#gid=1208823298": {
