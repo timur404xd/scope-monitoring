@@ -11579,6 +11579,56 @@
     }
    }
   },
+  "/engagements/bullish-exchange": {
+   "groups": {
+    "In Scope targets": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 2500000,
+      "p1MinCents": 800000,
+      "p2MaxCents": 900000,
+      "p2MinCents": 400000,
+      "p3MaxCents": 500000,
+      "p3MinCents": 150000,
+      "p4MaxCents": 200000,
+      "p4MinCents": 20000
+     }
+    },
+    "Out of Scope targets": {
+     "desc": "da39a3ee5e6b",
+     "in": false,
+     "reward": null
+    }
+   },
+   "name": "Bullish Exchange",
+   "targets": {
+    "api|https://api.simnext.bullish-test.com": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope targets",
+     "in": true,
+     "name": "https://api.simnext.bullish-test.com",
+     "uri": "https://api.simnext.bullish-test.com"
+    },
+    "website|*.bullish.com/": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope targets",
+     "in": false,
+     "name": "*.bullish.com/",
+     "uri": ""
+    },
+    "website|https://simnext.bullish-test.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope targets",
+     "in": true,
+     "name": "https://simnext.bullish-test.com",
+     "uri": "https://simnext.bullish-test.com"
+    }
+   }
+  },
   "/engagements/bupa-aus-vdp-pro": {
    "groups": {
     "In Scope ": {
