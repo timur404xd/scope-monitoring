@@ -5310,7 +5310,7 @@
     "confidentiality": "Public"
    },
    "rules": {
-    "desc": "72e4c3352641",
+    "desc": "e783611507b9",
     "safe_harbour": true,
     "testing": "f5b26c141cb7",
     "tooling": 5
@@ -10685,7 +10685,7 @@
      "type": "Wildcard"
     },
     "Wildcard|engelvoelkers.com/search/*": {
-     "desc": "15e594d049dc",
+     "desc": "91e3ecd0188c",
      "endpoint": "engelvoelkers.com/search/*",
      "in": true,
      "tier": "Tier 2",
