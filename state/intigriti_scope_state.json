@@ -24907,6 +24907,13 @@
      "tier": "Tier 3",
      "type": "Url"
     },
+    "Url|https://opensource.contentauthenticity.org/docs/c2patool": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://opensource.contentauthenticity.org/docs/c2patool",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Url"
+    },
     "Url|ims-na1.adobelogin.com": {
      "desc": "da39a3ee5e6b",
      "endpoint": "ims-na1.adobelogin.com",
