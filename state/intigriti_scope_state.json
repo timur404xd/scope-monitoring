@@ -8540,6 +8540,42 @@
     "tooling": 5
    }
   },
+  "523f9195-ff18-4855-8b31-406b2c87e609": {
+   "assets": {
+    "Url|https://over.fluvius.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://over.fluvius.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|www-a.fluvius.be  ": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "www-a.fluvius.be  ",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Url"
+    },
+    "Url|www.fluvius.be   ": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "www.fluvius.be   ",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    }
+   },
+   "name": "Fluvius",
+   "program": {
+    "bounty": "100.0 - 5500.0 EUR",
+    "confidentiality": "Public"
+   },
+   "rules": {
+    "desc": "36f03a9705a6",
+    "safe_harbour": true,
+    "testing": "8ed9c049e1d2",
+    "tooling": 2
+   }
+  },
   "540e04bb-ae56-49cd-8e05-311a08ba44f7": {
    "assets": {
     "Other|Any ING (sub)domain": {
