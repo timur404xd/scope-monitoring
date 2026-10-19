@@ -55278,13 +55278,13 @@
      "name": "Cellular Network Auth Bypass via Web App/T-Life (404-200-7239)",
      "uri": ""
     },
-    "network|T&P Servers (Temporarily Out of Scope)": {
+    "network|T&P Servers": {
      "cat": "network",
      "desc": "da39a3ee5e6b",
      "group": "Special Target",
      "in": true,
-     "name": "T&P Servers (Temporarily Out of Scope)",
-     "uri": ""
+     "name": "T&P Servers",
+     "uri": "http://10.72.218.66/flag.txt"
     },
     "network|http://10.62.252.214/flag.txt": {
      "cat": "network",
