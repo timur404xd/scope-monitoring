@@ -3257,7 +3257,7 @@
      "desc": "5ee8ebc88235",
      "endpoint": "app.nl.socialdeal",
      "in": true,
-     "tier": "Tier 2",
+     "tier": "Tier 1",
      "type": "Android"
     },
     "Url|http://socialdeal.nl/inspirations/bluemonday/": {
@@ -3285,20 +3285,20 @@
      "desc": "8d5aa726135b",
      "endpoint": "www.socialdeal.nl",
      "in": true,
-     "tier": "Tier 2",
+     "tier": "Tier 1",
      "type": "Url"
     },
     "iOS|910898851": {
      "desc": "5ee8ebc88235",
      "endpoint": "910898851",
      "in": true,
-     "tier": "Tier 2",
+     "tier": "Tier 1",
      "type": "iOS"
     }
    },
    "name": "Social Deal",
    "program": {
-    "bounty": "25.0 - 750.0 EUR",
+    "bounty": "25.0 - 1000.0 EUR",
     "confidentiality": "Public"
    },
    "rules": {
