@@ -19804,7 +19804,7 @@
      "type": "Wildcard"
     },
     "Wildcard|*.duden.de": {
-     "desc": "a73f0751c191",
+     "desc": "df967525d5de",
      "endpoint": "*.duden.de",
      "in": true,
      "tier": "Tier 3",
