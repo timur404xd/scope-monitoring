@@ -10615,7 +10615,7 @@
      "type": "Other"
     },
     "Other|VMware Tools ": {
-     "desc": "33355011d68d",
+     "desc": "0a278648a8c0",
      "endpoint": "VMware Tools ",
      "in": true,
      "tier": "Tier 2",
