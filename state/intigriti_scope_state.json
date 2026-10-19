@@ -25296,6 +25296,182 @@
     "tooling": 5
    }
   },
+  "c7b0edf5-6702-4c91-923b-d36e4518c9f1": {
+   "assets": {
+    "SourceCode|https://github.com/buildonspark/spark": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://github.com/buildonspark/spark",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "SourceCode"
+    },
+    "SourceCode|https://github.com/lightsparkdev/flutter-sdk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://github.com/lightsparkdev/flutter-sdk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "SourceCode"
+    },
+    "SourceCode|https://github.com/lightsparkdev/go-sdk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://github.com/lightsparkdev/go-sdk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "SourceCode"
+    },
+    "SourceCode|https://github.com/lightsparkdev/js-sdk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://github.com/lightsparkdev/js-sdk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "SourceCode"
+    },
+    "SourceCode|https://github.com/lightsparkdev/kotlin-sdk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://github.com/lightsparkdev/kotlin-sdk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "SourceCode"
+    },
+    "SourceCode|https://github.com/lightsparkdev/lightspark-rs": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://github.com/lightsparkdev/lightspark-rs",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "SourceCode"
+    },
+    "SourceCode|https://github.com/lightsparkdev/python-sdk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://github.com/lightsparkdev/python-sdk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "SourceCode"
+    },
+    "SourceCode|lightsparkdev/lightspark-crypto-uniffi": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "lightsparkdev/lightspark-crypto-uniffi",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "SourceCode"
+    },
+    "SourceCode|lightsparkdev/swift-wallet-sdk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "lightsparkdev/swift-wallet-sdk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "SourceCode"
+    },
+    "Url|https://9b10d44d-1499-4a2f-86bc-fda178acdfdc.striga.com/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://9b10d44d-1499-4a2f-86bc-fda178acdfdc.striga.com/",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://api.lightspark.com": {
+     "desc": "ce722d408550",
+     "endpoint": "https://api.lightspark.com",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Url"
+    },
+    "Url|https://app.lightspark.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://app.lightspark.com",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Url"
+    },
+    "Url|https://app.uma.money": {
+     "desc": "6533a46a4487",
+     "endpoint": "https://app.uma.money",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Url"
+    },
+    "Url|https://hooks.striga.com/core/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://hooks.striga.com/core/",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://link.uma.me": {
+     "desc": "6533a46a4487",
+     "endpoint": "https://link.uma.me",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Url"
+    },
+    "Url|https://sandbox.striga.com/api/v0": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://sandbox.striga.com/api/v0",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://sandbox.striga.com/api/v1": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://sandbox.striga.com/api/v1",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://sandbox.striga.com/backoffice": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://sandbox.striga.com/backoffice",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://tfr-sandbox.striga.com/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://tfr-sandbox.striga.com/",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://www.sandbox.striga.com/api/v1/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://www.sandbox.striga.com/api/v1/",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://www.vault.striga.eu/web/sandbox/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://www.vault.striga.eu/web/sandbox/",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|sandbox.striga.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "sandbox.striga.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|support.lightspark.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "support.lightspark.com",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    }
+   },
+   "name": "Lightspark Public Bug Bounty",
+   "program": {
+    "bounty": "0.0 - 5000.0 USD",
+    "confidentiality": "Public"
+   },
+   "rules": {
+    "desc": "838e9b59c6c6",
+    "safe_harbour": true,
+    "testing": "21ce59b2c31a",
+    "tooling": null
+   }
+  },
   "c9edd04a-8362-4199-8a53-f517438dc41b": {
    "assets": {
     "Url|http://api-bulkchain-uat.nxtport.com": {
