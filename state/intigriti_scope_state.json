@@ -27454,21 +27454,21 @@
      "desc": "da39a3ee5e6b",
      "endpoint": "admin.dhlexpress.fr",
      "in": true,
-     "tier": "Tier 2",
+     "tier": "Tier 3",
      "type": "Url"
     },
     "Url|app2.dhlexpresscommerce.com": {
      "desc": "da39a3ee5e6b",
      "endpoint": "app2.dhlexpresscommerce.com",
      "in": true,
-     "tier": "Tier 2",
+     "tier": "Tier 3",
      "type": "Url"
     },
     "Url|coi.dhl.com": {
      "desc": "da39a3ee5e6b",
      "endpoint": "coi.dhl.com",
      "in": true,
-     "tier": "Tier 2",
+     "tier": "Tier 3",
      "type": "Url"
     },
     "Url|csacademyadmin.dhl.com": {
@@ -27482,7 +27482,7 @@
      "desc": "da39a3ee5e6b",
      "endpoint": "doconline.dhl.com",
      "in": true,
-     "tier": "Tier 2",
+     "tier": "Tier 3",
      "type": "Url"
     },
     "Url|https://agente.dhl.com": {
@@ -27517,14 +27517,14 @@
      "desc": "da39a3ee5e6b",
      "endpoint": "twfm.dhl.com",
      "in": true,
-     "tier": "Tier 2",
+     "tier": "Tier 3",
      "type": "Url"
     },
     "Url|webpod.dhl.com": {
      "desc": "da39a3ee5e6b",
      "endpoint": "webpod.dhl.com",
      "in": true,
-     "tier": "Tier 2",
+     "tier": "Tier 3",
      "type": "Url"
     },
     "Wildcard|*.aduanasdhlexpress.dhl.com": {
@@ -27537,7 +27537,7 @@
    },
    "name": "DHL Express",
    "program": {
-    "bounty": "50.0 - 3000.0 EUR",
+    "bounty": "25.0 - 3000.0 EUR",
     "confidentiality": "InviteOnly"
    },
    "rules": {
