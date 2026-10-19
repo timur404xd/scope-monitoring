@@ -2381,30 +2381,9 @@
      "tier": "Tier 2",
      "type": "Url"
     },
-    "Url|ai-testing.maventa.com": {
-     "desc": "5c7f1a3caf36",
-     "endpoint": "ai-testing.maventa.com",
-     "in": true,
-     "tier": "Tier 2",
-     "type": "Url"
-    },
     "Url|aiassistant.stage.vismaonline.com": {
      "desc": "7b48e6c5601c",
      "endpoint": "aiassistant.stage.vismaonline.com",
-     "in": true,
-     "tier": "Tier 2",
-     "type": "Url"
-    },
-    "Url|autointerface.stag.visma.net": {
-     "desc": "a8cc0a87e420",
-     "endpoint": "autointerface.stag.visma.net",
-     "in": true,
-     "tier": "Tier 2",
-     "type": "Url"
-    },
-    "Url|ax-stage.maventa.com": {
-     "desc": "b46e3e7ab950",
-     "endpoint": "ax-stage.maventa.com",
      "in": true,
      "tier": "Tier 2",
      "type": "Url"
@@ -2461,13 +2440,6 @@
     "Url|photoservice.stage.vismaonline.com": {
      "desc": "5f1a3fa9d34f",
      "endpoint": "photoservice.stage.vismaonline.com",
-     "in": true,
-     "tier": "Tier 2",
-     "type": "Url"
-    },
-    "Url|testing.maventa.com": {
-     "desc": "0be8d8f64f8b",
-     "endpoint": "testing.maventa.com",
      "in": true,
      "tier": "Tier 2",
      "type": "Url"
