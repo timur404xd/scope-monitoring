@@ -14211,12 +14211,28 @@
      "name": "https://*/advuew/*",
      "uri": ""
     },
+    "website|https://*/agsinspire/*": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of scope",
+     "in": false,
+     "name": "https://*/agsinspire/*",
+     "uri": ""
+    },
     "website|https://*/agssoe/* (Multiple Domains)": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
      "group": "Out of scope",
      "in": false,
      "name": "https://*/agssoe/* (Multiple Domains)",
+     "uri": ""
+    },
+    "website|https://*/arcgis/*": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of scope",
+     "in": false,
+     "name": "https://*/arcgis/*",
      "uri": ""
     },
     "website|https://*/geoserverneuogd/* (Multiple Domains)": {
