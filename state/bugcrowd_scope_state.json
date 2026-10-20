@@ -13226,14 +13226,6 @@
      "name": "proximate.net.au",
      "uri": "https://proximate.net.au"
     },
-    "website|rsvp.chemistwarehouse.com.au ": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "rsvp.chemistwarehouse.com.au ",
-     "uri": "https://rsvp.chemistwarehouse.com.au/"
-    },
     "website|samplesplus.com.au": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
