@@ -22000,6 +22000,26 @@
     }
    }
   },
+  "/engagements/flight-centre-vdp-pro": {
+   "groups": {
+    "In Scope ": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": null
+    }
+   },
+   "name": "Flight Centre Vulnerability Disclosure Engagement",
+   "targets": {
+    "website|Refer to \"Flight Centre Scope\" doc in 'Resources'": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope ",
+     "in": true,
+     "name": "Refer to \"Flight Centre Scope\" doc in 'Resources'",
+     "uri": ""
+    }
+   }
+  },
   "/engagements/flourish": {
    "groups": {
     "In Scope Targets": {
