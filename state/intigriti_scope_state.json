@@ -27190,10 +27190,10 @@
      "type": "Other"
     },
     "Other|Yahoo Open Source Projects": {
-     "desc": "24049fa13561",
+     "desc": "6974be1d5527",
      "endpoint": "Yahoo Open Source Projects",
-     "in": true,
-     "tier": "Tier 3",
+     "in": false,
+     "tier": "Out Of Scope",
      "type": "Other"
     },
     "Other|Yahoo Search": {
