@@ -9438,6 +9438,14 @@
      "name": "coinmarketcap.com",
      "uri": ""
     },
+    "website|https://binance.th/": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "https://binance.th/",
+     "uri": ""
+    },
     "website|jobs.coinmarketcap.com": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
