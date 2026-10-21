@@ -14773,6 +14773,301 @@
     "tooling": 2
    }
   },
+  "827995da-c319-4808-ac57-f28dd3d059c1": {
+   "assets": {
+    "Url| accountservice.contacto.lu": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": " accountservice.contacto.lu",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url| serviceapi.wort.lu": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": " serviceapi.wort.lu",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|abboshop.contacto.lu": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "abboshop.contacto.lu",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|aboshop.aachener-zeitung.de": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "aboshop.aachener-zeitung.de",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|aboshop.gva.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "aboshop.gva.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|aboshop.hbvl.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "aboshop.hbvl.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|aboshop.limburger.nl": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "aboshop.limburger.nl",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|aboshop.nieuwsblad.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "aboshop.nieuwsblad.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|aboshop.standaard.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "aboshop.standaard.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|accountsertvice.wort.lu": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "accountsertvice.wort.lu",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|https://www.belfasttelegraph.co.uk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://www.belfasttelegraph.co.uk",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://www.standaard.be": {
+     "desc": "d75225e37a67",
+     "endpoint": "https://www.standaard.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|mijn.gooieneemlander.nl": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "mijn.gooieneemlander.nl",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|mijn.haarlemsdagblad.nl": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "mijn.haarlemsdagblad.nl",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|mijn.leidschdagblad.nl": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "mijn.leidschdagblad.nl",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|mijn.noordhollandsdagblad.nl": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "mijn.noordhollandsdagblad.nl",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|mijn.telegraaf.nl": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "mijn.telegraaf.nl",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|nieuwsblad.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "nieuwsblad.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|service.contacto.lu": {
+     "desc": "8381e4db6682",
+     "endpoint": "service.contacto.lu",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|service.telecran.lu": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "service.telecran.lu",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|service.wort.lu": {
+     "desc": "8381e4db6682",
+     "endpoint": "service.wort.lu",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|serviceapi.contacto.lu ": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "serviceapi.contacto.lu ",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|serviceapi.mediahuis.lu": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "serviceapi.mediahuis.lu",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|user.luxtimes.lu": {
+     "desc": "18cf0a0d2aad",
+     "endpoint": "user.luxtimes.lu",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|user.wort.lu": {
+     "desc": "8381e4db6682",
+     "endpoint": "user.wort.lu",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|www.aachener-zeitung.de": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "www.aachener-zeitung.de",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|www.contacto.lu/": {
+     "desc": "75ed03178920",
+     "endpoint": "www.contacto.lu/",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|www.crimeworld.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "www.crimeworld.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|www.gooieneemlander.nl": {
+     "desc": "d75225e37a67",
+     "endpoint": "www.gooieneemlander.nl",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|www.gva.be": {
+     "desc": "d75225e37a67",
+     "endpoint": "www.gva.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|www.haarlemsdagblad.nl": {
+     "desc": "d75225e37a67",
+     "endpoint": "www.haarlemsdagblad.nl",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|www.hbvl.be": {
+     "desc": "d75225e37a67",
+     "endpoint": "www.hbvl.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|www.leidschdagblad.nl": {
+     "desc": "d75225e37a67",
+     "endpoint": "www.leidschdagblad.nl",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|www.limburger.nl": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "www.limburger.nl",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|www.luxtimes.lu/": {
+     "desc": "75ed03178920",
+     "endpoint": "www.luxtimes.lu/",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|www.mediahuisaachen.de": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "www.mediahuisaachen.de",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|www.noordhollandsdagblad.nl": {
+     "desc": "d75225e37a67",
+     "endpoint": "www.noordhollandsdagblad.nl",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|www.telegraaf.nl": {
+     "desc": "d75225e37a67",
+     "endpoint": "www.telegraaf.nl",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|www.virgule.lu/": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "www.virgule.lu/",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|www.wort.lu/": {
+     "desc": "75ed03178920",
+     "endpoint": "www.wort.lu/",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    }
+   },
+   "name": "Mediahuis news domains",
+   "program": {
+    "bounty": "0.0 - 1000.0 EUR",
+    "confidentiality": "InviteOnly"
+   },
+   "rules": {
+    "desc": "bb4703195175",
+    "safe_harbour": true,
+    "testing": "4aeaaccb17fe",
+    "tooling": 5
+   }
+  },
   "82be1e9b-f9ab-45e7-82fd-9ba65be37645": {
    "assets": {
     "Url|Any related Tempo-Team domain": {
