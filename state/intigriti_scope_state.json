@@ -19662,6 +19662,20 @@
   },
   "9acf0f0e-f1c5-4b69-8f21-88458eb60009": {
    "assets": {
+    "Wildcard|*.certifiedpickup.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.certifiedpickup.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.inboundrelease.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.inboundrelease.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
     "Wildcard|*.nxtport.com": {
      "desc": "da39a3ee5e6b",
      "endpoint": "*.nxtport.com",
