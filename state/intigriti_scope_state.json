@@ -2444,6 +2444,13 @@
      "tier": "Tier 2",
      "type": "Url"
     },
+    "Url|testing.maventa.com": {
+     "desc": "f320dd7f895c",
+     "endpoint": "testing.maventa.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
     "iOS|564141518": {
      "desc": "50a593de0c9c",
      "endpoint": "564141518",
