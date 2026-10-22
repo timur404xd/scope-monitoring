@@ -2826,6 +2826,182 @@
     "tooling": 2
    }
   },
+  "11b73072-3c8c-44a4-82b2-80203a7fc6f8": {
+   "assets": {
+    "IpRange|104.6.4.136/32": {
+     "desc": "0ebd9f2fd4e7",
+     "endpoint": "104.6.4.136/32",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "IpRange"
+    },
+    "IpRange|12.201.177.104/29": {
+     "desc": "6d6d82344431",
+     "endpoint": "12.201.177.104/29",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "IpRange"
+    },
+    "IpRange|12.229.137.64/29": {
+     "desc": "eeea2e65038b",
+     "endpoint": "12.229.137.64/29",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "IpRange"
+    },
+    "IpRange|219.164.213.136/32": {
+     "desc": "058f89675747",
+     "endpoint": "219.164.213.136/32",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "IpRange"
+    },
+    "IpRange|3.64.231.190/32": {
+     "desc": "fd1a5b57c165",
+     "endpoint": "3.64.231.190/32",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "IpRange|61.177.196.16/28": {
+     "desc": "59477fc89700",
+     "endpoint": "61.177.196.16/28",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "IpRange"
+    },
+    "IpRange|62.153.226.80/28": {
+     "desc": "3ddab0c9f225",
+     "endpoint": "62.153.226.80/28",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "IpRange"
+    },
+    "IpRange|62.153.237.192/26": {
+     "desc": "48a21ab46467",
+     "endpoint": "62.153.237.192/26",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "IpRange"
+    },
+    "IpRange|72.38.252.16/29": {
+     "desc": "e51ee817cd3c",
+     "endpoint": "72.38.252.16/29",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "IpRange"
+    },
+    "IpRange|80.155.168.64/29": {
+     "desc": "48a21ab46467",
+     "endpoint": "80.155.168.64/29",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "IpRange"
+    },
+    "IpRange|87.138.149.98/32": {
+     "desc": "48a21ab46467",
+     "endpoint": "87.138.149.98/32",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "IpRange"
+    },
+    "IpRange|99.209.136.192/29": {
+     "desc": "e51ee817cd3c",
+     "endpoint": "99.209.136.192/29",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "IpRange"
+    },
+    "Url|compliance.rampf-group.com": {
+     "desc": "82a13bee2d93",
+     "endpoint": "compliance.rampf-group.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|intranet.rampf-group.com": {
+     "desc": "888ea3168b57",
+     "endpoint": "intranet.rampf-group.com",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|projectcockpit.rampf-group.com": {
+     "desc": "9d7bc99e1839",
+     "endpoint": "projectcockpit.rampf-group.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|rampfgruppede-my.sharepoint.com": {
+     "desc": "41897e0cbc6d",
+     "endpoint": "rampfgruppede-my.sharepoint.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|rampfgruppede.sharepoint.com": {
+     "desc": "24b95fda3dd2",
+     "endpoint": "rampfgruppede.sharepoint.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|www.rampf-group.com Form Endpoints": {
+     "desc": "5036ba89b245",
+     "endpoint": "www.rampf-group.com Form Endpoints",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|www.rampf-group.com.cn": {
+     "desc": "079ecf367c03",
+     "endpoint": "www.rampf-group.com.cn",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Wildcard|*.rampf-group.com": {
+     "desc": "90f6eb85146f",
+     "endpoint": "*.rampf-group.com",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.rampf-group.com.cn": {
+     "desc": "b78504659135",
+     "endpoint": "*.rampf-group.com.cn",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.rampf-group.jp": {
+     "desc": "90f6eb85146f",
+     "endpoint": "*.rampf-group.jp",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.rampf-gruppe.de": {
+     "desc": "90f6eb85146f",
+     "endpoint": "*.rampf-gruppe.de",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Wildcard"
+    }
+   },
+   "name": "RAMPF Bug Bounty",
+   "program": {
+    "bounty": "25.0 - 3500.0 EUR",
+    "confidentiality": "Application"
+   },
+   "rules": {
+    "desc": "f695d1e842be",
+    "safe_harbour": true,
+    "testing": "0ab9be716c94",
+    "tooling": 3
+   }
+  },
   "13339aa7-a27e-48f3-915e-f998e0d0880b": {
    "assets": {
     "Url|Any Wartsila related domain ": {
