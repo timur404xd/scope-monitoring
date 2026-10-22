@@ -28477,14 +28477,6 @@
      "name": "K-SSO SAML SSO OAuth Kerberos User Management for Confluence - Data Center - https://marketplace.atlassian.com/apps/1212126/k-sso-saml-sso-oauth-kerberos-user-management-for-confluence?hosting=datacenter&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1212126/k-sso-saml-sso-oauth-kerberos-user-management-for-confluence?hosting=datacenter&tab=overview"
     },
-    "other|K-SSO SAML SSO OAuth Kerberos User Management for FeCru - Server - https://marketplace.atlassian.com/apps/1215263/k-sso-saml-sso-oauth-kerberos-user-management-for-fecru?hosting=server&tab=overview": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "K-SSO SAML SSO OAuth Kerberos User Management for FeCru - Server - https://marketplace.atlassian.com/apps/1215263/k-sso-saml-sso-oauth-kerberos-user-management-for-fecru?hosting=server&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1215263/k-sso-saml-sso-oauth-kerberos-user-management-for-fecru?hosting=server&tab=overview"
-    },
     "other|K-SSO SAML SSO OAuth Kerberos User Management for Jira - Data Center - https://marketplace.atlassian.com/apps/1211923/k-sso-saml-sso-oauth-kerberos-user-management-for-jira?hosting=datacenter&tab=overview": {
      "cat": "other",
      "desc": "da39a3ee5e6b",
