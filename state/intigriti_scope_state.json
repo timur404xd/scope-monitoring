@@ -5013,32 +5013,25 @@
      "tier": "Out Of Scope",
      "type": "Url"
     },
-    "Url|docs.api.enterprise.uphold.com": {
-     "desc": "0ae81a541624",
-     "endpoint": "docs.api.enterprise.uphold.com",
-     "in": true,
-     "tier": "Tier 3",
-     "type": "Url"
-    },
     "Url|docs.optimuscards.com": {
      "desc": "6f9a473fd245",
      "endpoint": "docs.optimuscards.com",
      "in": true,
-     "tier": "Tier 3",
+     "tier": "No Bounty",
      "type": "Url"
     },
     "Url|docs.topperpay.com": {
      "desc": "6b5577d5ab2a",
      "endpoint": "docs.topperpay.com",
      "in": true,
-     "tier": "Tier 3",
+     "tier": "Tier 4",
      "type": "Url"
     },
     "Url|docs.uphold.com": {
      "desc": "ce195ec06b0a",
      "endpoint": "docs.uphold.com",
      "in": true,
-     "tier": "Tier 3",
+     "tier": "Tier 4",
      "type": "Url"
     },
     "Url|graphql.sandbox.topperpay.com/graphql": {
@@ -5055,6 +5048,90 @@
      "tier": "Out Of Scope",
      "type": "Url"
     },
+    "Url|https://api.enterprise.sandbox.uphold.com/core": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://api.enterprise.sandbox.uphold.com/core",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Url"
+    },
+    "Url|https://api.enterprise.sandbox.uphold.com/kyc-connector": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://api.enterprise.sandbox.uphold.com/kyc-connector",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Url"
+    },
+    "Url|https://api.enterprise.sandbox.uphold.com/market-pulse": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://api.enterprise.sandbox.uphold.com/market-pulse",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Url"
+    },
+    "Url|https://api.enterprise.sandbox.uphold.com/topper": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://api.enterprise.sandbox.uphold.com/topper",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://api.enterprise.sandbox.uphold.com/trading": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://api.enterprise.sandbox.uphold.com/trading",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Url"
+    },
+    "Url|https://api.enterprise.sandbox.uphold.com/widgets": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://api.enterprise.sandbox.uphold.com/widgets",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Url"
+    },
+    "Url|https://api.enterprise.uphold.com/core": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://api.enterprise.uphold.com/core",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|https://api.enterprise.uphold.com/kyc-connector": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://api.enterprise.uphold.com/kyc-connector",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|https://api.enterprise.uphold.com/market-pulse": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://api.enterprise.uphold.com/market-pulse",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|https://api.enterprise.uphold.com/topper": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://api.enterprise.uphold.com/topper",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|https://api.enterprise.uphold.com/trading": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://api.enterprise.uphold.com/trading",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|https://api.enterprise.uphold.com/widgets": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://api.enterprise.uphold.com/widgets",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
     "Url|portal.enterprise.uphold.com": {
      "desc": "40e276d612f1",
      "endpoint": "portal.enterprise.uphold.com",
@@ -5065,8 +5142,8 @@
     "Url|status.uphold.com": {
      "desc": "826baf660f52",
      "endpoint": "status.uphold.com",
-     "in": true,
-     "tier": "Tier 3",
+     "in": false,
+     "tier": "Out Of Scope",
      "type": "Url"
     },
     "Url|support-sandbox.uphold.com": {
@@ -5101,7 +5178,7 @@
      "desc": "429a2d6dec32",
      "endpoint": "uatcms.optimuscards.com",
      "in": true,
-     "tier": "Tier 2",
+     "tier": "Tier 4",
      "type": "Url"
     },
     "Url|wallet-sandbox.uphold.com": {
@@ -5122,14 +5199,14 @@
      "desc": "33e12422377c",
      "endpoint": "www.optimuscards.com",
      "in": true,
-     "tier": "Tier 3",
+     "tier": "No Bounty",
      "type": "Url"
     },
     "Url|www.topperpay.com": {
      "desc": "27eca132b4f7",
      "endpoint": "www.topperpay.com",
      "in": true,
-     "tier": "Tier 3",
+     "tier": "Tier 4",
      "type": "Url"
     },
     "Url|www.uphodl.com": {
@@ -5143,21 +5220,21 @@
      "desc": "0d4a454396bb",
      "endpoint": "www.uphold.com",
      "in": true,
-     "tier": "Tier 3",
+     "tier": "Tier 4",
      "type": "Url"
     },
     "Wildcard|*.optimuscards.com": {
      "desc": "17308264a3a0",
      "endpoint": "*.optimuscards.com",
      "in": true,
-     "tier": "Tier 3",
+     "tier": "No Bounty",
      "type": "Wildcard"
     },
     "Wildcard|*.topperpay.com": {
      "desc": "111411ea509a",
      "endpoint": "*.topperpay.com",
      "in": true,
-     "tier": "Tier 3",
+     "tier": "Tier 4",
      "type": "Wildcard"
     },
     "Wildcard|*.uphodl.com": {
@@ -5171,7 +5248,7 @@
      "desc": "85559f311ccb",
      "endpoint": "*.uphold.com",
      "in": true,
-     "tier": "Tier 3",
+     "tier": "Tier 4",
      "type": "Wildcard"
     },
     "Wildcard|github.com/uphold/*": {
