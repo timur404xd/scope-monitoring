@@ -24706,9 +24706,9 @@
      "tier": "No Bounty",
      "type": "Url"
     },
-    "Wildcard|*.lovable.app": {
+    "Wildcard|*.lov.pendozers.ai": {
      "desc": "ae2c27394fb1",
-     "endpoint": "*.lovable.app",
+     "endpoint": "*.lov.pendozers.ai",
      "in": true,
      "tier": "Tier 3",
      "type": "Wildcard"
