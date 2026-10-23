@@ -29419,6 +29419,13 @@
      "tier": "Tier 2",
      "type": "Url"
     },
+    "Url|idp-url.nexuzhealth.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "idp-url.nexuzhealth.be",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
     "Url|media.nexuzhealth.be/patient/ ": {
      "desc": "da39a3ee5e6b",
      "endpoint": "media.nexuzhealth.be/patient/ ",
