@@ -8557,13 +8557,6 @@
      "tier": "No Bounty",
      "type": "Wildcard"
     },
-    "Wildcard|*.delphi": {
-     "desc": "da39a3ee5e6b",
-     "endpoint": "*.delphi",
-     "in": true,
-     "tier": "No Bounty",
-     "type": "Wildcard"
-    },
     "Wildcard|*.delphifonder.se": {
      "desc": "da39a3ee5e6b",
      "endpoint": "*.delphifonder.se",
@@ -8574,6 +8567,13 @@
     "Wildcard|*.delphifunds.com": {
      "desc": "da39a3ee5e6b",
      "endpoint": "*.delphifunds.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.kniftrygghet.no": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.kniftrygghet.no",
      "in": true,
      "tier": "No Bounty",
      "type": "Wildcard"
