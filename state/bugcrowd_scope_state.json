@@ -47531,14 +47531,6 @@
      "in": true,
      "name": "Raley Email Notifications for Jira / JSM - https://marketplace.atlassian.com/apps/1214045/raley-email-notifications-for-jira-jsm?hosting=cloud&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1214045/raley-email-notifications-for-jira-jsm?hosting=cloud&tab=overview"
-    },
-    "website|https://marketplace.atlassian.com/apps/1223409/raley-purchase-orders?hosting=cloud&tab=overview": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1223409/raley-purchase-orders?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1223409/raley-purchase-orders?hosting=cloud&tab=overview"
     }
    }
   },
