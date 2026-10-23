@@ -13160,6 +13160,56 @@
     "tooling": null
    }
   },
+  "6f38540e-cba1-4897-a20e-0349a6734604": {
+   "assets": {
+    "Android|myCoke - Android": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "myCoke - Android",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Android"
+    },
+    "Wildcard|*.c1nacloud.com": {
+     "desc": "ccb4b4b38243",
+     "endpoint": "*.c1nacloud.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.cokeonena.com": {
+     "desc": "da71629a56b6",
+     "endpoint": "*.cokeonena.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.conaservices.com": {
+     "desc": "2a2dca6ea6fc",
+     "endpoint": "*.conaservices.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "iOS|myCoke - iOS": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "myCoke - iOS",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "iOS"
+    }
+   },
+   "name": "Coke One North America",
+   "program": {
+    "bounty": "0.0 - 0.0 USD",
+    "confidentiality": "Public"
+   },
+   "rules": {
+    "desc": "ed35bd3916dc",
+    "safe_harbour": true,
+    "testing": "c4b2e9ccd4a1",
+    "tooling": 10
+   }
+  },
   "7043a1a4-76cf-4fef-98a9-d5d2c84d1f05": {
    "assets": {
     "Url|example-project.cms.webnode.page": {
