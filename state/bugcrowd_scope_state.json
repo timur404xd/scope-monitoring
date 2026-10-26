@@ -44671,39 +44671,6 @@
     }
    }
   },
-  "/engagements/oshrc-vdp": {
-   "groups": {
-    "In Scope": {
-     "desc": "da39a3ee5e6b",
-     "in": false,
-     "reward": null
-    },
-    "Out-of-Scope": {
-     "desc": "da39a3ee5e6b",
-     "in": false,
-     "reward": null
-    }
-   },
-   "name": "Occupational Safety and Health Review Commission: Vulnerability Disclosure Program",
-   "targets": {
-    "website|https://www.oshrc.gov/": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": false,
-     "name": "https://www.oshrc.gov/",
-     "uri": "https://www.oshrc.gov/"
-    },
-    "website|oshrc.entellirak.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out-of-Scope",
-     "in": false,
-     "name": "oshrc.entellirak.com",
-     "uri": ""
-    }
-   }
-  },
   "/engagements/osl-mbb-og1": {
    "groups": {
     "In scope": {
