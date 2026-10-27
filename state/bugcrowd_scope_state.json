@@ -26369,7 +26369,7 @@
   },
   "/engagements/imperva-mbb": {
    "groups": {
-    "In Scope Targets": {
+    "Thales Cyber Security Products": {
      "desc": "da39a3ee5e6b",
      "in": true,
      "reward": {
@@ -26382,70 +26382,17 @@
       "p4MaxCents": 20000,
       "p4MinCents": 15000
      }
-    },
-    "Out of Scope": {
-     "desc": "da39a3ee5e6b",
-     "in": false,
-     "reward": null
     }
    },
    "name": "Imperva - Thales Bug Bounty",
    "targets": {
-    "api|https://*.incapsula.com": {
-     "cat": "api",
+    "collection|Thales Cyber Security Products": {
+     "cat": "collection",
      "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
+     "group": "Thales Cyber Security Products",
      "in": true,
-     "name": "https://*.incapsula.com",
-     "uri": "https://*.incapsula.com"
-    },
-    "website|PTaaS Reference": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "PTaaS Reference",
-     "uri": ""
-    },
-    "website|http://docs-be.imperva.com/": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
-     "in": false,
-     "name": "http://docs-be.imperva.com/",
-     "uri": ""
-    },
-    "website|http://docs.imperva.com/": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
-     "in": false,
-     "name": "http://docs.imperva.com/",
-     "uri": ""
-    },
-    "website|https://*.cloudvector.com/": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "https://*.cloudvector.com/",
-     "uri": "https://www.cloudvector.com/"
-    },
-    "website|https://*.imperva.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "https://*.imperva.com",
-     "uri": "https://*.imperva.com"
-    },
-    "website|https://supportportal.thalesgroup.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "https://supportportal.thalesgroup.com",
-     "uri": "https://supportportal.thalesgroup.com"
+     "name": "Thales Cyber Security Products",
+     "uri": "https://bugcrowd.com/engagements/imperva-mbb"
     }
    }
   },
