@@ -12175,10 +12175,10 @@
      "type": "Url"
     },
     "Url|https://community.personio.com": {
-     "desc": "da39a3ee5e6b",
+     "desc": "3ff14bd81dfe",
      "endpoint": "https://community.personio.com",
-     "in": false,
-     "tier": "Out Of Scope",
+     "in": true,
+     "tier": "Tier 3",
      "type": "Url"
     },
     "Url|https://hug.personio.com": {
