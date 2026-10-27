@@ -34060,14 +34060,6 @@
      "name": "SRC integration on https://masterpassteststore.com/. Only the Masterpass checkout functionality is in scope",
      "uri": ""
     },
-    "website|donate.mastercard.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Public Targets (In-scope)",
-     "in": true,
-     "name": "donate.mastercard.com",
-     "uri": "https://donate.mastercard.com"
-    },
     "website|https://consumer.finicityreports.com": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
