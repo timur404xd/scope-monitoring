@@ -26384,7 +26384,7 @@
      }
     }
    },
-   "name": "Imperva - Thales Bug Bounty",
+   "name": "Thales Cyber Security Products Bug Bounty",
    "targets": {
     "collection|Thales Cyber Security Products": {
      "cat": "collection",
@@ -26393,6 +26393,30 @@
      "in": true,
      "name": "Thales Cyber Security Products",
      "uri": "https://bugcrowd.com/engagements/imperva-mbb"
+    },
+    "website|cpl.thalesgroup.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Thales Cyber Security Products",
+     "in": true,
+     "name": "cpl.thalesgroup.com",
+     "uri": "https://cpl.thalesgroup.com"
+    },
+    "website|https://supportportal.thalesgroup.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Thales Cyber Security Products",
+     "in": true,
+     "name": "https://supportportal.thalesgroup.com",
+     "uri": "https://supportportal.thalesgroup.com"
+    },
+    "website|www.imperva.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Thales Cyber Security Products",
+     "in": true,
+     "name": "www.imperva.com",
+     "uri": "https://www.imperva.com"
     }
    }
   },
@@ -40139,6 +40163,14 @@
      "in": true,
      "name": "Developer Platform Playground",
      "uri": "https://platform.openai.com/playground"
+    },
+    "website|Dots": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "ChatGPT",
+     "in": true,
+     "name": "Dots",
+     "uri": "https://chatgpt.com/dots/"
     },
     "website|Third Party Targets": {
      "cat": "website",
