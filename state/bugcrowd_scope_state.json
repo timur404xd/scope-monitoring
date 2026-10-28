@@ -68127,14 +68127,6 @@
      "name": "OneBox",
      "uri": "https://www.onebox.com/"
     },
-    "website|Oracle Cloud": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Oracle Cloud",
-     "uri": "https://console.us-ashburn-1.oraclecloud.com"
-    },
     "website|Outside Xbox": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
