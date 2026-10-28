@@ -9206,6 +9206,280 @@
     }
    }
   },
+  "/engagements/binance": {
+   "groups": {
+    "In Scope": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 1000000,
+      "p1MinCents": 500000,
+      "p2MaxCents": 500000,
+      "p2MinCents": 150000,
+      "p3MaxCents": 150000,
+      "p3MinCents": 60000,
+      "p4MaxCents": 60000,
+      "p4MinCents": 20000
+     }
+    },
+    "Out of Scope": {
+     "desc": "da39a3ee5e6b",
+     "in": false,
+     "reward": null
+    }
+   },
+   "name": "Binance",
+   "targets": {
+    "android|Binance Mobile Application for Android": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Binance Mobile Application for Android",
+     "uri": ""
+    },
+    "android|CoinMarketCap Android app": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "CoinMarketCap Android app",
+     "uri": ""
+    },
+    "android|Trustwallet Android App": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Trustwallet Android App",
+     "uri": ""
+    },
+    "api|3rdparty-apis.coinmarketcap.com": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "3rdparty-apis.coinmarketcap.com",
+     "uri": ""
+    },
+    "api|api.binance.com": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "api.binance.com",
+     "uri": ""
+    },
+    "api|api.coinmarketcap.com": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "api.coinmarketcap.com",
+     "uri": ""
+    },
+    "api|portal-api.coinmarketcap.com": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "portal-api.coinmarketcap.com",
+     "uri": ""
+    },
+    "api|pro-api.coinmarketcap.com": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "pro-api.coinmarketcap.com",
+     "uri": ""
+    },
+    "ios|Binance Mobile Application for iOS": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Binance Mobile Application for iOS",
+     "uri": ""
+    },
+    "ios|CoinMarketCap iOS app": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "CoinMarketCap iOS app",
+     "uri": ""
+    },
+    "ios|Trustwallet iOS App": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Trustwallet iOS App",
+     "uri": ""
+    },
+    "other|*.coinmarketcap.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "*.coinmarketcap.com",
+     "uri": ""
+    },
+    "other|Binance Desktop Application": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Binance Desktop Application",
+     "uri": ""
+    },
+    "other|Binance macOS Application": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Binance macOS Application",
+     "uri": ""
+    },
+    "other|https://github.com/trustwallet/wallet-core/": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "https://github.com/trustwallet/wallet-core/",
+     "uri": ""
+    },
+    "website|*.binance.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "*.binance.com",
+     "uri": "https://www.binance.com/"
+    },
+    "website|*.binance.org": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "*.binance.org",
+     "uri": ""
+    },
+    "website|*.binance.us": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "*.binance.us",
+     "uri": "https://www.binance.us/"
+    },
+    "website|*.trustwallet.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "*.trustwallet.com",
+     "uri": ""
+    },
+    "website|*.trustwalletapp.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "*.trustwalletapp.com",
+     "uri": ""
+    },
+    "website|Trustwallet Chrome Extension": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Trustwallet Chrome Extension",
+     "uri": ""
+    },
+    "website|binance.sg": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "binance.sg",
+     "uri": ""
+    },
+    "website|binance.tr": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "binance.tr",
+     "uri": "https://binance.tr"
+    },
+    "website|blockchain.coinmarketcap.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "blockchain.coinmarketcap.com",
+     "uri": ""
+    },
+    "website|blog.coinmarketcap.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "blog.coinmarketcap.com",
+     "uri": ""
+    },
+    "website|coinmarketcap.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "coinmarketcap.com",
+     "uri": ""
+    },
+    "website|https://binance.th/": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "https://binance.th/",
+     "uri": ""
+    },
+    "website|jobs.coinmarketcap.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "jobs.coinmarketcap.com",
+     "uri": ""
+    },
+    "website|pro.coinmarketcap.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "pro.coinmarketcap.com",
+     "uri": ""
+    },
+    "website|support.binance.*": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "support.binance.*",
+     "uri": ""
+    },
+    "website|support.coinmarketcap.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "support.coinmarketcap.com",
+     "uri": ""
+    }
+   }
+  },
   "/engagements/bitdefender": {
    "groups": {
     "Bitdefender": {
