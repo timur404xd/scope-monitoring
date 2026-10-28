@@ -32910,6 +32910,14 @@
      "in": true,
      "name": "www.lululemon.me",
      "uri": "https://www.lululemon.me"
+    },
+    "website|www.pacsun.me": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "www.pacsun.me",
+     "uri": "https://www.pacsun.me/"
     }
    }
   },
