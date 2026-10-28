@@ -33384,6 +33384,67 @@
     }
    }
   },
+  "/engagements/marketplaceexpert": {
+   "groups": {
+    "In Scope": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 150000,
+      "p1MinCents": 150000,
+      "p2MaxCents": 90000,
+      "p2MinCents": 90000,
+      "p3MaxCents": 30000,
+      "p3MinCents": 30000,
+      "p4MaxCents": 10000,
+      "p4MinCents": 10000
+     }
+    }
+   },
+   "name": "Marketplace Expert SL",
+   "targets": {
+    "other|Links Hierarchy (Jira   Server) - https://marketplace.atlassian.com/apps/1211022/links-hierarchy-jira-agile?hosting=server&tab=overview": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Links Hierarchy (Jira   Server) - https://marketplace.atlassian.com/apps/1211022/links-hierarchy-jira-agile?hosting=server&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1211022/links-hierarchy-jira-agile?hosting=server&tab=overview"
+    },
+    "other|Links Hierarchy (Jira Datacenter) - https://marketplace.atlassian.com/apps/1211022/?hosting=datacenter&tab=overview": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Links Hierarchy (Jira Datacenter) - https://marketplace.atlassian.com/apps/1211022/?hosting=datacenter&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1211022/?hosting=datacenter&tab=overview"
+    },
+    "other|Subversion ALM for the enterprise (Jira Datacenter) - https://marketplace.atlassian.com/apps/1211642/subversion-alm-for-the-enterprise?hosting=datacenter&tab=overview": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Subversion ALM for the enterprise (Jira Datacenter) - https://marketplace.atlassian.com/apps/1211642/subversion-alm-for-the-enterprise?hosting=datacenter&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1211642/subversion-alm-for-the-enterprise?hosting=datacenter&tab=overview"
+    },
+    "other|Subversion ALM for the enterprise (Jira Server) - https://marketplace.atlassian.com/apps/1211642/subversion-alm-for-the-enterprise?hosting=server&tab=overview": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Subversion ALM for the enterprise (Jira Server) - https://marketplace.atlassian.com/apps/1211642/subversion-alm-for-the-enterprise?hosting=server&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1211642/subversion-alm-for-the-enterprise?hosting=server&tab=overview"
+    },
+    "website|Links Hierachy (Jira Cloud) - https://marketplace.atlassian.com/apps/1211022/?hosting=cloud": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Links Hierachy (Jira Cloud) - https://marketplace.atlassian.com/apps/1211022/?hosting=cloud",
+     "uri": "https://marketplace.atlassian.com/apps/1211022/?hosting=cloud"
+    }
+   }
+  },
   "/engagements/marklogic-vdp": {
    "groups": {
     "MarkLogic Software Applications": {
@@ -51449,199 +51510,6 @@
      "in": true,
      "name": "SecureFlag ThreatCanvas - https://marketplace.atlassian.com/apps/1232491?tab=overview&hosting=cloud",
      "uri": "https://marketplace.atlassian.com/apps/1232491?tab=overview&hosting=cloud"
-    }
-   }
-  },
-  "/engagements/seek": {
-   "groups": {
-    "API": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 1000000,
-      "p1MinCents": 500000,
-      "p2MaxCents": 500000,
-      "p2MinCents": 70000,
-      "p3MaxCents": 70000,
-      "p3MinCents": 20000,
-      "p4MaxCents": 20000,
-      "p4MinCents": 5000
-     }
-    },
-    "In Scope Targets": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 1000000,
-      "p1MinCents": 500000,
-      "p2MaxCents": 500000,
-      "p2MinCents": 70000,
-      "p3MaxCents": 70000,
-      "p3MinCents": 20000,
-      "p4MaxCents": 20000,
-      "p4MinCents": 5000
-     }
-    },
-    "Mobile Targets": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 1000000,
-      "p1MinCents": 500000,
-      "p2MaxCents": 500000,
-      "p2MinCents": 70000,
-      "p3MaxCents": 70000,
-      "p3MinCents": 20000,
-      "p4MaxCents": 20000,
-      "p4MinCents": 5000
-     }
-    }
-   },
-   "name": "SEEK ",
-   "targets": {
-    "android|SEEK Pass Mobile App for Android": {
-     "cat": "android",
-     "desc": "da39a3ee5e6b",
-     "group": "Mobile Targets",
-     "in": true,
-     "name": "SEEK Pass Mobile App for Android",
-     "uri": "https://play.google.com/store/apps/details?id=com.certsy.app"
-    },
-    "android|SEEK mobile app for Android": {
-     "cat": "android",
-     "desc": "da39a3ee5e6b",
-     "group": "Mobile Targets",
-     "in": true,
-     "name": "SEEK mobile app for Android",
-     "uri": "https://play.google.com/store/apps/details?id=au.com.seek&hl=en_AU&gl=US"
-    },
-    "api|*.jobapi.net": {
-     "cat": "api",
-     "desc": "da39a3ee5e6b",
-     "group": "API",
-     "in": true,
-     "name": "*.jobapi.net",
-     "uri": ""
-    },
-    "api|*.sol-data.com": {
-     "cat": "api",
-     "desc": "da39a3ee5e6b",
-     "group": "API",
-     "in": true,
-     "name": "*.sol-data.com",
-     "uri": ""
-    },
-    "api|auth.seek.com": {
-     "cat": "api",
-     "desc": "da39a3ee5e6b",
-     "group": "API",
-     "in": true,
-     "name": "auth.seek.com",
-     "uri": "https://auth.seek.com"
-    },
-    "api|graphql.seek.com": {
-     "cat": "api",
-     "desc": "da39a3ee5e6b",
-     "group": "API",
-     "in": true,
-     "name": "graphql.seek.com",
-     "uri": "https://graphql.seek.com"
-    },
-    "ios|SEEK Pass Mobile App for iOS": {
-     "cat": "ios",
-     "desc": "da39a3ee5e6b",
-     "group": "Mobile Targets",
-     "in": true,
-     "name": "SEEK Pass Mobile App for iOS",
-     "uri": "https://apps.apple.com/au/app/certsy/id1617796159"
-    },
-    "ios|SEEK mobile app for iOS": {
-     "cat": "ios",
-     "desc": "da39a3ee5e6b",
-     "group": "Mobile Targets",
-     "in": true,
-     "name": "SEEK mobile app for iOS",
-     "uri": "https://apps.apple.com/au/app/seek-jobs-job-search/id520400855"
-    },
-    "other|https://seekcdn.com": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "https://seekcdn.com",
-     "uri": "https://seekcdn.com"
-    },
-    "website|*.aips-internal.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "API",
-     "in": true,
-     "name": "*.aips-internal.com",
-     "uri": ""
-    },
-    "website|*.employer.seek.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "*.employer.seek.com",
-     "uri": "https://*.employer.seek.com"
-    },
-    "website|*.jobsdb.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "*.jobsdb.com",
-     "uri": "https://*.jobsdb.com"
-    },
-    "website|*.jobstreet.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "*.jobstreet.com",
-     "uri": "https://*.jobstreet.com"
-    },
-    "website|*.myseek.xyz": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "*.myseek.xyz",
-     "uri": "https://*.myseek.xyz"
-    },
-    "website|*.outfra.xyz": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "*.outfra.xyz",
-     "uri": ""
-    },
-    "website|*.seek.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "*.seek.com",
-     "uri": ""
-    },
-    "website|*.seekpass.co": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "*.seekpass.co",
-     "uri": ""
-    },
-    "website|*.skinfra.xyz": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "*.skinfra.xyz",
-     "uri": ""
     }
    }
   },
