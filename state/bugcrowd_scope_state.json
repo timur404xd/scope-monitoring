@@ -45449,35 +45449,6 @@
     }
    }
   },
-  "/engagements/pexels": {
-   "groups": {
-    "In Scope Targets": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 600000,
-      "p1MinCents": 600000,
-      "p2MaxCents": 250000,
-      "p2MinCents": 250000,
-      "p3MaxCents": 85000,
-      "p3MinCents": 85000,
-      "p4MaxCents": 10000,
-      "p4MinCents": 10000
-     }
-    }
-   },
-   "name": "Pexels",
-   "targets": {
-    "website|*.pexels.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "*.pexels.com",
-     "uri": "https://www.pexels.com/"
-    }
-   }
-  },
   "/engagements/phyn-belkin-vdp-pro": {
    "groups": {
     "In Scope": {
