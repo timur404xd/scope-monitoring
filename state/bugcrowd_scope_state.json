@@ -32464,97 +32464,6 @@
     }
    }
   },
-  "/engagements/luno-og": {
-   "groups": {
-    "Mobile targets": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 750000,
-      "p1MinCents": 450000,
-      "p2MaxCents": 300000,
-      "p2MinCents": 225000,
-      "p3MaxCents": 100000,
-      "p3MinCents": 82500,
-      "p4MaxCents": 37500,
-      "p4MinCents": 22500
-     }
-    },
-    "Web targets": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 300000,
-      "p1MinCents": 250000,
-      "p2MaxCents": 180000,
-      "p2MinCents": 150000,
-      "p3MaxCents": 65000,
-      "p3MinCents": 50000,
-      "p4MaxCents": 20000,
-      "p4MinCents": 10000
-     }
-    }
-   },
-   "name": "Luno Bug Bounty Program",
-   "targets": {
-    "android|Luno Android Application": {
-     "cat": "android",
-     "desc": "da39a3ee5e6b",
-     "group": "Mobile targets",
-     "in": true,
-     "name": "Luno Android Application",
-     "uri": "https://play.google.com/store/apps/details?hl=en&id=co.bitx.android.wallet"
-    },
-    "api|https://api.staging.luno.com/": {
-     "cat": "api",
-     "desc": "da39a3ee5e6b",
-     "group": "Web targets",
-     "in": true,
-     "name": "https://api.staging.luno.com/",
-     "uri": "https://api.staging.luno.com/"
-    },
-    "api|https://mobileapi.staging.luno.com/": {
-     "cat": "api",
-     "desc": "da39a3ee5e6b",
-     "group": "Mobile targets",
-     "in": true,
-     "name": "https://mobileapi.staging.luno.com/",
-     "uri": "https://mobileapi.staging.luno.com/"
-    },
-    "ios|Luno iOS Application": {
-     "cat": "ios",
-     "desc": "da39a3ee5e6b",
-     "group": "Mobile targets",
-     "in": true,
-     "name": "Luno iOS Application",
-     "uri": "https://apps.apple.com/app/bitx-wallet/id927362479"
-    },
-    "website|*.staging.luno.com/": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Web targets",
-     "in": true,
-     "name": "*.staging.luno.com/",
-     "uri": "https://staging.luno.com/"
-    },
-    "website|*staging.luno.com.ng/": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Web targets",
-     "in": true,
-     "name": "*staging.luno.com.ng/",
-     "uri": "https://staging.luno.com.ng"
-    },
-    "website|https://app.staging.luno.com/": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Web targets",
-     "in": true,
-     "name": "https://app.staging.luno.com/",
-     "uri": "https://app.staging.luno.com/"
-    }
-   }
-  },
   "/engagements/macquarie-group-vdp": {
    "groups": {
     "In Scope": {
@@ -33472,67 +33381,6 @@
      "in": true,
      "name": "https://www.malloftheemirates.com",
      "uri": "https://www.malloftheemirates.com"
-    }
-   }
-  },
-  "/engagements/marketplaceexpert": {
-   "groups": {
-    "In Scope": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 150000,
-      "p1MinCents": 150000,
-      "p2MaxCents": 90000,
-      "p2MinCents": 90000,
-      "p3MaxCents": 30000,
-      "p3MinCents": 30000,
-      "p4MaxCents": 10000,
-      "p4MinCents": 10000
-     }
-    }
-   },
-   "name": "Marketplace Expert SL",
-   "targets": {
-    "other|Links Hierarchy (Jira   Server) - https://marketplace.atlassian.com/apps/1211022/links-hierarchy-jira-agile?hosting=server&tab=overview": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "Links Hierarchy (Jira   Server) - https://marketplace.atlassian.com/apps/1211022/links-hierarchy-jira-agile?hosting=server&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1211022/links-hierarchy-jira-agile?hosting=server&tab=overview"
-    },
-    "other|Links Hierarchy (Jira Datacenter) - https://marketplace.atlassian.com/apps/1211022/?hosting=datacenter&tab=overview": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "Links Hierarchy (Jira Datacenter) - https://marketplace.atlassian.com/apps/1211022/?hosting=datacenter&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1211022/?hosting=datacenter&tab=overview"
-    },
-    "other|Subversion ALM for the enterprise (Jira Datacenter) - https://marketplace.atlassian.com/apps/1211642/subversion-alm-for-the-enterprise?hosting=datacenter&tab=overview": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "Subversion ALM for the enterprise (Jira Datacenter) - https://marketplace.atlassian.com/apps/1211642/subversion-alm-for-the-enterprise?hosting=datacenter&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1211642/subversion-alm-for-the-enterprise?hosting=datacenter&tab=overview"
-    },
-    "other|Subversion ALM for the enterprise (Jira Server) - https://marketplace.atlassian.com/apps/1211642/subversion-alm-for-the-enterprise?hosting=server&tab=overview": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "Subversion ALM for the enterprise (Jira Server) - https://marketplace.atlassian.com/apps/1211642/subversion-alm-for-the-enterprise?hosting=server&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1211642/subversion-alm-for-the-enterprise?hosting=server&tab=overview"
-    },
-    "website|Links Hierachy (Jira Cloud) - https://marketplace.atlassian.com/apps/1211022/?hosting=cloud": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "Links Hierachy (Jira Cloud) - https://marketplace.atlassian.com/apps/1211022/?hosting=cloud",
-     "uri": "https://marketplace.atlassian.com/apps/1211022/?hosting=cloud"
     }
    }
   },
@@ -66994,14 +66842,6 @@
      "name": "Pregnancy Tracker & Baby App",
      "uri": "https://play.google.com/store/apps/details?id=com.wte.view"
     },
-    "api|Campaigner SMTPService": {
-     "cat": "api",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Campaigner SMTPService",
-     "uri": "https://ws.csmtp.net/2014/06/SMTPService.asmx"
-    },
     "ios|Baby Names by BabyCenter": {
      "cat": "ios",
      "desc": "da39a3ee5e6b",
@@ -67057,22 +66897,6 @@
      "in": true,
      "name": "Aberdeen",
      "uri": "https://aberdeen.com"
-    },
-    "website|Aberdeen 2": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Aberdeen 2",
-     "uri": "https://aberdeenclean.wpengine.com"
-    },
-    "website|Aberdeen Strategy & Research Library": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Aberdeen Strategy & Research Library",
-     "uri": "https://aberdeen.canto.com"
     },
     "website|Ad Care": {
      "cat": "website",
@@ -67234,14 +67058,6 @@
      "name": "BabyCentre",
      "uri": "https://*.babycenter.com/"
     },
-    "website|Best Blackfriday": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Best Blackfriday",
-     "uri": "https://bestblackfriday.com"
-    },
     "website|Blackbox By Email Industries": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
@@ -67258,14 +67074,6 @@
      "name": "Blackfriday",
      "uri": "https://blackfriday.com"
     },
-    "website|Blackout Live Stream Battles": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Blackout Live Stream Battles",
-     "uri": "https://gamer-network-livestreambattles.com/"
-    },
     "website|Bphope": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
@@ -67280,7 +67088,7 @@
      "group": "In Scope Targets",
      "in": true,
      "name": "Bring over",
-     "uri": "https://bringover.net"
+     "uri": "https://bringover.net/"
     },
     "website|Business of home": {
      "cat": "website",
@@ -67394,14 +67202,6 @@
      "name": "Computer Shopper",
      "uri": "https://computershopper.com"
     },
-    "website|Coupon Codes": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Coupon Codes",
-     "uri": "https://www.couponcodes.com"
-    },
     "website|Coverage Check Mosaik": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
@@ -67409,14 +67209,6 @@
      "in": true,
      "name": "Coverage Check Mosaik",
      "uri": "https://coveragecheck.mosaik.com"
-    },
-    "website|Creditcards Explained": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Creditcards Explained",
-     "uri": "https://www.creditcardsexplained.com"
     },
     "website|Cypher Smart Electricmail": {
      "cat": "website",
@@ -67448,7 +67240,7 @@
      "group": "In Scope Targets",
      "in": true,
      "name": "Diabetes Daily",
-     "uri": "https://diabetesdaily.com"
+     "uri": "https://diabetesdaily.com/"
     },
     "website|Dice Breaker": {
      "cat": "website",
@@ -67458,22 +67250,6 @@
      "name": "Dice Breaker",
      "uri": "https://*.dicebreaker.com/"
     },
-    "website|Dice Breaker COM": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Dice Breaker COM",
-     "uri": "https://tabletopawards.com/"
-    },
-    "website|Dice Breaker UK": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Dice Breaker UK",
-     "uri": "https://tabletopawards.co.uk/"
-    },
     "website|Division2 Map": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
@@ -67481,14 +67257,6 @@
      "in": true,
      "name": "Division2 Map",
      "uri": "https://division2map.com"
-    },
-    "website|Doctor Directory": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Doctor Directory",
-     "uri": "https://doctordirectory.com"
     },
     "website|Domino": {
      "cat": "website",
@@ -67618,14 +67386,6 @@
      "name": "Enter the Dark Zone",
      "uri": "https://gn-darkzone.com/"
     },
-    "website|Esports By Omen": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Esports By Omen",
-     "uri": "https://*.omenesportsreport.com/"
-    },
     "website|Eurogamer": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
@@ -67681,14 +67441,6 @@
      "in": true,
      "name": "Eurogamer Italy",
      "uri": "https://*.eurogamer.it/"
-    },
-    "website|Eurogamer NET": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Eurogamer NET",
-     "uri": "https://themitchverse.com/"
     },
     "website|Eurogamer Netherlands": {
      "cat": "website",
@@ -67890,14 +67642,6 @@
      "name": "Gamer Network Smash Bros",
      "uri": "https://*.smashbattleslive.com/"
     },
-    "website|Gamer Network Switch Party": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Gamer Network Switch Party",
-     "uri": "https://gamernetworkswitchparty.com/"
-    },
     "website|Gamer Nework Victory Road": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
@@ -67945,14 +67689,6 @@
      "in": true,
      "name": "Gift Cards",
      "uri": "https://uberusa.launchgiftcards.com/"
-    },
-    "website|Guess the retro game sounds video quiz": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Guess the retro game sounds video quiz",
-     "uri": "https://*.logitechg-gn.com/"
     },
     "website|Health Professional Academy": {
      "cat": "website",
@@ -68026,14 +67762,6 @@
      "name": "IPVanish",
      "uri": "https://ipvanish.com"
     },
-    "website|IT Management": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "IT Management",
-     "uri": "https://itmanagement.com"
-    },
     "website|IT Research Online": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
@@ -68049,22 +67777,6 @@
      "in": true,
      "name": "Inboxexpo By Email Industries",
      "uri": "https://inboxexpo.com/"
-    },
-    "website|Inside CRM": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Inside CRM",
-     "uri": "https://insidecrm.com"
-    },
-    "website|InsideCRM": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "InsideCRM",
-     "uri": "https://insidecrm.com/"
     },
     "website|Inspired LMS": {
      "cat": "website",
@@ -68218,30 +67930,6 @@
      "name": "MapELEMENTS",
      "uri": "https://www.mapelements.com"
     },
-    "website|Martech match": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Martech match",
-     "uri": "https://martechmatch.com/"
-    },
-    "website|Martechly": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Martechly",
-     "uri": "https://martechly.com"
-    },
-    "website|Marty Awards": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Marty Awards",
-     "uri": "https://martyawards.com"
-    },
     "website|Mashable Asia": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
@@ -68322,14 +68010,6 @@
      "name": "Migraine Again",
      "uri": "https://migraineagain.com"
     },
-    "website|Mom 2": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Mom 2",
-     "uri": "https://Mom2.org"
-    },
     "website|Mom 2 Summit": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
@@ -68354,22 +68034,6 @@
      "name": "Moz SEO - Search Analytics",
      "uri": "https://internal.getstat.com/"
     },
-    "website|Moz SEO 2": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Moz SEO 2",
-     "uri": "https://seomoz.com"
-    },
-    "website|Moz SEO API": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Moz SEO API",
-     "uri": "https://lsapi.seomoz.com/"
-    },
     "website|My Vipre": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
@@ -68385,30 +68049,6 @@
      "in": true,
      "name": "Network Validator",
      "uri": "https://networkvalidator.mosaik.com"
-    },
-    "website|New Media Council - Mom": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "New Media Council - Mom",
-     "uri": "https://NewMediaCouncil.org"
-    },
-    "website|Nursing ALD": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Nursing ALD",
-     "uri": "https://www.nursingald.com"
-    },
-    "website|OMFIT": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "OMFIT",
-     "uri": "https://omfit.com"
     },
     "website|Offers": {
      "cat": "website",
@@ -68576,15 +68216,7 @@
      "group": "In Scope Targets",
      "in": true,
      "name": "Read it quik",
-     "uri": "http://readitquik.com"
-    },
-    "website|Read it quik 2": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Read it quik 2",
-     "uri": "https://readitquk.net"
+     "uri": "https://readitquik.com/"
     },
     "website|Red Dead Redemption 2 Map": {
      "cat": "website",
@@ -68593,14 +68225,6 @@
      "in": true,
      "name": "Red Dead Redemption 2 Map",
      "uri": "https://rdr2map.com/"
-    },
-    "website|Red it quik": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Red it quik",
-     "uri": "https://reditquik.co"
     },
     "website|Redit quik": {
      "cat": "website",
@@ -68682,14 +68306,6 @@
      "name": "Send inc",
      "uri": "https://sendinc.com"
     },
-    "website|Signal Tech Net": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Signal Tech Net",
-     "uri": "https://signaltechnet.com"
-    },
     "website|Signflow Germany": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
@@ -68722,14 +68338,6 @@
      "name": "Spatialbuzz",
      "uri": "https://spatialbuzz.com"
     },
-    "website|Spatialbuzz UK": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Spatialbuzz UK",
-     "uri": "https://demo-uk.spatialbuzz.net"
-    },
     "website|Speed Test": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
@@ -68752,7 +68360,7 @@
      "group": "In Scope Targets",
      "in": true,
      "name": "Speedtest Custom Portal",
-     "uri": "http://speedtestcustom.com/"
+     "uri": "https://speedtestcustom.com/"
     },
     "website|Spice Works ": {
      "cat": "website",
@@ -68898,14 +68506,6 @@
      "name": "Theskimm iceland",
      "uri": "https://www.skimmth.is"
     },
-    "website|Theskimm loyalty": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Theskimm loyalty",
-     "uri": "https://www.skimmbassadors.com/"
-    },
     "website|Tool Box": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
@@ -68953,14 +68553,6 @@
      "in": true,
      "name": "VG247 Poland",
      "uri": "https://vg247.pl/"
-    },
-    "website|VOIP News": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "VOIP News",
-     "uri": "https://voip-news.com"
     },
     "website|VPN Account": {
      "cat": "website",
@@ -69152,7 +68744,7 @@
      "group": "In Scope Targets",
      "in": true,
      "name": "ziffdavis.com",
-     "uri": "https://ziffdavis.com"
+     "uri": "https://ziffdavis.com/"
     }
    }
   },
