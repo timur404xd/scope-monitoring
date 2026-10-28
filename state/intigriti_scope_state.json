@@ -13245,6 +13245,28 @@
     "tooling": null
    }
   },
+  "7087b995-a10a-4d23-928b-012c473ea3b0": {
+   "assets": {
+    "Url|https://challenge-brp.challenges.intigriti.io": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://challenge-brp.challenges.intigriti.io",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    }
+   },
+   "name": "BRP Challenge",
+   "program": {
+    "bounty": "0.0 - 0.0 EUR",
+    "confidentiality": "Public"
+   },
+   "rules": {
+    "desc": "08d2e98e6754",
+    "safe_harbour": true,
+    "testing": "e1617ec1a5f2",
+    "tooling": 3
+   }
+  },
   "72251963-9df7-4fab-af7d-35d0305d63cc": {
    "assets": {
     "Url|admin.sqills-bugbounty-test.cloud.sqills.com": {
