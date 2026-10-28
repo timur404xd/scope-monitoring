@@ -17556,21 +17556,21 @@
    },
    "name": "DevAcrobats",
    "targets": {
-    "other|Performance Objectives: Charts & Reports for Jira Dashboards - Data Center -- https://marketplace.atlassian.com/apps/1218655/performance-objectives-charts-reports?hosting=datacenter&tab=overview": {
+    "other|Performance Charts and Reports for Jira Dashboards- Data Center -- https://marketplace.atlassian.com/apps/1218655/performance-charts-and-reports-for-jira-dashboards?hosting=datacenter&tab=overview": {
      "cat": "other",
      "desc": "da39a3ee5e6b",
      "group": "In Scope",
      "in": true,
-     "name": "Performance Objectives: Charts & Reports for Jira Dashboards - Data Center -- https://marketplace.atlassian.com/apps/1218655/performance-objectives-charts-reports?hosting=datacenter&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1218655/performance-objectives-charts-reports?hosting=datacenter&tab=overview"
+     "name": "Performance Charts and Reports for Jira Dashboards- Data Center -- https://marketplace.atlassian.com/apps/1218655/performance-charts-and-reports-for-jira-dashboards?hosting=datacenter&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1218655/performance-charts-and-reports-for-jira-dashboards?hosting=datacenter&tab=overview"
     },
-    "website|Performance Objectives: Charts & Reports for Jira Dashboards - Cloud -- https://marketplace.atlassian.com/apps/1218655/performance-objectives-charts-reports?hosting=cloud&tab=overview": {
+    "website|Performance Charts and Reports for Jira Dashboards - Cloud -- https://marketplace.atlassian.com/apps/1218655/performance-charts-and-reports-for-jira-dashboards?hosting=cloud&tab=overview": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
      "group": "In Scope",
      "in": true,
-     "name": "Performance Objectives: Charts & Reports for Jira Dashboards - Cloud -- https://marketplace.atlassian.com/apps/1218655/performance-objectives-charts-reports?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1218655/performance-objectives-charts-reports?hosting=cloud&tab=overview"
+     "name": "Performance Charts and Reports for Jira Dashboards - Cloud -- https://marketplace.atlassian.com/apps/1218655/performance-charts-and-reports-for-jira-dashboards?hosting=cloud&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1218655/performance-charts-and-reports-for-jira-dashboards?hosting=cloud&tab=overview"
     },
     "website|User Activity Timeline & History for Jira -- https://marketplace.atlassian.com/apps/1234873/user-activity-timeline-history-for-jira?hosting=cloud&tab=overview": {
      "cat": "website",
