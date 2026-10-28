@@ -8052,28 +8052,6 @@
     "tooling": null
    }
   },
-  "4a0c9a8c-4b88-476a-87cd-3e97ac6ea027": {
-   "assets": {
-    "Url|https://challenge-1026.challenges.intigriti.io": {
-     "desc": "da39a3ee5e6b",
-     "endpoint": "https://challenge-1026.challenges.intigriti.io",
-     "in": true,
-     "tier": "Tier 2",
-     "type": "Url"
-    }
-   },
-   "name": "Challenge 1026",
-   "program": {
-    "bounty": "0.0 - 0.0 EUR",
-    "confidentiality": "Public"
-   },
-   "rules": {
-    "desc": "08d2e98e6754",
-    "safe_harbour": true,
-    "testing": "e1617ec1a5f2",
-    "tooling": 3
-   }
-  },
   "4acc7e11-3634-4ce5-b100-d961d3f6c6f0": {
    "assets": {
     "Url|https://hotelservice.hrs.com/": {
@@ -21589,9 +21567,23 @@
      "tier": "Tier 1",
      "type": "Android"
     },
+    "Other|Too Good To Go Platform - Android APK": {
+     "desc": "e461bcea8eb4",
+     "endpoint": "Too Good To Go Platform - Android APK",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Other"
+    },
     "Url|https://backend-bounty.dev-common.tgtg.ninja": {
      "desc": "da39a3ee5e6b",
      "endpoint": "https://backend-bounty.dev-common.tgtg.ninja",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Url"
+    },
+    "Url|https://bounty.dlcmemo.eu": {
+     "desc": "497ab1a6dee9",
+     "endpoint": "https://bounty.dlcmemo.eu",
      "in": true,
      "tier": "Tier 1",
      "type": "Url"

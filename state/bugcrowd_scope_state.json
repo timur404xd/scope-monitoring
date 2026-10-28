@@ -33384,6 +33384,67 @@
     }
    }
   },
+  "/engagements/marketplaceexpert": {
+   "groups": {
+    "In Scope": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 150000,
+      "p1MinCents": 150000,
+      "p2MaxCents": 90000,
+      "p2MinCents": 90000,
+      "p3MaxCents": 30000,
+      "p3MinCents": 30000,
+      "p4MaxCents": 10000,
+      "p4MinCents": 10000
+     }
+    }
+   },
+   "name": "Marketplace Expert SL",
+   "targets": {
+    "other|Links Hierarchy (Jira   Server) - https://marketplace.atlassian.com/apps/1211022/links-hierarchy-jira-agile?hosting=server&tab=overview": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Links Hierarchy (Jira   Server) - https://marketplace.atlassian.com/apps/1211022/links-hierarchy-jira-agile?hosting=server&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1211022/links-hierarchy-jira-agile?hosting=server&tab=overview"
+    },
+    "other|Links Hierarchy (Jira Datacenter) - https://marketplace.atlassian.com/apps/1211022/?hosting=datacenter&tab=overview": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Links Hierarchy (Jira Datacenter) - https://marketplace.atlassian.com/apps/1211022/?hosting=datacenter&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1211022/?hosting=datacenter&tab=overview"
+    },
+    "other|Subversion ALM for the enterprise (Jira Datacenter) - https://marketplace.atlassian.com/apps/1211642/subversion-alm-for-the-enterprise?hosting=datacenter&tab=overview": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Subversion ALM for the enterprise (Jira Datacenter) - https://marketplace.atlassian.com/apps/1211642/subversion-alm-for-the-enterprise?hosting=datacenter&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1211642/subversion-alm-for-the-enterprise?hosting=datacenter&tab=overview"
+    },
+    "other|Subversion ALM for the enterprise (Jira Server) - https://marketplace.atlassian.com/apps/1211642/subversion-alm-for-the-enterprise?hosting=server&tab=overview": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Subversion ALM for the enterprise (Jira Server) - https://marketplace.atlassian.com/apps/1211642/subversion-alm-for-the-enterprise?hosting=server&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1211642/subversion-alm-for-the-enterprise?hosting=server&tab=overview"
+    },
+    "website|Links Hierachy (Jira Cloud) - https://marketplace.atlassian.com/apps/1211022/?hosting=cloud": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Links Hierachy (Jira Cloud) - https://marketplace.atlassian.com/apps/1211022/?hosting=cloud",
+     "uri": "https://marketplace.atlassian.com/apps/1211022/?hosting=cloud"
+    }
+   }
+  },
   "/engagements/marklogic-vdp": {
    "groups": {
     "MarkLogic Software Applications": {
