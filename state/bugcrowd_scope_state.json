@@ -36198,6 +36198,14 @@
      "name": "Moneytree Android Mobile Application (staging; see below)",
      "uri": "https://play.google.com/store/apps/details?id=jp.moneytree.moneytree&hl=en_AU&gl=US"
     },
+    "api|MCP Server": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "Staging @ moneytree.jp",
+     "in": true,
+     "name": "MCP Server",
+     "uri": "https://mcp-staging.getmoneytree.com/"
+    },
     "api|Moneytree API": {
      "cat": "api",
      "desc": "da39a3ee5e6b",
