@@ -53184,6 +53184,91 @@
     }
    }
   },
+  "/engagements/soldevelo": {
+   "groups": {
+    "In Scope Targets": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 150000,
+      "p1MinCents": 150000,
+      "p2MaxCents": 90000,
+      "p2MinCents": 90000,
+      "p3MaxCents": 30000,
+      "p3MinCents": 30000,
+      "p4MaxCents": 10000,
+      "p4MinCents": 10000
+     }
+    }
+   },
+   "name": "SolDevelo",
+   "targets": {
+    "other|https://marketplace.atlassian.com/apps/1219004/worklogs-time-tracking-and-reports?hosting=cloud&tab=overview": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "https://marketplace.atlassian.com/apps/1219004/worklogs-time-tracking-and-reports?hosting=cloud&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1219004/worklogs-time-tracking-and-reports?hosting=cloud&tab=overview"
+    },
+    "other|https://marketplace.atlassian.com/apps/1219196/team-performance-reports-and-insights?hosting=cloud&tab=overview": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "https://marketplace.atlassian.com/apps/1219196/team-performance-reports-and-insights?hosting=cloud&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1219196/team-performance-reports-and-insights?hosting=cloud&tab=overview"
+    },
+    "other|https://marketplace.atlassian.com/apps/1220026/multiple-checklists-for-jira?hosting=cloud&tab=overview": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "https://marketplace.atlassian.com/apps/1220026/multiple-checklists-for-jira?hosting=cloud&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1220026/multiple-checklists-for-jira?hosting=cloud&tab=overview"
+    },
+    "other|https://marketplace.atlassian.com/apps/1222083/qality-test-management-for-jira?hosting=cloud": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "https://marketplace.atlassian.com/apps/1222083/qality-test-management-for-jira?hosting=cloud",
+     "uri": "https://marketplace.atlassian.com/apps/1222083/qality-test-management-for-jira?hosting=cloud"
+    },
+    "other|https://marketplace.atlassian.com/apps/1223344/qality-plus-test-management-for-jira?hosting=cloud": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "https://marketplace.atlassian.com/apps/1223344/qality-plus-test-management-for-jira?hosting=cloud",
+     "uri": "https://marketplace.atlassian.com/apps/1223344/qality-plus-test-management-for-jira?hosting=cloud"
+    },
+    "other|https://marketplace.atlassian.com/apps/1229442/team-planner-resource-planning-for-jira?hosting=cloud&tab=overview": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "https://marketplace.atlassian.com/apps/1229442/team-planner-resource-planning-for-jira?hosting=cloud&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1229442/team-planner-resource-planning-for-jira?hosting=cloud&tab=overview"
+    },
+    "other|https://marketplace.atlassian.com/apps/1235478/time-assistant-time-tracking-and-workload-dashboard?hosting=cloud": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "https://marketplace.atlassian.com/apps/1235478/time-assistant-time-tracking-and-workload-dashboard?hosting=cloud",
+     "uri": "https://marketplace.atlassian.com/apps/1235478/time-assistant-time-tracking-and-workload-dashboard?hosting=cloud"
+    },
+    "website|https://marketplace.atlassian.com/apps/1235478/time-assistant-time-tracking-and-workload-dashboard?hosting=cloud&tab=overview": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "https://marketplace.atlassian.com/apps/1235478/time-assistant-time-tracking-and-workload-dashboard?hosting=cloud&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1235478/time-assistant-time-tracking-and-workload-dashboard?hosting=cloud&tab=overview"
+    }
+   }
+  },
   "/engagements/sonic-vdp-pro": {
    "groups": {
     "In Scope": {
