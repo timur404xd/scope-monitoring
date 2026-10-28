@@ -14157,8 +14157,22 @@
      "tier": "Tier 4",
      "type": "Url"
     },
-    "Url|aquawardsspatial.water-link.be": {
+    "Url|aquawardsoperate.water-link.be": {
+     "desc": "491d6f5b8c0c",
+     "endpoint": "aquawardsoperate.water-link.be",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|aquawardsoperateacc.water-link.be": {
      "desc": "da39a3ee5e6b",
+     "endpoint": "aquawardsoperateacc.water-link.be",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|aquawardsspatial.water-link.be": {
+     "desc": "491d6f5b8c0c",
      "endpoint": "aquawardsspatial.water-link.be",
      "in": true,
      "tier": "Tier 3",
@@ -14171,13 +14185,6 @@
      "tier": "Out Of Scope",
      "type": "Url"
     },
-    "Url|aww.be": {
-     "desc": "932691cc9ece",
-     "endpoint": "aww.be",
-     "in": true,
-     "tier": "Tier 3",
-     "type": "Url"
-    },
     "Url|aww.eu": {
      "desc": "da39a3ee5e6b",
      "endpoint": "aww.eu",
@@ -14185,67 +14192,18 @@
      "tier": "Tier 4",
      "type": "Url"
     },
-    "Url|https://aquawardsoperate.water-link.be/": {
-     "desc": "da39a3ee5e6b",
-     "endpoint": "https://aquawardsoperate.water-link.be/",
-     "in": true,
-     "tier": "Tier 3",
-     "type": "Url"
-    },
-    "Url|https://aquawardsoperateacc.water-link.be": {
-     "desc": "da39a3ee5e6b",
-     "endpoint": "https://aquawardsoperateacc.water-link.be",
-     "in": false,
-     "tier": "Out Of Scope",
-     "type": "Url"
-    },
-    "Url|https://desktop.water-link.be/": {
+    "Url|desktop.water-link.be": {
      "desc": "f03027e52bad",
-     "endpoint": "https://desktop.water-link.be/",
+     "endpoint": "desktop.water-link.be",
      "in": true,
      "tier": "Tier 2",
      "type": "Url"
     },
-    "Url|https://feedback.water-link.be": {
+    "Url|feedback.water-link.be": {
      "desc": "94ba7e06f59e",
-     "endpoint": "https://feedback.water-link.be",
+     "endpoint": "feedback.water-link.be",
      "in": false,
      "tier": "Out Of Scope",
-     "type": "Url"
-    },
-    "Url|https://jobs.water-link.be": {
-     "desc": "981d4e3dca56",
-     "endpoint": "https://jobs.water-link.be",
-     "in": false,
-     "tier": "Out Of Scope",
-     "type": "Url"
-    },
-    "Url|https://pit.water-link.be/": {
-     "desc": "c9fa8a357caa",
-     "endpoint": "https://pit.water-link.be/",
-     "in": true,
-     "tier": "Tier 2",
-     "type": "Url"
-    },
-    "Url|https://wl_acc.water-link.be/": {
-     "desc": "da39a3ee5e6b",
-     "endpoint": "https://wl_acc.water-link.be/",
-     "in": false,
-     "tier": "Out Of Scope",
-     "type": "Url"
-    },
-    "Url|https://wl_dev.water-link.be/": {
-     "desc": "da39a3ee5e6b",
-     "endpoint": "https://wl_dev.water-link.be/",
-     "in": false,
-     "tier": "Out Of Scope",
-     "type": "Url"
-    },
-    "Url|https://www.water-link-jaarverslag.be": {
-     "desc": "d4d80072ef1a",
-     "endpoint": "https://www.water-link-jaarverslag.be",
-     "in": true,
-     "tier": "Tier 3",
      "type": "Url"
     },
     "Url|induss.eu": {
@@ -14260,6 +14218,13 @@
      "endpoint": "indussiibis.water-link.be",
      "in": true,
      "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|jobs.water-link.be": {
+     "desc": "981d4e3dca56",
+     "endpoint": "jobs.water-link.be",
+     "in": false,
+     "tier": "Out Of Scope",
      "type": "Url"
     },
     "Url|oxum.be": {
@@ -14281,6 +14246,13 @@
      "endpoint": "peppol-t.water-link.be",
      "in": false,
      "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|pit.water-link.be": {
+     "desc": "c9fa8a357caa",
+     "endpoint": "pit.water-link.be",
+     "in": true,
+     "tier": "Tier 2",
      "type": "Url"
     },
     "Url|rio-link.be": {
@@ -14318,6 +14290,13 @@
      "tier": "Tier 4",
      "type": "Url"
     },
+    "Url|water-link-jaarverslag.be": {
+     "desc": "d4d80072ef1a",
+     "endpoint": "water-link-jaarverslag.be",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
     "Url|waterkracht-levering.be": {
      "desc": "da39a3ee5e6b",
      "endpoint": "waterkracht-levering.be",
@@ -14353,6 +14332,27 @@
      "tier": "Out Of Scope",
      "type": "Url"
     },
+    "Url|wl_acc.water-link.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "wl_acc.water-link.be",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|wl_dev.water-link.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "wl_dev.water-link.be",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Wildcard|*.aww.be": {
+     "desc": "932691cc9ece",
+     "endpoint": "*.aww.be",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Wildcard"
+    },
     "Wildcard|*.mijnwater-link.be": {
      "desc": "129e02922988",
      "endpoint": "*.mijnwater-link.be",
@@ -14360,9 +14360,9 @@
      "tier": "Tier 3",
      "type": "Wildcard"
     },
-    "Wildcard|*.water-link.be/": {
+    "Wildcard|*.water-link.be": {
      "desc": "dfeac49d0ed6",
-     "endpoint": "*.water-link.be/",
+     "endpoint": "*.water-link.be",
      "in": true,
      "tier": "Tier 3",
      "type": "Wildcard"
@@ -14377,7 +14377,7 @@
    },
    "name": "Water-Link",
    "program": {
-    "bounty": "50.0 - 5000.0 EUR",
+    "bounty": "25.0 - 5000.0 EUR",
     "confidentiality": "Public"
    },
    "rules": {
@@ -15761,9 +15761,9 @@
   },
   "8a5bf4a3-3183-4e2a-aa5e-20f71efe7f4b": {
    "assets": {
-    "Url|https://www.water-link-jaarverslag.be": {
+    "Url|water-link-jaarverslag.be": {
      "desc": "da39a3ee5e6b",
-     "endpoint": "https://www.water-link-jaarverslag.be",
+     "endpoint": "water-link-jaarverslag.be",
      "in": true,
      "tier": "No Bounty",
      "type": "Url"
@@ -15775,9 +15775,9 @@
      "tier": "No Bounty",
      "type": "Wildcard"
     },
-    "Wildcard|*.water-link.be/": {
+    "Wildcard|*.water-link.be": {
      "desc": "dadc7e6ced0d",
-     "endpoint": "*.water-link.be/",
+     "endpoint": "*.water-link.be",
      "in": true,
      "tier": "No Bounty",
      "type": "Wildcard"
