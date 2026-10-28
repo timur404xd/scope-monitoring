@@ -14150,18 +14150,46 @@
   },
   "7999e698-363d-49e2-bd34-4ce47556d03c": {
    "assets": {
+    "Url|adelta.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "adelta.be",
+     "in": true,
+     "tier": "Tier 4",
+     "type": "Url"
+    },
     "Url|aquawardsspatial.water-link.be": {
      "desc": "da39a3ee5e6b",
      "endpoint": "aquawardsspatial.water-link.be",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|aquawise.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "aquawise.be",
      "in": false,
      "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|aww.be": {
+     "desc": "932691cc9ece",
+     "endpoint": "aww.be",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|aww.eu": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "aww.eu",
+     "in": true,
+     "tier": "Tier 4",
      "type": "Url"
     },
     "Url|https://aquawardsoperate.water-link.be/": {
      "desc": "da39a3ee5e6b",
      "endpoint": "https://aquawardsoperate.water-link.be/",
-     "in": false,
-     "tier": "Out Of Scope",
+     "in": true,
+     "tier": "Tier 3",
      "type": "Url"
     },
     "Url|https://aquawardsoperateacc.water-link.be": {
@@ -14200,14 +14228,14 @@
      "type": "Url"
     },
     "Url|https://wl_acc.water-link.be/": {
-     "desc": "f4646aa1c376",
+     "desc": "da39a3ee5e6b",
      "endpoint": "https://wl_acc.water-link.be/",
      "in": false,
      "tier": "Out Of Scope",
      "type": "Url"
     },
     "Url|https://wl_dev.water-link.be/": {
-     "desc": "f4646aa1c376",
+     "desc": "da39a3ee5e6b",
      "endpoint": "https://wl_dev.water-link.be/",
      "in": false,
      "tier": "Out Of Scope",
@@ -14220,9 +14248,107 @@
      "tier": "Tier 3",
      "type": "Url"
     },
+    "Url|induss.eu": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "induss.eu",
+     "in": true,
+     "tier": "Tier 4",
+     "type": "Url"
+    },
+    "Url|indussiibis.water-link.be": {
+     "desc": "6558f3ae23ba",
+     "endpoint": "indussiibis.water-link.be",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|oxum.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "oxum.be",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|peppol-a.water-link.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "peppol-a.water-link.be",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|peppol-t.water-link.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "peppol-t.water-link.be",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|rio-link.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "rio-link.be",
+     "in": true,
+     "tier": "Tier 4",
+     "type": "Url"
+    },
+    "Url|secrets.water-link.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "secrets.water-link.be",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
     "Url|storingvideo-t.water-link.be": {
-     "desc": "f877731c58b4",
+     "desc": "da39a3ee5e6b",
      "endpoint": "storingvideo-t.water-link.be",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|water-kracht-levering.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "water-kracht-levering.be",
+     "in": true,
+     "tier": "Tier 4",
+     "type": "Url"
+    },
+    "Url|water-kracht-levering.eu": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "water-kracht-levering.eu",
+     "in": true,
+     "tier": "Tier 4",
+     "type": "Url"
+    },
+    "Url|waterkracht-levering.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "waterkracht-levering.be",
+     "in": true,
+     "tier": "Tier 4",
+     "type": "Url"
+    },
+    "Url|waterkracht-levering.eu": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "waterkracht-levering.eu",
+     "in": true,
+     "tier": "Tier 4",
+     "type": "Url"
+    },
+    "Url|waterlink.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "waterlink.be",
+     "in": true,
+     "tier": "Tier 4",
+     "type": "Url"
+    },
+    "Url|waterstoringen.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "waterstoringen.be",
+     "in": true,
+     "tier": "Tier 4",
+     "type": "Url"
+    },
+    "Url|waterwise.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "waterwise.be",
      "in": false,
      "tier": "Out Of Scope",
      "type": "Url"
