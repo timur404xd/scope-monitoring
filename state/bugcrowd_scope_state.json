@@ -51513,6 +51513,199 @@
     }
    }
   },
+  "/engagements/seek": {
+   "groups": {
+    "API": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 1000000,
+      "p1MinCents": 500000,
+      "p2MaxCents": 500000,
+      "p2MinCents": 70000,
+      "p3MaxCents": 70000,
+      "p3MinCents": 20000,
+      "p4MaxCents": 20000,
+      "p4MinCents": 5000
+     }
+    },
+    "In Scope Targets": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 1000000,
+      "p1MinCents": 500000,
+      "p2MaxCents": 500000,
+      "p2MinCents": 70000,
+      "p3MaxCents": 70000,
+      "p3MinCents": 20000,
+      "p4MaxCents": 20000,
+      "p4MinCents": 5000
+     }
+    },
+    "Mobile Targets": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 1000000,
+      "p1MinCents": 500000,
+      "p2MaxCents": 500000,
+      "p2MinCents": 70000,
+      "p3MaxCents": 70000,
+      "p3MinCents": 20000,
+      "p4MaxCents": 20000,
+      "p4MinCents": 5000
+     }
+    }
+   },
+   "name": "SEEK ",
+   "targets": {
+    "android|SEEK Pass Mobile App for Android": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "Mobile Targets",
+     "in": true,
+     "name": "SEEK Pass Mobile App for Android",
+     "uri": "https://play.google.com/store/apps/details?id=com.certsy.app"
+    },
+    "android|SEEK mobile app for Android": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "Mobile Targets",
+     "in": true,
+     "name": "SEEK mobile app for Android",
+     "uri": "https://play.google.com/store/apps/details?id=au.com.seek&hl=en_AU&gl=US"
+    },
+    "api|*.jobapi.net": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "API",
+     "in": true,
+     "name": "*.jobapi.net",
+     "uri": ""
+    },
+    "api|*.sol-data.com": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "API",
+     "in": true,
+     "name": "*.sol-data.com",
+     "uri": ""
+    },
+    "api|auth.seek.com": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "API",
+     "in": true,
+     "name": "auth.seek.com",
+     "uri": "https://auth.seek.com"
+    },
+    "api|graphql.seek.com": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "API",
+     "in": true,
+     "name": "graphql.seek.com",
+     "uri": "https://graphql.seek.com"
+    },
+    "ios|SEEK Pass Mobile App for iOS": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "Mobile Targets",
+     "in": true,
+     "name": "SEEK Pass Mobile App for iOS",
+     "uri": "https://apps.apple.com/au/app/certsy/id1617796159"
+    },
+    "ios|SEEK mobile app for iOS": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "Mobile Targets",
+     "in": true,
+     "name": "SEEK mobile app for iOS",
+     "uri": "https://apps.apple.com/au/app/seek-jobs-job-search/id520400855"
+    },
+    "other|https://seekcdn.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "https://seekcdn.com",
+     "uri": "https://seekcdn.com"
+    },
+    "website|*.aips-internal.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "API",
+     "in": true,
+     "name": "*.aips-internal.com",
+     "uri": ""
+    },
+    "website|*.employer.seek.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "*.employer.seek.com",
+     "uri": "https://*.employer.seek.com"
+    },
+    "website|*.jobsdb.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "*.jobsdb.com",
+     "uri": "https://*.jobsdb.com"
+    },
+    "website|*.jobstreet.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "*.jobstreet.com",
+     "uri": "https://*.jobstreet.com"
+    },
+    "website|*.myseek.xyz": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "*.myseek.xyz",
+     "uri": "https://*.myseek.xyz"
+    },
+    "website|*.outfra.xyz": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "*.outfra.xyz",
+     "uri": ""
+    },
+    "website|*.seek.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "*.seek.com",
+     "uri": ""
+    },
+    "website|*.seekpass.co": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "*.seekpass.co",
+     "uri": ""
+    },
+    "website|*.skinfra.xyz": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "*.skinfra.xyz",
+     "uri": ""
+    }
+   }
+  },
   "/engagements/seek-com": {
    "groups": {
     "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
