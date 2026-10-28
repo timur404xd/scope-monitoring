@@ -3832,13 +3832,6 @@
      "in": true,
      "tier": "Tier 3",
      "type": "Url"
-    },
-    "Url|www.acc.werkenbijjessa.be": {
-     "desc": "4a6d3808398f",
-     "endpoint": "www.acc.werkenbijjessa.be",
-     "in": true,
-     "tier": "Tier 3",
-     "type": "Url"
     }
    },
    "name": "MijnJessa",
