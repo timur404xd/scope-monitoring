@@ -14825,8 +14825,8 @@
     "website|https://mymedicare.gov/": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
-     "group": "In Scope ",
-     "in": true,
+     "group": "Out of Scope targets",
+     "in": false,
      "name": "https://mymedicare.gov/",
      "uri": "https://mymedicare.gov/"
     },
@@ -14889,8 +14889,8 @@
     "website|https://www.medicare.gov/": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
-     "group": "In Scope ",
-     "in": true,
+     "group": "Out of Scope targets",
+     "in": false,
      "name": "https://www.medicare.gov/",
      "uri": "https://www.medicare.gov/"
     }
