@@ -27319,7 +27319,7 @@
    "groups": {
     "All other official iRobot Web Applications": {
      "desc": "da39a3ee5e6b",
-     "in": true,
+     "in": false,
      "reward": null
     },
     "iRobot Cloud": {
@@ -27338,17 +27338,8 @@
     },
     "iRobot Commercial Web Properties": {
      "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 100000,
-      "p1MinCents": 75000,
-      "p2MaxCents": 75000,
-      "p2MinCents": 50000,
-      "p3MaxCents": 50000,
-      "p3MinCents": 25000,
-      "p4MaxCents": 25000,
-      "p4MinCents": null
-     }
+     "in": false,
+     "reward": null
     },
     "iRobot Devices": {
      "desc": "da39a3ee5e6b",
@@ -27481,7 +27472,7 @@
      "cat": "website",
      "desc": "da39a3ee5e6b",
      "group": "All other official iRobot Web Applications",
-     "in": true,
+     "in": false,
      "name": "https://answers.irobot.com",
      "uri": "https://answers.irobot.com"
     },
@@ -27489,7 +27480,7 @@
      "cat": "website",
      "desc": "da39a3ee5e6b",
      "group": "All other official iRobot Web Applications",
-     "in": true,
+     "in": false,
      "name": "https://investor.irobot.com",
      "uri": "https://investor.irobot.com"
     },
@@ -27497,7 +27488,7 @@
      "cat": "website",
      "desc": "da39a3ee5e6b",
      "group": "All other official iRobot Web Applications",
-     "in": true,
+     "in": false,
      "name": "https://media.irobot.com",
      "uri": "https://media.irobot.com"
     },
@@ -27505,7 +27496,7 @@
      "cat": "website",
      "desc": "da39a3ee5e6b",
      "group": "All other official iRobot Web Applications",
-     "in": true,
+     "in": false,
      "name": "https://www.homesupport.irobot.com",
      "uri": "https://www.homesupport.irobot.com"
     },
@@ -27513,7 +27504,7 @@
      "cat": "website",
      "desc": "da39a3ee5e6b",
      "group": "iRobot Commercial Web Properties",
-     "in": true,
+     "in": false,
      "name": "https://www.irobot.at/",
      "uri": "https://www.irobot.at/"
     },
@@ -27521,7 +27512,7 @@
      "cat": "website",
      "desc": "da39a3ee5e6b",
      "group": "iRobot Commercial Web Properties",
-     "in": true,
+     "in": false,
      "name": "https://www.irobot.be/",
      "uri": "https://www.irobot.be/"
     },
@@ -27529,7 +27520,7 @@
      "cat": "website",
      "desc": "da39a3ee5e6b",
      "group": "iRobot Commercial Web Properties",
-     "in": true,
+     "in": false,
      "name": "https://www.irobot.ca/en_CA",
      "uri": "https://www.irobot.ca/en_CA"
     },
@@ -27537,7 +27528,7 @@
      "cat": "website",
      "desc": "da39a3ee5e6b",
      "group": "iRobot Commercial Web Properties",
-     "in": true,
+     "in": false,
      "name": "https://www.irobot.ca/fr_CA/home",
      "uri": "https://www.irobot.ca/fr_CA/home"
     },
@@ -27545,7 +27536,7 @@
      "cat": "website",
      "desc": "da39a3ee5e6b",
      "group": "iRobot Commercial Web Properties",
-     "in": true,
+     "in": false,
      "name": "https://www.irobot.co.uk/",
      "uri": "https://www.irobot.co.uk/"
     },
@@ -27553,7 +27544,7 @@
      "cat": "website",
      "desc": "da39a3ee5e6b",
      "group": "iRobot Commercial Web Properties",
-     "in": true,
+     "in": false,
      "name": "https://www.irobot.com",
      "uri": "https://www.irobot.com"
     },
@@ -27561,7 +27552,7 @@
      "cat": "website",
      "desc": "da39a3ee5e6b",
      "group": "iRobot Commercial Web Properties",
-     "in": true,
+     "in": false,
      "name": "https://www.irobot.de/",
      "uri": "https://www.irobot.de/"
     },
@@ -27569,7 +27560,7 @@
      "cat": "website",
      "desc": "da39a3ee5e6b",
      "group": "iRobot Commercial Web Properties",
-     "in": true,
+     "in": false,
      "name": "https://www.irobot.es/",
      "uri": "https://www.irobot.es/"
     },
@@ -27577,7 +27568,7 @@
      "cat": "website",
      "desc": "da39a3ee5e6b",
      "group": "iRobot Commercial Web Properties",
-     "in": true,
+     "in": false,
      "name": "https://www.irobot.fr/",
      "uri": "https://www.irobot.fr/"
     },
@@ -27585,7 +27576,7 @@
      "cat": "website",
      "desc": "da39a3ee5e6b",
      "group": "iRobot Commercial Web Properties",
-     "in": true,
+     "in": false,
      "name": "https://www.irobot.ie/",
      "uri": "https://www.irobot.ie/"
     },
@@ -27593,7 +27584,7 @@
      "cat": "website",
      "desc": "da39a3ee5e6b",
      "group": "iRobot Commercial Web Properties",
-     "in": true,
+     "in": false,
      "name": "https://www.irobot.nl/",
      "uri": "https://www.irobot.nl/"
     },
@@ -27601,7 +27592,7 @@
      "cat": "website",
      "desc": "da39a3ee5e6b",
      "group": "iRobot Commercial Web Properties",
-     "in": true,
+     "in": false,
      "name": "https://www.irobot.pt/",
      "uri": "https://www.irobot.pt/"
     }
