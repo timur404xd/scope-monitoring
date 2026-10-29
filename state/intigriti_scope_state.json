@@ -18023,6 +18023,13 @@
      "tier": "Tier 1",
      "type": "Url"
     },
+    "Url|magicinfo.delta.nl": {
+     "desc": "055ad554a806",
+     "endpoint": "magicinfo.delta.nl",
+     "in": true,
+     "tier": "Tier 4",
+     "type": "Url"
+    },
     "Url|mbx.gw.dfnld.nl ": {
      "desc": "e95b27b4f54b",
      "endpoint": "mbx.gw.dfnld.nl ",
