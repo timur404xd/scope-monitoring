@@ -1,5 +1,5 @@
 {
- "last_heartbeat": 1793295129.452907,
+ "last_heartbeat": 1793317626.6996832,
  "programs": {
   "/engagements/CCData-mbb-og": {
    "groups": {
@@ -46787,43 +46787,6 @@
      "in": true,
      "name": "https://www.quintoandar.com.br/*",
      "uri": "https://www.quintoandar.com.br/*"
-    }
-   }
-  },
-  "/engagements/quirk-consulting": {
-   "groups": {
-    "In Scope": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 150000,
-      "p1MinCents": 150000,
-      "p2MaxCents": 90000,
-      "p2MinCents": 90000,
-      "p3MaxCents": 30000,
-      "p3MinCents": 30000,
-      "p4MaxCents": 10000,
-      "p4MinCents": 10000
-     }
-    }
-   },
-   "name": "Quirk Consulting Marketplace Bug Bounty",
-   "targets": {
-    "website|https://marketplace.atlassian.com/apps/1221796/dependency-mapper-for-jira?hosting=cloud&tab=overview": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1221796/dependency-mapper-for-jira?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1221796/dependency-mapper-for-jira?hosting=cloud&tab=overview"
-    },
-    "website|https://marketplace.atlassian.com/apps/1229966/scrum-master-assistant-for-jira?hosting=cloud&tab=overview": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1229966/scrum-master-assistant-for-jira?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1229966/scrum-master-assistant-for-jira?hosting=cloud&tab=overview"
     }
    }
   },
