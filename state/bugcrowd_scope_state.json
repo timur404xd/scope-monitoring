@@ -32740,14 +32740,6 @@
      "name": "THAT Concept Store iOS",
      "uri": "https://apps.apple.com/app/id1503045795"
     },
-    "website|fashion4less.me": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "fashion4less.me",
-     "uri": ""
-    },
     "website|https://thatconceptstore.com": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
