@@ -13726,230 +13726,6 @@
     }
    }
   },
-  "/engagements/cisconetworking": {
-   "groups": {
-    "Cisco Meraki Dashboard Platform Targets": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 1000000,
-      "p1MinCents": 600000,
-      "p2MaxCents": 600000,
-      "p2MinCents": 250000,
-      "p3MaxCents": 250000,
-      "p3MinCents": 50000,
-      "p4MaxCents": 50000,
-      "p4MinCents": 10000
-     }
-    },
-    "Cisco Meraki Devices (Hardware & Firmware)": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 1000000,
-      "p1MinCents": 600000,
-      "p2MaxCents": 600000,
-      "p2MinCents": 250000,
-      "p3MaxCents": 250000,
-      "p3MinCents": 50000,
-      "p4MaxCents": 50000,
-      "p4MinCents": 10000
-     }
-    },
-    "Out of Scope": {
-     "desc": "da39a3ee5e6b",
-     "in": false,
-     "reward": null
-    }
-   },
-   "name": "Cisco Networking",
-   "targets": {
-    "api|Customer API Keys": {
-     "cat": "api",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
-     "in": false,
-     "name": "Customer API Keys",
-     "uri": ""
-    },
-    "hardware|Cisco Campus Gateways": {
-     "cat": "hardware",
-     "desc": "da39a3ee5e6b",
-     "group": "Cisco Meraki Devices (Hardware & Firmware)",
-     "in": true,
-     "name": "Cisco Campus Gateways",
-     "uri": ""
-    },
-    "hardware|Cisco Catalyst 9200L Series Switches (Cloud-Managed)": {
-     "cat": "hardware",
-     "desc": "da39a3ee5e6b",
-     "group": "Cisco Meraki Devices (Hardware & Firmware)",
-     "in": true,
-     "name": "Cisco Catalyst 9200L Series Switches (Cloud-Managed)",
-     "uri": ""
-    },
-    "hardware|Cisco Meraki MG Fixed Wireless Access Devices": {
-     "cat": "hardware",
-     "desc": "da39a3ee5e6b",
-     "group": "Cisco Meraki Devices (Hardware & Firmware)",
-     "in": true,
-     "name": "Cisco Meraki MG Fixed Wireless Access Devices",
-     "uri": ""
-    },
-    "hardware|Cisco Meraki MR Access Points": {
-     "cat": "hardware",
-     "desc": "da39a3ee5e6b",
-     "group": "Cisco Meraki Devices (Hardware & Firmware)",
-     "in": true,
-     "name": "Cisco Meraki MR Access Points",
-     "uri": ""
-    },
-    "hardware|Cisco Meraki MS Switches": {
-     "cat": "hardware",
-     "desc": "da39a3ee5e6b",
-     "group": "Cisco Meraki Devices (Hardware & Firmware)",
-     "in": true,
-     "name": "Cisco Meraki MS Switches",
-     "uri": ""
-    },
-    "hardware|Cisco Meraki MV Smart Cameras": {
-     "cat": "hardware",
-     "desc": "da39a3ee5e6b",
-     "group": "Cisco Meraki Devices (Hardware & Firmware)",
-     "in": true,
-     "name": "Cisco Meraki MV Smart Cameras",
-     "uri": ""
-    },
-    "hardware|Cisco Meraki MX & Z Series Security Appliances (Including vMX)": {
-     "cat": "hardware",
-     "desc": "da39a3ee5e6b",
-     "group": "Cisco Meraki Devices (Hardware & Firmware)",
-     "in": true,
-     "name": "Cisco Meraki MX & Z Series Security Appliances (Including vMX)",
-     "uri": ""
-    },
-    "hardware|Meraki MC Phones": {
-     "cat": "hardware",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
-     "in": false,
-     "name": "Meraki MC Phones",
-     "uri": ""
-    },
-    "ios|Cisco Meraki Dashboard Mobile Application (iOS and Android)": {
-     "cat": "ios",
-     "desc": "da39a3ee5e6b",
-     "group": "Cisco Meraki Dashboard Platform Targets",
-     "in": true,
-     "name": "Cisco Meraki Dashboard Mobile Application (iOS and Android)",
-     "uri": ""
-    },
-    "other|Cisco Meraki Systems Manager": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "Cisco Meraki Dashboard Platform Targets",
-     "in": true,
-     "name": "Cisco Meraki Systems Manager",
-     "uri": ""
-    },
-    "website|*.cisco.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
-     "in": false,
-     "name": "*.cisco.com",
-     "uri": ""
-    },
-    "website|*.ikarem.io": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Cisco Meraki Dashboard Platform Targets",
-     "in": true,
-     "name": "*.ikarem.io",
-     "uri": ""
-    },
-    "website|*.meraki.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Cisco Meraki Dashboard Platform Targets",
-     "in": true,
-     "name": "*.meraki.com",
-     "uri": ""
-    },
-    "website|*.network-auth.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Cisco Meraki Dashboard Platform Targets",
-     "in": true,
-     "name": "*.network-auth.com",
-     "uri": ""
-    },
-    "website|*.workflows.meraki.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
-     "in": false,
-     "name": "*.workflows.meraki.com",
-     "uri": ""
-    },
-    "website|community-staging.meraki.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
-     "in": false,
-     "name": "community-staging.meraki.com",
-     "uri": ""
-    },
-    "website|community.meraki.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
-     "in": false,
-     "name": "community.meraki.com",
-     "uri": ""
-    },
-    "website|developers.meraki.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
-     "in": false,
-     "name": "developers.meraki.com",
-     "uri": ""
-    },
-    "website|documentation.meraki.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
-     "in": false,
-     "name": "documentation.meraki.com",
-     "uri": ""
-    },
-    "website|meraki.cisco.com/form/contact": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
-     "in": false,
-     "name": "meraki.cisco.com/form/contact",
-     "uri": ""
-    },
-    "website|merakipartners.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
-     "in": false,
-     "name": "merakipartners.com",
-     "uri": ""
-    },
-    "website|smhelp.meraki.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
-     "in": false,
-     "name": "smhelp.meraki.com",
-     "uri": ""
-    }
-   }
-  },
   "/engagements/citi": {
    "groups": {
     "In-Scope": {
@@ -56739,6 +56515,295 @@
    "groups": {},
    "name": "test engagement",
    "targets": {}
+  },
+  "/engagements/thefork-mbb-og": {
+   "groups": {
+    "B2B": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 350000,
+      "p1MinCents": 250000,
+      "p2MaxCents": 175000,
+      "p2MinCents": 150000,
+      "p3MaxCents": 70000,
+      "p3MinCents": 50000,
+      "p4MaxCents": 30000,
+      "p4MinCents": 15000
+     }
+    },
+    "B2B Low reward": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 100000,
+      "p1MinCents": 50000,
+      "p2MaxCents": 40000,
+      "p2MinCents": 20000,
+      "p3MaxCents": 20000,
+      "p3MinCents": 10000,
+      "p4MaxCents": 10000,
+      "p4MinCents": 5000
+     }
+    },
+    "B2B Out of scope": {
+     "desc": "da39a3ee5e6b",
+     "in": false,
+     "reward": null
+    },
+    "B2C": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 350000,
+      "p1MinCents": 250000,
+      "p2MaxCents": 175000,
+      "p2MinCents": 150000,
+      "p3MaxCents": 70000,
+      "p3MinCents": 50000,
+      "p4MaxCents": 30000,
+      "p4MinCents": 15000
+     }
+    },
+    "B2C Low reward": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 100000,
+      "p1MinCents": 50000,
+      "p2MaxCents": 40000,
+      "p2MinCents": 20000,
+      "p3MaxCents": 20000,
+      "p3MinCents": 10000,
+      "p4MaxCents": 10000,
+      "p4MinCents": 5000
+     }
+    },
+    "B2C Out of scope": {
+     "desc": "da39a3ee5e6b",
+     "in": false,
+     "reward": null
+    }
+   },
+   "name": "TheFork Managed Bug Bounty Engagement",
+   "targets": {
+    "android|TheFork Android App": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "B2C",
+     "in": true,
+     "name": "TheFork Android App",
+     "uri": "https://play.google.com/store/apps/details?id=com.lafourchette.lafourchette"
+    },
+    "android|TheFork Manager Android App": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "B2B",
+     "in": true,
+     "name": "TheFork Manager Android App",
+     "uri": "https://play.google.com/store/apps/details?id=com.lafourchette.tfm3"
+    },
+    "api|*.myfourchette.com": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "B2B Out of scope",
+     "in": false,
+     "name": "*.myfourchette.com",
+     "uri": ""
+    },
+    "api|api.thefork.io": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "B2B",
+     "in": true,
+     "name": "api.thefork.io",
+     "uri": "https://api.thefork.io"
+    },
+    "api|https://api-ws.thefork.com": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "B2C",
+     "in": true,
+     "name": "https://api-ws.thefork.com",
+     "uri": "https://api-ws.thefork.com"
+    },
+    "api|https://api.thefork.com": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "B2C",
+     "in": true,
+     "name": "https://api.thefork.com",
+     "uri": "https://api.thefork.com"
+    },
+    "ios|TheFork Manager iOS App": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "B2B",
+     "in": true,
+     "name": "TheFork Manager iOS App",
+     "uri": "https://apps.apple.com/app/thefork-manager-neo/id1295795281"
+    },
+    "ios|TheFork iOS App": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "B2C",
+     "in": true,
+     "name": "TheFork iOS App",
+     "uri": "https://apps.apple.com/app/thefork-restaurants-bookings/id424850908"
+    },
+    "other|developer.thefork.io": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "B2B Out of scope",
+     "in": false,
+     "name": "developer.thefork.io",
+     "uri": ""
+    },
+    "website| manager.thefork.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "B2B",
+     "in": true,
+     "name": " manager.thefork.com",
+     "uri": "https://manager.thefork.com"
+    },
+    "website|*.lafourchette.rest ": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "B2B Out of scope",
+     "in": false,
+     "name": "*.lafourchette.rest ",
+     "uri": ""
+    },
+    "website|*.tools.thefork.tech": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "B2C Low reward",
+     "in": true,
+     "name": "*.tools.thefork.tech",
+     "uri": "https://*.tools.thefork.tech"
+    },
+    "website|TheFork Manager Blog": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "B2B Low reward",
+     "in": true,
+     "name": "TheFork Manager Blog",
+     "uri": "https://www.theforkmanager.com"
+    },
+    "website|https://*.eltenedor.*": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "B2C Out of scope",
+     "in": false,
+     "name": "https://*.eltenedor.*",
+     "uri": ""
+    },
+    "website|https://blog.thefork.com/": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "B2C",
+     "in": true,
+     "name": "https://blog.thefork.com/",
+     "uri": "https://blog.thefork.com/"
+    },
+    "website|https://m.thefork.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "B2C",
+     "in": true,
+     "name": "https://m.thefork.com",
+     "uri": "https://m.thefork.com"
+    },
+    "website|https://www.lafourchette.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "B2C Out of scope",
+     "in": false,
+     "name": "https://www.lafourchette.com",
+     "uri": ""
+    },
+    "website|https://www.thefork.*": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "B2C Out of scope",
+     "in": false,
+     "name": "https://www.thefork.*",
+     "uri": ""
+    },
+    "website|https://www.thefork.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "B2C",
+     "in": true,
+     "name": "https://www.thefork.com",
+     "uri": ""
+    },
+    "website|login.theforkmanager.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "B2B Out of scope",
+     "in": false,
+     "name": "login.theforkmanager.com",
+     "uri": ""
+    },
+    "website|module.thefork.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "B2C Out of scope",
+     "in": false,
+     "name": "module.thefork.com",
+     "uri": ""
+    },
+    "website|payment.lafourchette.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "B2B",
+     "in": true,
+     "name": "payment.lafourchette.com",
+     "uri": "https://payment.lafourchette.com"
+    },
+    "website|secure.thefork.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "B2B",
+     "in": true,
+     "name": "secure.thefork.com",
+     "uri": "https://secure.thefork.com"
+    },
+    "website|website.theforkmanager.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "B2B Out of scope",
+     "in": false,
+     "name": "website.theforkmanager.com",
+     "uri": ""
+    },
+    "website|widget.thefork.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "B2B",
+     "in": true,
+     "name": "widget.thefork.com",
+     "uri": "https://widget.thefork.com"
+    },
+    "website|www.myfourchette.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "B2B Out of scope",
+     "in": false,
+     "name": "www.myfourchette.com",
+     "uri": ""
+    },
+    "website|www.restaurant-information.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "B2C Low reward",
+     "in": true,
+     "name": "www.restaurant-information.com",
+     "uri": "https://www.restaurant-information.com"
+    }
+   }
   },
   "/engagements/thetradedesk-mbb": {
    "groups": {
