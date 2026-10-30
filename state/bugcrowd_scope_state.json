@@ -50077,7 +50077,7 @@
   },
   "/engagements/retool-vdp": {
    "groups": {
-    "In-Scope Targets": {
+    "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "desc": "da39a3ee5e6b",
      "in": true,
      "reward": null
@@ -50085,13 +50085,13 @@
    },
    "name": "Retool Vulnerability Disclosure Program",
    "targets": {
-    "website|login.retool.com": {
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
-     "group": "In-Scope Targets",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": true,
-     "name": "login.retool.com",
-     "uri": "https://login.retool.com"
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
     }
    }
   },
