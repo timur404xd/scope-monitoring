@@ -65975,6 +65975,81 @@
     }
    }
   },
+  "/engagements/wyze": {
+   "groups": {
+    "In Scope Targets": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 500000,
+      "p1MinCents": 300000,
+      "p2MaxCents": 160000,
+      "p2MinCents": 120000,
+      "p3MaxCents": 80000,
+      "p3MinCents": 50000,
+      "p4MaxCents": 40000,
+      "p4MinCents": 5000
+     }
+    },
+    "In Scope Targets 2": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 200000,
+      "p1MinCents": 100000,
+      "p2MaxCents": 90000,
+      "p2MinCents": 50000,
+      "p3MaxCents": 40000,
+      "p3MinCents": 25000,
+      "p4MaxCents": 20000,
+      "p4MinCents": 5000
+     }
+    }
+   },
+   "name": "Wyze Bug Bounty",
+   "targets": {
+    "api|https://api.wyzecam.com": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "https://api.wyzecam.com",
+     "uri": "https://api.wyzecam.com"
+    },
+    "hardware|Wyze Cam V3": {
+     "cat": "hardware",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets 2",
+     "in": true,
+     "name": "Wyze Cam V3",
+     "uri": ""
+    },
+    "hardware|Wyze Cam v4": {
+     "cat": "hardware",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets 2",
+     "in": true,
+     "name": "Wyze Cam v4",
+     "uri": "https://www.wyze.com/products/wyze-cam"
+    },
+    "website|https://auth.wyze.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "https://auth.wyze.com",
+     "uri": "https://auth.wyze.com"
+    },
+    "website|https://my.wyze.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets",
+     "in": true,
+     "name": "https://my.wyze.com",
+     "uri": "https://my.wyze.com"
+    }
+   }
+  },
   "/engagements/xero-vdp-pro": {
    "groups": {
     "Xero VDP - API Targets ": {
