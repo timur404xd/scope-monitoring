@@ -10932,6 +10932,22 @@
    },
    "name": "BNZ Responsible Disclosure Program",
    "targets": {
+    "website|ma.secure.bnz.co.nz": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "ma.secure.bnz.co.nz",
+     "uri": "https://ma.secure.bnz.co.nz"
+    },
+    "website|secure.bnz.co.nz": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "secure.bnz.co.nz",
+     "uri": "https://secure.bnz.co.nz"
+    },
     "website|www.bnz.co.nz": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
