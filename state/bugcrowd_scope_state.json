@@ -60931,6 +60931,43 @@
     }
    }
   },
+  "/engagements/unisys-mbb-og": {
+   "groups": {
+    "In Scope": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 450000,
+      "p1MinCents": 300000,
+      "p2MaxCents": 200000,
+      "p2MinCents": 100000,
+      "p3MaxCents": 50000,
+      "p3MinCents": 25000,
+      "p4MaxCents": 10000,
+      "p4MinCents": 5000
+     }
+    }
+   },
+   "name": "Unisys Managed Bug Bounty Engagement",
+   "targets": {
+    "website|*.unifysquare.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "*.unifysquare.com",
+     "uri": "http://unifysquare.com/"
+    },
+    "website|*.unisys.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "*.unisys.com",
+     "uri": "http://unisys.com/"
+    }
+   }
+  },
   "/engagements/unisys-vdp-pro": {
    "groups": {
     "In scope": {
