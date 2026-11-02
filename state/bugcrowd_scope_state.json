@@ -58718,6 +58718,173 @@
     }
    }
   },
+  "/engagements/trello": {
+   "groups": {
+    "In Scope": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 1200000,
+      "p1MinCents": 1200000,
+      "p2MaxCents": 400000,
+      "p2MinCents": 400000,
+      "p3MaxCents": 32500,
+      "p3MinCents": 32500,
+      "p4MaxCents": 25000,
+      "p4MinCents": 25000
+     }
+    },
+    "Out of Scope": {
+     "desc": "da39a3ee5e6b",
+     "in": false,
+     "reward": null
+    },
+    "Trello Third Party Powerups": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": null
+    }
+   },
+   "name": "Trello",
+   "targets": {
+    "android|Trello Mobile App for Android": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Trello Mobile App for Android",
+     "uri": ""
+    },
+    "ios|Trello Mobile App for iOS": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Trello Mobile App for iOS",
+     "uri": ""
+    },
+    "other|Trello Desktop Client": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Trello Desktop Client",
+     "uri": ""
+    },
+    "website|*.trello.services": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "*.trello.services",
+     "uri": ""
+    },
+    "website|Butler for Trello": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Butler for Trello",
+     "uri": "https://butlerfortrello.com/"
+    },
+    "website|Calendar Power-Up": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Calendar Power-Up",
+     "uri": "https://trello.com/power-ups/55a5d917446f517774210011/calendar-power-up"
+    },
+    "website|Card Aging Power-Up": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Card Aging Power-Up",
+     "uri": "https://trello.com/power-ups/55a5d917446f517774210012/card-aging"
+    },
+    "website|First party (made-by-trello) power-ups other than those inscope are excluded from this program but can be reported to http://bugcrowd.com/atlassianapps": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "First party (made-by-trello) power-ups other than those inscope are excluded from this program but can be reported to http://bugcrowd.com/atlassianapps",
+     "uri": "http://bugcrowd.com/atlassianapps"
+    },
+    "website|List Limits Power-Up": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "List Limits Power-Up",
+     "uri": "https://trello.com/power-ups/5c2462c384ab8949b1724a20/list-limits"
+    },
+    "website|Microsoft Teams Integration": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Microsoft Teams Integration",
+     "uri": "https://trello.com/power-ups/6052d130068a8c0de7b022b4"
+    },
+    "website|Trello Third Party Powerups": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Trello Third Party Powerups",
+     "in": true,
+     "name": "Trello Third Party Powerups",
+     "uri": ""
+    },
+    "website|Voting Power-Up": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Voting Power-Up",
+     "uri": "https://trello.com/power-ups/55a5d917446f517774210013/voting"
+    },
+    "website|api.trello.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "api.trello.com",
+     "uri": ""
+    },
+    "website|e.trello.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "e.trello.com",
+     "uri": ""
+    },
+    "website|help.trello.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "help.trello.com",
+     "uri": ""
+    },
+    "website|trello-attachments.s3.amazonaws.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "trello-attachments.s3.amazonaws.com",
+     "uri": ""
+    },
+    "website|trello.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "trello.com",
+     "uri": ""
+    }
+   }
+  },
   "/engagements/trimble-vdp-pro": {
    "groups": {
     "In Scope": {
