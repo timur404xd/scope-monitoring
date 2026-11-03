@@ -27839,8 +27839,8 @@
     "SourceCode|https://github.com/digitalocean/terraform-provider-digitalocean": {
      "desc": "eb36f2e10395",
      "endpoint": "https://github.com/digitalocean/terraform-provider-digitalocean",
-     "in": true,
-     "tier": "No Bounty",
+     "in": false,
+     "tier": "Out Of Scope",
      "type": "SourceCode"
     },
     "Url|amd.digitalocean.com": {
