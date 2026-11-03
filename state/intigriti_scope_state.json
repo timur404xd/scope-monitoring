@@ -30413,7 +30413,7 @@
    },
    "name": "UpCloud Bug Bounty",
    "program": {
-    "bounty": "50.0 - 3750.0 EUR",
+    "bounty": "50.0 - 5000.0 EUR",
     "confidentiality": "Application"
    },
    "rules": {
