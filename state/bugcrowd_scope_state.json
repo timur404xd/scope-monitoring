@@ -39891,42 +39891,42 @@
      "desc": "da39a3ee5e6b",
      "in": true,
      "reward": {
-      "p1MaxCents": 650000,
-      "p1MinCents": 200000,
-      "p2MaxCents": 200000,
-      "p2MinCents": 100000,
-      "p3MaxCents": 100000,
-      "p3MinCents": 50000,
-      "p4MaxCents": 50000,
-      "p4MinCents": 20000
+      "p1MaxCents": 3000000,
+      "p1MinCents": 1000000,
+      "p2MaxCents": 700000,
+      "p2MinCents": 300000,
+      "p3MaxCents": 300000,
+      "p3MinCents": 150000,
+      "p4MaxCents": null,
+      "p4MinCents": null
      }
     },
-    "ChatGPT": {
+    "ChatGPT Desktop & Codex CLI": {
      "desc": "da39a3ee5e6b",
      "in": true,
      "reward": {
-      "p1MaxCents": 650000,
-      "p1MinCents": 200000,
-      "p2MaxCents": 200000,
-      "p2MinCents": 100000,
-      "p3MaxCents": 100000,
-      "p3MinCents": 50000,
-      "p4MaxCents": 50000,
-      "p4MinCents": 20000
+      "p1MaxCents": 3000000,
+      "p1MinCents": 1000000,
+      "p2MaxCents": 700000,
+      "p2MinCents": 300000,
+      "p3MaxCents": 300000,
+      "p3MinCents": 150000,
+      "p4MaxCents": null,
+      "p4MinCents": null
      }
     },
-    "Codex": {
+    "ChatGPT Services": {
      "desc": "da39a3ee5e6b",
      "in": true,
      "reward": {
-      "p1MaxCents": 150000,
-      "p1MinCents": 50000,
-      "p2MaxCents": 50000,
-      "p2MinCents": 25000,
-      "p3MaxCents": 25000,
-      "p3MinCents": 10000,
-      "p4MaxCents": 10000,
-      "p4MinCents": 5000
+      "p1MaxCents": 3000000,
+      "p1MinCents": 1000000,
+      "p2MaxCents": 700000,
+      "p2MinCents": 300000,
+      "p3MaxCents": 300000,
+      "p3MinCents": 150000,
+      "p4MaxCents": null,
+      "p4MinCents": null
      }
     },
     "OpenAI API Keys": {
@@ -39943,30 +39943,16 @@
       "p4MinCents": null
      }
     },
-    "OpenAI Research Org": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 350000,
-      "p1MinCents": 125000,
-      "p2MaxCents": 125000,
-      "p2MinCents": 60000,
-      "p3MaxCents": 60000,
-      "p3MinCents": 20000,
-      "p4MaxCents": null,
-      "p4MinCents": null
-     }
-    },
     "Other OpenAI Targets": {
      "desc": "da39a3ee5e6b",
      "in": true,
      "reward": {
-      "p1MaxCents": 250000,
-      "p1MinCents": 125000,
-      "p2MaxCents": 125000,
-      "p2MinCents": 60000,
-      "p3MaxCents": 60000,
-      "p3MinCents": 20000,
+      "p1MaxCents": 700000,
+      "p1MinCents": 300000,
+      "p2MaxCents": 300000,
+      "p2MinCents": 200000,
+      "p3MaxCents": 200000,
+      "p3MinCents": 100000,
       "p4MaxCents": null,
       "p4MinCents": null
      }
@@ -39975,12 +39961,12 @@
      "desc": "da39a3ee5e6b",
      "in": true,
      "reward": {
-      "p1MaxCents": 250000,
-      "p1MinCents": 100000,
-      "p2MaxCents": 100000,
-      "p2MinCents": 50000,
-      "p3MaxCents": 50000,
-      "p3MinCents": 20000,
+      "p1MaxCents": 500000,
+      "p1MinCents": 200000,
+      "p2MaxCents": 200000,
+      "p2MinCents": 100000,
+      "p3MaxCents": null,
+      "p3MinCents": null,
       "p4MaxCents": null,
       "p4MinCents": null
      }
@@ -39988,18 +39974,10 @@
    },
    "name": "OpenAI",
    "targets": {
-    "api|*.openai.org": {
-     "cat": "api",
-     "desc": "da39a3ee5e6b",
-     "group": "OpenAI Research Org",
-     "in": true,
-     "name": "*.openai.org",
-     "uri": "https://*.openai.org"
-    },
     "api|ChatGPT Plugins": {
      "cat": "api",
      "desc": "da39a3ee5e6b",
-     "group": "ChatGPT",
+     "group": "ChatGPT Services",
      "in": true,
      "name": "ChatGPT Plugins",
      "uri": "https://chat.openai.com"
@@ -40020,20 +39998,20 @@
      "name": "api.openai.com",
      "uri": "https://api.openai.com"
     },
-    "other|*.openai.com": {
+    "other|ChatGPT Desktop": {
      "cat": "other",
      "desc": "da39a3ee5e6b",
-     "group": "Other OpenAI Targets",
+     "group": "ChatGPT Desktop & Codex CLI",
      "in": true,
-     "name": "*.openai.com",
+     "name": "ChatGPT Desktop",
      "uri": ""
     },
-    "other|Codex Desktop": {
+    "other|Codex CLI": {
      "cat": "other",
      "desc": "da39a3ee5e6b",
-     "group": "Codex",
+     "group": "ChatGPT Desktop & Codex CLI",
      "in": true,
-     "name": "Codex Desktop",
+     "name": "Codex CLI",
      "uri": ""
     },
     "other|Other": {
@@ -40044,29 +40022,37 @@
      "name": "Other",
      "uri": ""
     },
-    "website|ChatGPT": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "ChatGPT",
-     "in": true,
-     "name": "ChatGPT",
-     "uri": "https://chat.openai.com"
-    },
-    "website|Developer Platform Playground": {
+    "website|*.openai.com": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
      "group": "Other OpenAI Targets",
      "in": true,
+     "name": "*.openai.com",
+     "uri": ""
+    },
+    "website|ChatGPT Web": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "ChatGPT Services",
+     "in": true,
+     "name": "ChatGPT Web",
+     "uri": "https://chatgpt.com"
+    },
+    "website|Developer Platform Playground": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "API Targets",
+     "in": true,
      "name": "Developer Platform Playground",
      "uri": "https://platform.openai.com/playground"
     },
-    "website|Dots": {
+    "website|OpenAi Research": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
-     "group": "ChatGPT",
+     "group": "Other OpenAI Targets",
      "in": true,
-     "name": "Dots",
-     "uri": "https://chatgpt.com/dots/"
+     "name": "OpenAi Research",
+     "uri": "https://*.openai.org"
     },
     "website|Third Party Targets": {
      "cat": "website",
@@ -40075,14 +40061,6 @@
      "in": true,
      "name": "Third Party Targets",
      "uri": ""
-    },
-    "website|https://openai.org": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "OpenAI Research Org",
-     "in": true,
-     "name": "https://openai.org",
-     "uri": "https://*.openai.org"
     },
     "website|openai.com": {
      "cat": "website",
