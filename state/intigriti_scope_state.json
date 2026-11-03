@@ -6647,6 +6647,13 @@
      "in": true,
      "tier": "No Bounty",
      "type": "Other"
+    },
+    "Other|Signicat VideoID and SignatureID": {
+     "desc": "73f62f33dda0",
+     "endpoint": "Signicat VideoID and SignatureID",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Other"
     }
    },
    "name": "Signicat Responsible Disclosure",
