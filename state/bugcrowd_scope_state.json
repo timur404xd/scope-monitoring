@@ -17002,14 +17002,6 @@
      "name": "Cvent CSN Suppliers -> https://app.cvent.com/Subscribers/RFP/*",
      "uri": ""
     },
-    "website|Cvent CSN-RFP -> https://app.cvent.com/Subscribers/Suppliers/* ": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Primary Targets",
-     "in": true,
-     "name": "Cvent CSN-RFP -> https://app.cvent.com/Subscribers/Suppliers/* ",
-     "uri": ""
-    },
     "website|Cvent Core-Admin -> https://app.cvent.com/Subscribers/Admin/*": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
@@ -17048,7 +17040,7 @@
      "group": "Primary Targets",
      "in": true,
      "name": "Cvent Core-Paygo -> https://www.cvent.com/en/event-management-software/free-trial",
-     "uri": ""
+     "uri": "https://accounts.app.cvent.com/paygo/signup"
     },
     "website|Cvent Core-Planner -> https://app.cvent.com/Subscribers/Events2/*  & https://events.app.cvent.com/events/*": {
      "cat": "website",
