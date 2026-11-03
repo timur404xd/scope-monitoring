@@ -44902,35 +44902,6 @@
     }
    }
   },
-  "/engagements/pantheon": {
-   "groups": {
-    "In scope": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 50000,
-      "p1MinCents": 5000,
-      "p2MaxCents": 25000,
-      "p2MinCents": 2500,
-      "p3MaxCents": 10000,
-      "p3MinCents": null,
-      "p4MaxCents": 7500,
-      "p4MinCents": null
-     }
-    }
-   },
-   "name": "Pantheon",
-   "targets": {
-    "other|https://dashboard.pantheon.io": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope",
-     "in": true,
-     "name": "https://dashboard.pantheon.io",
-     "uri": "https://dashboard.pantheon.io"
-    }
-   }
-  },
   "/engagements/pbgc-vdp": {
    "groups": {
     "In Scope Targets": {
