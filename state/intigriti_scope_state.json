@@ -24477,7 +24477,7 @@
      "desc": "5cbe67d218af",
      "endpoint": "https://tenant-id.sdb.tid.onespan.cloud/riskui/",
      "in": true,
-     "tier": "Tier 2",
+     "tier": "Tier 3",
      "type": "Url"
     },
     "Url|https://tenant-id.sdb.tid.onespan.cloud/v1/": {
@@ -24490,7 +24490,7 @@
    },
    "name": "OneSpan Transaction Cloud Platform",
    "program": {
-    "bounty": "100.0 - 7500.0 EUR",
+    "bounty": "0.0 - 7500.0 EUR",
     "confidentiality": "Registered"
    },
    "rules": {
