@@ -49651,14 +49651,6 @@
      "name": "https://marketplace.atlassian.com/apps/1211109/user-deactivator-jira?hosting=datacenter&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1211109/user-deactivator-jira?hosting=datacenter&tab=overview"
     },
-    "other|https://marketplace.atlassian.com/apps/1211109/user-deactivator-jira?hosting=server&tab=overview": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "Apps",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1211109/user-deactivator-jira?hosting=server&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1211109/user-deactivator-jira?hosting=server&tab=overview"
-    },
     "other|https://marketplace.atlassian.com/apps/1211109/user-management-and-license-optimizer-for-jira-confluence?hosting=cloud&tab=overview": {
      "cat": "other",
      "desc": "da39a3ee5e6b",
@@ -49675,14 +49667,6 @@
      "name": "https://marketplace.atlassian.com/apps/1212129/saml-single-sign-on-sso-confluence?hosting=datacenter&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1212129/saml-single-sign-on-sso-confluence?hosting=datacenter&tab=overview"
     },
-    "other|https://marketplace.atlassian.com/apps/1212129/saml-single-sign-on-sso-confluence?hosting=server&tab=overview": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "Apps",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1212129/saml-single-sign-on-sso-confluence?hosting=server&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1212129/saml-single-sign-on-sso-confluence?hosting=server&tab=overview"
-    },
     "other|https://marketplace.atlassian.com/apps/1212130/saml-single-sign-on-sso-jira-saml-sso?hosting=datacenter&tab=overview": {
      "cat": "other",
      "desc": "da39a3ee5e6b",
@@ -49690,14 +49674,6 @@
      "in": true,
      "name": "https://marketplace.atlassian.com/apps/1212130/saml-single-sign-on-sso-jira-saml-sso?hosting=datacenter&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1212130/saml-single-sign-on-sso-jira-saml-sso?hosting=datacenter&tab=overview"
-    },
-    "other|https://marketplace.atlassian.com/apps/1212130/saml-single-sign-on-sso-jira-saml-sso?hosting=server&tab=overview": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "Apps",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1212130/saml-single-sign-on-sso-jira-saml-sso?hosting=server&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1212130/saml-single-sign-on-sso-jira-saml-sso?hosting=server&tab=overview"
     },
     "other|https://marketplace.atlassian.com/apps/1217045/saml-single-sign-on-sso-bitbucket?hosting=datacenter&tab=overview": {
      "cat": "other",
@@ -49707,22 +49683,6 @@
      "name": "https://marketplace.atlassian.com/apps/1217045/saml-single-sign-on-sso-bitbucket?hosting=datacenter&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1217045/saml-single-sign-on-sso-bitbucket?hosting=datacenter&tab=overview"
     },
-    "other|https://marketplace.atlassian.com/apps/1217045/saml-single-sign-on-sso-bitbucket?hosting=server&tab=overview": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "Apps",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1217045/saml-single-sign-on-sso-bitbucket?hosting=server&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1217045/saml-single-sign-on-sso-bitbucket?hosting=server&tab=overview"
-    },
-    "other|https://marketplace.atlassian.com/apps/1217672/saml-single-sign-on-sso-bamboo?hosting=server&tab=overview": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "Apps",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1217672/saml-single-sign-on-sso-bamboo?hosting=server&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1217672/saml-single-sign-on-sso-bamboo?hosting=server&tab=overview"
-    },
     "other|https://marketplace.atlassian.com/apps/1218164/redirects-and-vanity-urls-for-confluence?hosting=datacenter&tab=overview": {
      "cat": "other",
      "desc": "da39a3ee5e6b",
@@ -49730,14 +49690,6 @@
      "in": true,
      "name": "https://marketplace.atlassian.com/apps/1218164/redirects-and-vanity-urls-for-confluence?hosting=datacenter&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1218164/redirects-and-vanity-urls-for-confluence?hosting=datacenter&tab=overview"
-    },
-    "other|https://marketplace.atlassian.com/apps/1218164/redirects-and-vanity-urls-for-confluence?hosting=server&tab=overview": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "Apps",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1218164/redirects-and-vanity-urls-for-confluence?hosting=server&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1218164/redirects-and-vanity-urls-for-confluence?hosting=server&tab=overview"
     },
     "other|https://marketplace.atlassian.com/apps/1218305/out-of-office-assistant-for-jira-cloud?hosting=cloud": {
      "cat": "other",
@@ -49755,14 +49707,6 @@
      "name": "https://marketplace.atlassian.com/apps/1219399/users-sync-groups-sync-jira?hosting=datacenter&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1219399/users-sync-groups-sync-jira?hosting=datacenter&tab=overview"
     },
-    "other|https://marketplace.atlassian.com/apps/1219399/users-sync-groups-sync-jira?hosting=server&tab=overview": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "Apps",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1219399/users-sync-groups-sync-jira?hosting=server&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1219399/users-sync-groups-sync-jira?hosting=server&tab=overview"
-    },
     "other|https://marketplace.atlassian.com/apps/1219400/users-sync-groups-sync-confluence?hosting=datacenter&tab=overview": {
      "cat": "other",
      "desc": "da39a3ee5e6b",
@@ -49771,14 +49715,6 @@
      "name": "https://marketplace.atlassian.com/apps/1219400/users-sync-groups-sync-confluence?hosting=datacenter&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1219400/users-sync-groups-sync-confluence?hosting=datacenter&tab=overview"
     },
-    "other|https://marketplace.atlassian.com/apps/1219400/users-sync-groups-sync-confluence?hosting=server&tab=overview": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "Apps",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1219400/users-sync-groups-sync-confluence?hosting=server&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1219400/users-sync-groups-sync-confluence?hosting=server&tab=overview"
-    },
     "other|https://marketplace.atlassian.com/apps/1219401/users-sync-groups-sync-bitbucket?hosting=datacenter&tab=overview": {
      "cat": "other",
      "desc": "da39a3ee5e6b",
@@ -49786,14 +49722,6 @@
      "in": true,
      "name": "https://marketplace.atlassian.com/apps/1219401/users-sync-groups-sync-bitbucket?hosting=datacenter&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1219401/users-sync-groups-sync-bitbucket?hosting=datacenter&tab=overview"
-    },
-    "other|https://marketplace.atlassian.com/apps/1219401/users-sync-groups-sync-bitbucket?hosting=server&tab=overview": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "Apps",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1219401/users-sync-groups-sync-bitbucket?hosting=server&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1219401/users-sync-groups-sync-bitbucket?hosting=server&tab=overview"
     },
     "other|https://marketplace.atlassian.com/apps/1219932/language-translation-jira-service-desk?hosting=cloud": {
      "cat": "other",
@@ -49811,14 +49739,6 @@
      "name": "https://marketplace.atlassian.com/apps/1221586/api-token-authentication-jira?hosting=datacenter&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1221586/api-token-authentication-jira?hosting=datacenter&tab=overview"
     },
-    "other|https://marketplace.atlassian.com/apps/1221586/api-token-authentication-jira?hosting=server&tab=overview": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "Apps",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1221586/api-token-authentication-jira?hosting=server&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1221586/api-token-authentication-jira?hosting=server&tab=overview"
-    },
     "other|https://marketplace.atlassian.com/apps/1221601/user-deactivator-confluence?hosting=datacenter&tab=overview": {
      "cat": "other",
      "desc": "da39a3ee5e6b",
@@ -49826,14 +49746,6 @@
      "in": true,
      "name": "https://marketplace.atlassian.com/apps/1221601/user-deactivator-confluence?hosting=datacenter&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1221601/user-deactivator-confluence?hosting=datacenter&tab=overview"
-    },
-    "other|https://marketplace.atlassian.com/apps/1221601/user-deactivator-confluence?hosting=server&tab=overview": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "Apps",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1221601/user-deactivator-confluence?hosting=server&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1221601/user-deactivator-confluence?hosting=server&tab=overview"
     },
     "other|https://marketplace.atlassian.com/apps/1221608/api-token-authentication-confluence?hosting=datacenter&tab=overview": {
      "cat": "other",
@@ -49843,14 +49755,6 @@
      "name": "https://marketplace.atlassian.com/apps/1221608/api-token-authentication-confluence?hosting=datacenter&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1221608/api-token-authentication-confluence?hosting=datacenter&tab=overview"
     },
-    "other|https://marketplace.atlassian.com/apps/1221608/api-token-authentication-confluence?hosting=server&tab=overview": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "Apps",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1221608/api-token-authentication-confluence?hosting=server&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1221608/api-token-authentication-confluence?hosting=server&tab=overview"
-    },
     "other|https://marketplace.atlassian.com/apps/1221625/http-header-authentication-for-jira?hosting=datacenter&tab=overview": {
      "cat": "other",
      "desc": "da39a3ee5e6b",
@@ -49859,14 +49763,6 @@
      "name": "https://marketplace.atlassian.com/apps/1221625/http-header-authentication-for-jira?hosting=datacenter&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1221625/http-header-authentication-for-jira?hosting=datacenter&tab=overview"
     },
-    "other|https://marketplace.atlassian.com/apps/1221625/http-header-authentication-for-jira?hosting=server&tab=overview": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "Apps",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1221625/http-header-authentication-for-jira?hosting=server&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1221625/http-header-authentication-for-jira?hosting=server&tab=overview"
-    },
     "other|https://marketplace.atlassian.com/apps/1221627/http-header-auth-for-confluence?hosting=datacenter&tab=overview": {
      "cat": "other",
      "desc": "da39a3ee5e6b",
@@ -49874,30 +49770,6 @@
      "in": true,
      "name": "https://marketplace.atlassian.com/apps/1221627/http-header-auth-for-confluence?hosting=datacenter&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1221627/http-header-auth-for-confluence?hosting=datacenter&tab=overview"
-    },
-    "other|https://marketplace.atlassian.com/apps/1221627/http-header-auth-for-confluence?hosting=server&tab=overview": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "Apps",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1221627/http-header-auth-for-confluence?hosting=server&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1221627/http-header-auth-for-confluence?hosting=server&tab=overview"
-    },
-    "other|https://marketplace.atlassian.com/apps/1221629/user-deactivator-for-bitbucket?hosting=server&tab=overview": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "Apps",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1221629/user-deactivator-for-bitbucket?hosting=server&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1221629/user-deactivator-for-bitbucket?hosting=server&tab=overview"
-    },
-    "other|https://marketplace.atlassian.com/apps/1221738/users-sync-groups-sync-bamboo?hosting=server&tab=overview": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "Apps",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1221738/users-sync-groups-sync-bamboo?hosting=server&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1221738/users-sync-groups-sync-bamboo?hosting=server&tab=overview"
     },
     "other|https://marketplace.atlassian.com/apps/1225346/hubspot-crm-for-confluence-hubspot-integration?hosting=cloud&tab=overview": {
      "cat": "other",
@@ -49971,14 +49843,6 @@
      "name": "https://marketplace.atlassian.com/apps/1224117/api-token-authentication-for-bitbucket?hosting=datacenter&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1224117/api-token-authentication-for-bitbucket?hosting=datacenter&tab=overview"
     },
-    "website|https://marketplace.atlassian.com/apps/1224117/api-token-authentication-for-bitbucket?hosting=server&tab=overview": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Apps",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1224117/api-token-authentication-for-bitbucket?hosting=server&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1224117/api-token-authentication-for-bitbucket?hosting=server&tab=overview"
-    },
     "website|https://marketplace.atlassian.com/apps/1224142/monday-com-for-confluence?hosting=cloud&tab=overview": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
@@ -49987,14 +49851,6 @@
      "name": "https://marketplace.atlassian.com/apps/1224142/monday-com-for-confluence?hosting=cloud&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1224142/monday-com-for-confluence?hosting=cloud&tab=overview"
     },
-    "website|https://marketplace.atlassian.com/apps/1224457/aws-load-balancer-authentication-cognito-compatible-jira?hosting=server": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Apps",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1224457/aws-load-balancer-authentication-cognito-compatible-jira?hosting=server",
-     "uri": "https://marketplace.atlassian.com/apps/1224457/aws-load-balancer-authentication-cognito-compatible-jira?hosting=server"
-    },
     "website|https://marketplace.atlassian.com/apps/1224457/aws-sso-alb-amazon-cognito-authentication-for-jira?hosting=datacenter&tab=overview": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
@@ -50002,14 +49858,6 @@
      "in": true,
      "name": "https://marketplace.atlassian.com/apps/1224457/aws-sso-alb-amazon-cognito-authentication-for-jira?hosting=datacenter&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1224457/aws-sso-alb-amazon-cognito-authentication-for-jira?hosting=datacenter&tab=overview"
-    },
-    "website|https://marketplace.atlassian.com/apps/1224459/aws-alb-and-amazon-cognito-authentication-for-confluence?hosting=server": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Apps",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1224459/aws-alb-and-amazon-cognito-authentication-for-confluence?hosting=server",
-     "uri": "https://marketplace.atlassian.com/apps/1224459/aws-alb-and-amazon-cognito-authentication-for-confluence?hosting=server"
     },
     "website|https://marketplace.atlassian.com/apps/1224459/aws-sso-alb-amazon-cognito-authentication-for-confluence?hosting=datacenter&tab=overview": {
      "cat": "website",
@@ -50035,13 +49883,13 @@
      "name": "https://marketplace.atlassian.com/apps/1226752/google-translation-automation-for-jira-issue-language?hosting=cloud&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1226752/google-translation-automation-for-jira-issue-language?hosting=cloud&tab=overview"
     },
-    "website|https://marketplace.atlassian.com/apps/1228240/hubspot-jira-crm-issue-link-integration-collaboration?hosting=cloud&tab=reviews": {
+    "website|https://marketplace.atlassian.com/apps/1228240/hubspot-jira-crm-issue-link-integration-collaboration?hosting=cloud&tab=overview": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
      "group": "Apps",
      "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1228240/hubspot-jira-crm-issue-link-integration-collaboration?hosting=cloud&tab=reviews",
-     "uri": "https://marketplace.atlassian.com/apps/1228240/hubspot-jira-crm-issue-link-integration-collaboration?hosting=cloud&tab=reviews"
+     "name": "https://marketplace.atlassian.com/apps/1228240/hubspot-jira-crm-issue-link-integration-collaboration?hosting=cloud&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1228240/hubspot-jira-crm-issue-link-integration-collaboration?hosting=cloud&tab=overview"
     },
     "website|https://marketplace.atlassian.com/apps/1231965/structure-your-jira-scrum-nasa-not-another-standup-app?hosting=cloud&tab=overview": {
      "cat": "website",
