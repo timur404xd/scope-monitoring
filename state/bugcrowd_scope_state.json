@@ -32369,6 +32369,11 @@
   },
   "/engagements/lumenvdp": {
    "groups": {
+    "Alkira": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": null
+    },
     "In Scope": {
      "desc": "da39a3ee5e6b",
      "in": true,
@@ -32461,6 +32466,22 @@
      "in": false,
      "name": "ease*.lumen.com",
      "uri": ""
+    },
+    "website|https://alpha.preprod.alkira3.net": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Alkira",
+     "in": true,
+     "name": "https://alpha.preprod.alkira3.net",
+     "uri": "https://alpha.preprod.alkira3.net"
+    },
+    "website|https://beta.preprod.alkira3.net": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Alkira",
+     "in": true,
+     "name": "https://beta.preprod.alkira3.net",
+     "uri": "https://beta.preprod.alkira3.net"
     },
     "website|lumenb1.com": {
      "cat": "website",
