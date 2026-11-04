@@ -2767,8 +2767,8 @@
     "Wildcard|https://acc-vacatureapi.driessen.software/*": {
      "desc": "da39a3ee5e6b",
      "endpoint": "https://acc-vacatureapi.driessen.software/*",
-     "in": true,
-     "tier": "Tier 2",
+     "in": false,
+     "tier": "Out Of Scope",
      "type": "Wildcard"
     },
     "Wildcard|https://acc-www.driessen.software/*": {
