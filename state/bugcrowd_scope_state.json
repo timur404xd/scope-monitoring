@@ -64253,14 +64253,6 @@
      "name": "Vinted Go Sandbox",
      "uri": "https://sandbox.vintedgo.com"
     },
-    "website|Vinted Sandbox": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Secondary Target Group",
-     "in": true,
-     "name": "Vinted Sandbox",
-     "uri": "https://sandbox.vinted.com"
-    },
     "website|www.vinted.com": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
