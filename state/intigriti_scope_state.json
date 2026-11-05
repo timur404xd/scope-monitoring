@@ -7693,6 +7693,154 @@
     "tooling": 10
    }
   },
+  "4914b710-2aa7-4779-a944-764ad3e2a6ce": {
+   "assets": {
+    "Android|Rivian Android Application": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "Rivian Android Application",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Android"
+    },
+    "Device|Vehicle Software": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "Vehicle Software",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Device"
+    },
+    "Url|assets.rivian.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "assets.rivian.com",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|basecamp.rivian.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "basecamp.rivian.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|careers.rivian.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "careers.rivian.com",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|cloud.e.rivian.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "cloud.e.rivian.com",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|demovehicles.rivian.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "demovehicles.rivian.com",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|feedback.rivian.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "feedback.rivian.com",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|https://business.rivian.com/api": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://business.rivian.com/api",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Url"
+    },
+    "Url|https://rivian.com/api/gql/content/graphql": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://rivian.com/api/gql/content/graphql",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Url"
+    },
+    "Url|https://rivian.com/api/gql/gateway/graphql": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://rivian.com/api/gql/gateway/graphql",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Url"
+    },
+    "Url|https://rivian.com/api/gql/orders/graphql": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "https://rivian.com/api/gql/orders/graphql",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Url"
+    },
+    "Url|internalshop.rivian.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "internalshop.rivian.com",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|media.rivian.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "media.rivian.com",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|rivian.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "rivian.com",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Url"
+    },
+    "Url|stories.rivian.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "stories.rivian.com",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|view.e.rivian.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "view.e.rivian.com",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Wildcard| *.rivian.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": " *.rivian.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "iOS|Rivian iOS Application": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "Rivian iOS Application",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "iOS"
+    }
+   },
+   "name": "Rivian Vulnerability Disclosure Program",
+   "program": {
+    "bounty": "0.0 - 0.0 USD",
+    "confidentiality": "Public"
+   },
+   "rules": {
+    "desc": "fa9b9f59f647",
+    "safe_harbour": false,
+    "testing": "d412ba8724b0",
+    "tooling": null
+   }
+  },
   "495935c2-44bf-4eb5-81b4-dac0daa38b79": {
    "assets": {
     "Android|be.basecompany.base.mybase": {
