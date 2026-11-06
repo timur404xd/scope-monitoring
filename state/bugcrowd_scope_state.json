@@ -36240,6 +36240,14 @@
      "name": "Moneytree Web for Web",
      "uri": "https://wwws-staging.moneytree.jp/link/"
     },
+    "website|fitbit-lottery (temporary)": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Staging @ moneytree.jp",
+     "in": true,
+     "name": "fitbit-lottery (temporary)",
+     "uri": "https://fitbit-lottery.getmoneytree.com/"
+    },
     "website|getmoneytree.com": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
