@@ -21962,14 +21962,6 @@
      "name": "Social engineering against Fivetran Support or Fivetran Employees",
      "uri": ""
     },
-    "other|it-fivetran.com": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets: Fivetran",
-     "in": true,
-     "name": "it-fivetran.com",
-     "uri": "https://it-fivetran.com"
-    },
     "website|*.fivetran.com": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
