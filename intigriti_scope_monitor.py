@@ -3,7 +3,7 @@
 intigriti_scope_monitor.py
 
 Tracks the scope of every Intigriti program visible to your API token (private invites
-included) and sends a Telegram alert when something changes:
+included) and sends an alert to Discord and/or Telegram when something changes:
 
   NEW IN SCOPE            asset added (any tier except "Out Of Scope")
   MOVED INTO SCOPE        asset was "Out Of Scope", now in scope
@@ -16,6 +16,16 @@ included) and sends a Telegram alert when something changes:
   PROGRAM CHANGES         bounty range, confidentiality level
   NEW OUT-OF-SCOPE        informational
 
+Where alerts go (configure one or both):
+  Discord   DISCORD_WEBHOOK_URL            webhook of the channel for scope changes; each
+                                           change is an embed titled with the program name
+                                           (linking to the program), green when something
+                                           entered scope, orange for other changes
+            DISCORD_HEARTBEAT_WEBHOOK_URL  optional separate channel for the daily heartbeat
+                                           and startup notice (defaults to the main webhook)
+            DISCORD_USERNAME               optional display name (default "Intigriti Scope")
+  Telegram  TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID
+
 State: state/intigriti_scope_state.json (committed back by the workflow).
 
 Safety rules:
@@ -23,7 +33,8 @@ Safety rules:
   - programs not seen before are baselined silently (ANNOUNCE_NEW_PROGRAMS=1 sends their
     in-scope list instead)
   - failed fetch / non-200 / scope suddenly empty -> previous state is kept
-  - Telegram failure -> that program's state is not advanced (alert retried next run)
+  - a failed send (Discord or Telegram) -> that program's state is not advanced
+    (alert retried next run)
   - exits non-zero if every program failed
   - a silent daily heartbeat is sent once per day, on the first run at or after
     HEARTBEAT_HOUR:00 in HEARTBEAT_TZ (default 00:00 Africa/Cairo), so you know the
@@ -38,10 +49,11 @@ import re
 import subprocess
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime
+from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
 API_BASE = os.environ.get("INTIGRITI_API_BASE", "https://api.intigriti.com/external/researcher/v1")
@@ -55,6 +67,16 @@ TG_CHUNK = 3800
 ANNOUNCE_NEW_PROGRAMS = os.environ.get("ANNOUNCE_NEW_PROGRAMS", "0") == "1"
 HEARTBEAT_TZ = ZoneInfo(os.environ.get("HEARTBEAT_TZ", "Africa/Cairo"))
 HEARTBEAT_HOUR = int(os.environ.get("HEARTBEAT_HOUR", "0"))  # 0 = 12 am
+DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
+DISCORD_HEARTBEAT_WEBHOOK_URL = (os.environ.get("DISCORD_HEARTBEAT_WEBHOOK_URL", "").strip()
+                                 or DISCORD_WEBHOOK_URL)
+DISCORD_USERNAME = os.environ.get("DISCORD_USERNAME", "Intigriti Scope")
+DISCORD_EMBED_CHUNK = 4000     # embed description limit is 4096
+DISCORD_CONTENT_CHUNK = 1900   # plain message limit is 2000
+DISCORD_GREEN, DISCORD_ORANGE, DISCORD_BLUE = 0x2ECC71, 0xE67E22, 0x5865F2
+DISCORD_FLAG_SUPPRESS_EMBEDS = 1 << 2
+DISCORD_FLAG_SILENT = 1 << 12  # posts without a push/sound notification
+_DISCORD_MD_RE = re.compile(r"([\\*_~`|>\[\]])")
 OUT_OF_SCOPE_RE = re.compile(r"out[\s_-]*of[\s_-]*scope", re.I)
 
 
@@ -246,11 +268,38 @@ def format_new_program(name, link, snap):
     return "\n".join(lines)
 
 
-# --------------------------------------------------------------------------- telegram / state
-def _chunks(text):
+def _md(s):
+    """Escape Discord markdown, so wildcard scopes like *.example.com don't turn italic."""
+    return _DISCORD_MD_RE.sub(r"\\\1", s)
+
+
+def discord_change_body(ev):
+    lines = []
+    for key, title in SECTIONS:
+        items = ev[key]
+        if not items:
+            continue
+        lines.append(f"**{title} ({len(items)})**")
+        lines.extend(_md(i) for i in items[:MAX_PER_SECTION])
+        if len(items) > MAX_PER_SECTION:
+            lines.append(f"…and {len(items) - MAX_PER_SECTION} more")
+        lines.append("")
+    return "\n".join(lines).strip()
+
+
+def discord_new_program_body(snap):
+    ins = [_a(a) for a in snap["assets"].values() if a["in"]]
+    lines = [f"**IN SCOPE ({len(ins)})**"] + [_md(i) for i in ins[:MAX_PER_SECTION]]
+    if len(ins) > MAX_PER_SECTION:
+        lines.append(f"…and {len(ins) - MAX_PER_SECTION} more")
+    return "\n".join(lines)
+
+
+# --------------------------------------------------------------------------- notifications / state
+def _chunks(text, limit=TG_CHUNK):
     cur = ""
     for line in text.split("\n"):
-        if cur and len(cur) + len(line) + 1 > TG_CHUNK:
+        if cur and len(cur) + len(line) + 1 > limit:
             yield cur
             cur = ""
         cur = f"{cur}\n{line}" if cur else line
@@ -273,6 +322,93 @@ def send_telegram(text, silent=False):
             print(f"WARN: telegram send failed: {e}", file=sys.stderr)
             ok = False
         time.sleep(1)
+    return ok
+
+
+def _telegram_on():
+    return bool(os.environ.get("TELEGRAM_BOT_TOKEN") and os.environ.get("TELEGRAM_CHAT_ID"))
+
+
+def _discord_post(webhook, payload):
+    """POST one message to a Discord webhook; waits out rate limits. True on success."""
+    url = webhook + ("&" if "?" in webhook else "?") + "wait=true"
+    data = json.dumps(payload).encode()
+    for _ in range(4):
+        req = urllib.request.Request(url, data=data, headers={
+            "Content-Type": "application/json",
+            # Discord's edge rejects the default Python-urllib user agent
+            "User-Agent": "intigriti-scope-monitor (https://github.com, 1.0)"})
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return 200 <= r.status < 300
+        except urllib.error.HTTPError as e:
+            body = e.read()
+            if e.code == 429:
+                try:
+                    wait = float(json.loads(body.decode()).get("retry_after", 2))
+                except (ValueError, AttributeError):
+                    wait = 2.0
+                time.sleep(min(wait, 30) + 0.5)
+                continue
+            print(f"WARN: discord send failed: HTTP {e.code} {body[:300]!r}", file=sys.stderr)
+            return False
+        except Exception as e:  # noqa: BLE001
+            print(f"WARN: discord send failed: {e}", file=sys.stderr)
+            return False
+    print("WARN: discord send failed: still rate-limited after retries", file=sys.stderr)
+    return False
+
+
+def send_discord_embed(title, link, body, color, footer):
+    parts = list(_chunks(body, DISCORD_EMBED_CHUNK)) or [""]
+    ok = True
+    for n, desc in enumerate(parts, 1):
+        embed = {"title": title[:256], "description": desc, "color": color,
+                 "footer": {"text": footer + (f" · part {n}/{len(parts)}" if len(parts) > 1 else "")},
+                 "timestamp": datetime.now(timezone.utc).isoformat()}
+        if link.startswith(("http://", "https://")):
+            embed["url"] = link
+        ok = _discord_post(DISCORD_WEBHOOK_URL, {"username": DISCORD_USERNAME, "embeds": [embed],
+                                                 "allowed_mentions": {"parse": []}}) and ok
+        time.sleep(1)
+    return ok
+
+
+def send_change(name, link, ev):
+    """Scope-change alert to every configured destination; True only if all succeeded."""
+    ok = True
+    if DISCORD_WEBHOOK_URL:
+        entered = ev["new_in"] or ev["moved_in"]
+        ok = send_discord_embed(f"{'🆕' if entered else '🔄'} {name}", link, discord_change_body(ev),
+                                DISCORD_GREEN if entered else DISCORD_ORANGE,
+                                "Intigriti scope change") and ok
+    if _telegram_on():
+        ok = send_telegram(format_message(name, link, ev)) and ok
+    return ok
+
+
+def send_new_program(name, link, snap):
+    ok = True
+    if DISCORD_WEBHOOK_URL:
+        ok = send_discord_embed(f"🎯 {name}", link, discord_new_program_body(snap), DISCORD_BLUE,
+                                "New Intigriti program") and ok
+    if _telegram_on():
+        ok = send_telegram(format_new_program(name, link, snap)) and ok
+    return ok
+
+
+def send_status(text, silent=False):
+    """Startup notice and heartbeat (Discord: the heartbeat channel, if one is set)."""
+    ok = True
+    if DISCORD_HEARTBEAT_WEBHOOK_URL:
+        flags = DISCORD_FLAG_SUPPRESS_EMBEDS | (DISCORD_FLAG_SILENT if silent else 0)
+        for chunk in _chunks(text, DISCORD_CONTENT_CHUNK):
+            ok = _discord_post(DISCORD_HEARTBEAT_WEBHOOK_URL,
+                               {"username": DISCORD_USERNAME, "content": chunk, "flags": flags,
+                                "allowed_mentions": {"parse": []}}) and ok
+            time.sleep(1)
+    if _telegram_on():
+        ok = send_telegram(text, silent=silent) and ok
     return ok
 
 
@@ -305,9 +441,10 @@ def save_state(programs, last_heartbeat):
 
 # --------------------------------------------------------------------------- main
 def main():
-    for var in ("INTIGRITI_API_TOKEN", "TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID"):
-        if not os.environ.get(var):
-            sys.exit(f"Set {var} env var")
+    if not os.environ.get("INTIGRITI_API_TOKEN"):
+        sys.exit("Set INTIGRITI_API_TOKEN env var")
+    if not DISCORD_WEBHOOK_URL and not _telegram_on():
+        sys.exit("Set DISCORD_WEBHOOK_URL and/or TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID")
 
     programs = fetch_all_programs()
     old, last_heartbeat = load_state()
@@ -333,12 +470,12 @@ def main():
         if prev:
             ev = diff(prev, snap)
             if any(ev.values()):
-                if send_telegram(format_message(name, link, ev)):
+                if send_change(name, link, ev):
                     alerts += 1
                 else:
                     snap = prev  # retry next run
         elif not first_run and ANNOUNCE_NEW_PROGRAMS:
-            if not send_telegram(format_new_program(name, link, snap)):
+            if not send_new_program(name, link, snap):
                 continue  # leave unseen so it is announced again next run
             alerts += 1
         new_state[pid] = snap
@@ -348,11 +485,11 @@ def main():
 
     now = time.time()
     if first_run:
-        send_telegram(f"✅ Intigriti scope monitor started - baseline of "
+        send_status(f"✅ Intigriti scope monitor started - baseline of "
                       f"{len(new_state)}/{len(programs)} programs saved")
         last_heartbeat = now  # next heartbeat at the coming midnight
     elif heartbeat_due(last_heartbeat, now):
-        if send_telegram(f"✅ Daily Intigriti scope check: monitor alive, "
+        if send_status(f"✅ Daily Intigriti scope check: monitor alive, "
                          f"{len(new_state)} programs tracked, {alerts} alert(s) this run, "
                          f"{fails} fetch problem(s)", silent=True):
             last_heartbeat = now
