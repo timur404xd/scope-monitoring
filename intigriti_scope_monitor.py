@@ -25,8 +25,9 @@ Safety rules:
   - failed fetch / non-200 / scope suddenly empty -> previous state is kept
   - Telegram failure -> that program's state is not advanced (alert retried next run)
   - exits non-zero if every program failed
-  - if a run sends zero real alerts, a silent heartbeat fires at most once every
-    HEARTBEAT_INTERVAL_SECS, so you know the monitor is alive without being spammed
+  - a silent daily heartbeat is sent once per day, on the first run at or after
+    HEARTBEAT_HOUR:00 in HEARTBEAT_TZ (default 00:00 Africa/Cairo), so you know the
+    monitor is alive without being spammed
 
 Stdlib + curl only. The API token is passed to curl on stdin, not on the command line.
 """
@@ -40,6 +41,8 @@ import time
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 API_BASE = os.environ.get("INTIGRITI_API_BASE", "https://api.intigriti.com/external/researcher/v1")
 TELEGRAM_API = os.environ.get("TELEGRAM_API", "https://api.telegram.org")
@@ -50,7 +53,8 @@ WORKERS = int(os.environ.get("WORKERS", "3"))
 MAX_PER_SECTION = 25
 TG_CHUNK = 3800
 ANNOUNCE_NEW_PROGRAMS = os.environ.get("ANNOUNCE_NEW_PROGRAMS", "0") == "1"
-HEARTBEAT_INTERVAL_SECS = int(os.environ.get("HEARTBEAT_INTERVAL_SECS", str(6 * 3600)))
+HEARTBEAT_TZ = ZoneInfo(os.environ.get("HEARTBEAT_TZ", "Africa/Cairo"))
+HEARTBEAT_HOUR = int(os.environ.get("HEARTBEAT_HOUR", "0"))  # 0 = 12 am
 OUT_OF_SCOPE_RE = re.compile(r"out[\s_-]*of[\s_-]*scope", re.I)
 
 
@@ -272,6 +276,13 @@ def send_telegram(text, silent=False):
     return ok
 
 
+def heartbeat_due(last_heartbeat, now):
+    """True once per day: first run at/after today's HEARTBEAT_HOUR in HEARTBEAT_TZ."""
+    local_now = datetime.fromtimestamp(now, HEARTBEAT_TZ)
+    slot = local_now.replace(hour=HEARTBEAT_HOUR, minute=0, second=0, microsecond=0)
+    return local_now >= slot and last_heartbeat < slot.timestamp()
+
+
 def load_state():
     try:
         with open(STATE_FILE) as f:
@@ -335,15 +346,15 @@ def main():
     if not new_state:
         sys.exit("ERROR: nothing collected; state not overwritten")
 
+    now = time.time()
     if first_run:
         send_telegram(f"✅ Intigriti scope monitor started - baseline of "
                       f"{len(new_state)}/{len(programs)} programs saved")
-        last_heartbeat = time.time()
-    elif alerts == 0:
-        now = time.time()
-        if now - last_heartbeat >= HEARTBEAT_INTERVAL_SECS:
-            send_telegram(f"✅ Intigriti scope check OK: no changes across "
-                          f"{len(new_state)} programs ({fails} fetch problem(s))", silent=True)
+        last_heartbeat = now  # next heartbeat at the coming midnight
+    elif heartbeat_due(last_heartbeat, now):
+        if send_telegram(f"✅ Daily Intigriti scope check: monitor alive, "
+                         f"{len(new_state)} programs tracked, {alerts} alert(s) this run, "
+                         f"{fails} fetch problem(s)", silent=True):
             last_heartbeat = now
 
     save_state(new_state, last_heartbeat)
