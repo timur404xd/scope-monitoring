@@ -21,10 +21,14 @@ Safety rules:
   - programs not seen before are baselined silently (set ANNOUNCE_NEW_PROGRAMS=1 to get
     their in-scope list instead)
   - fetch failure, or scope that suddenly comes back empty -> previous state is kept
+  - a program missing from the listing (flaky unauthenticated pagination) keeps its
+    previous state for MISSING_GRACE_SECS, so it is not "new" when it comes back
+  - every program ever listed is remembered in "known", including ones whose scope
+    fetch failed during the baseline, so a later successful fetch is not "new" either
   - Telegram failure -> that program's state is not advanced, so the alert is retried
   - exits non-zero if every program failed (so the Actions run goes red)
-  - if a run sends zero real alerts, a silent heartbeat fires at most once every
-    HEARTBEAT_INTERVAL_SECS, so you know the monitor is alive without being spammed
+  - a silent daily heartbeat is sent once per day, on the first run at or after
+    HEARTBEAT_HOUR:00 in HEARTBEAT_TZ (default 00:00 Africa/Cairo)
 
 Stdlib only; uses curl for Bugcrowd requests.
 """
@@ -39,6 +43,8 @@ import time
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 BASE = "https://bugcrowd.com"
 LIST_URL = f"{BASE}/engagements-us.json"
@@ -52,7 +58,9 @@ WORKERS = 4
 MAX_PER_SECTION = 25
 TG_CHUNK = 3800
 ANNOUNCE_NEW_PROGRAMS = os.environ.get("ANNOUNCE_NEW_PROGRAMS", "0") == "1"
-HEARTBEAT_INTERVAL_SECS = int(os.environ.get("HEARTBEAT_INTERVAL_SECS", str(6 * 3600)))
+HEARTBEAT_TZ = ZoneInfo(os.environ.get("HEARTBEAT_TZ", "Africa/Cairo"))
+HEARTBEAT_HOUR = int(os.environ.get("HEARTBEAT_HOUR", "0"))  # 0 = 12 am
+MISSING_GRACE_SECS = int(os.environ.get("MISSING_GRACE_SECS", str(7 * 86400)))
 REWARD_KEYS = [f"p{i}{m}Cents" for i in range(1, 5) for m in ("Min", "Max")]
 
 
@@ -275,24 +283,39 @@ def send_telegram(text, silent=False):
     return ok
 
 
+def heartbeat_due(last_heartbeat, now):
+    """True once per day: first run at/after today's HEARTBEAT_HOUR in HEARTBEAT_TZ."""
+    local_now = datetime.fromtimestamp(now, HEARTBEAT_TZ)
+    slot = local_now.replace(hour=HEARTBEAT_HOUR, minute=0, second=0, microsecond=0)
+    return local_now >= slot and last_heartbeat < slot.timestamp()
+
+
 def load_state():
     try:
         with open(STATE_FILE) as f:
             st = json.load(f)
         if st.get("version") == SCHEMA and isinstance(st.get("programs"), dict):
-            return st["programs"], st.get("last_heartbeat", 0)
+            programs = st["programs"]
+            # older state files have no "known" list; seed it from the saved programs
+            known = set(st.get("known") or programs.keys())
+            return programs, st.get("last_heartbeat", 0), known
     except (OSError, ValueError):
         pass
-    return {}, 0
+    return {}, 0, set()
 
 
-def save_state(programs, last_heartbeat):
+def save_state(programs, last_heartbeat, known):
     os.makedirs(os.path.dirname(STATE_FILE) or ".", exist_ok=True)
     tmp = STATE_FILE + ".new"
     with open(tmp, "w") as f:
-        json.dump({"version": SCHEMA, "programs": programs, "last_heartbeat": last_heartbeat},
-                   f, sort_keys=True, indent=1)
+        json.dump({"version": SCHEMA, "programs": programs, "last_heartbeat": last_heartbeat,
+                   "known": sorted(known)},
+                  f, sort_keys=True, indent=1)
     os.replace(tmp, STATE_FILE)
+
+
+def _strip_missing(snap):
+    return {k: v for k, v in snap.items() if k != "missing_since"}
 
 
 # --------------------------------------------------------------------------- main
@@ -302,8 +325,9 @@ def main():
             sys.exit(f"Set {var} env var")
 
     engagements = fetch_all_engagements()
-    old, last_heartbeat = load_state()
-    first_run = not old
+    old, last_heartbeat, known = load_state()
+    first_run = not old and not known
+    now = time.time()
 
     with ThreadPoolExecutor(max_workers=WORKERS) as ex:
         snaps = list(ex.map(lambda e: fetch_scope(e["briefUrl"]), engagements))
@@ -313,12 +337,15 @@ def main():
         key, name = eng["briefUrl"], eng["name"]
         link = BASE + key
         prev = old.get(key)
+        is_known = key in known
 
         if snap is None or (prev and not snap["targets"] and prev["targets"]):
             print(f"WARN: no usable scope for {name} ({key}); keeping previous state", file=sys.stderr)
             fails += 1
             if prev:
-                new_state[key] = prev
+                new_state[key] = _strip_missing(prev)
+            if first_run:
+                known.add(key)  # it existed at baseline; never announce it as new later
             continue
 
         snap["name"] = name
@@ -328,12 +355,30 @@ def main():
                 if send_telegram(format_message(name, link, ev)):
                     alerts += 1
                 else:
-                    snap = prev  # retry next run
-        elif not first_run and ANNOUNCE_NEW_PROGRAMS:
+                    snap = _strip_missing(prev)  # retry next run
+        elif not first_run and not is_known and ANNOUNCE_NEW_PROGRAMS:
             if not send_telegram(format_new_program(name, link, snap)):
                 continue  # leave unseen so it is announced again next run
             alerts += 1
+        # known but no saved snapshot (fetch failed before) -> silent baseline, no alert
         new_state[key] = snap
+        known.add(key)
+
+    # programs that dropped out of the listing this run: keep them for a grace period,
+    # so a flaky page does not make them look "new" when they reappear
+    listed = {e["briefUrl"] for e in engagements}
+    carried = 0
+    for key, prev in old.items():
+        if key in listed:
+            continue
+        since = prev.get("missing_since") or now
+        if now - since < MISSING_GRACE_SECS:
+            new_state[key] = {**prev, "missing_since": since}
+            carried += 1
+        else:
+            known.discard(key)  # really gone; announce it if it ever relaunches
+            print(f"INFO: dropping {prev.get('name', key)} (missing from listing too long)",
+                  file=sys.stderr)
 
     if not new_state:
         sys.exit("ERROR: nothing collected (scope extraction probably broken); state not overwritten")
@@ -341,16 +386,17 @@ def main():
     if first_run:
         send_telegram(f"✅ Bugcrowd scope monitor started - baseline of "
                       f"{len(new_state)}/{len(engagements)} programs saved")
-        last_heartbeat = time.time()
-    elif alerts == 0:
-        now = time.time()
-        if now - last_heartbeat >= HEARTBEAT_INTERVAL_SECS:
-            send_telegram(f"✅ Bugcrowd scope check OK: no changes across "
-                          f"{len(new_state)} programs ({fails} fetch problem(s))", silent=True)
+        last_heartbeat = now  # next heartbeat at the coming midnight
+    elif heartbeat_due(last_heartbeat, now):
+        if send_telegram(f"✅ Daily Bugcrowd scope check: monitor alive, "
+                         f"{len(new_state)} programs tracked, {alerts} alert(s) this run, "
+                         f"{fails} fetch problem(s), {carried} missing from listing",
+                         silent=True):
             last_heartbeat = now
 
-    save_state(new_state, last_heartbeat)
-    print(f"Done: {len(engagements)} programs, {alerts} alert(s), {fails} fetch problem(s)")
+    save_state(new_state, last_heartbeat, known)
+    print(f"Done: {len(engagements)} programs, {alerts} alert(s), {fails} fetch problem(s), "
+          f"{carried} carried over")
     if engagements and fails == len(engagements):
         sys.exit(1)
 
