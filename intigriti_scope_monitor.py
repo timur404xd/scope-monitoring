@@ -21,8 +21,8 @@ Where alerts go (configure one or both):
                                            change is an embed titled with the program name
                                            (linking to the program), green when something
                                            entered scope, orange for other changes
-            DISCORD_HEARTBEAT_WEBHOOK_URL  optional separate channel for the daily heartbeat
-                                           and startup notice (defaults to the main webhook)
+            DISCORD_HEARTBEAT_WEBHOOK_URL  optional separate channel for the heartbeat and
+                                           startup notice (defaults to the main webhook)
             DISCORD_USERNAME               optional display name (default "Intigriti Scope")
   Telegram  TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID
 
@@ -36,9 +36,9 @@ Safety rules:
   - a failed send (Discord or Telegram) -> that program's state is not advanced
     (alert retried next run)
   - exits non-zero if every program failed
-  - a silent daily heartbeat is sent once per day, on the first run at or after
-    HEARTBEAT_HOUR:00 in HEARTBEAT_TZ (default 00:00 Africa/Cairo), so you know the
-    monitor is alive without being spammed
+  - alerts go to Discord and Telegram (whichever are configured); a silent heartbeat
+    goes to Discord only, at most once every HEARTBEAT_INTERVAL_SECS (default 6 hours),
+    so you know the monitor is alive without being spammed
 
 Stdlib + curl only. The API token is passed to curl on stdin, not on the command line.
 """
@@ -66,7 +66,7 @@ MAX_PER_SECTION = 25
 TG_CHUNK = 3800
 ANNOUNCE_NEW_PROGRAMS = os.environ.get("ANNOUNCE_NEW_PROGRAMS", "0") == "1"
 HEARTBEAT_TZ = ZoneInfo(os.environ.get("HEARTBEAT_TZ", "Africa/Cairo"))
-HEARTBEAT_HOUR = int(os.environ.get("HEARTBEAT_HOUR", "0"))  # 0 = 12 am
+HEARTBEAT_INTERVAL_SECS = int(os.environ.get("HEARTBEAT_INTERVAL_SECS", str(6 * 3600)))
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
 DISCORD_HEARTBEAT_WEBHOOK_URL = (os.environ.get("DISCORD_HEARTBEAT_WEBHOOK_URL", "").strip()
                                  or DISCORD_WEBHOOK_URL)
@@ -270,7 +270,9 @@ def format_new_program(name, link, snap):
 
 def _md(s):
     """Escape Discord markdown, so wildcard scopes like *.example.com don't turn italic."""
-    return _DISCORD_MD_RE.sub(r"\\\1", s)
+    # lines that are just a URL stay as-is: Discord auto-links them, and escapes would break the link
+    return "\n".join(line if line.strip().startswith(("http://", "https://"))
+                     else _DISCORD_MD_RE.sub(r"\\\1", line) for line in s.split("\n"))
 
 
 def discord_change_body(ev):
@@ -398,7 +400,7 @@ def send_new_program(name, link, snap):
 
 
 def send_status(text, silent=False):
-    """Startup notice and heartbeat (Discord: the heartbeat channel, if one is set)."""
+    """Startup notice: Discord (the heartbeat channel, if one is set) + Telegram."""
     ok = True
     if DISCORD_HEARTBEAT_WEBHOOK_URL:
         flags = DISCORD_FLAG_SUPPRESS_EMBEDS | (DISCORD_FLAG_SILENT if silent else 0)
@@ -413,10 +415,19 @@ def send_status(text, silent=False):
 
 
 def heartbeat_due(last_heartbeat, now):
-    """True once per day: first run at/after today's HEARTBEAT_HOUR in HEARTBEAT_TZ."""
-    local_now = datetime.fromtimestamp(now, HEARTBEAT_TZ)
-    slot = local_now.replace(hour=HEARTBEAT_HOUR, minute=0, second=0, microsecond=0)
-    return local_now >= slot and last_heartbeat < slot.timestamp()
+    """At most once every HEARTBEAT_INTERVAL_SECS."""
+    return now - last_heartbeat >= HEARTBEAT_INTERVAL_SECS
+
+
+def send_heartbeat(text):
+    """Heartbeat: Discord only, silent. True when Discord accepted it."""
+    if not DISCORD_HEARTBEAT_WEBHOOK_URL:
+        print("INFO: no Discord webhook set, heartbeat skipped (heartbeats are Discord-only)")
+        return False
+    return _discord_post(DISCORD_HEARTBEAT_WEBHOOK_URL, {
+        "username": DISCORD_USERNAME, "content": text[:1990],
+        "flags": DISCORD_FLAG_SUPPRESS_EMBEDS | DISCORD_FLAG_SILENT,
+        "allowed_mentions": {"parse": []}})
 
 
 def load_state():
@@ -487,11 +498,12 @@ def main():
     if first_run:
         send_status(f"✅ Intigriti scope monitor started - baseline of "
                       f"{len(new_state)}/{len(programs)} programs saved")
-        last_heartbeat = now  # next heartbeat at the coming midnight
+        last_heartbeat = now  # first heartbeat 6 hours after the baseline
     elif heartbeat_due(last_heartbeat, now):
-        if send_status(f"✅ Daily Intigriti scope check: monitor alive, "
+        when = datetime.fromtimestamp(now, HEARTBEAT_TZ).strftime("%H:%M %Z")
+        if send_heartbeat(f"✅ Intigriti scope check at {when}: monitor alive, "
                          f"{len(new_state)} programs tracked, {alerts} alert(s) this run, "
-                         f"{fails} fetch problem(s)", silent=True):
+                         f"{fails} fetch problem(s)"):
             last_heartbeat = now
 
     save_state(new_state, last_heartbeat)
