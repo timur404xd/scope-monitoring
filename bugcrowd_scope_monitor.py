@@ -2,8 +2,8 @@
 """
 bugcrowd_scope_monitor.py
 
-Tracks scope of every public Bugcrowd engagement (bug_bounty + vdp) and sends a Telegram
-alert when something changes:
+Tracks scope of every public Bugcrowd engagement (bug_bounty + vdp) and sends an alert to
+Discord and/or Telegram when something changes:
 
   NEW IN SCOPE            target added to an in-scope group
   MOVED INTO SCOPE        target was out of scope (or in no group), now in scope
@@ -13,6 +13,16 @@ alert when something changes:
   DESCRIPTION CHANGED     target description or scope-group description text changed
   REWARD CHANGES          P1-P4 payout bands of a scope group changed
   GROUPS ADDED/REMOVED
+
+Where alerts go (configure one or both):
+  Discord   DISCORD_WEBHOOK_URL            webhook of the channel for scope changes; each
+                                           change is an embed titled with the program name
+                                           (linking to the brief), green when something
+                                           entered scope, orange for other changes
+            DISCORD_HEARTBEAT_WEBHOOK_URL  optional separate channel for the daily heartbeat
+                                           and startup notice (defaults to the main webhook)
+            DISCORD_USERNAME               optional display name (default "Bugcrowd Scope")
+  Telegram  TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID
 
 State: state/bugcrowd_scope_state.json (committed back by the workflow).
 
@@ -25,7 +35,8 @@ Safety rules:
     previous state for MISSING_GRACE_SECS, so it is not "new" when it comes back
   - every program ever listed is remembered in "known", including ones whose scope
     fetch failed during the baseline, so a later successful fetch is not "new" either
-  - Telegram failure -> that program's state is not advanced, so the alert is retried
+  - a failed send (Discord or Telegram) -> that program's state is not advanced, so the
+    alert is retried
   - exits non-zero if every program failed (so the Actions run goes red)
   - a silent daily heartbeat is sent once per day, on the first run at or after
     HEARTBEAT_HOUR:00 in HEARTBEAT_TZ (default 00:00 Africa/Cairo)
@@ -40,10 +51,11 @@ import re
 import subprocess
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime
+from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
 BASE = "https://bugcrowd.com"
@@ -61,6 +73,16 @@ ANNOUNCE_NEW_PROGRAMS = os.environ.get("ANNOUNCE_NEW_PROGRAMS", "0") == "1"
 HEARTBEAT_TZ = ZoneInfo(os.environ.get("HEARTBEAT_TZ", "Africa/Cairo"))
 HEARTBEAT_HOUR = int(os.environ.get("HEARTBEAT_HOUR", "0"))  # 0 = 12 am
 MISSING_GRACE_SECS = int(os.environ.get("MISSING_GRACE_SECS", str(7 * 86400)))
+DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
+DISCORD_HEARTBEAT_WEBHOOK_URL = (os.environ.get("DISCORD_HEARTBEAT_WEBHOOK_URL", "").strip()
+                                 or DISCORD_WEBHOOK_URL)
+DISCORD_USERNAME = os.environ.get("DISCORD_USERNAME", "Bugcrowd Scope")
+DISCORD_EMBED_CHUNK = 4000     # embed description limit is 4096
+DISCORD_CONTENT_CHUNK = 1900   # plain message limit is 2000
+DISCORD_GREEN, DISCORD_ORANGE, DISCORD_BLUE = 0x2ECC71, 0xE67E22, 0x5865F2
+DISCORD_FLAG_SUPPRESS_EMBEDS = 1 << 2
+DISCORD_FLAG_SILENT = 1 << 12  # posts without a push/sound notification
+_DISCORD_MD_RE = re.compile(r"([\\*_~`|>\[\]])")
 REWARD_KEYS = [f"p{i}{m}Cents" for i in range(1, 5) for m in ("Min", "Max")]
 
 
@@ -253,11 +275,40 @@ def format_new_program(name, link, snap):
     return "\n".join(lines)
 
 
-# --------------------------------------------------------------------------- telegram / state
-def _chunks(text):
+def _md(s):
+    """Escape Discord markdown, so wildcard targets like *.example.com don't turn italic."""
+    # lines that are just a URL stay as-is: Discord auto-links them, and escapes would break the link
+    return "\n".join(line if line.strip().startswith(("http://", "https://"))
+                     else _DISCORD_MD_RE.sub(r"\\\1", line) for line in s.split("\n"))
+
+
+def discord_change_body(ev):
+    lines = []
+    for key, title in SECTIONS:
+        items = ev[key]
+        if not items:
+            continue
+        lines.append(f"**{title} ({len(items)})**")
+        lines.extend(_md(i) for i in items[:MAX_PER_SECTION])
+        if len(items) > MAX_PER_SECTION:
+            lines.append(f"…and {len(items) - MAX_PER_SECTION} more")
+        lines.append("")
+    return "\n".join(lines).strip()
+
+
+def discord_new_program_body(snap):
+    ins = [_t(t) for t in snap["targets"].values() if t["in"]]
+    lines = [f"**IN SCOPE ({len(ins)})**"] + [_md(i) for i in ins[:MAX_PER_SECTION]]
+    if len(ins) > MAX_PER_SECTION:
+        lines.append(f"…and {len(ins) - MAX_PER_SECTION} more")
+    return "\n".join(lines)
+
+
+# --------------------------------------------------------------------------- notifications / state
+def _chunks(text, limit=TG_CHUNK):
     cur = ""
     for line in text.split("\n"):
-        if cur and len(cur) + len(line) + 1 > TG_CHUNK:
+        if cur and len(cur) + len(line) + 1 > limit:
             yield cur
             cur = ""
         cur = f"{cur}\n{line}" if cur else line
@@ -280,6 +331,93 @@ def send_telegram(text, silent=False):
             print(f"WARN: telegram send failed: {e}", file=sys.stderr)
             ok = False
         time.sleep(1)
+    return ok
+
+
+def _telegram_on():
+    return bool(os.environ.get("TELEGRAM_BOT_TOKEN") and os.environ.get("TELEGRAM_CHAT_ID"))
+
+
+def _discord_post(webhook, payload):
+    """POST one message to a Discord webhook; waits out rate limits. True on success."""
+    url = webhook + ("&" if "?" in webhook else "?") + "wait=true"
+    data = json.dumps(payload).encode()
+    for _ in range(4):
+        req = urllib.request.Request(url, data=data, headers={
+            "Content-Type": "application/json",
+            # Discord's edge rejects the default Python-urllib user agent
+            "User-Agent": "bugcrowd-scope-monitor (https://github.com, 1.0)"})
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return 200 <= r.status < 300
+        except urllib.error.HTTPError as e:
+            body = e.read()
+            if e.code == 429:
+                try:
+                    wait = float(json.loads(body.decode()).get("retry_after", 2))
+                except (ValueError, AttributeError):
+                    wait = 2.0
+                time.sleep(min(wait, 30) + 0.5)
+                continue
+            print(f"WARN: discord send failed: HTTP {e.code} {body[:300]!r}", file=sys.stderr)
+            return False
+        except Exception as e:  # noqa: BLE001
+            print(f"WARN: discord send failed: {e}", file=sys.stderr)
+            return False
+    print("WARN: discord send failed: still rate-limited after retries", file=sys.stderr)
+    return False
+
+
+def send_discord_embed(title, link, body, color, footer):
+    parts = list(_chunks(body, DISCORD_EMBED_CHUNK)) or [""]
+    ok = True
+    for n, desc in enumerate(parts, 1):
+        embed = {"title": title[:256], "description": desc, "color": color,
+                 "footer": {"text": footer + (f" · part {n}/{len(parts)}" if len(parts) > 1 else "")},
+                 "timestamp": datetime.now(timezone.utc).isoformat()}
+        if link.startswith(("http://", "https://")):
+            embed["url"] = link
+        ok = _discord_post(DISCORD_WEBHOOK_URL, {"username": DISCORD_USERNAME, "embeds": [embed],
+                                                 "allowed_mentions": {"parse": []}}) and ok
+        time.sleep(1)
+    return ok
+
+
+def send_change(name, link, ev):
+    """Scope-change alert to every configured destination; True only if all succeeded."""
+    ok = True
+    if DISCORD_WEBHOOK_URL:
+        entered = ev["new_in"] or ev["moved_in"]
+        ok = send_discord_embed(f"{'🆕' if entered else '🔄'} {name}", link, discord_change_body(ev),
+                                DISCORD_GREEN if entered else DISCORD_ORANGE,
+                                "Bugcrowd scope change") and ok
+    if _telegram_on():
+        ok = send_telegram(format_message(name, link, ev)) and ok
+    return ok
+
+
+def send_new_program(name, link, snap):
+    ok = True
+    if DISCORD_WEBHOOK_URL:
+        ok = send_discord_embed(f"🎯 {name}", link, discord_new_program_body(snap), DISCORD_BLUE,
+                                "New Bugcrowd program") and ok
+    if _telegram_on():
+        ok = send_telegram(format_new_program(name, link, snap)) and ok
+    return ok
+
+
+def send_status(text, silent=False):
+    """Startup notice and heartbeat (Discord: the heartbeat channel, if one is set)."""
+    ok = True
+    if DISCORD_HEARTBEAT_WEBHOOK_URL:
+        flags = DISCORD_FLAG_SUPPRESS_EMBEDS | (DISCORD_FLAG_SILENT if silent else 0)
+        for chunk in _chunks(text, DISCORD_CONTENT_CHUNK):
+            ok = _discord_post(DISCORD_HEARTBEAT_WEBHOOK_URL,
+                               {"username": DISCORD_USERNAME, "content": chunk, "flags": flags,
+                                "allowed_mentions": {"parse": []}}) and ok
+            time.sleep(1)
+    if _telegram_on():
+        ok = send_telegram(text, silent=silent) and ok
     return ok
 
 
@@ -320,9 +458,8 @@ def _strip_missing(snap):
 
 # --------------------------------------------------------------------------- main
 def main():
-    for var in ("TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID"):
-        if not os.environ.get(var):
-            sys.exit(f"Set {var} env var")
+    if not DISCORD_WEBHOOK_URL and not _telegram_on():
+        sys.exit("Set DISCORD_WEBHOOK_URL and/or TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID")
 
     engagements = fetch_all_engagements()
     old, last_heartbeat, known = load_state()
@@ -352,12 +489,12 @@ def main():
         if prev:
             ev = diff(prev, snap)
             if any(ev.values()):
-                if send_telegram(format_message(name, link, ev)):
+                if send_change(name, link, ev):
                     alerts += 1
                 else:
                     snap = _strip_missing(prev)  # retry next run
         elif not first_run and not is_known and ANNOUNCE_NEW_PROGRAMS:
-            if not send_telegram(format_new_program(name, link, snap)):
+            if not send_new_program(name, link, snap):
                 continue  # leave unseen so it is announced again next run
             alerts += 1
         # known but no saved snapshot (fetch failed before) -> silent baseline, no alert
@@ -384,11 +521,11 @@ def main():
         sys.exit("ERROR: nothing collected (scope extraction probably broken); state not overwritten")
 
     if first_run:
-        send_telegram(f"✅ Bugcrowd scope monitor started - baseline of "
+        send_status(f"✅ Bugcrowd scope monitor started - baseline of "
                       f"{len(new_state)}/{len(engagements)} programs saved")
         last_heartbeat = now  # next heartbeat at the coming midnight
     elif heartbeat_due(last_heartbeat, now):
-        if send_telegram(f"✅ Daily Bugcrowd scope check: monitor alive, "
+        if send_status(f"✅ Daily Bugcrowd scope check: monitor alive, "
                          f"{len(new_state)} programs tracked, {alerts} alert(s) this run, "
                          f"{fails} fetch problem(s), {carried} missing from listing",
                          silent=True):
