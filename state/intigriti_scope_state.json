@@ -28693,7 +28693,7 @@
      "desc": "4bbe80a1bf94",
      "endpoint": "com.dropbox.dash",
      "in": true,
-     "tier": "Tier 2",
+     "tier": "No Bounty",
      "type": "Android"
     },
     "Android|com.dropbox.paper": {
@@ -28749,7 +28749,7 @@
      "desc": "5dfe9b605997",
      "endpoint": "dash.dropbox.com",
      "in": true,
-     "tier": "Tier 1",
+     "tier": "No Bounty",
      "type": "Other"
     },
     "Url|Dropbox.com": {
@@ -28812,7 +28812,7 @@
      "desc": "0b5ddac8854e",
      "endpoint": "dash.ai",
      "in": true,
-     "tier": "Tier 1",
+     "tier": "No Bounty",
      "type": "Url"
     },
     "Url|docsend.com": {
@@ -28847,7 +28847,7 @@
      "desc": "da39a3ee5e6b",
      "endpoint": "*.dash.ai",
      "in": true,
-     "tier": "Tier 3",
+     "tier": "No Bounty",
      "type": "Wildcard"
     },
     "Wildcard|*.docsend.com": {
@@ -28913,6 +28913,20 @@
      "tier": "Tier 3",
      "type": "Wildcard"
     },
+    "Wildcard|*.tigrisdata.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.tigrisdata.com",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.tigrisdata.io": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.tigrisdata.io",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Wildcard"
+    },
     "iOS|1080074001": {
      "desc": "8edae6443be4",
      "endpoint": "1080074001",
@@ -28938,7 +28952,7 @@
      "desc": "a5d47cbe7ad1",
      "endpoint": "6450553960",
      "in": true,
-     "tier": "Tier 2",
+     "tier": "No Bounty",
      "type": "iOS"
     }
    },
