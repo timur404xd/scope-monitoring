@@ -3953,6 +3953,245 @@
     "tooling": null
    }
   },
+  "1e10e481-e026-47e2-9b3d-105d21180113": {
+   "assets": {
+    "Wildcard|*.chrtpy.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.chrtpy.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.cohort.link": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.cohort.link",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.cohortarrivals.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.cohortarrivals.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.cohortflow.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.cohortflow.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.cohortgo.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.cohortgo.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.cohortgoapp.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.cohortgoapp.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.cohortpay.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.cohortpay.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.flywire.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.flywire.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.flywire.io": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.flywire.io",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.flywire.tech": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.flywire.tech",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.invoiced.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.invoiced.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.myonplanhealth.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.myonplanhealth.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.myonplanu.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.myonplanu.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.onplanhealth.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.onplanhealth.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.onplanu.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.onplanu.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.oshc.info": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.oshc.info",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.oshcaustralia.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.oshcaustralia.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.oshcaustralia.com.au": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.oshcaustralia.com.au",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.ovhcinsurance.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.ovhcinsurance.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.ovhcinsurance.com.au": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.ovhcinsurance.com.au",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.peertransfer.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.peertransfer.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.simplee.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.simplee.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.simpleepay.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.simpleepay.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.studylink.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.studylink.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.studylink.com.au": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.studylink.com.au",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.unipaylive.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.unipaylive.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.wpm-education.co.uk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.wpm-education.co.uk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.wpm-education.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.wpm-education.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.wpm-pay.co.uk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.wpm-pay.co.uk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.wpm-pay.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.wpm-pay.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.wpm-payment.co.uk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.wpm-payment.co.uk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.wpm-payment.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.wpm-payment.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    }
+   },
+   "name": "Flywire Vulnerability Disclose Program",
+   "program": {
+    "bounty": "0.0 - 0.0 USD",
+    "confidentiality": "Public"
+   },
+   "rules": {
+    "desc": "674c6fe243c6",
+    "safe_harbour": true,
+    "testing": "b031d00b6ad1",
+    "tooling": 5
+   }
+  },
   "1e325f65-37de-4094-9079-217e27cab00b": {
    "assets": {
     "Other|NitroPack Plugins": {
