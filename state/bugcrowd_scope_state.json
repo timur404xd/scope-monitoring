@@ -14795,6 +14795,14 @@
      "name": "https://bi.bildung-wien.gv.at/*",
      "uri": ""
     },
+    "website|https://data.wien.gv.at/daten/*": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of scope",
+     "in": false,
+     "name": "https://data.wien.gv.at/daten/*",
+     "uri": ""
+    },
     "website|stp.wien.gv.at": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
