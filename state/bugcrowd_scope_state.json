@@ -13370,7 +13370,6 @@
      "reward": null
     }
    },
-   "missing_since": 1794265231.5454292,
    "name": "Consumer Financial Protection Bureau - Vulnerability Disclosure Program",
    "targets": {
     "api|https://api.consumerfinance.gov/": {
@@ -59743,7 +59742,6 @@
      "reward": null
     }
    },
-   "missing_since": 1794266122.255982,
    "name": "Tennessee Valley Authority (TVA) Vulnerability Disclosure Program",
    "targets": {
     "website|*.energyright.com": {
