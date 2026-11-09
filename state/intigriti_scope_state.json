@@ -24059,7 +24059,7 @@
      "desc": "82814e5b26da",
      "endpoint": "my.hometogo.com",
      "in": true,
-     "tier": "Tier 3",
+     "tier": "Tier 2",
      "type": "Url"
     },
     "Url|payments.hometogo.com": {
@@ -24083,13 +24083,6 @@
      "tier": "Tier 3",
      "type": "Url"
     },
-    "Url|www.hometogo.com/account": {
-     "desc": "da39a3ee5e6b",
-     "endpoint": "www.hometogo.com/account",
-     "in": true,
-     "tier": "Tier 1",
-     "type": "Url"
-    },
     "Url|www.hometogo.com/booking": {
      "desc": "cad42015018b",
      "endpoint": "www.hometogo.com/booking",
@@ -24104,7 +24097,7 @@
     "confidentiality": "InviteOnly"
    },
    "rules": {
-    "desc": "8ae4fde015d2",
+    "desc": "294781d1eb70",
     "safe_harbour": true,
     "testing": "1fd11f9c6831",
     "tooling": 5
