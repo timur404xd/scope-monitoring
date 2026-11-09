@@ -809,6 +809,245 @@
     "tooling": 5
    }
   },
+  "0b23aa6c-c421-408a-bf62-e2681b4f641b": {
+   "assets": {
+    "Device|AWD Coupling Controllers": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "AWD Coupling Controllers",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Device"
+    },
+    "Device|Axle Disconnect Controllers": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "Axle Disconnect Controllers",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Device"
+    },
+    "Device|Battery Electric Vehicle (BEV) Traction Integrated Drive Module (iDM)": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "Battery Electric Vehicle (BEV) Traction Integrated Drive Module (iDM)",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Device"
+    },
+    "Device|Battery Electric Vehicles (BEV) Traction Inverters": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "Battery Electric Vehicles (BEV) Traction Inverters",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Device"
+    },
+    "Device|Battery Management Controller": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "Battery Management Controller",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Device"
+    },
+    "Device|Battery Management Controllers": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "Battery Management Controllers",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Device"
+    },
+    "Device|DC to DC Converter": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "DC to DC Converter",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Device"
+    },
+    "Device|Electric Torque Management Controllers": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "Electric Torque Management Controllers",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Device"
+    },
+    "Device|Electric Variable Cam Timing Controllers": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "Electric Variable Cam Timing Controllers",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Device"
+    },
+    "Device|Engine/Transmission Controller": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "Engine/Transmission Controller",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Device"
+    },
+    "Device|High Voltage Air Heaters": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "High Voltage Air Heaters",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Device"
+    },
+    "Device|High Voltage Coolant Heaters": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "High Voltage Coolant Heaters",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Device"
+    },
+    "Device|High Voltage eFAN Systems": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "High Voltage eFAN Systems",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Device"
+    },
+    "Device|On Board Battery Charger": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "On Board Battery Charger",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Device"
+    },
+    "Device|Other Electronic Controllers": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "Other Electronic Controllers",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Device"
+    },
+    "Device|Power Inverters": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "Power Inverters",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Device"
+    },
+    "Device|Sensor Cluster Controller": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "Sensor Cluster Controller",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Device"
+    },
+    "Device|Transfer Case Controllers": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "Transfer Case Controllers",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Device"
+    },
+    "Device|Turbine Generator System": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "Turbine Generator System",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Device"
+    },
+    "Device|eBooster Electrically Driven Compressor": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "eBooster Electrically Driven Compressor",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Device"
+    },
+    "Device|eTurbo": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "eTurbo",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Device"
+    },
+    "Wildcard|*.borgwarner.com": {
+     "desc": "ece400a4113f",
+     "endpoint": "*.borgwarner.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.borgwarner.dev": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.borgwarner.dev",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.borgwarner.it": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.borgwarner.it",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.borgwarnerbenefits.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.borgwarnerbenefits.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.borgwarnerchina.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.borgwarnerchina.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.bwauto.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.bwauto.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.cascadiamotion.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.cascadiamotion.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.morsetec.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.morsetec.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.rhombusenergysolutions.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.rhombusenergysolutions.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.sevcon.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.sevcon.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.turbodriven.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.turbodriven.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    }
+   },
+   "name": "BorgWarner Vulnerability Disclosure Program",
+   "program": {
+    "bounty": "0.0 - 0.0 USD",
+    "confidentiality": "Public"
+   },
+   "rules": {
+    "desc": "a65558e5f780",
+    "safe_harbour": true,
+    "testing": "21ce59b2c31a",
+    "tooling": null
+   }
+  },
   "0b7bb6fd-9e64-435f-b944-ded6d6eec842": {
    "assets": {
     "Other|Mobile apps owned by Atolls companies": {
