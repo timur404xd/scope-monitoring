@@ -24048,6 +24048,13 @@
      "tier": "Tier 3",
      "type": "Url"
     },
+    "Url|login.smoobu.com": {
+     "desc": "af15acaaa088",
+     "endpoint": "login.smoobu.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
     "Url|my-api.hometogo.com": {
      "desc": "b80bae2da6df",
      "endpoint": "my-api.hometogo.com",
