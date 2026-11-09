@@ -22194,6 +22194,14 @@
      "name": "api.figment.io ",
      "uri": "https://api.figment.io"
     },
+    "other|Public GitHub Repositories": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope Targets ",
+     "in": true,
+     "name": "Public GitHub Repositories",
+     "uri": "https://github.com/figment-networks"
+    },
     "website|app.figment.io": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
@@ -22217,14 +22225,6 @@
      "in": true,
      "name": "figment.io",
      "uri": "https://figment.io"
-    },
-    "website|rewards-calculator.figment.io": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets ",
-     "in": true,
-     "name": "rewards-calculator.figment.io",
-     "uri": "https://rewards-calculator.figment.io"
     }
    }
   },
