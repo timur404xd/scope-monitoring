@@ -59743,6 +59743,7 @@
      "reward": null
     }
    },
+   "missing_since": 1794266122.255982,
    "name": "Tennessee Valley Authority (TVA) Vulnerability Disclosure Program",
    "targets": {
     "website|*.energyright.com": {
