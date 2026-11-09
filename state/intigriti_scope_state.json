@@ -14061,8 +14061,8 @@
     "Url|water-link-jaarverslag.be": {
      "desc": "d4d80072ef1a",
      "endpoint": "water-link-jaarverslag.be",
-     "in": true,
-     "tier": "Tier 3",
+     "in": false,
+     "tier": "Out Of Scope",
      "type": "Url"
     },
     "Url|waterkracht-levering.be": {
