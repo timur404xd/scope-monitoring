@@ -10,8 +10,15 @@
      "tier": "No Bounty",
      "type": "Android"
     },
+    "Wildcard|*.aws.canadapost-postescanada.ca": {
+     "desc": "4ba254bb0362",
+     "endpoint": "*.aws.canadapost-postescanada.ca",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
     "Wildcard|*.azcpggpc.ca": {
-     "desc": "c5dca3f8b4c2",
+     "desc": "23301317a281",
      "endpoint": "*.azcpggpc.ca",
      "in": true,
      "tier": "No Bounty",
@@ -20,6 +27,13 @@
     "Wildcard|*.canadapost-postescanada.ca": {
      "desc": "620328474f88",
      "endpoint": "*.canadapost-postescanada.ca",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.canadapost.ca": {
+     "desc": "d2534b036684",
+     "endpoint": "*.canadapost.ca",
      "in": true,
      "tier": "No Bounty",
      "type": "Wildcard"
