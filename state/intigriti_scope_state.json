@@ -14477,7 +14477,7 @@
      "desc": "6558f3ae23ba",
      "endpoint": "indussiibis.water-link.be",
      "in": true,
-     "tier": "Tier 3",
+     "tier": "Tier 4",
      "type": "Url"
     },
     "Url|jobs.water-link.be": {
@@ -14553,8 +14553,8 @@
     "Url|water-link-jaarverslag.be": {
      "desc": "d4d80072ef1a",
      "endpoint": "water-link-jaarverslag.be",
-     "in": false,
-     "tier": "Out Of Scope",
+     "in": true,
+     "tier": "Tier 4",
      "type": "Url"
     },
     "Url|waterkracht-levering.be": {
