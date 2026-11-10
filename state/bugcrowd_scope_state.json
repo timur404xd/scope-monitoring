@@ -10633,6 +10633,14 @@
      "name": "https://www.bitpanda.com/academy/",
      "uri": "https://www.bitpanda.com/academy/en/"
     },
+    "website|login.bitpanda.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Tier 1 Assets ",
+     "in": true,
+     "name": "login.bitpanda.com",
+     "uri": "https://login.bitpanda.com"
+    },
     "website|wss://socket.bitpanda.com": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
