@@ -40469,6 +40469,20 @@
       "p4MinCents": null
      }
     },
+    "ChatGPT Dots": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 3000000,
+      "p1MinCents": 1000000,
+      "p2MaxCents": 700000,
+      "p2MinCents": 300000,
+      "p3MaxCents": 300000,
+      "p3MinCents": 150000,
+      "p4MaxCents": null,
+      "p4MinCents": null
+     }
+    },
     "ChatGPT Services": {
      "desc": "da39a3ee5e6b",
      "in": true,
@@ -40583,6 +40597,14 @@
      "in": true,
      "name": "*.openai.com",
      "uri": ""
+    },
+    "website|ChatGPT Dots": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "ChatGPT Dots",
+     "in": true,
+     "name": "ChatGPT Dots",
+     "uri": "https://chatgpt.com/dots/"
     },
     "website|ChatGPT Web": {
      "cat": "website",
