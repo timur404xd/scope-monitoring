@@ -20188,29 +20188,13 @@
    },
    "name": "Easy Agile",
    "targets": {
-    "other|Easy Agile Personas for Jira -- https://marketplace.atlassian.com/apps/1221392/easy-agile-personas-for-jira?hosting=cloud&tab=overview": {
+    "other|https://marketplace.atlassian.com/apps/1212078/easy-agile-teamrhythm-story-map-insights-retrospectives?hosting=cloud&tab=overview": {
      "cat": "other",
      "desc": "da39a3ee5e6b",
      "group": "In Scope Targets",
      "in": true,
-     "name": "Easy Agile Personas for Jira -- https://marketplace.atlassian.com/apps/1221392/easy-agile-personas-for-jira?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1221392/easy-agile-personas-for-jira?hosting=cloud&tab=overview"
-    },
-    "other|Review by Easy Agile -- https://marketplace.atlassian.com/apps/3443905353?hosting=cloud&tab=overviewPartner": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Review by Easy Agile -- https://marketplace.atlassian.com/apps/3443905353?hosting=cloud&tab=overviewPartner",
-     "uri": "https://marketplace.atlassian.com/apps/3443905353?hosting=cloud&tab=overviewPartner"
-    },
-    "other|https://marketplace.atlassian.com/apps/1212078/easy-agile-user-story-maps-for-jira?hosting=cloud&tab=overview": {
-     "cat": "other",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1212078/easy-agile-user-story-maps-for-jira?hosting=cloud&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1212078/easy-agile-user-story-maps-for-jira?hosting=cloud&tab=overview"
+     "name": "https://marketplace.atlassian.com/apps/1212078/easy-agile-teamrhythm-story-map-insights-retrospectives?hosting=cloud&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/1212078/easy-agile-teamrhythm-story-map-insights-retrospectives?hosting=cloud&tab=overview"
     },
     "other|https://marketplace.atlassian.com/apps/1215695/easy-agile-roadmaps-for-jira?hosting=cloud&tab=overview": {
      "cat": "other",
