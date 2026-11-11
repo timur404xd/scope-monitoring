@@ -25831,7 +25831,7 @@
      "desc": "cfe5b8c5faab",
      "endpoint": "fonts.adobe.com",
      "in": true,
-     "tier": "Tier 3",
+     "tier": "No Bounty",
      "type": "Url"
     },
     "Url|https://opensource.contentauthenticity.org/docs/c2patool": {
@@ -25866,7 +25866,7 @@
      "desc": "4b1f08b04fb8",
      "endpoint": "net.s2stagehance.com",
      "in": true,
-     "tier": "Tier 3",
+     "tier": "No Bounty",
      "type": "Url"
     },
     "Url|new.express.adobe.com": {
@@ -25887,7 +25887,7 @@
      "desc": "19c25e2046b8",
      "endpoint": "portfolio.ccpsx.com",
      "in": true,
-     "tier": "Tier 3",
+     "tier": "No Bounty",
      "type": "Url"
     },
     "Url|repo.magento.com": {
@@ -25967,7 +25967,7 @@
     "confidentiality": "Public"
    },
    "rules": {
-    "desc": "76a9d2d1a39c",
+    "desc": "0db37d697c1d",
     "safe_harbour": true,
     "testing": "fe65728d4dbf",
     "tooling": 20
