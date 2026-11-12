@@ -18214,7 +18214,7 @@
      "type": "Url"
     },
     "Url|https://gisportal-test.gw.dfnld.nl/": {
-     "desc": "f8a3f9d130ed",
+     "desc": "30456f8565dd",
      "endpoint": "https://gisportal-test.gw.dfnld.nl/",
      "in": true,
      "tier": "Tier 4",
@@ -18298,7 +18298,7 @@
      "type": "Url"
     },
     "Url|magicinfo.delta.nl": {
-     "desc": "c5f2dabe1de8",
+     "desc": "9139fbc1c9cc",
      "endpoint": "magicinfo.delta.nl",
      "in": true,
      "tier": "No Bounty",
