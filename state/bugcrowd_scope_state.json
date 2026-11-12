@@ -36718,7 +36718,7 @@
      "group": "Staging @ moneytree.jp",
      "in": true,
      "name": "fitbit-lottery (temporary)",
-     "uri": "https://fitbit-lottery.getmoneytree.com/"
+     "uri": "https://fitbit-lottery-staging.getmoneytree.com/"
     },
     "website|getmoneytree.com": {
      "cat": "website",
