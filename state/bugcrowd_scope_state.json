@@ -42290,12 +42290,12 @@
    },
    "name": "Optus Managed Bug Bounty",
    "targets": {
-    "android|Optus android app ": {
+    "android|Optus Android Application": {
      "cat": "android",
      "desc": "da39a3ee5e6b",
      "group": "In Scope - Optus ",
      "in": true,
-     "name": "Optus android app ",
+     "name": "Optus Android Application",
      "uri": "https://play.google.com/store/apps/details?id=au.com.optus.selfservice&hl=en_AU&gl=US"
     },
     "api|Naasapi.optus.com.au": {
@@ -42378,12 +42378,12 @@
      "name": "stats.sport.optus.com.au",
      "uri": "https://stats.sport.optus.com.au"
     },
-    "ios|Optus iOS App": {
+    "ios|Optus iOS Application": {
      "cat": "ios",
      "desc": "da39a3ee5e6b",
      "group": "In Scope - Optus ",
      "in": true,
-     "name": "Optus iOS App",
+     "name": "Optus iOS Application",
      "uri": "https://apps.apple.com/au/app/my-optus/id503716230"
     },
     "ip_address|1.44.112.0/20": {
@@ -42840,6 +42840,14 @@
      "group": "In scope - Infrastructure ",
      "in": true,
      "name": " 203.13.125.32/27",
+     "uri": ""
+    },
+    "network|*.nsw.optusnet.com.au": {
+     "cat": "network",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "*.nsw.optusnet.com.au",
      "uri": ""
     },
     "network|172.24.250.128": {
@@ -43890,14 +43898,6 @@
      "name": "*.act.optusnet.com.au",
      "uri": ""
     },
-    "website|*.nsw.optusnet.com.au": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
-     "in": false,
-     "name": "*.nsw.optusnet.com.au",
-     "uri": ""
-    },
     "website|*.nt.optusnet.com.au": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
@@ -43993,6 +43993,14 @@
      "in": true,
      "name": "Prepaid Activation",
      "uri": "https://www.optus.com.au/prepaid/activate"
+    },
+    "website|brand.optus.com.au": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "brand.optus.com.au",
+     "uri": ""
     },
     "website|chromecast-pp.optussport.tv": {
      "cat": "website",
