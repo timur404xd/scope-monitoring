@@ -9126,6 +9126,13 @@
   },
   "5111e2de-2d04-4ec8-9f24-c0b76cbfd38e": {
    "assets": {
+    "Android|Kron - Sparing og pensjon - Android": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "Kron - Sparing og pensjon - Android",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Android"
+    },
     "Url|f29baf0e-81df-4090-a5a5-f33cb9566b0d.storebrand.no": {
      "desc": "da39a3ee5e6b",
      "endpoint": "f29baf0e-81df-4090-a5a5-f33cb9566b0d.storebrand.no",
@@ -9412,6 +9419,13 @@
      "in": true,
      "tier": "No Bounty",
      "type": "Wildcard"
+    },
+    "iOS|Kron - Sparing og pensjon - iOS": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "Kron - Sparing og pensjon - iOS",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "iOS"
     }
    },
    "name": "Storebrand Responsible Disclosure",
