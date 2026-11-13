@@ -9122,14 +9122,14 @@
      "desc": "da39a3ee5e6b",
      "in": true,
      "reward": {
-      "p1MaxCents": 4000000,
-      "p1MinCents": 4000000,
-      "p2MaxCents": 1000000,
-      "p2MinCents": 1000000,
-      "p3MaxCents": 200000,
-      "p3MinCents": 200000,
-      "p4MaxCents": 50000,
-      "p4MinCents": 50000
+      "p1MaxCents": 2000000,
+      "p1MinCents": 2000000,
+      "p2MaxCents": 500000,
+      "p2MinCents": 500000,
+      "p3MaxCents": 100000,
+      "p3MinCents": 100000,
+      "p4MaxCents": 25000,
+      "p4MinCents": 25000
      }
     }
    },
