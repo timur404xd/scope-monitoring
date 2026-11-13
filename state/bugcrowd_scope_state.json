@@ -10657,14 +10657,14 @@
      "desc": "da39a3ee5e6b",
      "in": true,
      "reward": {
-      "p1MaxCents": 1500000,
-      "p1MinCents": 1100000,
-      "p2MaxCents": 700000,
-      "p2MinCents": 500000,
-      "p3MaxCents": 300000,
-      "p3MinCents": 150000,
-      "p4MaxCents": 100000,
-      "p4MinCents": 10000
+      "p1MaxCents": 750000,
+      "p1MinCents": 550000,
+      "p2MaxCents": 350000,
+      "p2MinCents": 250000,
+      "p3MaxCents": 150000,
+      "p3MinCents": 75000,
+      "p4MaxCents": 50000,
+      "p4MinCents": 5000
      }
     },
     "Out of Scope": {
@@ -39575,7 +39575,7 @@
   },
   "/engagements/okapya": {
    "groups": {
-    "In Scope Targets": {
+    "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "desc": "da39a3ee5e6b",
      "in": true,
      "reward": {
@@ -39592,13 +39592,13 @@
    },
    "name": "Okapya",
    "targets": {
-    "website|Connectors for Jira (Atlassian Marketplace App) - https://marketplace.atlassian.com/apps/1233908/connectors-for-jira-free?hosting=cloud": {
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": true,
-     "name": "Connectors for Jira (Atlassian Marketplace App) - https://marketplace.atlassian.com/apps/1233908/connectors-for-jira-free?hosting=cloud",
-     "uri": "https://marketplace.atlassian.com/apps/1233908/connectors-for-jira-free?hosting=cloud"
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
     }
    }
   },
