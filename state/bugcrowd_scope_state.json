@@ -64715,6 +64715,46 @@
      "name": "Vinted iOS application",
      "uri": "https://apps.apple.com/us/app/vinted-pre-loved-marketplace/id632064380"
     },
+    "network|Vinted": {
+     "cat": "network",
+     "desc": "da39a3ee5e6b",
+     "group": "Secondary Target Group",
+     "in": true,
+     "name": "Vinted",
+     "uri": "https://ems.it.vinted.com"
+    },
+    "network|Vinted ": {
+     "cat": "network",
+     "desc": "da39a3ee5e6b",
+     "group": "Secondary Target Group",
+     "in": true,
+     "name": "Vinted ",
+     "uri": "https://aim-marketplace.vinted.com"
+    },
+    "network|Vinted Go": {
+     "cat": "network",
+     "desc": "da39a3ee5e6b",
+     "group": "Secondary Target Group",
+     "in": true,
+     "name": "Vinted Go",
+     "uri": "https://qnrs.vintedgo.com"
+    },
+    "network|Vinted Go Integrations": {
+     "cat": "network",
+     "desc": "da39a3ee5e6b",
+     "group": "Secondary Target Group",
+     "in": true,
+     "name": "Vinted Go Integrations",
+     "uri": "https://*.integrations.vintedgo.com"
+    },
+    "network|Vinted Go g_integrations": {
+     "cat": "network",
+     "desc": "da39a3ee5e6b",
+     "group": "Secondary Target Group",
+     "in": true,
+     "name": "Vinted Go g_integrations",
+     "uri": "https://gemstash-integrations.vintedgo.com"
+    },
     "website|Company Vinted": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
