@@ -18275,6 +18275,14 @@
      "name": "Queues for Jira Service Management - Cloud - https://marketplace.atlassian.com/apps/1216386/queues-for-jira-service-management?hosting=cloud&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1216386/queues-for-jira-service-management?hosting=cloud&tab=overview"
     },
+    "website|Requira - Requirements & Traceability for Jira - https://marketplace.atlassian.com/apps/2831389750/requira-requirements-traceability-for-jira?tab=overview": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Requira - Requirements & Traceability for Jira - https://marketplace.atlassian.com/apps/2831389750/requira-requirements-traceability-for-jira?tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/2831389750/requira-requirements-traceability-for-jira"
+    },
     "website|Requirements & Test Management for Jira (Cloud) - https://marketplace.atlassian.com/apps/1220294/requirements-test-management-for-jira?hosting=cloud&tab=overview": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
