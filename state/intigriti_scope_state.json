@@ -29113,7 +29113,7 @@
    },
    "name": "Dropbox Bug Bounty",
    "program": {
-    "bounty": "100.0 - 15000.0 USD",
+    "bounty": "100.0 - 10000.0 USD",
     "confidentiality": "Public"
    },
    "rules": {
