@@ -9842,13 +9842,13 @@
      "name": "Binance macOS Application",
      "uri": ""
     },
-    "other|https://github.com/trustwallet/wallet-core/": {
+    "other|Trustwallet-core": {
      "cat": "other",
      "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "https://github.com/trustwallet/wallet-core/",
-     "uri": ""
+     "group": "Out of Scope",
+     "in": false,
+     "name": "Trustwallet-core",
+     "uri": "https://github.com/trustwallet/wallet-core/"
     },
     "website|*.binance.com": {
      "cat": "website",
