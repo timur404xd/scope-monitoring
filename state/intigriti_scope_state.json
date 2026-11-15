@@ -10594,6 +10594,462 @@
     "tooling": 5
    }
   },
+  "59af45f8-edaf-436c-8649-fbd88702468a": {
+   "assets": {
+    "IpRange|133.88.2.112/29": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "133.88.2.112/29",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "IpRange"
+    },
+    "IpRange|133.88.7.1, 133.88.7.2": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "133.88.7.1, 133.88.7.2",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "IpRange"
+    },
+    "IpRange|185.140.80.0/22": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "185.140.80.0/22",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "IpRange"
+    },
+    "IpRange|45.87.79.128/28": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "45.87.79.128/28",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "IpRange"
+    },
+    "Url|adfs.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "adfs.globalsign.com",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Url"
+    },
+    "Url|ai-connect.gmo": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "ai-connect.gmo",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|alphassl.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "alphassl.com",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|api.docs.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "api.docs.globalsign.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|api.gmo-ekyc.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "api.gmo-ekyc.com",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|app.gmo-ekyc.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "app.gmo-ekyc.com",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|app.joint-data.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "app.joint-data.com",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|approval.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "approval.globalsign.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|college.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "college.globalsign.com",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|docs.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "docs.globalsign.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|documentupload.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "documentupload.globalsign.com",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|downloads.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "downloads.globalsign.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|gcc.globalsign.com": {
+     "desc": "f6c31347f072",
+     "endpoint": "gcc.globalsign.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|globalsign-support.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "globalsign-support.com",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|globalsign.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "globalsign.be",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|globalsign.ch": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "globalsign.ch",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|globalsign.cn": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "globalsign.cn",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|globalsign.co.jp": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "globalsign.co.jp",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|globalsign.net": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "globalsign.net",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|globalsign.work": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "globalsign.work",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|info-globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "info-globalsign.com",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|jcan-cert.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "jcan-cert.globalsign.com",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|joint-data.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "joint-data.com",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|jp.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "jp.globalsign.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|ocngs.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "ocngs.globalsign.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|partner.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "partner.globalsign.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|preferences.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "preferences.globalsign.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|profile.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "profile.globalsign.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|qctest.api.joint-data.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "qctest.api.joint-data.com",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|qctest.app.joint-data.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "qctest.app.joint-data.com",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|qctest.auth.joint-data.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "qctest.auth.joint-data.com",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|qctest.graphql.joint-data.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "qctest.graphql.joint-data.com",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|regist.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "regist.globalsign.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|seal.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "seal.globalsign.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|search.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "search.globalsign.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|secure.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "secure.globalsign.com",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Url"
+    },
+    "Url|shop.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "shop.globalsign.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|ssif1.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "ssif1.globalsign.com",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|support.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "support.globalsign.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|survey.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "survey.globalsign.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|system.globalsign.com": {
+     "desc": "f6c31347f072",
+     "endpoint": "system.globalsign.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|systemeu.globalsign.com": {
+     "desc": "f6c31347f072",
+     "endpoint": "systemeu.globalsign.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|systemus.globalsign.com": {
+     "desc": "f6c31347f072",
+     "endpoint": "systemus.globalsign.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|vmc.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "vmc.globalsign.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|www.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "www.globalsign.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Wildcard|*.alphassl.com": {
+     "desc": "b015a1826e92",
+     "endpoint": "*.alphassl.com",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.atlas.globalsign.com": {
+     "desc": "e82b82563f7b",
+     "endpoint": "*.atlas.globalsign.com",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.cms.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.cms.globalsign.com",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.globalsign.com": {
+     "desc": "909fa6cdd687",
+     "endpoint": "*.globalsign.com",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.globalsign.jp": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.globalsign.jp",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.globalsign.net": {
+     "desc": "902dc4b8ea03",
+     "endpoint": "*.globalsign.net",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.gmogshd.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.gmogshd.com",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.internal.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.internal.globalsign.com",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.it.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.it.globalsign.com",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.kingssl.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.kingssl.com",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.sslcerts.jp": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.sslcerts.jp",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.toriton.biz": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.toriton.biz",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.toritonssl.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.toritonssl.com",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.trustlogin.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.trustlogin.com",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Wildcard"
+    }
+   },
+   "name": "GlobalSign",
+   "program": {
+    "bounty": "15.0 - 3500.0 EUR",
+    "confidentiality": "Registered"
+   },
+   "rules": {
+    "desc": "85b4ef4ca0df",
+    "safe_harbour": true,
+    "testing": "1ff501d88178",
+    "tooling": 1
+   }
+  },
   "5acb5219-1521-46a9-a61e-7988b3e80cd7": {
    "assets": {
     "Android|net.booksy.business": {
