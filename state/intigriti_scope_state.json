@@ -12669,7 +12669,7 @@
      "type": "Wildcard"
     },
     "Wildcard|*.intigriti.me": {
-     "desc": "05f0c79fe0f8",
+     "desc": "5627efdc8f83",
      "endpoint": "*.intigriti.me",
      "in": true,
      "tier": "Tier 3",
