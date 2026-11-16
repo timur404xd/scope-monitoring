@@ -61509,6 +61509,14 @@
      "name": "dutyfree.united.com",
      "uri": ""
     },
+    "website|ethicsandcompliancehub.ual.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope Targets",
+     "in": false,
+     "name": "ethicsandcompliancehub.ual.com",
+     "uri": ""
+    },
     "website|globallinks.united.com": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
