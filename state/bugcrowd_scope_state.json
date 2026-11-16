@@ -52406,20 +52406,6 @@
       "p4MinCents": 17500
      }
     },
-    "SimpliSafe Ecommerce Platform": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 450000,
-      "p1MinCents": 350000,
-      "p2MaxCents": 250000,
-      "p2MinCents": 150000,
-      "p3MaxCents": 75000,
-      "p3MinCents": 50000,
-      "p4MaxCents": 22500,
-      "p4MinCents": 17500
-     }
-    },
     "SimpliSafe Home Security Platform - Backend": {
      "desc": "da39a3ee5e6b",
      "in": true,
@@ -52512,8 +52498,8 @@
     "api|api.prd.commerce.simplisafe.com": {
      "cat": "api",
      "desc": "da39a3ee5e6b",
-     "group": "SimpliSafe Ecommerce Platform",
-     "in": true,
+     "group": "Out of Scope Targets",
+     "in": false,
      "name": "api.prd.commerce.simplisafe.com",
      "uri": ""
     },
@@ -52624,16 +52610,16 @@
     "website|SimpliSafe Website - UK": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
-     "group": "SimpliSafe Ecommerce Platform",
-     "in": true,
+     "group": "Out of Scope Targets",
+     "in": false,
      "name": "SimpliSafe Website - UK",
      "uri": "https://simplisafe.co.uk"
     },
     "website|SimpliSafe Website - US": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
-     "group": "SimpliSafe Ecommerce Platform",
-     "in": true,
+     "group": "Out of Scope Targets",
+     "in": false,
      "name": "SimpliSafe Website - US",
      "uri": "https://simplisafe.com"
     },
