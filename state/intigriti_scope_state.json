@@ -9525,6 +9525,77 @@
     "tooling": 2
    }
   },
+  "53a05c4a-0fc0-45a0-b158-a7562b313f79": {
+   "assets": {
+    "Other|<your-own-1password-account> \u2192 Latest Browser Extension": {
+     "desc": "2eec5161c291",
+     "endpoint": "<your-own-1password-account> \u2192 Latest Browser Extension",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Other"
+    },
+    "Url|<your-own-1password-account> \u2192 Latest stable 1Password CLI": {
+     "desc": "ff867cc5c5e0",
+     "endpoint": "<your-own-1password-account> \u2192 Latest stable 1Password CLI",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|<your-own-1password-account>.1password.com": {
+     "desc": "164a24ea30dc",
+     "endpoint": "<your-own-1password-account>.1password.com",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|All other 1Password Assets and Accounts": {
+     "desc": "4fdadfb467ff",
+     "endpoint": "All other 1Password Assets and Accounts",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|https://events.1password.com/api/": {
+     "desc": "703d3d59ef39",
+     "endpoint": "https://events.1password.com/api/",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|https://support.1password.com": {
+     "desc": "753ec89dbf20",
+     "endpoint": "https://support.1password.com",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Url|https://www.1password.com/": {
+     "desc": "72c792f63e01",
+     "endpoint": "https://www.1password.com/",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
+    "Wildcard|*.agilebits.com": {
+     "desc": "5f4189ac0504",
+     "endpoint": "*.agilebits.com",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Wildcard"
+    }
+   },
+   "name": "1Password Bug Bounty Program",
+   "program": {
+    "bounty": "50.0 - 30000.0 USD",
+    "confidentiality": "Public"
+   },
+   "rules": {
+    "desc": "46087cf6e1ea",
+    "safe_harbour": true,
+    "testing": "461ba0613076",
+    "tooling": null
+   }
+  },
   "540e04bb-ae56-49cd-8e05-311a08ba44f7": {
    "assets": {
     "Other|Any ING (sub)domain": {
