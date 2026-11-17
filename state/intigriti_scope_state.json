@@ -3151,9 +3151,9 @@
      "tier": "Tier 1",
      "type": "IpRange"
     },
-    "IpRange|3.64.231.190/32": {
+    "IpRange|3.74.87.124/32": {
      "desc": "fd1a5b57c165",
-     "endpoint": "3.64.231.190/32",
+     "endpoint": "3.74.87.124/32",
      "in": true,
      "tier": "Tier 2",
      "type": "IpRange"
