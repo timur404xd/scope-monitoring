@@ -519,7 +519,7 @@
   "/engagements/ziffdavis-vdp-pro",
   "/engagements/zola-mbb-og"
  ],
- "last_heartbeat": 1794915937.5238607,
+ "last_heartbeat": 1794938433.6029494,
  "programs": {
   "/engagements/CCData-mbb-og": {
    "groups": {
@@ -34284,7 +34284,6 @@
      "reward": null
     }
    },
-   "missing_since": 1794937523.3084302,
    "name": "State of Maryland Vulnerability Disclosure Program",
    "targets": {
     "network|networkMaryland": {
