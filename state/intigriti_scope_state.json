@@ -21181,7 +21181,7 @@
      "type": "Wildcard"
     },
     "Wildcard|*.cornelsen.de": {
-     "desc": "0811bfeaa2a3",
+     "desc": "2e5fea50bc69",
      "endpoint": "*.cornelsen.de",
      "in": true,
      "tier": "Tier 2",
