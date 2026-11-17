@@ -1,5 +1,5 @@
 {
- "last_heartbeat": 1794895316.2197373,
+ "last_heartbeat": 1794916938.8021724,
  "programs": {
   "0083a5bf-e54f-4f79-a972-12a795272c8b": {
    "assets": {
@@ -3109,6 +3109,13 @@
      "tier": "Tier 1",
      "type": "IpRange"
     },
+    "IpRange|221.238.96.158/30": {
+     "desc": "59477fc89700",
+     "endpoint": "221.238.96.158/30",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "IpRange"
+    },
     "IpRange|3.64.231.190/32": {
      "desc": "fd1a5b57c165",
      "endpoint": "3.64.231.190/32",
@@ -3240,6 +3247,13 @@
      "endpoint": "*.rampf-gruppe.de",
      "in": true,
      "tier": "Tier 1",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.rampf.one": {
+     "desc": "a068432b8682",
+     "endpoint": "*.rampf.one",
+     "in": true,
+     "tier": "Tier 2",
      "type": "Wildcard"
     }
    },
