@@ -13525,9 +13525,23 @@
      "tier": "Tier 2",
      "type": "Android"
     },
+    "Url|admin.postikuori.posti.fi": {
+     "desc": "3b552b2c6ed9",
+     "endpoint": "admin.postikuori.posti.fi",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
     "Url|api.posti.fi": {
      "desc": "fcb04d8c2d75",
      "endpoint": "api.posti.fi",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|api.postikuori.posti.fi": {
+     "desc": "8716ccbc1f52",
+     "endpoint": "api.postikuori.posti.fi",
      "in": true,
      "tier": "Tier 2",
      "type": "Url"
@@ -13542,6 +13556,13 @@
     "Url|cdn.posti.fi": {
      "desc": "5a437d0913b9",
      "endpoint": "cdn.posti.fi",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|cms.postikuori.posti.fi": {
+     "desc": "5c403c462b34",
+     "endpoint": "cms.postikuori.posti.fi",
      "in": true,
      "tier": "Tier 2",
      "type": "Url"
@@ -13570,6 +13591,13 @@
     "Url|elma.elma.fi": {
      "desc": "2d0c05cefbf9",
      "endpoint": "elma.elma.fi",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|etavarasto.posti.fi": {
+     "desc": "b5de086987c7",
+     "endpoint": "etavarasto.posti.fi",
      "in": true,
      "tier": "Tier 2",
      "type": "Url"
@@ -13707,6 +13735,20 @@
      "tier": "Tier 2",
      "type": "Url"
     },
+    "Url|iam.postikuori.posti.fi": {
+     "desc": "75012ea78e31",
+     "endpoint": "iam.postikuori.posti.fi",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|iamapp.postikuori.posti.fi": {
+     "desc": "456ec0ecff4c",
+     "endpoint": "iamapp.postikuori.posti.fi",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
     "Url|id.posti.fi": {
      "desc": "001257c3a05d",
      "endpoint": "id.posti.fi",
@@ -13780,6 +13822,13 @@
     "Url|postikuori.posti.fi": {
      "desc": "2be0e38756e9",
      "endpoint": "postikuori.posti.fi",
+     "in": true,
+     "tier": "Tier 2",
+     "type": "Url"
+    },
+    "Url|rebl-ai-webchat-postikuori.azurewebsites.net": {
+     "desc": "8e3b2a9ba929",
+     "endpoint": "rebl-ai-webchat-postikuori.azurewebsites.net",
      "in": true,
      "tier": "Tier 2",
      "type": "Url"
