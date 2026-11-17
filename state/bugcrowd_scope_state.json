@@ -55565,12 +55565,12 @@
      "name": "Any domain, property, product, protocol, or service of the app/hardware/software version not explicitly listed in the In-Scope section is out of scope; submissions are welcome but not guaranteed for the bounty/bonus.",
      "uri": ""
     },
-    "other|Self-Register Account on T-Mobile Microsoft Entra ID": {
+    "other|Self-Register Account on T-Mobile Microsoft Entra ID and Access Tenant Resources": {
      "cat": "other",
      "desc": "da39a3ee5e6b",
      "group": "Special Target",
      "in": true,
-     "name": "Self-Register Account on T-Mobile Microsoft Entra ID",
+     "name": "Self-Register Account on T-Mobile Microsoft Entra ID and Access Tenant Resources",
      "uri": ""
     },
     "other|Subdomain Takeover": {
