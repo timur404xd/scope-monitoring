@@ -13672,7 +13672,6 @@
      "reward": null
     }
    },
-   "missing_since": 1794919522.6123564,
    "name": "Progress Software - Chef",
    "targets": {
     "other|Chef Automate": {
@@ -65043,14 +65042,14 @@
      "desc": "da39a3ee5e6b",
      "in": true,
      "reward": {
-      "p1MaxCents": 450000,
-      "p1MinCents": 350000,
-      "p2MaxCents": 250000,
-      "p2MinCents": 150000,
-      "p3MaxCents": 75000,
-      "p3MinCents": 50000,
-      "p4MaxCents": 22500,
-      "p4MinCents": 17500
+      "p1MaxCents": 250000,
+      "p1MinCents": 150000,
+      "p2MaxCents": 75000,
+      "p2MinCents": 55000,
+      "p3MaxCents": 35000,
+      "p3MinCents": 25000,
+      "p4MaxCents": 11000,
+      "p4MinCents": 8500
      }
     }
    },
