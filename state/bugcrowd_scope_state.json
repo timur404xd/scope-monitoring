@@ -52382,6 +52382,22 @@
      "in": true,
      "name": "*.shuffle.us",
      "uri": ""
+    },
+    "website|https://shuffle.store": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "https://shuffle.store",
+     "uri": "https://shuffle.store"
+    },
+    "website|https://shufflecommunity.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope",
+     "in": false,
+     "name": "https://shufflecommunity.com",
+     "uri": "https://shufflecommunity.com"
     }
    }
   },
