@@ -3095,6 +3095,13 @@
      "tier": "Tier 1",
      "type": "IpRange"
     },
+    "IpRange|12.201.94.138/32": {
+     "desc": "c33b96440822",
+     "endpoint": "12.201.94.138/32",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "IpRange"
+    },
     "IpRange|12.229.137.64/29": {
      "desc": "eeea2e65038b",
      "endpoint": "12.229.137.64/29",
@@ -3102,9 +3109,37 @@
      "tier": "Tier 1",
      "type": "IpRange"
     },
+    "IpRange|153.156.30.206/32": {
+     "desc": "058f89675747",
+     "endpoint": "153.156.30.206/32",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "IpRange"
+    },
+    "IpRange|173.241.122.105/32": {
+     "desc": "c33b96440822",
+     "endpoint": "173.241.122.105/32",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "IpRange"
+    },
+    "IpRange|185.21.28.12/32": {
+     "desc": "48a21ab46467",
+     "endpoint": "185.21.28.12/32",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "IpRange"
+    },
     "IpRange|219.164.213.136/32": {
      "desc": "058f89675747",
      "endpoint": "219.164.213.136/32",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "IpRange"
+    },
+    "IpRange|221.238.96.154/32": {
+     "desc": "ddd371ed1c4d",
+     "endpoint": "221.238.96.154/32",
      "in": true,
      "tier": "Tier 1",
      "type": "IpRange"
