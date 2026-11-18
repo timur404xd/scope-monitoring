@@ -41509,7 +41509,15 @@
      "group": "OpenSea MCP",
      "in": true,
      "name": "OpenSea MCP",
-     "uri": "https://mcp.opensea.io"
+     "uri": "https://mcp.opensea.io/mcp"
+    },
+    "other|OpenSea MCP II": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "OpenSea MCP",
+     "in": true,
+     "name": "OpenSea MCP II",
+     "uri": "http://mcp.opensea.io/sse"
     },
     "other|OpenSea Solana Marketplace Program": {
      "cat": "other",
