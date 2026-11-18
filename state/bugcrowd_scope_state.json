@@ -11717,6 +11717,7 @@
      }
     }
    },
+   "missing_since": 1795034726.78458,
    "name": "BrizoIT",
    "targets": {
     "website|https://marketplace.atlassian.com/apps/1213545/work-time-tracking-calendar-for-jira?hosting=cloud&tab=overview": {
