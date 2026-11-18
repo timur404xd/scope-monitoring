@@ -302,6 +302,7 @@
   "/engagements/nigc-vdp",
   "/engagements/nine-entertainment-vdp-pro",
   "/engagements/nlrb-vdp",
+  "/engagements/nord-security-mbb",
   "/engagements/northwestern-mutual-mbb-og",
   "/engagements/northwestern-vdp",
   "/engagements/nps-vdp",
@@ -38588,6 +38589,526 @@
      "in": true,
      "name": "*.NLRB.gov",
      "uri": ""
+    }
+   }
+  },
+  "/engagements/nord-security-mbb": {
+   "groups": {
+    "In Scope - Primary": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 5000000,
+      "p1MinCents": 600000,
+      "p2MaxCents": 300000,
+      "p2MinCents": 150000,
+      "p3MaxCents": 75000,
+      "p3MinCents": 50000,
+      "p4MaxCents": 25000,
+      "p4MinCents": 10000
+     }
+    },
+    "In Scope - Secondary": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 1000000,
+      "p1MinCents": 350000,
+      "p2MaxCents": 300000,
+      "p2MinCents": 150000,
+      "p3MaxCents": 75000,
+      "p3MinCents": 50000,
+      "p4MaxCents": 25000,
+      "p4MinCents": 10000
+     }
+    },
+    "Out of Scope ": {
+     "desc": "da39a3ee5e6b",
+     "in": false,
+     "reward": null
+    }
+   },
+   "name": "Nord Security Managed Bug Bounty Engagement",
+   "targets": {
+    "android|NordLayer Android": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordLayer Android",
+     "uri": "https://nordlayer.com/download/android/"
+    },
+    "android|NordLocker Android": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordLocker Android",
+     "uri": "https://nordlocker.com/download/android/"
+    },
+    "android|NordPass Android": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordPass Android",
+     "uri": "https://nordpass.com/download/android/"
+    },
+    "android|NordVPN Android": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Primary",
+     "in": true,
+     "name": "NordVPN Android",
+     "uri": "https://nordvpn.com/download/android/"
+    },
+    "api|NordLayer API": {
+     "cat": "api",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordLayer API",
+     "uri": "https://api.nordlayer.com/"
+    },
+    "ios| NordVPN iOS": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Primary",
+     "in": true,
+     "name": " NordVPN iOS",
+     "uri": "https://nordvpn.com/download/ios/"
+    },
+    "ios|NordLayer iOS": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordLayer iOS",
+     "uri": "https://nordlayer.com/download/ios/"
+    },
+    "ios|NordLocker iOS": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordLocker iOS",
+     "uri": "https://nordlocker.com/download/ios/"
+    },
+    "ios|NordPass iOS": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordPass iOS",
+     "uri": "https://nordpass.com/download/ios/"
+    },
+    "other|595468.nordvpn.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope ",
+     "in": false,
+     "name": "595468.nordvpn.com",
+     "uri": ""
+    },
+    "other|Nord Security VPN servers": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Primary",
+     "in": true,
+     "name": "Nord Security VPN servers",
+     "uri": ""
+    },
+    "other|Nord Security backend services and website": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "Nord Security backend services and website",
+     "uri": ""
+    },
+    "other|NordBrowser Windows": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordBrowser Windows",
+     "uri": "https://nordlayer.com/browser/download/"
+    },
+    "other|NordBrowser macOS": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordBrowser macOS",
+     "uri": "https://nordlayer.com/browser/download/"
+    },
+    "other|NordLayer Browser extension - Chrome": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordLayer Browser extension - Chrome",
+     "uri": "https://chromewebstore.google.com/detail/nordlayer-browser-extensi/pilehkefiejmhdldhbajgajlcgggohkj"
+    },
+    "other|NordLayer Linux": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordLayer Linux",
+     "uri": "https://nordlayer.com/download/linux/"
+    },
+    "other|NordLayer Windows": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordLayer Windows",
+     "uri": "https://nordlayer.com/download/windows/"
+    },
+    "other|NordLayer macOS": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordLayer macOS",
+     "uri": "https://nordlayer.com/download/macos/"
+    },
+    "other|NordLocker Cloud": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordLocker Cloud",
+     "uri": "https://cloud.nordlocker.com/"
+    },
+    "other|NordLocker Windows": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordLocker Windows",
+     "uri": "https://nordlocker.com/download/windows/"
+    },
+    "other|NordPass Browser extensions - Chrome": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordPass Browser extensions - Chrome",
+     "uri": "https://nordpass.com/download/chrome/"
+    },
+    "other|NordPass Linux": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordPass Linux",
+     "uri": "https://nordpass.com/download/linux/"
+    },
+    "other|NordPass Windows": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordPass Windows",
+     "uri": "https://nordpass.com/download/windows/"
+    },
+    "other|NordPass macOS": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordPass macOS",
+     "uri": "https://nordpass.com/download/macos/"
+    },
+    "other|NordVPN Android TV": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Primary",
+     "in": true,
+     "name": "NordVPN Android TV",
+     "uri": "https://nordvpn.com/download/android-tv/"
+    },
+    "other|NordVPN Browser extension - Chrome": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Primary",
+     "in": true,
+     "name": "NordVPN Browser extension - Chrome",
+     "uri": "https://nordvpn.com/download/chrome-extension/"
+    },
+    "other|NordVPN Browser extension - Edge": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Primary",
+     "in": true,
+     "name": "NordVPN Browser extension - Edge",
+     "uri": "https://nordvpn.com/download/edge-extension/"
+    },
+    "other|NordVPN Browser extension - Firefox": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Primary",
+     "in": true,
+     "name": "NordVPN Browser extension - Firefox",
+     "uri": "https://nordvpn.com/download/firefox-extension/"
+    },
+    "other|NordVPN Linux": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Primary",
+     "in": true,
+     "name": "NordVPN Linux",
+     "uri": "https://nordvpn.com/download/linux/"
+    },
+    "other|NordVPN Windows": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Primary",
+     "in": true,
+     "name": "NordVPN Windows",
+     "uri": "https://nordvpn.com/download/windows"
+    },
+    "other|NordVPN macOS": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Primary",
+     "in": true,
+     "name": "NordVPN macOS",
+     "uri": "https://nordvpn.com/download/mac/"
+    },
+    "other|NordVPN tvOS": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Primary",
+     "in": true,
+     "name": "NordVPN tvOS",
+     "uri": "https://nordvpn.com/download/apple-tv/"
+    },
+    "other|affiliates.nordvpn.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope ",
+     "in": false,
+     "name": "affiliates.nordvpn.com",
+     "uri": ""
+    },
+    "other|bounces.nordvpn.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope ",
+     "in": false,
+     "name": "bounces.nordvpn.com",
+     "uri": ""
+    },
+    "other|c.nordvpn.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope ",
+     "in": false,
+     "name": "c.nordvpn.com",
+     "uri": ""
+    },
+    "other|content.nordvpn.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope ",
+     "in": false,
+     "name": "content.nordvpn.com",
+     "uri": ""
+    },
+    "other|go.nordvpn.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope ",
+     "in": false,
+     "name": "go.nordvpn.com",
+     "uri": ""
+    },
+    "other|links*.nordvpn.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope ",
+     "in": false,
+     "name": "links*.nordvpn.com",
+     "uri": ""
+    },
+    "other|meshnet.nordvpn.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope ",
+     "in": false,
+     "name": "meshnet.nordvpn.com",
+     "uri": ""
+    },
+    "other|mltrack.nordvpn.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope ",
+     "in": false,
+     "name": "mltrack.nordvpn.com",
+     "uri": ""
+    },
+    "other|mltracksgrd.nordvpn.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope ",
+     "in": false,
+     "name": "mltracksgrd.nordvpn.com",
+     "uri": ""
+    },
+    "other|prevention.nordvpn.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope ",
+     "in": false,
+     "name": "prevention.nordvpn.com",
+     "uri": ""
+    },
+    "other|sailysupport.zendesk.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope ",
+     "in": false,
+     "name": "sailysupport.zendesk.com",
+     "uri": ""
+    },
+    "other|status.nordvpn.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope ",
+     "in": false,
+     "name": "status.nordvpn.com",
+     "uri": ""
+    },
+    "other|support.nordaccount.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope ",
+     "in": false,
+     "name": "support.nordaccount.com",
+     "uri": ""
+    },
+    "other|support.nordlocker.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope ",
+     "in": false,
+     "name": "support.nordlocker.com",
+     "uri": ""
+    },
+    "other|support.nordpass.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope ",
+     "in": false,
+     "name": "support.nordpass.com",
+     "uri": ""
+    },
+    "other|support.nordvpn.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope ",
+     "in": false,
+     "name": "support.nordvpn.com",
+     "uri": ""
+    },
+    "other|trust.nordpass.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope ",
+     "in": false,
+     "name": "trust.nordpass.com",
+     "uri": ""
+    },
+    "other|zendesk.nordvpn.com": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "Out of Scope ",
+     "in": false,
+     "name": "zendesk.nordvpn.com",
+     "uri": ""
+    },
+    "website|NordAccount Web Application": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordAccount Web Application",
+     "uri": "https://*.nordaccount.com"
+    },
+    "website|NordCheckout Web Application": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordCheckout Web Application",
+     "uri": "https://*.nordcheckout.com"
+    },
+    "website|NordLayer Control Panel": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordLayer Control Panel",
+     "uri": "https://cp.nordlayer.com/*"
+    },
+    "website|NordLayer website": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordLayer website",
+     "uri": "https://nordlayer.com/*"
+    },
+    "website|NordLocker Web Application": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordLocker Web Application",
+     "uri": "https://*.nordlocker.com"
+    },
+    "website|NordPass Browser extensions - Edge": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordPass Browser extensions - Edge",
+     "uri": "https://nordpass.com/download/edge/"
+    },
+    "website|NordPass Browser extensions - Firefox": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordPass Browser extensions - Firefox",
+     "uri": "https://nordpass.com/download/firefox/"
+    },
+    "website|NordPass Web Application": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordPass Web Application",
+     "uri": "https://*.nordpass.com"
+    },
+    "website|NordPass WebVault": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Secondary",
+     "in": true,
+     "name": "NordPass WebVault",
+     "uri": "https://nordpass.com/apps/web-vault/"
+    },
+    "website|NordVPN Web Application": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope - Primary",
+     "in": true,
+     "name": "NordVPN Web Application",
+     "uri": "https://*.nordvpn.com/"
     }
    }
   },
