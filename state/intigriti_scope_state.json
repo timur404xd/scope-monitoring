@@ -26400,14 +26400,14 @@
      "desc": "da39a3ee5e6b",
      "endpoint": "Adobe ColdFusion without ColdFusion Administrator",
      "in": true,
-     "tier": "Tier 2",
+     "tier": "Tier 4",
      "type": "Other"
     },
     "Other|Adobe Commerce, Adobe Commerce B2B and Magento Open Source": {
      "desc": "cfe44ac4cf3b",
      "endpoint": "Adobe Commerce, Adobe Commerce B2B and Magento Open Source",
      "in": true,
-     "tier": "Tier 2",
+     "tier": "Tier 4",
      "type": "Other"
     },
     "Other|ColdFusion Administrator": {
@@ -26428,7 +26428,7 @@
      "desc": "da39a3ee5e6b",
      "endpoint": "account.magento.com",
      "in": true,
-     "tier": "Tier 3",
+     "tier": "Tier 4",
      "type": "Url"
     },
     "Url|adobeid-na1.services.adobe.com": {
@@ -26449,7 +26449,7 @@
      "desc": "da39a3ee5e6b",
      "endpoint": "commercemarketplace.adobe.com",
      "in": true,
-     "tier": "Tier 3",
+     "tier": "Tier 4",
      "type": "Url"
     },
     "Url|federatedid-na1.services.adobe.com": {
@@ -26498,7 +26498,7 @@
      "desc": "da39a3ee5e6b",
      "endpoint": "magento.com",
      "in": true,
-     "tier": "Tier 3",
+     "tier": "Tier 4",
      "type": "Url"
     },
     "Url|net.s2stagehance.com": {
@@ -26533,7 +26533,7 @@
      "desc": "da39a3ee5e6b",
      "endpoint": "repo.magento.com",
      "in": true,
-     "tier": "Tier 3",
+     "tier": "Tier 4",
      "type": "Url"
     },
     "Url|stock.adobe.com": {
@@ -26602,7 +26602,7 @@
    },
    "name": "Adobe Public",
    "program": {
-    "bounty": "75.0 - 15000.0 USD",
+    "bounty": "0.0 - 15000.0 USD",
     "confidentiality": "Public"
    },
    "rules": {
