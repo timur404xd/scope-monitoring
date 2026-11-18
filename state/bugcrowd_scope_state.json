@@ -55195,7 +55195,6 @@
      }
     }
    },
-   "missing_since": 1795016726.3937118,
    "name": "STAGIL Marketplace Bug Bounty",
    "targets": {
     "website|https://marketplace.atlassian.com/apps/1211243/timetracker-time-tracking-timesheet-reporting-for-jira?hosting=cloud&tab=overview": {
