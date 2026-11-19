@@ -6972,7 +6972,6 @@
      }
     }
    },
-   "missing_since": 1795060824.5664053,
    "name": "Atlassian",
    "targets": {
     "android|Confluence Cloud Mobile App for Android": {
@@ -53216,7 +53215,6 @@
      }
     }
    },
-   "missing_since": 1795060824.5664053,
    "name": "Skroutz Public Managed Bug Bounty",
    "targets": {
     "website|https://www.skroutz.gr": {
