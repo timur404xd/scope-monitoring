@@ -3501,21 +3501,21 @@
      "desc": "bc581ca29075",
      "endpoint": "NVIDIA Nsight Developer Tools",
      "in": true,
-     "tier": "Tier 1",
+     "tier": "No Bounty",
      "type": "Other"
     },
     "Other|NVRTC library": {
      "desc": "0b716be951c7",
      "endpoint": "NVRTC library",
      "in": true,
-     "tier": "Tier 1",
+     "tier": "No Bounty",
      "type": "Other"
     },
     "Other|Nsight Systems": {
      "desc": "1da4390b2fa1",
      "endpoint": "Nsight Systems",
      "in": true,
-     "tier": "Tier 1",
+     "tier": "No Bounty",
      "type": "Other"
     },
     "Other|libNVVM API": {
