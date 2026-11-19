@@ -18335,6 +18335,7 @@
      }
     }
    },
+   "missing_since": 1795105830.3063347,
    "name": "DevSamurai",
    "targets": {
     "website|https://marketplace.atlassian.com/apps/1221853/enterprise-social-networking-polls-votes-for-confluence?tab=overview&hosting=cloud": {
