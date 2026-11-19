@@ -29929,6 +29929,20 @@
      "tier": "Tier 2",
      "type": "Url"
     },
+    "Url|api.naksha.here.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "api.naksha.here.com",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|interactive.data.api.platform.here.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "interactive.data.api.platform.here.com",
+     "in": true,
+     "tier": "Tier 3",
+     "type": "Url"
+    },
     "Url|listing.here.com": {
      "desc": "da39a3ee5e6b",
      "endpoint": "listing.here.com",
@@ -29982,7 +29996,7 @@
      "desc": "da39a3ee5e6b",
      "endpoint": "xyz.api.here.com",
      "in": true,
-     "tier": "Tier 2",
+     "tier": "Tier 3",
      "type": "Url"
     },
     "Wildcard|*.data.api.platform.here.com": {
