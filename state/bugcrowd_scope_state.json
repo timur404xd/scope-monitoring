@@ -33407,6 +33407,14 @@
    },
    "name": "Majid Al Futtaim Customer Solutions",
    "targets": {
+    "android|Mall of the Emirates (Android)": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "MPASS Targets",
+     "in": true,
+     "name": "Mall of the Emirates (Android)",
+     "uri": "https://play.google.com/store/apps/details?id=com.belongi.moe"
+    },
     "android|Share Rewards Android App": {
      "cat": "android",
      "desc": "da39a3ee5e6b",
@@ -33447,6 +33455,14 @@
      "name": "https://www.vtcprodapi.maf.ae/svc/svcHifi.svc/SaveOCRReceipt",
      "uri": ""
     },
+    "ios|Mall of the Emirates (iOS)": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "MPASS Targets",
+     "in": true,
+     "name": "Mall of the Emirates (iOS)",
+     "uri": "https://apps.apple.com/app/mall-of-the-emirates-moe/id1449578693"
+    },
     "ios|Share Rewards Programme iOS App": {
      "cat": "ios",
      "desc": "da39a3ee5e6b",
@@ -33486,6 +33502,70 @@
      "in": true,
      "name": "CRATE-BARREL",
      "uri": "https://lazzx4o5mh.execute-api.eu-west-1.amazonaws.com/production/landing/client/C1o8u0aPez0Qs5W5TGa1Cbpxq8Ieb63G"
+    },
+    "website|City Centre Ajman": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "MPASS Targets",
+     "in": true,
+     "name": "City Centre Ajman",
+     "uri": "https://www.citycentremalls.com/en-ae/city-centre-ajman"
+    },
+    "website|City Centre Al Zahia": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "MPASS Targets",
+     "in": true,
+     "name": "City Centre Al Zahia",
+     "uri": "https://www.citycentremalls.com/en-ae/city-centre-zahia"
+    },
+    "website|City Centre Bahrain": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "MPASS Targets",
+     "in": true,
+     "name": "City Centre Bahrain",
+     "uri": "https://www.citycentremalls.com/en-bh/city-centre-bahrain"
+    },
+    "website|City Centre Deira": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "MPASS Targets",
+     "in": true,
+     "name": "City Centre Deira",
+     "uri": "https://www.citycentremalls.com/en-ae/city-centre-deira"
+    },
+    "website|City Centre Me'aisem": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "MPASS Targets",
+     "in": true,
+     "name": "City Centre Me'aisem",
+     "uri": "https://www.citycentremalls.com/en-ae/city-centre-meaisem"
+    },
+    "website|City Centre Mirdif": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "MPASS Targets",
+     "in": true,
+     "name": "City Centre Mirdif",
+     "uri": "https://www.citycentremalls.com/en-ae/city-centre-mirdif"
+    },
+    "website|City Centre Sharjah": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "MPASS Targets",
+     "in": true,
+     "name": "City Centre Sharjah",
+     "uri": "https://www.citycentremalls.com/en-ae/city-centre-sharjah"
+    },
+    "website|City Centre Unified": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "MPASS Targets",
+     "in": true,
+     "name": "City Centre Unified",
+     "uri": "https://www.citycentremalls.com/en"
     },
     "website|LEGO": {
      "cat": "website",
@@ -33551,6 +33631,14 @@
      "name": "MR-USTA",
      "uri": "https://lazzx4o5mh.execute-api.eu-west-1.amazonaws.com/production/landing/client/gsUkX5A6BA7wJLQxEiIjdC8PDrNJ42Mo"
     },
+    "website|Mall of Oman": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "MPASS Targets",
+     "in": true,
+     "name": "Mall of Oman",
+     "uri": "https://www.mallofoman.net/en"
+    },
     "website|SHARE": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
@@ -33606,6 +33694,22 @@
      "in": true,
      "name": "WIFI",
      "uri": "https://lazzx4o5mh.execute-api.eu-west-1.amazonaws.com/production/landing/client/9h0hkx6nBNSDuhTSFySzPgcFyXrHOVNI"
+    },
+    "website|https://www.mallofegypt.com/en": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "MPASS Targets",
+     "in": true,
+     "name": "https://www.mallofegypt.com/en",
+     "uri": "https://www.mallofegypt.com/en"
+    },
+    "website|https://www.malloftheemirates.com": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "MPASS Targets",
+     "in": true,
+     "name": "https://www.malloftheemirates.com",
+     "uri": "https://www.malloftheemirates.com/en"
     },
     "website|https://www.sharerewards.com/": {
      "cat": "website",
