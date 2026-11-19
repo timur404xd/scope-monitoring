@@ -12839,8 +12839,8 @@
       "p2MinCents": 210000,
       "p3MaxCents": 75000,
       "p3MinCents": 15000,
-      "p4MaxCents": null,
-      "p4MinCents": null
+      "p4MaxCents": 10000,
+      "p4MinCents": 7500
      }
     },
     "Out of scope": {
@@ -33400,8 +33400,8 @@
       "p2MinCents": 120000,
       "p3MaxCents": 74900,
       "p3MinCents": 15000,
-      "p4MaxCents": null,
-      "p4MinCents": null
+      "p4MaxCents": 10000,
+      "p4MinCents": 7500
      }
     }
    },
