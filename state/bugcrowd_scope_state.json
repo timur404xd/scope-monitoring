@@ -6972,7 +6972,6 @@
      }
     }
    },
-   "missing_since": 1795069831.5192952,
    "name": "Atlassian",
    "targets": {
     "android|Confluence Cloud Mobile App for Android": {
