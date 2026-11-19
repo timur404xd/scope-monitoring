@@ -23647,6 +23647,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795122031.811743,
    "name": "Glassdoor Managed Bug Bounty Engagement",
    "targets": {
     "android|Fishbowl - Android App": {
@@ -50077,7 +50078,6 @@
      }
     }
    },
-   "missing_since": 1795121129.347078,
    "name": "Recorded Future Public Managed Bug Bounty Engagement",
    "targets": {
     "android|Recorded Future Android": {
