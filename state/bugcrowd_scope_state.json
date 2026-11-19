@@ -15071,7 +15071,6 @@
      "reward": null
     }
    },
-   "missing_since": 1795100429.32686,
    "name": "ClickHouse",
    "targets": {
     "other|ClickHouse Cloud environment hosted by ClickHouse": {
