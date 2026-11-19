@@ -33386,8 +33386,8 @@
       "p2MinCents": 100000,
       "p3MaxCents": 60000,
       "p3MinCents": 15000,
-      "p4MaxCents": null,
-      "p4MinCents": null
+      "p4MaxCents": 10000,
+      "p4MinCents": 7500
      }
     },
     "Share Rewards App": {
