@@ -8671,7 +8671,6 @@
      }
     }
    },
-   "missing_since": 1795050926.5472908,
    "name": "Auth0 by Okta",
    "targets": {
     "android|Auth0 Guardian Android": {
