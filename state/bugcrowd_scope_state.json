@@ -56734,7 +56734,6 @@
      }
     }
    },
-   "missing_since": 1795114835.8280833,
    "name": "Tamedia",
    "targets": {
     "api|API calls going to disco-api from https://www.tagesanzeiger.ch ": {
