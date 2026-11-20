@@ -34617,6 +34617,14 @@
      "name": "Mattermost Calls Plugin",
      "uri": "https://github.com/mattermost/mattermost-plugin-calls"
     },
+    "other|Mattermost Channel Export Plugin": {
+     "cat": "other",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "Mattermost Channel Export Plugin",
+     "uri": "https://github.com/mattermost/mattermost-plugin-channel-export"
+    },
     "other|Mattermost Confluence Plugin": {
      "cat": "other",
      "desc": "da39a3ee5e6b",
@@ -34665,13 +34673,13 @@
      "name": "Mattermost Jira Plugin",
      "uri": "https://github.com/mattermost/mattermost-plugin-jira "
     },
-    "other|Mattermost MSTeams Plugin": {
+    "other|Mattermost Metrics Plugin": {
      "cat": "other",
      "desc": "da39a3ee5e6b",
      "group": "In Scope",
      "in": true,
-     "name": "Mattermost MSTeams Plugin",
-     "uri": "https://github.com/mattermost/mattermost-plugin-msteams"
+     "name": "Mattermost Metrics Plugin",
+     "uri": "https://github.com/mattermost/mattermost-plugin-metrics"
     },
     "other|Mattermost Microsoft Calendar Plugin": {
      "cat": "other",
