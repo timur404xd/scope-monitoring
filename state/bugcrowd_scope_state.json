@@ -11517,6 +11517,14 @@
      "in": true,
      "name": "https://marketplace.atlassian.com/apps/1226195/align-okr-with-roadmap?hosting=cloud&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1226195/align-okr-with-roadmap?hosting=cloud&tab=overview"
+    },
+    "website|https://marketplace.atlassian.com/apps/2394034939/email-attach-automation-exporter-pdf-word-claude-mcp?hosting=cloud&tab=overview": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "In Scope",
+     "in": true,
+     "name": "https://marketplace.atlassian.com/apps/2394034939/email-attach-automation-exporter-pdf-word-claude-mcp?hosting=cloud&tab=overview",
+     "uri": "https://marketplace.atlassian.com/apps/2394034939/email-attach-automation-exporter-pdf-word-claude-mcp?hosting=cloud&tab=overview"
     }
    }
   },
