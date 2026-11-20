@@ -50077,6 +50077,7 @@
      }
     }
    },
+   "missing_since": 1795140937.0859773,
    "name": "Recorded Future Public Managed Bug Bounty Engagement",
    "targets": {
     "android|Recorded Future Android": {
