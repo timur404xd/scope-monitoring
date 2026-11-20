@@ -180,6 +180,13 @@
      "tier": "Out Of Scope",
      "type": "Wildcard"
     },
+    "Wildcard|*.coupdepousseinnocent.fr": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.coupdepousseinnocent.fr",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
     "Wildcard|*.crewconnect.coca-cola.com": {
      "desc": "da39a3ee5e6b",
      "endpoint": "*.crewconnect.coca-cola.com",
@@ -204,6 +211,1014 @@
     "Wildcard|*.goodcow.com": {
      "desc": "da39a3ee5e6b",
      "endpoint": "*.goodcow.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent-bees.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent-bees.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent-drinks.ch": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent-drinks.ch",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent-international.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent-international.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent-sports.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent-sports.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent-unplugged.co.uk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent-unplugged.co.uk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent-unplugged.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent-unplugged.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent-wiesenwildnis.at": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent-wiesenwildnis.at",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent-wiesenwildnis.ch": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent-wiesenwildnis.ch",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent-wiesenwildnis.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent-wiesenwildnis.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent-wiesenwildnis.de": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent-wiesenwildnis.de",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent-wilde-wiesen.at": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent-wilde-wiesen.at",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent-wilde-wiesen.ch": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent-wilde-wiesen.ch",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent-wilde-wiesen.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent-wilde-wiesen.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent-wilde-wiesen.de": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent-wilde-wiesen.de",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent.asia": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent.asia",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent.co": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent.co",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent.com.es": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent.com.es",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent.com.gr": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent.com.gr",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent.com.pl": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent.com.pl",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent.com.pt": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent.com.pt",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent.cz": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent.cz",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent.eu": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent.eu",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent.fr": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent.fr",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent.ie": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent.ie",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent.london": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent.london",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent.lu": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent.lu",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent.no": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent.no",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent.pl": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent.pl",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent.pt": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent.pt",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent.se": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent.se",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent.sk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent.sk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocent.vip": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocent.vip",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentbiggrow.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentbiggrow.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentbigrewild.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentbigrewild.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentbigrewild.ie": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentbigrewild.ie",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentbubbles.co.uk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentbubbles.co.uk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentbubbles.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentbubbles.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentcoconutwater.co.uk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentcoconutwater.co.uk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentcoconutwater.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentcoconutwater.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentcoldpressed.co.uk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentcoldpressed.co.uk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentcoldpressed.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentcoldpressed.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.ae": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.ae",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.asia": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.asia",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.at": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.at",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.be",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.cn": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.cn",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.co.kr": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.co.kr",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.co.me": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.co.me",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.co.uk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.co.uk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.com.es": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.com.es",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.com.gr": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.com.gr",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.com.hk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.com.hk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.com.pl": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.com.pl",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.com.pt": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.com.pt",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.com.tw": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.com.tw",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.cz": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.cz",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.de": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.de",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.dk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.dk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.es": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.es",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.fi": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.fi",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.fr": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.fr",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.gr": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.gr",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.hk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.hk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.hu": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.hu",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.ie": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.ie",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.info": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.info",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.is": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.is",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.it": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.it",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.jp": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.jp",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.kr": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.kr",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.lu": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.lu",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.me": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.me",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.mt": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.mt",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.net": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.net",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.net.cn": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.net.cn",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.nl": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.nl",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.no": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.no",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.org.cn": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.org.cn",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.pl": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.pl",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.pt": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.pt",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.ru": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.ru",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.se": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.se",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.sg": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.sg",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.sk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.sk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.tv": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.tv",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.tw": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.tw",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentdrinks.xxx": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentdrinks.xxx",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentfoundation.org": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentfoundation.org",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentfoundation.org.uk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentfoundation.org.uk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentfruitandveg.co.uk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentfruitandveg.co.uk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentfruitandveg.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentfruitandveg.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentfruitandvegjuice.co.uk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentfruitandvegjuice.co.uk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentfruitandvegjuice.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentfruitandvegjuice.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentgrandcoupdepousse.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentgrandcoupdepousse.be",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentgrandeclasseverte.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentgrandeclasseverte.be",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentgreenfriends.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentgreenfriends.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentgreenhouse.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentgreenhouse.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentgroenevrienden.nl": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentgroenevrienden.nl",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentgrotevergroening.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentgrotevergroening.be",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentgrotevergroening.nl": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentgrotevergroening.nl",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentinternational.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentinternational.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentjokegenerator.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentjokegenerator.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentjuice.xxx": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentjuice.xxx",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentjuicystuff.jp": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentjuicystuff.jp",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentkids.co.uk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentkids.co.uk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentkids.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentkids.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentkids.fr": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentkids.fr",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentkids.ie": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentkids.ie",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentkids.nl": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentkids.nl",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentltd.co.uk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentltd.co.uk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentnoodlepots.co.uk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentnoodlepots.co.uk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentofficeparty.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentofficeparty.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentsecretsanta.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentsecretsanta.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentshop.co.uk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentshop.co.uk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentsmoothies.at": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentsmoothies.at",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentsmoothies.be": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentsmoothies.be",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentsmoothies.ch": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentsmoothies.ch",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentsmoothies.co": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentsmoothies.co",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentsmoothies.co.uk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentsmoothies.co.uk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentsmoothies.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentsmoothies.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentsmoothies.de": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentsmoothies.de",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentsmoothies.dk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentsmoothies.dk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentsmoothies.fr": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentsmoothies.fr",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentsmoothies.ie": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentsmoothies.ie",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentsmoothies.nl": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentsmoothies.nl",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentsmoothies.org.uk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentsmoothies.org.uk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentsmoothies.se": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentsmoothies.se",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentsmoothies.xxx": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentsmoothies.xxx",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentsowandgrow.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentsowandgrow.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentsupersmoothie.co.uk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentsupersmoothie.co.uk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentsupersmoothies.co.uk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentsupersmoothies.co.uk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentunplugged.co.uk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentunplugged.co.uk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentunplugged.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentunplugged.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentvegjuice.co.uk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentvegjuice.co.uk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentvegjuice.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentvegjuice.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentvegpots.co.uk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentvegpots.co.uk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentvegpots.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentvegpots.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.innocentvildmednatur.dk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.innocentvildmednatur.dk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.lafondationinnocent.fr": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.lafondationinnocent.fr",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.theinnocentbiggrow.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.theinnocentbiggrow.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.theinnocentbigrewild.co.uk": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.theinnocentbigrewild.co.uk",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.theinnocentbigrewild.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.theinnocentbigrewild.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.werkenbijinnocentdrinks.nl": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "*.werkenbijinnocentdrinks.nl",
      "in": true,
      "tier": "No Bounty",
      "type": "Wildcard"
