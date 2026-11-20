@@ -4353,7 +4353,6 @@
      }
     }
    },
-   "missing_since": 1795154427.9012065,
    "name": "Aiven Managed Bug Bounty",
    "targets": {
     "api|api.aiven.io": {
