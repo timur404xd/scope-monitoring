@@ -20409,6 +20409,7 @@
      }
     }
    },
+   "missing_since": 1795380320.937342,
    "name": "Elementor: Bug Bounty Program",
    "targets": {
     "website|https://activitylog.io/": {
@@ -39914,7 +39915,6 @@
      "reward": null
     }
    },
-   "missing_since": 1795379437.371181,
    "name": "Octopus",
    "targets": {
     "other|Octopus Deploy Git Repo": {
