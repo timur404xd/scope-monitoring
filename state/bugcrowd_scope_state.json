@@ -17783,7 +17783,6 @@
      "reward": null
     }
    },
-   "missing_since": 1795368632.9670165,
    "name": "Dell Technologies Application Bug Bounty",
    "targets": {
     "other|Any Verified Dell-Controlled Endpoint (domains/IP space/etc.)\t": {
@@ -47617,6 +47616,7 @@
      }
     }
    },
+   "missing_since": 1795369529.7531617,
    "name": "Prosus",
    "targets": {
     "api|dealflowapi.prosus.com": {
