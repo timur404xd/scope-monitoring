@@ -17783,7 +17783,6 @@
      "reward": null
     }
    },
-   "missing_since": 1795364122.9883795,
    "name": "Dell Technologies Application Bug Bounty",
    "targets": {
     "other|Any Verified Dell-Controlled Endpoint (domains/IP space/etc.)\t": {
@@ -31512,7 +31511,6 @@
      }
     }
    },
-   "missing_since": 1795364122.9883795,
    "name": "Electroneum Legacy Blockchain: EOL",
    "targets": {
     "other|Legacy Blockchain ": {
@@ -47618,6 +47616,7 @@
      }
     }
    },
+   "missing_since": 1795365028.3516114,
    "name": "Prosus",
    "targets": {
     "api|dealflowapi.prosus.com": {
@@ -62340,6 +62339,7 @@
      }
     }
    },
+   "missing_since": 1795365028.3516114,
    "name": "Unity Technologies",
    "targets": {
     "api|api.unity.com": {
