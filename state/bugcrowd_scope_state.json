@@ -47616,7 +47616,6 @@
      }
     }
    },
-   "missing_since": 1795365028.3516114,
    "name": "Prosus",
    "targets": {
     "api|dealflowapi.prosus.com": {
@@ -62339,7 +62338,6 @@
      }
     }
    },
-   "missing_since": 1795365028.3516114,
    "name": "Unity Technologies",
    "targets": {
     "api|api.unity.com": {
