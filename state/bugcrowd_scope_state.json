@@ -47616,7 +47616,6 @@
      }
     }
    },
-   "missing_since": 1795369529.7531617,
    "name": "Prosus",
    "targets": {
     "api|dealflowapi.prosus.com": {
