@@ -15549,14 +15549,6 @@
      "in": true,
      "name": "https://marketplace.atlassian.com/apps/1212096/customfield-editor-for-jira?hosting=cloud&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/1212096/customfield-editor-for-jira?hosting=cloud&tab=overview"
-    },
-    "website|https://marketplace.atlassian.com/apps/1212096/customfield-editor-for-jira?hosting=server&tab=overview": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "https://marketplace.atlassian.com/apps/1212096/customfield-editor-for-jira?hosting=server&tab=overview",
-     "uri": "https://marketplace.atlassian.com/apps/1212096/customfield-editor-for-jira?hosting=datacenter&tab=overview"
     }
    }
   },
