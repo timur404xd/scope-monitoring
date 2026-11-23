@@ -1,5 +1,5 @@
 {
- "last_heartbeat": 1795403026.2955387,
+ "last_heartbeat": 1795424638.4743507,
  "programs": {
   "0083a5bf-e54f-4f79-a972-12a795272c8b": {
    "assets": {
@@ -23680,7 +23680,7 @@
      "type": "Url"
     },
     "Url|staging.api.danalock.com": {
-     "desc": "5b18d002625b",
+     "desc": "b968e7832848",
      "endpoint": "staging.api.danalock.com",
      "in": true,
      "tier": "Tier 1",
