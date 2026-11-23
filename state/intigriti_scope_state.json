@@ -1,5 +1,5 @@
 {
- "last_heartbeat": 1795424638.4743507,
+ "last_heartbeat": 1795447034.550346,
  "programs": {
   "0083a5bf-e54f-4f79-a972-12a795272c8b": {
    "assets": {
@@ -13990,7 +13990,7 @@
    "rules": {
     "desc": "6e95879ecbbf",
     "safe_harbour": true,
-    "testing": "d8bb5772042e",
+    "testing": "f763374dd385",
     "tooling": 5
    }
   },
