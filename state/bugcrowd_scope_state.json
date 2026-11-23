@@ -30862,337 +30862,225 @@
   },
   "/engagements/latitude-financial-service-bugbounty": {
    "groups": {
-    "In Scope Targets - Latitude Financial ": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 750000,
-      "p1MinCents": 550000,
-      "p2MaxCents": 350000,
-      "p2MinCents": 250000,
-      "p3MaxCents": 60000,
-      "p3MinCents": 45000,
-      "p4MaxCents": 20000,
-      "p4MinCents": 15000
-     }
-    },
-    "In scope - Latitude Financial Brands ": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 750000,
-      "p1MinCents": 550000,
-      "p2MaxCents": 350000,
-      "p2MinCents": 250000,
-      "p3MaxCents": 60000,
-      "p3MinCents": 45000,
-      "p4MaxCents": 20000,
-      "p4MinCents": 15000
-     }
-    },
-    "Out of Scope Targets": {
+    "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "desc": "da39a3ee5e6b",
      "in": false,
      "reward": null
+    },
+    "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 750000,
+      "p1MinCents": 550000,
+      "p2MaxCents": 350000,
+      "p2MinCents": 250000,
+      "p3MaxCents": 60000,
+      "p3MinCents": 45000,
+      "p4MaxCents": 20000,
+      "p4MinCents": 15000
+     }
+    },
+    "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 750000,
+      "p1MinCents": 550000,
+      "p2MaxCents": 350000,
+      "p2MinCents": 250000,
+      "p3MaxCents": 60000,
+      "p3MinCents": 45000,
+      "p4MaxCents": 20000,
+      "p4MinCents": 15000
+     }
     }
    },
    "name": "Latitude Financial Services Bug Bounty ",
    "targets": {
-    "api|app.latitudepayapps.com": {
+    "api|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "api",
      "desc": "da39a3ee5e6b",
-     "group": "In scope - Latitude Financial Brands ",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": true,
-     "name": "app.latitudepayapps.com",
-     "uri": "https://app.latitudepayapps.com/"
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
     },
-    "api|https://api.test.latitudefinancial.com": {
+    "api|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "api",
      "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets - Latitude Financial ",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": true,
-     "name": "https://api.test.latitudefinancial.com",
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "uri": ""
     },
-    "api|images.latitudepayapps.com": {
+    "api|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "api",
      "desc": "da39a3ee5e6b",
-     "group": "In scope - Latitude Financial Brands ",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": true,
-     "name": "images.latitudepayapps.com",
-     "uri": "https://images.latitudepayapps.com/"
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
     },
-    "other|*.latitudefs.com": {
+    "other|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "other",
      "desc": "da39a3ee5e6b",
-     "group": "Out of Scope Targets",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": false,
-     "name": "*.latitudefs.com",
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "uri": ""
     },
-    "other|https://auth.*.latitudefinancial.com": {
+    "other|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "other",
      "desc": "da39a3ee5e6b",
-     "group": "Out of Scope Targets",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": false,
-     "name": "https://auth.*.latitudefinancial.com",
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "uri": ""
     },
-    "other|https://auth.latitudefinancial.com": {
+    "other|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "other",
      "desc": "da39a3ee5e6b",
-     "group": "Out of Scope Targets",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": false,
-     "name": "https://auth.latitudefinancial.com",
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "uri": ""
     },
-    "website| *.test.*.lfscnp.com": {
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
-     "group": "In scope - Latitude Financial Brands ",
-     "in": true,
-     "name": " *.test.*.lfscnp.com",
-     "uri": ""
-    },
-    "website|*.-np.*.lfscnp.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope - Latitude Financial Brands ",
-     "in": true,
-     "name": "*.-np.*.lfscnp.com",
-     "uri": ""
-    },
-    "website|*.28degreescard.com.au": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope - Latitude Financial Brands ",
-     "in": true,
-     "name": "*.28degreescard.com.au",
-     "uri": "https://28degreescard.com.au"
-    },
-    "website|*.buyersedge.com.au": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope - Latitude Financial Brands ",
-     "in": true,
-     "name": "*.buyersedge.com.au",
-     "uri": "https://buyersedge.co.nz"
-    },
-    "website|*.carecredit.com.au": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope - Latitude Financial Brands ",
-     "in": true,
-     "name": "*.carecredit.com.au",
-     "uri": "https://carecredit.com.au"
-    },
-    "website|*.dev.*.lfscnp.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope - Latitude Financial Brands ",
-     "in": true,
-     "name": "*.dev.*.lfscnp.com",
-     "uri": ""
-    },
-    "website|*.gemcreditline.co.nz": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope - Latitude Financial Brands ",
-     "in": true,
-     "name": "*.gemcreditline.co.nz",
-     "uri": "https://gemcreditline.co.nz"
-    },
-    "website|*.gemfinance.co.nz": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope - Latitude Financial Brands ",
-     "in": true,
-     "name": "*.gemfinance.co.nz",
-     "uri": "https://gemfinance.co.nz"
-    },
-    "website|*.gemvisa.com.au": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope - Latitude Financial Brands ",
-     "in": true,
-     "name": "*.gemvisa.com.au",
-     "uri": "https://gemvisa.com.au"
-    },
-    "website|*.genoapay.co.nz": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope - Latitude Financial Brands ",
-     "in": true,
-     "name": "*.genoapay.co.nz",
-     "uri": ""
-    },
-    "website|*.genoapay.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope - Latitude Financial Brands ",
-     "in": true,
-     "name": "*.genoapay.com",
-     "uri": ""
-    },
-    "website|*.gomastercard.com.au": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope - Latitude Financial Brands ",
-     "in": true,
-     "name": "*.gomastercard.com.au",
-     "uri": "https://gomastercard.com.au"
-    },
-    "website|*.interestfree.com.au": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope - Latitude Financial Brands ",
-     "in": true,
-     "name": "*.interestfree.com.au",
-     "uri": "https://interestfree.com.au"
-    },
-    "website|*.latitudefinancial.co.nz": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope - Latitude Financial Brands ",
-     "in": true,
-     "name": "*.latitudefinancial.co.nz",
-     "uri": ""
-    },
-    "website|*.latitudefinancial.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope - Latitude Financial Brands ",
-     "in": true,
-     "name": "*.latitudefinancial.com",
-     "uri": ""
-    },
-    "website|*.latitudefinancial.com.au": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope - Latitude Financial Brands ",
-     "in": true,
-     "name": "*.latitudefinancial.com.au",
-     "uri": ""
-    },
-    "website|*.latitudeinfinity.com.au": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope - Latitude Financial Brands ",
-     "in": true,
-     "name": "*.latitudeinfinity.com.au",
-     "uri": "https://latitudeinfinity.com.au"
-    },
-    "website|*.latitudepay.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope - Latitude Financial Brands ",
-     "in": true,
-     "name": "*.latitudepay.com",
-     "uri": ""
-    },
-    "website|*.latitudepay.com.au": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope - Latitude Financial Brands ",
-     "in": true,
-     "name": "*.latitudepay.com.au",
-     "uri": ""
-    },
-    "website|*.sandbox.*.lfscnp.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope - Latitude Financial Brands ",
-     "in": true,
-     "name": "*.sandbox.*.lfscnp.com",
-     "uri": ""
-    },
-    "website|*.umiloans.com.au": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In scope - Latitude Financial Brands ",
-     "in": true,
-     "name": "*.umiloans.com.au",
-     "uri": "https://umiloans.com.au"
-    },
-    "website|Payment APIs": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope Targets",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": false,
-     "name": "Payment APIs",
-     "uri": "https://payments.latitudefinancial.com/hosted/*,https://payments.latitudefinancial.com/embed/*,https://payments-api.latitudefinancial.com/*"
-    },
-    "website|https://*.my.latitudepay.com/": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope Targets",
-     "in": false,
-     "name": "https://*.my.latitudepay.com/",
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "uri": ""
     },
-    "website|https://*.sg.latitudepay.com/": {
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
-     "group": "Out of Scope Targets",
-     "in": false,
-     "name": "https://*.sg.latitudepay.com/",
-     "uri": ""
-    },
-    "website|https://investors.latitudefinancial.com.au": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope Targets",
-     "in": false,
-     "name": "https://investors.latitudefinancial.com.au",
-     "uri": ""
-    },
-    "website|https://master.servicecentre-nz.digitalservicing-np.lfscnp.com/": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets - Latitude Financial ",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": true,
-     "name": "https://master.servicecentre-nz.digitalservicing-np.lfscnp.com/",
-     "uri": "https://master.servicecentre-nz.digitalservicing-np.lfscnp.com/\t"
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
     },
-    "website|https://master.servicecentre.digitalservicing-np.lfscnp.com/": {
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets - Latitude Financial ",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": true,
-     "name": "https://master.servicecentre.digitalservicing-np.lfscnp.com/",
-     "uri": "https://master.servicecentre.digitalservicing-np.lfscnp.com/"
-    },
-    "website|https://my.latitudepay.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope Targets",
-     "in": false,
-     "name": "https://my.latitudepay.com",
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "uri": ""
     },
-    "website|https://p.latitudefinancial.com": {
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
-     "group": "Out of Scope Targets",
-     "in": false,
-     "name": "https://p.latitudefinancial.com",
-     "uri": "https://p.latitudefinancial.com"
-    },
-    "website|https://sg.latitudepay.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope Targets",
-     "in": false,
-     "name": "https://sg.latitudepay.com",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "uri": ""
     },
-    "website|https://t.latitudefinancial.com": {
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
-     "group": "Out of Scope Targets",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": false,
-     "name": "https://t.latitudefinancial.com",
-     "uri": "https://t.latitudefinancial.com/*"
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": false,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": false,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
     }
    }
   },
