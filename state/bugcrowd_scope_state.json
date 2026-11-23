@@ -31637,240 +31637,218 @@
   },
   "/engagements/lightspeed-hospitality": {
    "groups": {
-    "Lightspeed Hospitality K-Series": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 750000,
-      "p1MinCents": 550000,
-      "p2MaxCents": 350000,
-      "p2MinCents": 250000,
-      "p3MaxCents": 150000,
-      "p3MinCents": 75000,
-      "p4MaxCents": 50000,
-      "p4MinCents": 25000
-     }
-    },
-    "Lightspeed Hospitality U-Series": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 750000,
-      "p1MinCents": 550000,
-      "p2MaxCents": 350000,
-      "p2MinCents": 250000,
-      "p3MaxCents": 150000,
-      "p3MinCents": 75000,
-      "p4MaxCents": 50000,
-      "p4MinCents": 25000
-     }
-    },
-    "Out of Scope": {
+    "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "desc": "da39a3ee5e6b",
      "in": false,
      "reward": null
+    },
+    "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 750000,
+      "p1MinCents": 550000,
+      "p2MaxCents": 350000,
+      "p2MinCents": 250000,
+      "p3MaxCents": 150000,
+      "p3MinCents": 75000,
+      "p4MaxCents": 50000,
+      "p4MinCents": 25000
+     }
     }
    },
    "name": "Lightspeed Hospitality",
    "targets": {
-    "other|pos-admin.trial.lsk.lightspeed.app": {
+    "other|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "other",
      "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": false,
-     "name": "pos-admin.trial.lsk.lightspeed.app",
-     "uri": "https://pos-admin.trial.lsk.lightspeed.app"
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
     },
-    "website|https://hq.breadcrumb.com/hq/restaurants/bounty-cafe-2/": {
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
-     "group": "Lightspeed Hospitality U-Series",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": true,
-     "name": "https://hq.breadcrumb.com/hq/restaurants/bounty-cafe-2/",
-     "uri": "https://hq.breadcrumb.com/hq/restaurants/bounty-cafe-2/"
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
     },
-    "website|https://manager.trial.lsk.lightspeed.app/": {
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
-     "group": "Lightspeed Hospitality K-Series",
-     "in": true,
-     "name": "https://manager.trial.lsk.lightspeed.app/",
-     "uri": "https://manager.trial.lsk.lightspeed.app/"
-    },
-    "website|lightspeedhq.com/trial ": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": false,
-     "name": "lightspeedhq.com/trial ",
-     "uri": "https://lightspeedhq.com/trial "
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
     },
-    "website|mylightspeed.app ": {
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
-     "group": "Lightspeed Hospitality K-Series",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": true,
-     "name": "mylightspeed.app ",
-     "uri": "https://mylightspeed.app"
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
     }
    }
   },
   "/engagements/lightspeed-retail": {
    "groups": {
-    "Lightspeed Ecommerce E-Series In Scope Targets": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 750000,
-      "p1MinCents": 550000,
-      "p2MaxCents": 350000,
-      "p2MinCents": 250000,
-      "p3MaxCents": 150000,
-      "p3MinCents": 75000,
-      "p4MaxCents": 50000,
-      "p4MinCents": 25000
-     }
-    },
-    "Lightspeed Retail X-Series In Scope Targets": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 750000,
-      "p1MinCents": 550000,
-      "p2MaxCents": 350000,
-      "p2MinCents": 250000,
-      "p3MaxCents": 150000,
-      "p3MinCents": 75000,
-      "p4MaxCents": 50000,
-      "p4MinCents": 25000
-     }
-    },
-    "Out of Scope Targets": {
+    "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "desc": "da39a3ee5e6b",
      "in": false,
      "reward": null
+    },
+    "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 750000,
+      "p1MinCents": 550000,
+      "p2MaxCents": 350000,
+      "p2MinCents": 250000,
+      "p3MaxCents": 150000,
+      "p3MinCents": 75000,
+      "p4MaxCents": 50000,
+      "p4MinCents": 25000
+     }
+    },
+    "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "desc": "da39a3ee5e6b",
+     "in": true,
+     "reward": {
+      "p1MaxCents": 750000,
+      "p1MinCents": 550000,
+      "p2MaxCents": 350000,
+      "p2MinCents": 250000,
+      "p3MaxCents": 150000,
+      "p3MinCents": 75000,
+      "p4MaxCents": 50000,
+      "p4MinCents": 25000
+     }
     }
    },
    "name": "Lightspeed Retail",
    "targets": {
-    "android|https://play.google.com/store/apps/details?id=com.ecwid.android&pli=1": {
+    "android|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "android",
      "desc": "da39a3ee5e6b",
-     "group": "Lightspeed Ecommerce E-Series In Scope Targets",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": true,
-     "name": "https://play.google.com/store/apps/details?id=com.ecwid.android&pli=1",
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "uri": ""
     },
-    "api|https://app.ecwid.com/api/v3/\t": {
+    "api|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "api",
      "desc": "da39a3ee5e6b",
-     "group": "Lightspeed Ecommerce E-Series In Scope Targets",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": true,
-     "name": "https://app.ecwid.com/api/v3/\t",
-     "uri": "https://app.ecwid.com/api/v3/"
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
     },
-    "ios|https://apps.apple.com/us/app/ecwid-ecommerce/id626731456": {
+    "ios|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "ios",
      "desc": "da39a3ee5e6b",
-     "group": "Lightspeed Ecommerce E-Series In Scope Targets",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": true,
-     "name": "https://apps.apple.com/us/app/ecwid-ecommerce/id626731456",
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "uri": ""
     },
-    "other|https://support.ecwid.com/hc/en-us": {
+    "other|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "other",
      "desc": "da39a3ee5e6b",
-     "group": "Out of Scope Targets",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": false,
-     "name": "https://support.ecwid.com/hc/en-us",
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "uri": ""
     },
-    "website| developers.retail.lightspeed.app": {
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
-     "group": "Lightspeed Retail X-Series In Scope Targets",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": false,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": false,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": false,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": false,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": false,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": true,
-     "name": " developers.retail.lightspeed.app",
-     "uri": "https://developers.retail.lightspeed.app"
-    },
-    "website|https://www.ecwid.com/": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope Targets",
-     "in": false,
-     "name": "https://www.ecwid.com/",
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "uri": ""
     },
-    "website|partnerportal.vendhq.com": {
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
-     "group": "Out of Scope Targets",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": false,
-     "name": "partnerportal.vendhq.com",
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "uri": ""
     },
-    "website|partners.vendhq.com": {
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
-     "group": "Out of Scope Targets",
-     "in": false,
-     "name": "partners.vendhq.com",
-     "uri": ""
-    },
-    "website|payment-connectors.vendhq.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Lightspeed Retail X-Series In Scope Targets",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": true,
-     "name": "payment-connectors.vendhq.com",
-     "uri": "https://payment-connectors.vendhq.com/"
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
     },
-    "website|store.retail.lightspeed.app": {
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
-     "group": "Lightspeed Retail X-Series In Scope Targets",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": true,
-     "name": "store.retail.lightspeed.app",
-     "uri": "https://store.retail.lightspeed.app"
-    },
-    "website|track.api.vendhq.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope Targets",
-     "in": false,
-     "name": "track.api.vendhq.com",
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "uri": ""
     },
-    "website|vendhq.force.com": {
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
-     "group": "Out of Scope Targets",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": false,
-     "name": "vendhq.force.com",
-     "uri": ""
-    },
-    "website|vendimageuploadcdn.global.ssl.fastly.net": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope Targets",
-     "in": false,
-     "name": "vendimageuploadcdn.global.ssl.fastly.net",
-     "uri": ""
-    },
-    "website|x-series-support.lightspeedhq.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope Targets",
-     "in": false,
-     "name": "x-series-support.lightspeedhq.com",
-     "uri": ""
-    },
-    "website|your-store.vendecommerce.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "Out of Scope Targets",
-     "in": false,
-     "name": "your-store.vendecommerce.com",
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "uri": ""
     }
    }
@@ -39914,7 +39892,6 @@
      "reward": null
     }
    },
-   "missing_since": 1795395629.2441006,
    "name": "Octopus",
    "targets": {
     "other|Octopus Deploy Git Repo": {
