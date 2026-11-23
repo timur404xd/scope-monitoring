@@ -11815,13 +11815,6 @@
      "tier": "Tier 2",
      "type": "Url"
     },
-    "Url|apps.joint-data.com": {
-     "desc": "da39a3ee5e6b",
-     "endpoint": "apps.joint-data.com",
-     "in": true,
-     "tier": "Tier 3",
-     "type": "Url"
-    },
     "Url|college.globalsign.com": {
      "desc": "da39a3ee5e6b",
      "endpoint": "college.globalsign.com",
