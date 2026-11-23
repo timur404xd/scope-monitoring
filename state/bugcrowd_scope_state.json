@@ -21401,28 +21401,12 @@
    },
    "name": "eToro Managed Bug Bounty Engagement",
    "targets": {
-    "android|io.getdelta.android": {
-     "cat": "android",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "io.getdelta.android",
-     "uri": "https://io.getdelta.android"
-    },
-    "ios|io.getdelta.ios": {
-     "cat": "ios",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "io.getdelta.ios",
-     "uri": "https://io.getdelta.ios"
-    },
-    "other|com.etoro.openbook": {
+    "other|com.etoro.etoroplus": {
      "cat": "other",
      "desc": "da39a3ee5e6b",
      "group": "In Scope",
      "in": true,
-     "name": "com.etoro.openbook",
+     "name": "com.etoro.etoroplus",
      "uri": "https://com.etoro.openbook"
     },
     "other|com.etoro.wallet": {
@@ -21440,30 +21424,6 @@
      "in": true,
      "name": "*.etoro.com",
      "uri": "https://*.etoro.com"
-    },
-    "website|delta.app": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "delta.app",
-     "uri": "https://delta.app"
-    },
-    "website|etoropartners.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "etoropartners.com",
-     "uri": "https://etoropartners.com"
-    },
-    "website|etorox.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope",
-     "in": true,
-     "name": "etorox.com",
-     "uri": "https://etorox.com"
     }
    }
   },
