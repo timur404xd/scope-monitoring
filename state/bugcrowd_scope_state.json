@@ -20409,6 +20409,7 @@
      }
     }
    },
+   "missing_since": 1795392039.9828455,
    "name": "Elementor: Bug Bounty Program",
    "targets": {
     "website|https://activitylog.io/": {
