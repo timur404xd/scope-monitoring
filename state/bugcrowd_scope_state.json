@@ -18999,7 +18999,7 @@
   },
   "/engagements/dickssportinggoods": {
    "groups": {
-    "In Scope Targets": {
+    "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "desc": "da39a3ee5e6b",
      "in": true,
      "reward": null
@@ -19007,141 +19007,101 @@
    },
    "name": "DICK'S Sporting Goods",
    "targets": {
-    "android|Android App:  Dicks Sporting Goods": {
+    "android|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "android",
      "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": true,
-     "name": "Android App:  Dicks Sporting Goods",
-     "uri": "https://play.google.com/store/apps/details?id=dsgui.android&hl=en_US"
-    },
-    "android|Android App: Foot Locker": {
-     "cat": "android",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Android App: Foot Locker",
-     "uri": "https://play.google.com/store/apps/details?id=com.footlocker.approved&hl=en_US&pli=1"
-    },
-    "android|Android App: Golf Galaxy": {
-     "cat": "android",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Android App: Golf Galaxy",
-     "uri": "https://play.google.com/store/apps/details?id=com.dcsg.golfgalaxy&hl=en_US&gl=US"
-    },
-    "ios|Android App: GameChanger": {
-     "cat": "ios",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "Android App: GameChanger",
-     "uri": "https://play.google.com/store/apps/details?id=com.gc.teammanager&hl=en_US&pli=1"
-    },
-    "ios|iOS App:  Dicks Sporting Goods": {
-     "cat": "ios",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "iOS App:  Dicks Sporting Goods",
-     "uri": "https://apps.apple.com/us/app/dicks-sporting-goods-fitness/id556653197"
-    },
-    "ios|iOS App: Foot Locker": {
-     "cat": "ios",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "iOS App: Foot Locker",
-     "uri": "https://apps.apple.com/us/app/foot-locker-shop-releases/id934030757"
-    },
-    "ios|iOS App: GameChanger": {
-     "cat": "ios",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "iOS App: GameChanger",
-     "uri": "https://apps.apple.com/us/app/gamechanger/id1308415878"
-    },
-    "ios|iOS App: Golf Galaxy": {
-     "cat": "ios",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "iOS App: Golf Galaxy",
-     "uri": "https://apps.apple.com/us/app/golf-galaxy/id1100245173"
-    },
-    "website|*.calia.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "*.calia.com",
-     "uri": "https://www.calia.com"
-    },
-    "website|*.dcsg.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "*.dcsg.com",
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "uri": ""
     },
-    "website|*.dickssportinggoods.com": {
+    "android|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "android",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "ios|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "ios|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "ios|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "ios",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
+     "cat": "website",
+     "desc": "da39a3ee5e6b",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "in": true,
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
+    },
+    "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
      "cat": "website",
      "desc": "2e8a57cc5c47",
-     "group": "In Scope Targets",
+     "group": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
      "in": true,
-     "name": "*.dickssportinggoods.com",
-     "uri": "https://www.dickssportinggoods.com/"
-    },
-    "website|*.footlocker.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "*.footlocker.com",
-     "uri": "https://footlocker.com"
-    },
-    "website|*.gc.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "*.gc.com",
-     "uri": "https://gc.com/"
-    },
-    "website|*.goinggoinggone.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "*.goinggoinggone.com",
-     "uri": "https://www.goinggoinggone.com/"
-    },
-    "website|*.golfgalaxy.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "*.golfgalaxy.com",
-     "uri": "https://www.golfgalaxy.com/"
-    },
-    "website|*.publiclands.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "*.publiclands.com",
-     "uri": "https://www.publiclands.com/"
-    },
-    "website|*.vrst.com": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "In Scope Targets",
-     "in": true,
-     "name": "*.vrst.com",
-     "uri": "https://www.vrst.com"
+     "name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+     "uri": ""
     }
    }
   },
