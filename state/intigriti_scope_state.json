@@ -3911,6 +3911,13 @@
   },
   "106b557f-f65e-46a3-9f7b-c2de1a9b941f": {
    "assets": {
+    "Other|Vespa Cloud Application": {
+     "desc": "95590d7ccdf5",
+     "endpoint": "Vespa Cloud Application",
+     "in": true,
+     "tier": "Tier 1",
+     "type": "Other"
+    },
     "Other|Vespa Cloud Configuration Server": {
      "desc": "debae3e5401f",
      "endpoint": "Vespa Cloud Configuration Server",
