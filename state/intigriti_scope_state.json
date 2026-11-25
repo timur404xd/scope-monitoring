@@ -30199,6 +30199,231 @@
     "tooling": 2
    }
   },
+  "e1d4acde-4edf-4a0c-906b-1db096f134a9": {
+   "assets": {
+    "Android|AlbertaRELM - Android": {
+     "desc": "2c6487258880",
+     "endpoint": "AlbertaRELM - Android",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Android"
+    },
+    "Android|CDFW License - Android": {
+     "desc": "ffe6a772f9f1",
+     "endpoint": "CDFW License - Android",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Android"
+    },
+    "Android|Campit KS - Android": {
+     "desc": "4c1e620fd790",
+     "endpoint": "Campit KS - Android",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Android"
+    },
+    "Android|My CPW - Android": {
+     "desc": "59ddd38e7e5a",
+     "endpoint": "My CPW - Android",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Android"
+    },
+    "Android|RA Camping - Android": {
+     "desc": "addb6f88a991",
+     "endpoint": "RA Camping - Android",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Android"
+    },
+    "Android|RV Parky - Android": {
+     "desc": "010e7c8e7591",
+     "endpoint": "RV Parky - Android",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Android"
+    },
+    "Android|SK Hunt & Fish - Android": {
+     "desc": "c88f8e33d674",
+     "endpoint": "SK Hunt & Fish - Android",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Android"
+    },
+    "Url|albertarelm.com": {
+     "desc": "3725846d022b",
+     "endpoint": "albertarelm.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Url"
+    },
+    "Url|app.fireflyreservations.com": {
+     "desc": "317c2c720b9a",
+     "endpoint": "app.fireflyreservations.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Url"
+    },
+    "Url|campitks.com": {
+     "desc": "c86ef6543ada",
+     "endpoint": "campitks.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Url"
+    },
+    "Url|campitks.gov": {
+     "desc": "8431f238346f",
+     "endpoint": "campitks.gov",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Url"
+    },
+    "Url|https://can-psapi-rest.reserveamerica.com/ps-api-rest-service/": {
+     "desc": "80dd8fa7f2a1",
+     "endpoint": "https://can-psapi-rest.reserveamerica.com/ps-api-rest-service/",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Url"
+    },
+    "Url|https://psapi-rest.reserveamerica.com/ps-api-rest-service/": {
+     "desc": "6e1af23ba638",
+     "endpoint": "https://psapi-rest.reserveamerica.com/ps-api-rest-service/",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Url"
+    },
+    "Url|larimercamping.com": {
+     "desc": "3281f231d3ec",
+     "endpoint": "larimercamping.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Url"
+    },
+    "Url|licenses.wildlife.ca.gov": {
+     "desc": "df1d56a9a29c",
+     "endpoint": "licenses.wildlife.ca.gov",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Url"
+    },
+    "Url|parks.saskatchewan.ca": {
+     "desc": "5e977eb7bea5",
+     "endpoint": "parks.saskatchewan.ca",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Url"
+    },
+    "Url|peiprovincialparks.ca": {
+     "desc": "0224074579e0",
+     "endpoint": "peiprovincialparks.ca",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Url"
+    },
+    "Url|saskatchewanhal.ca": {
+     "desc": "de51bb2023dc",
+     "endpoint": "saskatchewanhal.ca",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Url"
+    },
+    "Url|shop.albertaparks.ca": {
+     "desc": "dcc4c3207783",
+     "endpoint": "shop.albertaparks.ca",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Url"
+    },
+    "Url|utahdraws.com": {
+     "desc": "750ab2395c6d",
+     "endpoint": "utahdraws.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Url"
+    },
+    "Url|vtstateparks-visit.com": {
+     "desc": "a32935799a22",
+     "endpoint": "vtstateparks-visit.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Url"
+    },
+    "Wildcard|*.aspirafocus.com": {
+     "desc": "cb0f072496c8",
+     "endpoint": "*.aspirafocus.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "Wildcard|*.reserveamerica.com": {
+     "desc": "e719621b6746",
+     "endpoint": "*.reserveamerica.com",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "Wildcard"
+    },
+    "iOS|AlbertaRELM - iOS": {
+     "desc": "2c6487258880",
+     "endpoint": "AlbertaRELM - iOS",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "iOS"
+    },
+    "iOS|CDFW License - iOS": {
+     "desc": "ffe6a772f9f1",
+     "endpoint": "CDFW License - iOS",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "iOS"
+    },
+    "iOS|Campit KS - iOS": {
+     "desc": "4c1e620fd790",
+     "endpoint": "Campit KS - iOS",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "iOS"
+    },
+    "iOS|My CPW - iOS": {
+     "desc": "59ddd38e7e5a",
+     "endpoint": "My CPW - iOS",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "iOS"
+    },
+    "iOS|RA Camping - iOS": {
+     "desc": "addb6f88a991",
+     "endpoint": "RA Camping - iOS",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "iOS"
+    },
+    "iOS|RV Parky - iOS": {
+     "desc": "010e7c8e7591",
+     "endpoint": "RV Parky - iOS",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "iOS"
+    },
+    "iOS|SK Hunt & Fish - iOS": {
+     "desc": "c88f8e33d674",
+     "endpoint": "SK Hunt & Fish - iOS",
+     "in": true,
+     "tier": "No Bounty",
+     "type": "iOS"
+    }
+   },
+   "name": "Aspira VDP",
+   "program": {
+    "bounty": "0.0 - 0.0 USD",
+    "confidentiality": "Public"
+   },
+   "rules": {
+    "desc": "e3e074966fa8",
+    "safe_harbour": true,
+    "testing": "433542f45bbb",
+    "tooling": 10
+   }
+  },
   "e1dc7326-0466-4c06-bd52-3c6df82370be": {
    "assets": {
     "Other|IOS and Android apps related to Red Bull": {
