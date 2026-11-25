@@ -3822,7 +3822,7 @@
      "desc": "b7c87a1ab73c",
      "endpoint": "ninjakiwi.com",
      "in": true,
-     "tier": "Tier 2",
+     "tier": "No Bounty",
      "type": "Url"
     },
     "Url|rancher.ninjakiwi.com": {
@@ -24611,13 +24611,6 @@
   },
   "ae9d517e-c39c-4383-a1b6-785ced5ff6ca": {
    "assets": {
-    "Other|Remote access to our belfla.be domain, including AD access": {
-     "desc": "6598826491b6",
-     "endpoint": "Remote access to our belfla.be domain, including AD access",
-     "in": true,
-     "tier": "Tier 1",
-     "type": "Other"
-    },
     "Url|185.105.158.36": {
      "desc": "da39a3ee5e6b",
      "endpoint": "185.105.158.36",
