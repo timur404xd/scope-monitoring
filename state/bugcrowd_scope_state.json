@@ -39624,12 +39624,12 @@
      "name": "*.nuinvest.com.br\t",
      "uri": "https://www.nuinvest.com.br/"
     },
-    "website|NuCommunity endpoints (BR, MX, CO)": {
+    "website|*nubank.world": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
-     "group": "Out of Scope",
-     "in": false,
-     "name": "NuCommunity endpoints (BR, MX, CO)",
+     "group": "Primary Assets",
+     "in": true,
+     "name": "*nubank.world",
      "uri": ""
     },
     "website|international.nubank.com.br": {
