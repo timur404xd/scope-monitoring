@@ -35758,7 +35758,6 @@
      }
     }
    },
-   "missing_since": 1795636847.6922143,
    "name": "MobilityStream Bug Bounty",
    "targets": {
     "website|Asset Manager for Jira - https://marketplace.atlassian.com/apps/1442498121/asset-manager-for-jira?hosting=cloud&tab=overview": {
