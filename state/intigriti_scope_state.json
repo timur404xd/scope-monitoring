@@ -29993,28 +29993,6 @@
     "tooling": 10
    }
   },
-  "df3eb13d-bbc2-4aaa-9e45-2477d64f172e": {
-   "assets": {
-    "Url|https://challenge-1126.challenges.intigriti.io/": {
-     "desc": "da39a3ee5e6b",
-     "endpoint": "https://challenge-1126.challenges.intigriti.io/",
-     "in": true,
-     "tier": "Tier 2",
-     "type": "Url"
-    }
-   },
-   "name": "Challenge 1126",
-   "program": {
-    "bounty": "0.0 - 0.0 EUR",
-    "confidentiality": "Public"
-   },
-   "rules": {
-    "desc": "08d2e98e6754",
-    "safe_harbour": true,
-    "testing": "d473c7517818",
-    "tooling": 2
-   }
-  },
   "e0f19fd6-88c1-46f3-a42f-855a9ba0294c": {
    "assets": {
     "Url|designer.intertoys.nl": {
