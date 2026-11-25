@@ -67807,7 +67807,7 @@
      "group": "In Scope Targets",
      "in": true,
      "name": "BabyCenter CANADA",
-     "uri": "https://www.babycenter.ca/"
+     "uri": "https://*.babycenter.ca/"
     },
     "website|BabyCenter Germany": {
      "cat": "website",
