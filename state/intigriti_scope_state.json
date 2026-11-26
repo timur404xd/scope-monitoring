@@ -3164,6 +3164,13 @@
   },
   "0d6d1230-beb5-489c-b306-cf9c2e06730f": {
    "assets": {
+    "Other|SaaS Applications": {
+     "desc": "06f4ad39cd62",
+     "endpoint": "SaaS Applications",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Other"
+    },
     "Url|actie.volkskrant.nl": {
      "desc": "f92ee035a784",
      "endpoint": "actie.volkskrant.nl",
@@ -8319,6 +8326,13 @@
   },
   "30f445f7-ca4c-4130-9434-49add5c6ac74": {
    "assets": {
+    "Other|SaaS Applications": {
+     "desc": "06f4ad39cd62",
+     "endpoint": "SaaS Applications",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Other"
+    },
     "Url|actie.ad.nl": {
      "desc": "f92ee035a784",
      "endpoint": "actie.ad.nl",
@@ -12685,8 +12699,8 @@
     "Wildcard|*.farfetch-apps.com": {
      "desc": "b7717bfcc8be",
      "endpoint": "*.farfetch-apps.com",
-     "in": true,
-     "tier": "Tier 2",
+     "in": false,
+     "tier": "Out Of Scope",
      "type": "Wildcard"
     },
     "Wildcard|*.farfetch.cn": {
@@ -18826,6 +18840,13 @@
   },
   "8bf1f259-cac9-4114-9b84-3b950897b1ec": {
    "assets": {
+    "Other|SaaS Applications": {
+     "desc": "06f4ad39cd62",
+     "endpoint": "SaaS Applications",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Other"
+    },
     "Url|abonnement.demorgen.be": {
      "desc": "da39a3ee5e6b",
      "endpoint": "abonnement.demorgen.be",
