@@ -25923,28 +25923,6 @@
     "tooling": 5
    }
   },
-  "b3b7096f-02bc-4455-b906-0c3b347e6e52": {
-   "assets": {
-    "Wildcard|app.metricool.com/*": {
-     "desc": "da39a3ee5e6b",
-     "endpoint": "app.metricool.com/*",
-     "in": true,
-     "tier": "Tier 2",
-     "type": "Wildcard"
-    }
-   },
-   "name": "Metricool VDP",
-   "program": {
-    "bounty": "0.0 - 0.0 EUR",
-    "confidentiality": "Public"
-   },
-   "rules": {
-    "desc": "a65558e5f780",
-    "safe_harbour": true,
-    "testing": "fd7e8f6a1017",
-    "tooling": 5
-   }
-  },
   "b962ecba-799e-46b7-a33e-327212bc482e": {
    "assets": {
     "Url|All Exact Group Related Domains": {
