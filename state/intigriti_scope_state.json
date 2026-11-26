@@ -22343,13 +22343,6 @@
      "tier": "Tier 3",
      "type": "Url"
     },
-    "Url|webvpn.cornelsen.de": {
-     "desc": "28b89be60227",
-     "endpoint": "webvpn.cornelsen.de",
-     "in": true,
-     "tier": "No Bounty",
-     "type": "Url"
-    },
     "Wildcard|*.cornelsen-experimenta.de": {
      "desc": "6de6e88cae53",
      "endpoint": "*.cornelsen-experimenta.de",
