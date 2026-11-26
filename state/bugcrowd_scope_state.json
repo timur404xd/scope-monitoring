@@ -544,6 +544,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "CoinDesk Data - Data API ",
    "targets": {
     "api|CoinDesk Data - Data API": {
@@ -637,6 +638,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "FindOut InfoVis AB - Marketplace Bug Bounty Program",
    "targets": {
     "website|https://marketplace.atlassian.com/apps/1218391/dependency-map-for-jira-link-viewer?hosting=cloud": {
@@ -3902,6 +3904,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Aelbox Marketplace Bug Bounty",
    "targets": {
     "website|https://marketplace.atlassian.com/apps/1219205/scrumpy-planning-poker-for-jira?hosting=cloud&tab=overview": {
@@ -4622,6 +4625,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Akeles Marketplace Bug Bounty",
    "targets": {
     "website|https://marketplace.atlassian.com/apps/1211116/countdown-timer?tab=overview&hosting=cloud": {
@@ -5057,6 +5061,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Amoeboids",
    "targets": {
     "website|ARN Confluence Helper App - Cloud Hosted - https://marketplace.atlassian.com/apps/1230896/arn-confluence-helper-app?hosting=cloud&tab=overview": {
@@ -5337,6 +5342,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "AppLiger",
    "targets": {
     "other|https://marketplace.atlassian.com/apps/1219112/easy-issue-templates-for-jira?hosting=datacenter": {
@@ -5419,6 +5425,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "AI | Apps+ Marketplace Bug Bounty Program",
    "targets": {
     "website|Third-party services used by Apps+ (Atlassian, Cloudflare, Google, OpenAI, Zoom, Sentry)": {
@@ -5828,6 +5835,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "APRA Vulnerability Disclosure Engagement",
    "targets": {
     "network|203.31.52.0/24": {
@@ -5898,6 +5906,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Arlo Cash Rewards",
    "targets": {
     "android|Arlo Safe Android App": {
@@ -7535,6 +7544,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Atlassian-Built Apps",
    "targets": {
     "other| Mobile Plugin for Confluence Data Center and Server - Data Center - https://marketplace.atlassian.com/apps/1218250/mobile-plugin-for-confluence-data-center-and-server?hosting=datacenter": {
@@ -8561,6 +8571,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Aurory Managed Bug Bounty Engagement (Public)",
    "targets": {
     "other|Amiko Arena": {
@@ -9134,6 +9145,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "AXIS OS",
    "targets": {
     "iot|AXIS OS": {
@@ -9300,6 +9312,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Appliances - Barracuda Networks, Inc.",
    "targets": {
     "other|Barracuda ADC": {
@@ -9360,6 +9373,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Bath & Body Works Vulnerability Disclosure Program",
    "targets": {
     "android|BBW US Android App": {
@@ -9729,6 +9743,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Binance",
    "targets": {
     "android|Binance Mobile Application for Android": {
@@ -10350,6 +10365,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "BitGo Managed Public Bug Bounty Engagement ",
    "targets": {
     "other|bitgo.ae": {
@@ -10496,6 +10512,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Bitpanda Ongoing Bug Bounty",
    "targets": {
     "android|Bitpanda Broker Android App": {
@@ -10907,6 +10924,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Blackbaud Vulnerability Disclosure Program",
    "targets": {
     "website|http://community.blackbaud.com/": {
@@ -11291,6 +11309,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Bloompeak's Bug Bounty",
    "targets": {
     "website|https://marketplace.atlassian.com/apps/1221826/status-time-reports?hosting=datacenter&tab=overview": {
@@ -11564,6 +11583,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Bolt Technology O\u00dc",
    "targets": {
     "android|Bolt Driver (Android)": {
@@ -11680,6 +11700,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Bord Gais Energy VDP",
    "targets": {
     "website|bordgaisenergy.ie": {
@@ -11967,6 +11988,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Bugcrowd",
    "targets": {
     "api|Crowdcontrol": {
@@ -12918,6 +12940,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Cash App",
    "targets": {
     "android|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
@@ -14168,6 +14191,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "CIBC VDP",
    "targets": {
     "website|Anything not explicitly listed as In Scope ": {
@@ -14264,6 +14288,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Cisco Customer and Partner Experience Cloud",
    "targets": {
     "website|CX Cloud": {
@@ -14292,6 +14317,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Cisco Meraki Responsible Disclosure ",
    "targets": {
     "other|Meraki Owned Cloud Services": {
@@ -14348,6 +14374,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Cisco Networking",
    "targets": {
     "api|Customer API Keys": {
@@ -15184,6 +15211,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Cloudinary",
    "targets": {
     "api|https://api.cloudinary.com": {
@@ -15266,6 +15294,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Centers for Medicare & Medicaid Services - Public Bug Bounty Program 2026",
    "targets": {
     "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
@@ -15480,6 +15509,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "codecentric AG - Marketplace Bug Bounty Program",
    "targets": {
     "website|Issue Picker for Jira - https://marketplace.atlassian.com/apps/1227136/issue-picker-for-jira?hosting=cloud&tab=overview": {
@@ -15509,6 +15539,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "codeclou GmbH",
    "targets": {
     "api|https://marketplace.atlassian.com/apps/1212096/customfield-editor-for-jira?hosting=datacenter&tab=overview": {
@@ -15915,6 +15946,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Coles Group Limited Vulnerability Disclosure Program",
    "targets": {
     "android|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
@@ -16511,6 +16543,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Consensus by CoinDesk",
    "targets": {
     "website|CoinDesk Events": {
@@ -16603,6 +16636,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Progress Software - Corporate Websites",
    "targets": {
     "website|Progress Software Corporation Corporation Websites": {
@@ -17406,6 +17440,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Creativas",
    "targets": {
     "website|Smart Courses for Confluence - LMS - Cloud - https://marketplace.atlassian.com/apps/1216979/smart-courses-for-confluence-lms?hosting=cloud&tab=overview": {
@@ -17784,6 +17819,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Dell Technologies Application Bug Bounty",
    "targets": {
     "other|Any Verified Dell-Controlled Endpoint (domains/IP space/etc.)\t": {
@@ -17927,6 +17963,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Dell Technologies' Products Bug Bounty Program",
    "targets": {
     "hardware|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
@@ -18476,6 +18513,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Progress Software - DevTools",
    "targets": {
     "other|Kendo UI for Angular": {
@@ -19224,6 +19262,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "EchoStar Vulnerability Disclosure Engagement",
    "targets": {
     "android|Dish Anywhere Android": {
@@ -19340,6 +19379,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Defense Nuclear Facilities Safety Board - Vulnerability Disclosure Program",
    "targets": {
     "other|149.19.37.67": {
@@ -20122,6 +20162,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Dutch Beginners ZZP Marketplace Managed Bug Bounty Engagement",
    "targets": {
     "website|https://marketplace.atlassian.com/apps/1220001/visualize-openapi-swagger-documentation?hosting=cloud": {
@@ -20370,6 +20411,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Elementor: Bug Bounty Program",
    "targets": {
     "website|https://activitylog.io/": {
@@ -20791,6 +20833,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Smart Guess ehf. - Marketplace Bug Bounty Program ",
    "targets": {
     "website|Predictive Planning Poker - Jira Cloud App| https://marketplace.atlassian.com/apps/1225496/?hosting=cloud": {
@@ -21587,6 +21630,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "EXIM - Vulnerability Disclosure Program",
    "targets": {
     "website|*.exim.gov": {
@@ -21990,6 +22034,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "55 Degrees",
    "targets": {
     "other|https://marketplace.atlassian.com/apps/1216661/actionableagile-for-jira-agile-metrics?hosting=cloud": {
@@ -22172,6 +22217,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Certinia (formerly FinancialForce)",
    "targets": {
     "website|*.certinia.com": {
@@ -22262,6 +22308,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Fireblocks MPC Managed Bug Bounty Engagement",
    "targets": {
     "other|github.com/fireblocks/mpc-lib": {
@@ -22592,6 +22639,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Progress Software - Flowmon",
    "targets": {
     "website|Flowmon": {
@@ -22733,6 +22781,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Federal Retirement Thrift Investment Board : Vulnerability Disclosure Program",
    "targets": {
     "other|52.6.47.227": {
@@ -22925,6 +22974,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "U.S. Fish and Wildlife Service ",
    "targets": {
     "website|*.fws.gov": {
@@ -22953,6 +23003,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Gaming Corps Vulnerability Disclosure Engagement",
    "targets": {
     "website|lobby.gamingcorpscasino.com": {
@@ -23358,6 +23409,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Geotab: VDP",
    "targets": {
     "website|*.bsmtechnologies.com": {
@@ -25852,6 +25904,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Inter-American Foundation - Vulnerability Disclosure Program",
    "targets": {
     "website|*iaf.gov": {
@@ -27359,6 +27412,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Intercom",
    "targets": {
     "android|Android SDK": {
@@ -27661,6 +27715,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "InterWell Health Vulnerability Disclosure Engagement",
    "targets": {
     "website|Acumenmd.com": {
@@ -28160,6 +28215,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Jora",
    "targets": {
     "android|Jora Jobs Android App": {
@@ -29065,6 +29121,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Keurig Dr Pepper Vulnerability Disclosure Engagement",
    "targets": {
     "website|All Keurig Dr Pepper Related Assets": {
@@ -30493,6 +30550,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "KuCoin Managed Bug Bounty Program",
    "targets": {
     "android|Kucoin Android": {
@@ -31053,6 +31111,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Latitude Financial Services Vulnerability Disclosure Program",
    "targets": {
     "api|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
@@ -31320,6 +31379,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Electroneum Legacy Blockchain: EOL",
    "targets": {
     "other|Legacy Blockchain ": {
@@ -31348,6 +31408,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "LegalZoom VDP",
    "targets": {
     "website|*.earthclassmail.com": {
@@ -31392,6 +31453,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Lenovo Responsible Disclosure",
    "targets": {
     "website|*. lenovomm.com": {
@@ -31466,6 +31528,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Lightspeed Hospitality",
    "targets": {
     "other|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
@@ -32268,6 +32331,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "LTK Vulnerability Disclosure Engagement",
    "targets": {
     "android|LTK Mobile App (Android)": {
@@ -33133,6 +33197,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Magic Labs Managed Bug Bounty Engagement",
    "targets": {
     "api|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
@@ -37105,6 +37170,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "The NatWest Group Vulnerability Disclosure Program",
    "targets": {
     "other|Any other asset that appears to belong to NatWest Group.": {
@@ -37368,6 +37434,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Navarambh",
    "targets": {
     "website|https://marketplace.atlassian.com/apps/1222843/aio-tests-for-jira?hosting=cloud": {
@@ -37388,6 +37455,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "NBN Co Vulnerability Disclosure Program ",
    "targets": {
     "website|www.nbnco.com.au": {
@@ -37856,6 +37924,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Nextup.ai",
    "targets": {
     "website|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
@@ -39371,6 +39440,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "National Park Service",
    "targets": {
     "website| *.sierrawild.gov": {
@@ -39420,6 +39490,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "National Science Foundation - Vulnerability Disclosure Program ",
    "targets": {
     "website|*.nsf.gov": {
@@ -39701,6 +39772,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Octopus",
    "targets": {
     "other|Octopus Deploy Git Repo": {
@@ -39833,6 +39905,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "oDesk ",
    "targets": {
     "other|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588": {
@@ -41081,6 +41154,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Progress Software - OpenEdge",
    "targets": {
     "other|OpenEdge Command Center": {
@@ -41273,6 +41347,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "OpenSea Managed Bug Bounty Program",
    "targets": {
     "android|io.opensea - Android App": {
@@ -44859,6 +44934,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Opus Guard Marketplace Managed Bug Bounty Engagement",
    "targets": {
     "website|https://marketplace.atlassian.com/apps/1233769/content-retention-manager-for-confluence?hosting=cloud": {
@@ -45679,6 +45755,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "OWASP Vulnerability Disclosure Program Engagement",
    "targets": {
     "other|All publicly accessible OWASP systems": {
@@ -45787,6 +45864,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "OWASP Java HTML Sanitizer",
    "targets": {
     "other|https://github.com/OWASP/OWASPBugBounty/tree/master/JavaHTMLSanitizer/war-files": {
@@ -46241,6 +46319,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Pexels",
    "targets": {
     "website|*.pexels.com": {
@@ -47403,6 +47482,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Prosus",
    "targets": {
     "api|dealflowapi.prosus.com": {
@@ -51112,6 +51192,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "RSAC Vulnerability Disclosure Engagement ",
    "targets": {
     "website|RSAC Membership Application": {
@@ -51141,6 +51222,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "RV Softwares Marketplace Bug Bounty Program",
    "targets": {
     "website|Agile Tools - https://marketplace.atlassian.com/apps/1223200/agile-tools-epic-tree-links-tree-time-in-status-worklogs?hosting=cloud&tab=overview": {
@@ -51764,6 +51846,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Savignano Software Solutions Marketplace Bug Bounty Program",
    "targets": {
     "website|https://marketplace.atlassian.com/apps/1218251/s-notify-email-encryption-for-jira?hosting=datacenter": {
@@ -53581,6 +53664,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Electroneum Smart Chain (ETN-SC) \u2014 EVM-Compatible Blockchain",
    "targets": {
     "other|Smartchain Blockchain": {
@@ -53617,6 +53701,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "SmartThings Vulnerability Disclosure",
    "targets": {
     "android|SmartThings Mobile Application for Android": {
@@ -53683,6 +53768,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "SnapNames Bug Bounty",
    "targets": {
     "website|*.buydomains.com": {
@@ -53744,6 +53830,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "SolDevelo",
    "targets": {
     "other|https://marketplace.atlassian.com/apps/1219004/worklogs-time-tracking-and-reports?hosting=cloud&tab=overview": {
@@ -54123,6 +54210,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Soteri Marketplace Bug Bounty",
    "targets": {
     "website|https://marketplace.atlassian.com/apps/1221399/security-for-bitbucket-enhanced-secret-scanner-by-soteri?hosting=datacenter&tab=overview": {
@@ -54870,6 +54958,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Social Security Administration: Vulnerability Disclosure Program",
    "targets": {
     "network|SSA CIDR Range 1": {
@@ -54938,6 +55027,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Stability AI US Services Vulnerability Disclosure Engagement",
    "targets": {
     "api|Dreamstudio API": {
@@ -55055,6 +55145,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "State Farm VDP",
    "targets": {
     "android|State Farm Drive Safe and Save Mobile Application (Android)": {
@@ -55116,6 +55207,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Statuspage",
    "targets": {
     "website|*.statuspage.io": {
@@ -55138,6 +55230,7 @@
   },
   "/engagements/stickman2": {
    "groups": {},
+   "missing_since": 1795667437.76291,
    "name": "Stickman 2",
    "targets": {}
   },
@@ -55323,6 +55416,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "StonikByte",
    "targets": {
     "website|Countdown & Regional Clock - https://marketplace.atlassian.com/apps/1157161318/countdown-regional-clock?hosting=cloud&tab=overview": {
@@ -55621,6 +55715,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Stryker",
    "targets": {
     "website|All public facing Stryker assets ": {
@@ -55747,6 +55842,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Sykora IT Marketplace Managed Bug Bounty Engagement",
    "targets": {
     "website|Azure Sync for Jira Assets - https://marketplace.atlassian.com/apps/1234296/azure-sync-for-jira-assets?hosting=cloud": {
@@ -57250,6 +57346,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Tesla",
    "targets": {
     "android|Official Tesla Android apps": {
@@ -57456,6 +57553,7 @@
   },
   "/engagements/testing-vdp-pro": {
    "groups": {},
+   "missing_since": 1795667437.76291,
    "name": "test engagement",
    "targets": {}
   },
@@ -57528,6 +57626,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "TheFork Managed Bug Bounty Engagement",
    "targets": {
     "android|TheFork Android App": {
@@ -58330,6 +58429,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Cisco ThousandEyes Vulnerability Disclosure Program (VDP)",
    "targets": {
     "api|https://api.thousandeyes.com/": {
@@ -58533,6 +58633,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "ToolsPlus",
    "targets": {
     "other|https://marketplace.atlassian.com/apps/1217371/intercom-for-jira?hosting=cloud": {
@@ -59392,6 +59493,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Trello",
    "targets": {
     "android|Trello Mobile App for Android": {
@@ -60071,6 +60173,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "TRM Labs Public Bug Bounty Engagement",
    "targets": {
     "api|api.chainabuse-staging.com": {
@@ -60708,6 +60811,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Ultra Mobile Mobile Apps Bug Bounty Engagement",
    "targets": {
     "android|Mint Mobile Android Phone App": {
@@ -61434,6 +61538,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "University of Melbourne Vulnerability Disclosure Program",
    "targets": {
     "android|Canberra Pollen Count - Android": {
@@ -62125,6 +62230,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Unity Technologies",
    "targets": {
     "api|api.unity.com": {
@@ -63150,6 +63256,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Bureau of Reclamation",
    "targets": {
     "website|*.usbr.gov": {
@@ -63186,6 +63293,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "United States Department of Agriculture: Vulnerability Disclosure Program",
    "targets": {
     "website|https://ask.usda.gov/s/": {
@@ -63294,6 +63402,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "U.S. Department of Commerce - Vulnerability Disclosure Program",
    "targets": {
     "website|*.2020census.gov": {
@@ -64326,6 +64435,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Department of Veterans Affairs",
    "targets": {
     "website|*.va.gov": {
@@ -64510,6 +64620,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Verisign Bug Bounty",
    "targets": {
     "other|*.gtld-servers.net (DNS service; DNS related)": {
@@ -64869,6 +64980,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Village Roadshow Vulnerability Disclosure Program",
    "targets": {
     "website|*.frightnights.com.au": {
@@ -65195,6 +65307,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "Virtru Vulnerability Disclosure Program",
    "targets": {
     "android|Virtru Android App": {
@@ -65670,6 +65783,7 @@
      }
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "weweave GmbH Marketplace Bug Bounty",
    "targets": {
     "website|https://marketplace.atlassian.com/apps/1220302/data-tables-for-confluence?tab=overview&hosting=cloud": {
@@ -67295,6 +67409,7 @@
      "reward": null
     }
    },
+   "missing_since": 1795667437.76291,
    "name": "YNAB",
    "targets": {
     "api|staging-api.bany.dev": {
