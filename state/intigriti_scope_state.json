@@ -11857,6 +11857,13 @@
      "tier": "Tier 3",
      "type": "Url"
     },
+    "Url|compliance.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "compliance.globalsign.com",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
     "Url|cygnature.globalsign.com": {
      "desc": "efec79a5a28b",
      "endpoint": "cygnature.globalsign.com",
@@ -12065,6 +12072,13 @@
      "endpoint": "ssif1.globalsign.com",
      "in": true,
      "tier": "Tier 3",
+     "type": "Url"
+    },
+    "Url|status.globalsign.com": {
+     "desc": "da39a3ee5e6b",
+     "endpoint": "status.globalsign.com",
+     "in": false,
+     "tier": "Out Of Scope",
      "type": "Url"
     },
     "Url|support.globalsign.com": {
