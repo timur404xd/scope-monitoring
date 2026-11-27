@@ -46545,107 +46545,41 @@
       "p4MaxCents": 10000,
       "p4MinCents": 10000
      }
-    },
-    "[DC] Latex for Confluence DataCenter": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 150000,
-      "p1MinCents": 150000,
-      "p2MaxCents": 90000,
-      "p2MinCents": 90000,
-      "p3MaxCents": 30000,
-      "p3MinCents": 30000,
-      "p4MaxCents": 10000,
-      "p4MinCents": 10000
-     }
-    },
-    "[DC] Switch User (SU) for Confluence DataCenter": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 150000,
-      "p1MinCents": 150000,
-      "p2MaxCents": 90000,
-      "p2MinCents": 90000,
-      "p3MaxCents": 30000,
-      "p3MinCents": 30000,
-      "p4MaxCents": 10000,
-      "p4MinCents": 10000
-     }
-    },
-    "[DC] Switch User (SU) for Jira DataCenter": {
-     "desc": "da39a3ee5e6b",
-     "in": true,
-     "reward": {
-      "p1MaxCents": 150000,
-      "p1MinCents": 150000,
-      "p2MaxCents": 90000,
-      "p2MinCents": 90000,
-      "p3MaxCents": 30000,
-      "p3MinCents": 30000,
-      "p4MaxCents": 10000,
-      "p4MinCents": 10000
-     }
     }
    },
    "name": "The Plugin People",
    "targets": {
-    "website|[Cloud] Custom Space User Management (CSUM) for Confluence Cloud": {
+    "website|[Cloud] Custom Space User Management (CSUM) for Confluence Cloud - https://marketplace.atlassian.com/apps/133/custom-space-user-management-csum-for-dc-and-cloud?hosting=cloud&tab=overview": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
      "group": "[Cloud] Custom Space User Management (CSUM) for Confluence Cloud",
      "in": true,
-     "name": "[Cloud] Custom Space User Management (CSUM) for Confluence Cloud",
+     "name": "[Cloud] Custom Space User Management (CSUM) for Confluence Cloud - https://marketplace.atlassian.com/apps/133/custom-space-user-management-csum-for-dc-and-cloud?hosting=cloud&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/133/custom-space-user-management-csum-for-dc-and-cloud?hosting=cloud&tab=overview"
     },
-    "website|[Cloud] Enterprise Mail Handler (JEMHC) for Jira Cloud": {
+    "website|[Cloud] Enterprise Mail Handler (JEMHC) for Jira Cloud - https://marketplace.atlassian.com/apps/4832/enterprise-mail-handler-for-jira-jemh?hosting=cloud&tab=overview": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
      "group": "[Cloud] Enterprise Mail Handler (JEMHC) for Jira Cloud",
      "in": true,
-     "name": "[Cloud] Enterprise Mail Handler (JEMHC) for Jira Cloud",
+     "name": "[Cloud] Enterprise Mail Handler (JEMHC) for Jira Cloud - https://marketplace.atlassian.com/apps/4832/enterprise-mail-handler-for-jira-jemh?hosting=cloud&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/4832/enterprise-mail-handler-for-jira-jemh?hosting=cloud&tab=overview"
     },
-    "website|[DC] Custom Space User Management (CSUM)": {
+    "website|[DC] Custom Space User Management (CSUM) - https://marketplace.atlassian.com/apps/133/custom-space-user-management-csum-for-dc-and-cloud?hosting=datacenter&tab=overview": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
      "group": "[DC] Custom Space User Management (CSUM) for Confluence DataCenter",
      "in": true,
-     "name": "[DC] Custom Space User Management (CSUM)",
+     "name": "[DC] Custom Space User Management (CSUM) - https://marketplace.atlassian.com/apps/133/custom-space-user-management-csum-for-dc-and-cloud?hosting=datacenter&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/133/custom-space-user-management-csum-for-dc-and-cloud?hosting=datacenter&tab=overview"
     },
-    "website|[DC] Enterprise Mail Handler (JEMH) for Jira": {
+    "website|[DC] Enterprise Mail Handler (JEMH) for Jira - https://marketplace.atlassian.com/apps/4832/enterprise-mail-handler-for-jira-cloud-jemhc-and-dc?hosting=datacenter&tab=overview": {
      "cat": "website",
      "desc": "da39a3ee5e6b",
      "group": "[DC] Enterprise Mail Handler (JEMH) for Jira DataCenter",
      "in": true,
-     "name": "[DC] Enterprise Mail Handler (JEMH) for Jira",
+     "name": "[DC] Enterprise Mail Handler (JEMH) for Jira - https://marketplace.atlassian.com/apps/4832/enterprise-mail-handler-for-jira-cloud-jemhc-and-dc?hosting=datacenter&tab=overview",
      "uri": "https://marketplace.atlassian.com/apps/4832/enterprise-mail-handler-for-jira-cloud-jemhc-and-dc?hosting=datacenter&tab=overview"
-    },
-    "website|[DC] Latex for Confluence": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "[DC] Latex for Confluence DataCenter",
-     "in": true,
-     "name": "[DC] Latex for Confluence",
-     "uri": "https://marketplace.atlassian.com/apps/207/latex-and-mathjax?hosting=datacenter&tab=overview"
-    },
-    "website|[DC] Switch User (SU) for Confluence": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "[DC] Switch User (SU) for Confluence DataCenter",
-     "in": true,
-     "name": "[DC] Switch User (SU) for Confluence",
-     "uri": "https://marketplace.atlassian.com/apps/9475/switch-user-su-for-confluence?hosting=datacenter&tab=overview"
-    },
-    "website|[DC] Switch User (SU) for Jira": {
-     "cat": "website",
-     "desc": "da39a3ee5e6b",
-     "group": "[DC] Switch User (SU) for Jira DataCenter",
-     "in": true,
-     "name": "[DC] Switch User (SU) for Jira",
-     "uri": "https://marketplace.atlassian.com/apps/5043/switch-user-su-for-jira?hosting=datacenter&tab=overview"
     }
    }
   },
