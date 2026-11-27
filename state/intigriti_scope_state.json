@@ -11857,6 +11857,13 @@
      "tier": "Tier 3",
      "type": "Url"
     },
+    "Url|cygnature.globalsign.com": {
+     "desc": "efec79a5a28b",
+     "endpoint": "cygnature.globalsign.com",
+     "in": false,
+     "tier": "Out Of Scope",
+     "type": "Url"
+    },
     "Url|docs.globalsign.com": {
      "desc": "da39a3ee5e6b",
      "endpoint": "docs.globalsign.com",
